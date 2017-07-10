@@ -37,7 +37,7 @@ services:
     image: "selenium/hub:3.4.0-dysprosium"
     ports:
       - "4444:4444"
-  chrome:
+  chrome_1:
     image: "selenium/node-chrome:3.4.0-einsteinium"
     depends_on:
       - hub
@@ -46,3 +46,21 @@ services:
       HUB_PORT_4444_TCP_PORT: 4444
     links:
       - hub
+  chrome_2:
+    image: "selenium/node-chrome:3.4.0-einsteinium"
+    depends_on:
+      - hub
+    environment:
+      HUB_PORT_4444_TCP_ADDR: hub
+      HUB_PORT_4444_TCP_PORT: 4444
+    links:
+      - hub
+#  chrome_3:
+#    image: "selenium/node-chrome:3.4.0-einsteinium"
+#    depends_on:
+#      - hub
+#    environment:
+#      HUB_PORT_4444_TCP_ADDR: hub
+#      HUB_PORT_4444_TCP_PORT: 4444
+#    links:
+#      - hub

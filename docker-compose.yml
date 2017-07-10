@@ -1,0 +1,48 @@
+version: '2'
+services:
+  nginx:
+    build: ./docker/nginx
+    depends_on:
+      - php7
+      - db
+    volumes:
+      - ./app:/var/www
+    ports:
+      - "8000:80"
+  php7:
+    build: ./docker/php7
+    ports:
+      - "9000"
+    volumes:
+      - ./app:/var/www
+    working_dir: /var/www
+    environment:
+      SYMFONY__DATABASE__NAME: db
+      SYMFONY__DATABASE__USER: user
+      SYMFONY__DATABASE__PASSWORD: pass
+  db:
+    container_name: db
+    build: ./docker/mysql
+    ports:
+      - "33060:3306"
+    environment:
+      MYSQL_DATABASE: db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+      MYSQL_ROOT_PASSWORD: pass_root
+    volumes:
+      - ./docker/mysql/mysql-data:/var/lib/mysql
+      - ./docker/mysql/dumps:/docker-entrypoint-initdb.d
+  hub:
+    image: "selenium/hub:3.4.0-dysprosium"
+    ports:
+      - "4444:4444"
+  chrome:
+    image: "selenium/node-chrome:3.4.0-einsteinium"
+    depends_on:
+      - hub
+    environment:
+      HUB_PORT_4444_TCP_ADDR: hub
+      HUB_PORT_4444_TCP_PORT: 4444
+    links:
+      - hub

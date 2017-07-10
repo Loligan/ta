@@ -1,0 +1,14 @@
+default:
+    extensions:
+        Behat\Symfony2Extension: ~
+#        Behat\MinkExtension:
+#            base_url:  'http://localhost'
+#            sessions:
+#                my_session:
+#                    symfony2: ~
+    suites:
+        bom_suite:
+            type: symfony_bundle
+            bundle: TestAutomationAll4BomBundle
+            contexts:
+              - TestAutomation\All4BomBundle\Features\Context\FeatureContext

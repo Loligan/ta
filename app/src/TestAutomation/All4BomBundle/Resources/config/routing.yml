@@ -1,0 +1,3 @@
+test_automation_all4_bom_homepage:
+    path:     /
+    defaults: { _controller: TestAutomationAll4BomBundle:Default:index }

@@ -1,0 +1,312 @@
+{
+  "dimention": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "plainCable": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "curveCable": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "brokenCable": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+
+    ],
+    "positionsParams":[
+
+    ],
+    "dynamicParams":[
+
+    ]
+  },
+  "plainLine": {
+    "checkedParams": [
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "curveLine": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "brokenLine": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "connector": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "userImage": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "accessories": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "customPart": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  },
+  "crm": {
+    "checkedParams": [
+
+    ],
+    "uniqueParams":[
+      {
+        "name":"id",
+        "jsonName":"id"
+      }
+    ],
+    "positionsParams":[
+      {
+        "name":"y",
+        "jsonName":"top"
+      },
+      {
+        "name":"x",
+        "jsonName":"left"
+      }
+    ],
+    "dynamicParams":[
+      {
+        "name":"no",
+        "jsonName":"no"
+      }
+    ]
+  }
+}

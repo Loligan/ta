@@ -51,6 +51,7 @@ class HeaderPageObject implements PageObject
     static function clickOnLeaveWithoutSavingButton()
     {
         LastPhrase::setPhrase("Кнопка Leave Without Saving не найдена. Xpath:" . SelectorsEnum::HEADER_LEAVE_WITHOUT_SAVING_BUTTON);
+        SimpleWait::waitShow(SelectorsEnum::HEADER_LEAVE_WITHOUT_SAVING_BUTTON);
         $tab = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::HEADER_LEAVE_WITHOUT_SAVING_BUTTON));
         LastPhrase::setPhrase("Кнопка User Images в шапке не нажата. Xpath:" . SelectorsEnum::HEADER_USER_IMAGES_TAB);
         SimpleWait:: waitingOfClick($tab);

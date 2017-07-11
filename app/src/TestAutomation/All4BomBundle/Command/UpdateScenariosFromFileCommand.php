@@ -2,19 +2,21 @@
 
 namespace TestAutomation\All4BomBundle\Command;
 
-use Behat\Behat\ApplicationFactory;
 use Behat\Gherkin\Keywords\ArrayKeywords;
 use Behat\Gherkin\Lexer;
+use Behat\Gherkin\Node\ScenarioInterface;
 use Behat\Gherkin\Parser;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
-use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use TestAutomation\All4BomBundle\Repository\ScenarioRepository;
+use TestAutomation\All4BomBundle\Repository\TagRepository;
 
 class UpdateScenariosFromFileCommand extends ContainerAwareCommand
 {
+    /**@var TagRepository $tagRepository*/
     private $tagRepository;
+    /**@var ScenarioRepository $scenarioRepository*/
     private $scenarioRepository;
 
     protected function configure()
@@ -28,7 +30,7 @@ class UpdateScenariosFromFileCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->tagRepository = $this->getContainer()->get("doctrine")->getManager()->getRepository("TestAutomationAll4BomBundle:Tag");
-        $this->scenarioRepository = $this->getContainer()->get("doctrine")->getManager()->getRepository("TestAutomationAll4BomBundle:Scenario");
+        $this->scenarioRepository = $this->getContainer()->get("doctrine")->getManager()->getRepository("TestAutomationAll4BomBundle:ScenarioItem");
         $files = $this->getAllFiles();
         foreach ($files as $file) {
             $scenarios = $this->getScenariosByFile($file);
@@ -37,6 +39,9 @@ class UpdateScenariosFromFileCommand extends ContainerAwareCommand
         }
     }
 
+    /**
+     * @param ScenarioInterface[] $scenarios
+     */
     private function createScenarios($scenarios)
     {
         foreach ($scenarios as $scenario) {

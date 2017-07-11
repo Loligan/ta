@@ -6,4 +6,7 @@ default:
             type: symfony_bundle
             bundle: TestAutomationAll4BomBundle
             contexts:
-              - TestAutomation\All4BomBundle\Features\Context\FeatureContext
+              - TestAutomation\All4BomBundle\Features\Context\FeatureContext:
+                  session: '@session'
+                  doctrine: '@doctrine'
+

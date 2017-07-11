@@ -29,14 +29,14 @@ class Tag
     private $name;
 
     /**
-     * @var Scenario
-     * @ORM\ManyToOne(targetEntity="TestAutomation\All4BomBundle\Entity\Scenario")
+     * @var ScenarioItem
+     * @ORM\ManyToOne(targetEntity="TestAutomation\All4BomBundle\Entity\ScenarioItem")
      * @ORM\JoinColumn(name="scenarioId", referencedColumnName="id",onDelete="CASCADE")
      */
     private $scenarioId;
 
     /**
-     * @return Scenario
+     * @return ScenarioItem
      */
     public function getScenarioId()
     {
@@ -44,7 +44,7 @@ class Tag
     }
 
     /**
-     * @param Scenario $scenarioId
+     * @param ScenarioItem $scenarioId
      */
     public function setScenarioId($scenarioId)
     {

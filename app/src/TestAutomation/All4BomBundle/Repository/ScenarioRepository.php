@@ -3,7 +3,7 @@
 namespace TestAutomation\All4BomBundle\Repository;
 
 use Behat\Gherkin\Node\ScenarioInterface;
-use TestAutomation\All4BomBundle\Entity\Scenario;
+use TestAutomation\All4BomBundle\Entity\ScenarioItem;
 
 /**
  * ScenarioRepository
@@ -22,10 +22,9 @@ class ScenarioRepository extends \Doctrine\ORM\EntityRepository
     {
         $title = $scenario->getTitle();
 
-        $newScenario = new Scenario();
+        /**@var $newScenario ScenarioItem */
+        $newScenario = new ScenarioItem();
         $newScenario->setTitle($title);
-        /**@var $newScenario Scenario */
-
         $newScenario = $this->getEntityManager()->merge($newScenario);
         $this->getEntityManager()->flush();
         $this->getEntityManager()->clear();

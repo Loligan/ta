@@ -9,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="scenario")
  * @ORM\Entity(repositoryClass="TestAutomation\All4BomBundle\Repository\ScenarioRepository")
  */
-class Scenario
+class ScenarioItem
 {
     /**
      * @var int
@@ -41,6 +41,13 @@ class Scenario
      */
     private $tag;
 
+    /**
+     * @var TestResult
+     * @ORM\OneToMany(targetEntity="TestAutomation\All4BomBundle\Entity\TestResult", mappedBy="scenarioId")
+     */
+    private $testResult;
+
+
 
     /**
      * Get id
@@ -57,7 +64,7 @@ class Scenario
      *
      * @param string $title
      *
-     * @return Scenario
+     * @return ScenarioItem
      */
     public function setTitle($title)
     {
@@ -81,7 +88,7 @@ class Scenario
      *
      * @param \DateTime $lastRunTime
      *
-     * @return Scenario
+     * @return ScenarioItem
      */
     public function setLastRunTime($lastRunTime)
     {

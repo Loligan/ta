@@ -7,9 +7,12 @@ use Behat\Behat\Context\Context;
 use Behat\Behat\Hook\Scope\AfterScenarioScope;
 use Behat\Behat\Hook\Scope\AfterStepScope;
 use Behat\Behat\Hook\Scope\BeforeScenarioScope;
+use Behat\Mink\Session;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
+use TestAutomation\All4BomBundle\Entity\ScenarioItem;
+use TestAutomation\All4BomBundle\Entity\TestResult;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\GettingValues\AppValues;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\HomePageObject;
@@ -64,13 +67,18 @@ class FeatureContext implements Context
     /**@var  Report $report */
     private $report;
     private $checkerJSON;
-    /**@var \Doctrine\Bundle\DoctrineBundle\Registry|object $logEntity */
-    private $logEntity;
+    /**@var \Doctrine\Bundle\DoctrineBundle\Registry $logEntity */
+    private $em;
+    /**@var Session $session */
+    private $session;
+    private $failStep;
 
     /**
      * FeatureContext constructor.
+     * @param Session $session
+     * @param \Doctrine\Bundle\DoctrineBundle\Registry $doctrine
      */
-    public function __construct()
+    public function __construct($session, $doctrine)
     {
         $this->appValue = new AppValues();
         LastPhrase::init();
@@ -89,6 +97,9 @@ class FeatureContext implements Context
         ParserJSON::getParamsObject("crm");
         ParserJSON::getParamsObject("customPart");
         $this->checkerJSON = new Checker();
+
+        $this->session = $session;
+        $this->em = $doctrine->getManager();
     }
 
     /**
@@ -124,14 +135,29 @@ class FeatureContext implements Context
      */
     public function AfterScenario(AfterScenarioScope $scope)
     {
-
+        $tagRep = $this->em->getRepository("TestAutomationAll4BomBundle:Tag");
         try {
             $modulTag = null;
             $isSave = false;
             $tags = $scope->getScenario()->getTags();
             foreach ($tags as $tag) {
                 if (stristr($tag, "ID=")) {
-
+                    try {
+                        $entityTags = $tagRep->findBy(["name" => $tag]);
+                        $entity = $entityTags[0];
+                        $newTr = new TestResult();
+                        $newTr->setScenarioId($entity->getScenarioId());
+                        $screen = self::getWebDriver()->takeScreenshot();
+                        $newTr->setLastScreenshot(base64_encode($screen));
+                        $newTr->setStatusResult($scope->getTestResult()->getResultCode());
+                        $newTr->setFailStep($this->failStep);
+                        $newTr->setNameScenario($scope->getFeature()->getTitle());
+                        $newTr->setLog(json_encode(["id"=>$entity->getScenarioId()->getId(),"tag"=>$entity->getName()]));
+                        $this->em->merge($newTr);
+                        $this->em->flush();
+                    } catch (\Exception $e) {
+                        print $e->getMessage();
+                    }
                 }
                 if ($tag == "CableRowMaterials" || $tag == "Revision" || $tag == "Tender" || $tag == "CableAssemblies" || $tag == "RevisionPDF") {
                     $modulTag = $tag;
@@ -214,6 +240,9 @@ class FeatureContext implements Context
     public function afterStep(AfterStepScope $scope)
     {
         $this->report->afterStep($scope);
+        if (!$scope->getTestResult()->isPassed()) {
+           $this->failStep =  $scope->getStep()->getText();
+        }
 
     }
 

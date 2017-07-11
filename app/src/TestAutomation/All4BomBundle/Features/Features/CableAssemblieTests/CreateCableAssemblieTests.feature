@@ -1,20 +1,17 @@
 Feature: Создание Cable Assemblies
 
   @CableAssemblies @Create @Smoke @ID=01-00 @PRIORITY=5 @ASSIGNED=1
-  Scenario Outline: Создание Cable Assemblies c валидными данными
+  Scenario: Создание Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
     And Ввести стандартный логин и пароль
     And Нажать кнопку [LOGIN]
     And Кликнуть на [CABLE ASSEMBLIES] в шапке
     When Нажать кнопку [CREATE CABLE ASSEMBLY]
-    And Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Ввести следующие данные: "1Create TA test","Company TA","XY001100","Removed in a moment","XZ110011","James Lucker","Eric Cartman","Stan Marsh","Numerical","Attached Files"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    Examples:
-      | ID | Revision details | Company name | Part number | Cable description   | Drawing number | Design by    | Approved by  | Checked by | Revision  | Attached Files |
-      | 1  | Create TA test   | Company TA   | XY001100    | Removed in a moment | XZ110011       | James Lucker | Eric Cartman | Stan Marsh | Numerical |                |
+    Then В таблице будет запись с именем "1Create TA test"
 
   @CableAssemblies @Create @ID=01-00-00 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies c валидными данными

@@ -11,6 +11,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use TestAutomation\All4BomBundle\Entity\Tag;
 
 class RunTestCommand extends ContainerAwareCommand
 {
@@ -27,8 +28,9 @@ class RunTestCommand extends ContainerAwareCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        $allIds = $this->getAllIds();
         $dir = __DIR__."/../../../../vendor/bin/behat";
-        $text = shell_exec('php '.$dir.' --tags=ID=01-00');
+        $text = shell_exec('php '.$dir.' --tags="ID=01-00-01"');
         print $text;
     }
 
@@ -37,5 +39,20 @@ class RunTestCommand extends ContainerAwareCommand
      */
     public function getEntityManager(){
         return $this->getContainer()->get("doctrine");
+    }
+
+    public function getAllIds(){
+        $tags= $this->getEntityManager()
+            ->getRepository("TestAutomationAll4BomBundle:Tag")
+            ->createQueryBuilder('o')
+            ->where("o.name LIKE 'ID=%'")
+            ->getQuery()
+            ->getResult();
+        $ids = [];
+        /**@var Tag $tag*/
+        foreach ($tags as $tag){
+            array_push($ids,$tag->getName());
+        }
+        return $ids;
     }
 }

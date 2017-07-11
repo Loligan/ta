@@ -29,9 +29,10 @@ class RunTestCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $allIds = $this->getAllIds();
-        $dir = __DIR__."/../../../../vendor/bin/behat";
-        $text = shell_exec('php '.$dir.' --tags="ID=01-00-01"');
-        print $text;
+        foreach ($allIds as $id){
+            $this->send($id);
+        }
+
     }
 
     /**
@@ -54,5 +55,13 @@ class RunTestCommand extends ContainerAwareCommand
             array_push($ids,$tag->getName());
         }
         return $ids;
+    }
+
+    public function send($id)
+    {
+        /** @var \OldSound\RabbitMqBundle\RabbitMq\Producer $rabbit */
+        $rabbit = $this->getContainer()->get('old_sound_rabbit_mq.run_test_by_tag_producer');
+        $rabbit->publish($id);
+
     }
 }

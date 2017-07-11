@@ -22,6 +22,7 @@ RUN docker-php-ext-install \
     exif \
     zip \
     opcache \
+    bcmath \
     mbstring \
     -j$(nproc) iconv mcrypt \
     pdo \

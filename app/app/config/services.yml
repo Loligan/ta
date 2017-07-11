@@ -29,6 +29,9 @@ services:
         public: true
         tags: ['controller.service_arguments']
 
+    run_test_by_tag:
+        class: TestAutomation\All4BomBundle\Consumer\RunTestByTagConsumer
+        arguments: ['@doctrine']
 
     # add more services, or override services that need manual wiring
     # AppBundle\Service\ExampleService:

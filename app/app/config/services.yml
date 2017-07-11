@@ -28,6 +28,9 @@ services:
         resource: '../../src/AppBundle/Controller'
         public: true
         tags: ['controller.service_arguments']
+    feature_context:
+        class: TestAutomation\All4BomBundle\Features\Context\FeatureContext
+        arguments: ['doctrine']
 
     # add more services, or override services that need manual wiring
     # AppBundle\Service\ExampleService:

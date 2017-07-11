@@ -61,17 +61,21 @@ class FeatureContext implements Context
     private $bufCableAssemblies;
     private $bufFirstBOMTableValueForCheck;
     private $bufSecondBOMTableValueForCheck;
-    /**@var  Report $report*/
+    /**@var  Report $report */
     private $report;
     private $checkerJSON;
+    /**@var \Doctrine\Bundle\DoctrineBundle\Registry|object $logEntity */
+    private $logEntity;
 
+    /**
+     * FeatureContext constructor.
+     */
     public function __construct()
     {
-
         $this->appValue = new AppValues();
         LastPhrase::init();
         CheckJSONValue::init();
-        ParserJSON::init(__DIR__.'/CheckedDraftObjects/DraftObjects.json');
+        ParserJSON::init(__DIR__ . '/CheckedDraftObjects/DraftObjects.json');
         ParserJSON::getParamsObject("plainCable");
         ParserJSON::getParamsObject("plainLine");
         ParserJSON::getParamsObject("curveCable");
@@ -105,7 +109,6 @@ class FeatureContext implements Context
         $capabilities = DesiredCapabilities::chrome();
 
         self::$webDriver = RemoteWebDriver::create("hub:4444/wd/hub", $capabilities, 90 * 1000, 90 * 1000);
-//        self::$webDriver = RemoteWebDriver::create("localhost:6666/wd/hub", $capabilities, 90 * 1000, 90 * 1000);
         self::$webDriver->manage()->window();
         self::$webDriver->manage()->window()->maximize();
 
@@ -127,6 +130,9 @@ class FeatureContext implements Context
             $isSave = false;
             $tags = $scope->getScenario()->getTags();
             foreach ($tags as $tag) {
+                if (stristr($tag, "ID=")) {
+
+                }
                 if ($tag == "CableRowMaterials" || $tag == "Revision" || $tag == "Tender" || $tag == "CableAssemblies" || $tag == "RevisionPDF") {
                     $modulTag = $tag;
                 }
@@ -137,7 +143,7 @@ class FeatureContext implements Context
 
             if ($modulTag == "Revision" && $isSave == true) {
                 try {
-                    self::$webDriver->get(AppValues::URL."user/project/");
+                    self::$webDriver->get(AppValues::URL . "user/project/");
                     CableAssembliesPageObject::clickOnRevisionsLinkByNameCableAssemblies($this->bufCableAssemblies);
                     RevisionsPageObjects::deleteAllRevisionsByName($this->bufRevision);
                 } catch (\Exception $e) {
@@ -145,7 +151,7 @@ class FeatureContext implements Context
             }
             if ($modulTag == "RevisionPDF" && $isSave == true) {
                 try {
-                    self::$webDriver->get(AppValues::URL."user/project/");
+                    self::$webDriver->get(AppValues::URL . "user/project/");
                     CableAssembliesPageObject::clickOnRevisionsLinkByNameCableAssemblies($this->bufCableAssemblies);
                     RevisionsPageObjects::deleteAllRevisionsByName($this->bufRevision);
                 } catch (\Exception $e) {
@@ -153,17 +159,17 @@ class FeatureContext implements Context
             }
             if ($modulTag == "CableRowMaterials" && $isSave == true) {
                 try {
-                    self::$webDriver->get(AppValues::URL."multicable/");
+                    self::$webDriver->get(AppValues::URL . "multicable/");
                     CableRowMaterialsPageObject::deleteAllCRMByName($this->bufRevision);
                 } catch (\Exception $e) {
                 }
             }
             if ($modulTag == "Tender" && $isSave == true) {
                 try {
-                    self::$webDriver->get(AppValues::URL."user/project/");
+                    self::$webDriver->get(AppValues::URL . "user/project/");
                     CableAssembliesPageObject::clickOnRevisionsLinkByNameCableAssemblies($this->bufCableAssemblies);
                     RevisionsPageObjects::deleteAllRevisionsByName($this->bufRevision);
-                    self::$webDriver->get(AppValues::URL."tender/");
+                    self::$webDriver->get(AppValues::URL . "tender/");
                     TendersPageObject::deleteAll();
                 } catch (\Exception $e) {
                 }
@@ -171,7 +177,7 @@ class FeatureContext implements Context
 
             if ($modulTag == "CableAssemblies" && $isSave == true) {
                 try {
-                    self::$webDriver->get(AppValues::URL."user/project/");
+                    self::$webDriver->get(AppValues::URL . "user/project/");
                     CableAssembliesPageObject::deleteAllCableAssembliesByName($this->bufRevision);
                 } catch (\Exception $e) {
                 }
@@ -596,7 +602,7 @@ class FeatureContext implements Context
     public function iSetFilterByNameWithValue($FilterName, $ValueFilter)
     {
 
-       BOMCreateRevisionPageObject::clickOnCustomOptionByNameLabelAndValue($FilterName, $ValueFilter);
+        BOMCreateRevisionPageObject::clickOnCustomOptionByNameLabelAndValue($FilterName, $ValueFilter);
     }
 
     /**
@@ -782,7 +788,7 @@ class FeatureContext implements Context
      */
     public function openCableAssembliesURL()
     {
-        self::$webDriver->get(AppValues::URL."user/project/");
+        self::$webDriver->get(AppValues::URL . "user/project/");
 //        self::$webDriver->get("http://all4bom.smartdesign.by/user/project/");
     }
 
@@ -816,7 +822,7 @@ class FeatureContext implements Context
      */
     public function openLinkCableAssembliesMain()
     {
-        self::$webDriver->get(AppValues::URL."user/project/");
+        self::$webDriver->get(AppValues::URL . "user/project/");
 //        self::$webDriver->get("http://all4bom.smartdesign.by/user/project/");
     }
 
@@ -2107,7 +2113,7 @@ class FeatureContext implements Context
     public function loginByCustomUsernameAndPassword($arg1, $arg2)
     {
 //        self::$webDriver->get("http://all4bom.smartdesign.by/login");
-        self::$webDriver->get(AppValues::URL."login");
+        self::$webDriver->get(AppValues::URL . "login");
         LoginPageObject::setCustomInformation($arg1, $arg2);
         LoginPageObject::pressLoginButton();
     }

@@ -14,75 +14,28 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 class RunTestCommand extends ContainerAwareCommand
 {
+    private $tagRepository;
+    private $scenarioRepository;
+
     protected function configure()
     {
         $this
             ->setName('tst')
-            ->setDescription('...')
-        ;
+            ->setDescription('...');
     }
-
 
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-//        $keywords = new ArrayKeywords(array(
-//            'en' => array(
-//                'feature'          => 'Feature',
-//                'background'       => 'Background',
-//                'scenario'         => 'Scenario',
-//                'scenario_outline' => 'Scenario Outline|Scenario Template',
-//                'examples'         => 'Examples|Scenarios',
-//                'given'            => 'Given',
-//                'when'             => 'When',
-//                'then'             => 'Then',
-//                'and'              => 'And',
-//                'but'              => 'But'
-//            )
-//        ));
-//        $lexer  = new Lexer($keywords);
-//        $parser = new Parser($lexer);
-//        $feature = $parser->parse(file_get_contents(__DIR__."/../Features/Features/CableAssemblieTests/CreateCableAssembliesForPDFTests.feature"));
-//        $scenarios = $feature->getScenarios();
-//        foreach ($scenarios as $scenario){
-//            var_dump($scenario->getTags());
-//        }
-        print $this->getAllFiles();
+        $dir = __DIR__."/../../../../vendor/bin/behat";
+        $text = shell_exec('php '.$dir.' --tags=ID=01-00');
+        print $text;
     }
 
-    private function getAllFiles()
-    {
-        $dir = __DIR__ . "/../Features/Features";
-        $features = $this->DirFilesR($dir);
-        var_dump($features);
+    /**
+     * @return \Doctrine\Bundle\DoctrineBundle\Registry|object
+     */
+    public function getEntityManager(){
+        return $this->getContainer()->get("doctrine");
     }
-
-    private function DirFilesR($dir)
-    {
-
-        $handle = opendir($dir) or die("Can't open directory $dir");
-        $files = Array();
-        $subfiles = Array();
-        while (false !== ($file = readdir($handle)))
-        {
-            if ($file != "." && $file != "..")
-            {
-                if(is_dir($dir."/".$file))
-                {
-                    $subfiles = $this->DirFilesR($dir."/".$file);
-                    $files = array_merge($files,$subfiles);
-                }
-                else
-                {
-                    $files[] = $dir."/".$file;
-                }
-            }
-        }
-
-        closedir($handle);
-        return $files;
-
-    }
-
-
 }

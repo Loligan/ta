@@ -144,17 +144,18 @@ class FeatureContext implements Context
                 if (stristr($tag, "ID=")) {
                     try {
                         $entityTags = $tagRep->findBy(["name" => $tag]);
-                        $entity = $entityTags[0];
+                        $tagEntity = $entityTags[0];
                         $newTr = new TestResult();
-                        $newTr->setScenarioId($entity->getScenarioId());
+                        $newTr->setScenarioId($tagEntity->getScenarioId());
                         $screen = self::getWebDriver()->takeScreenshot();
                         $newTr->setLastScreenshot(base64_encode($screen));
                         $newTr->setStatusResult($scope->getTestResult()->getResultCode());
                         $newTr->setFailStep($this->failStep);
                         $newTr->setNameScenario($scope->getFeature()->getTitle());
-                        $newTr->setLog(json_encode(["id"=>$entity->getScenarioId()->getId(),"tag"=>$entity->getName()]));
-                        $this->em->merge($newTr);
+                        $newTr->setLog(json_encode(["id"=>$tagEntity->getScenarioId()->getId(),"tag"=>$tagEntity->getName()]));
+                        $this->em->persist($newTr);
                         $this->em->flush();
+                        print PHP_EOL."!!!TEST RESULT ID: ".$newTr->getId()." !!!".PHP_EOL;
                     } catch (\Exception $e) {
                         print $e->getMessage();
                     }

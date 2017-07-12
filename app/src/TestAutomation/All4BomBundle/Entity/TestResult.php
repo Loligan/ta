@@ -50,6 +50,13 @@ class TestResult
     private $log;
 
     /**
+     * @var string
+     *
+     * @ORM\Column(name="shellOutput", type="text",nullable=true)
+     */
+    private $shellOutput;
+
+    /**
      * @return string
      */
     public function getNameScenario()
@@ -70,7 +77,7 @@ class TestResult
      */
     public function getFailStep()
     {
-        return $this->failStep;
+        return $this->logfailStep;
     }
 
     /**
@@ -130,7 +137,6 @@ class TestResult
         $this->lastScreenshot = $lastScreenshot;
     }
 
-
     /**
      * Get id
      *
@@ -182,6 +188,24 @@ class TestResult
     {
         $this->scenarioId = $scenarioId;
     }
+
+    /**
+     * @return string
+     */
+    public function getShellOutput()
+    {
+        return $this->shellOutput;
+    }
+
+    /**
+     * @param string $shellOutput
+     */
+    public function setShellOutput($shellOutput)
+    {
+        $this->shellOutput = $shellOutput;
+    }
+
+
 
 }
 

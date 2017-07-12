@@ -1,6 +1,6 @@
 Feature: gg
 
-  @Revision @Draft @Save @Revision @Draft @Save @Line @PlainLine @Smoke  @ID=15-00 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Draft @Save @Line @PlainLine @Smoke  @P=15-0 @ID=16-00 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения объекта типа Line разных типов и разной толщины
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -19,7 +19,7 @@ Feature: gg
       | Type  | Weight | nameRevision |
       | Plain | Normal | TestSave     |
 
-  @Revision  @Draft @Save @Revision @Draft @Save @Text @Smoke @ID=15-00 @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @Revision @Draft @Save @Text @Smoke @P=15-0 @ID=16-00 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -33,7 +33,7 @@ Feature: gg
     Then Открыть get-draft page ревизии с именем <nameRevision>
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @Save @Revision @Draft @Save @Line @PlainLine @Smoke  @ID=15-00 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Draft @Save @Line @PlainLine @Smoke  @P=15-0 @ID=16-00 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения объекта типа Line разных типов и разной толщины
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -51,7 +51,7 @@ Feature: gg
       | Type  | Weight | nameRevision |
       | Plain | Normal | TestSave     |
 
-  @Revision  @Draft @Save @Line @ID=15-00 @PlainLine @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @Line @P=15-0 @ID=16-00 @PlainLine @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения объекта типа Line разных типов и разной толщины
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -70,7 +70,7 @@ Feature: gg
       | Plain | Thin   | TestSave     |
       | Plain | Thick  | TestSave     |
 
-  @Revision  @Draft @Save @Line @ID=15-04 @CurveLine @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @Line @P=15-0 @ID=16-04 @CurveLine @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения объекта типа Line разных типов и разной толщины
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -91,7 +91,7 @@ Feature: gg
       | Curve | Normal   | TestSave     |
       | Curve | Thick    | TestSave     |
 
-  @Revision  @Draft @Save @Line @ID=15-05 @BrokenLine @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @Line @P=15-0 @ID=16-05 @BrokenLine @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения объекта типа Line разных типов и разной толщины
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -112,7 +112,7 @@ Feature: gg
       | Broken | Normal   | TestSave     |
       | Broken | Thick    | TestSave     |
 
-  @Revision @Draft @Save @UserImage @Smoke @ID=15-06 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @UserImage @Smoke @P=15-0 @ID=16-06 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения объекта User images
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -131,7 +131,7 @@ Feature: gg
       | 1      | TestSave     |
 
 
-  @Revision @Draft @Save @Accessories @Smoke @ID=15-07 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Accessories @Smoke @P=15-0 @ID=16-07 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения объекта Accessories
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -150,7 +150,7 @@ Feature: gg
       | 1      | TestSave     |
 
 
-  @Revision  @Draft @Save @CustomPart @Smoke @ID=15-08 @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @CustomPart @Smoke @P=15-0 @ID=16-08 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения объекта Custom part
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -169,7 +169,7 @@ Feature: gg
 
 #    FFF COPY
 
-  @Revision @Draft @Save @Revision @CustomDimention @Copy @Smoke @ID=15-09 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @CustomDimention @Copy @Smoke @P=15-0 @ID=16-09 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Custom Dimention
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -194,7 +194,7 @@ Feature: gg
       | QTY |
       | 1   |
 
-  @Revision @Draft @Save @Revision @CustomDimention @Copy @Smoke @ID=15-09 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @CustomDimention @Copy @Smoke @P=15-1 @ID=16-09 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Custom Dimention
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -221,7 +221,7 @@ Feature: gg
       | QTY |
       | 5   |
 # FAILS END
-  @Revision @Draft @Save @Revision @Cable @PlainCable @Smoke @Copy @ID=15-11 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Cable @PlainCable @Smoke @Copy @P=15-1 @ID=16-11 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Plain Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -253,7 +253,7 @@ Feature: gg
     Then Открыть get-draft page ревизии с именем TestSave
     And Проверить что в json присутствуют объекты "plain-cable, plain-cable"
 
-  @Revision @Draft @Save @Revision @Cable @PlainCable @Copy @ID=15-12 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Cable @PlainCable @Copy @P=15-1 @ID=16-12 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Plain Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -294,7 +294,7 @@ Feature: gg
       | Thick    |
 
 
-  @Revision @Draft @Save @Revision @Save @Cable @PlainCable @Copy @ID=15-13 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Save @Cable @PlainCable @Copy @P=15-1 @ID=16-13 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Plain Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -334,7 +334,7 @@ Feature: gg
       | Normal   |
       | Thick    |
 
-  @Revision  @Draft @Save @Revision @Save @Cable @CurveCable @Smoke @Copy @ID=15-14 @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @Revision @Save @Cable @CurveCable @Smoke @Copy @P=15-1 @ID=16-14 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Curve Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -369,7 +369,7 @@ Feature: gg
     And Проверить что в json присутствуют объекты "curve-cable, curve-cable"
 
 
-  @Revision @Draft @Save @Revision @Cable @CurveCable @Copy @ID=15-15 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Cable @CurveCable @Copy @P=15-1 @ID=16-15 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Curve Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -410,7 +410,7 @@ Feature: gg
       | Thick    |
 
 
-  @Revision @Draft @Save @Revision @Cable @CurveCable @Copy @ID=15-16 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Cable @CurveCable @Copy @P=15-1 @ID=16-16 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Curve Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -450,7 +450,7 @@ Feature: gg
       | Normal   |
       | Thick    |
 
-  @Revision @Draft @Save @Revision @Cable @BrokenCable @Smoke @Copy @ID=15-17 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Cable @BrokenCable @Smoke @Copy @P=15-1 @ID=16-17 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Broken Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -485,7 +485,7 @@ Feature: gg
     And Проверить что в json присутствуют объекты "broken-cable, broken-cable"
 
 
-  @Revision  @Draft @Save @Revision @Cable @BrokenCable @Copy @ID=15-18 @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @Revision @Cable @BrokenCable @Copy @P=15-1 @ID=16-18 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Broken Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -526,7 +526,7 @@ Feature: gg
       | Thick  |
 
 
-  @Revision  @Draft @Save @Revision @Cable @BrokenCable @Copy @ID=15-19 @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @Revision @Cable @BrokenCable @Copy @P=15-1 @ID=16-19 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Broken Cable
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -568,7 +568,7 @@ Feature: gg
       | Normal |
       | Thick  |
 
-  @Revision  @Draft @Save @Revision @Line @PlainLine @Smoke @Copy @ID=15-20 @PRIORITY=5 @ASSIGNED=1
+  @Revision  @Draft @Save @Revision @Line @PlainLine @Smoke @Copy @P=15-2 @ID=16-20 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Plain Line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -596,7 +596,7 @@ Feature: gg
 
 
 
-  @Revision @Draft @Save @Revision @Line @PlainLine @Copy @ID=15-21 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Line @PlainLine @Copy @P=15-2 @ID=16-21 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Plain Line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -629,7 +629,7 @@ Feature: gg
       | Thick    |
 
 
-  @Revision @Draft @Save @Revision @Line @PlainLine @Copy @ID=15-22 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Line @PlainLine @Copy @P=15-2 @ID=16-22 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Plain Line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -661,7 +661,7 @@ Feature: gg
       | Normal   |
       | Thick    |
 
-  @@Revision   @Draft @Save @Revision @Line @CurveLine @Copy @ID=15-23 @PRIORITY=5 @ASSIGNED=1
+  @Revision   @Draft @Save @Revision @Line @CurveLine @Copy @P=15-2 @ID=16-23 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Curve line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -688,7 +688,7 @@ Feature: gg
     And Проверить что в json присутствуют объекты "curve-line,curve-line"
 
 
-  @Revision @Draft @Save @Revision @Line @CurveLine @Copy @ID=15-24 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Line @CurveLine @Copy @P=15-2 @ID=16-24 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Curve Line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -721,7 +721,7 @@ Feature: gg
       | Thick    |
 
 
-  @Revision @Draft @Save @Revision @Line @CurveLine @Copy @ID=15-25 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Line @CurveLine @Copy @P=15-2 @ID=16-25 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Curve Line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -753,7 +753,7 @@ Feature: gg
       | Normal   |
       | Thick    |
 
-  @Revision @Draft @Save @Revision @Line @BrokenLine @Smoke @Copy @ID=15-26 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Line @BrokenLine @Smoke @Copy @P=15-2 @ID=16-26 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Broken line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -780,7 +780,7 @@ Feature: gg
     And Проверить что в json присутствуют объекты "broken-line,broken-line"
 
 
-  @Revision @Draft @Save @Revision @Cable @BrokenLine @Copy @ID=15-27 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Cable @BrokenLine @Copy @P=15-2 @ID=16-27 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Broken Line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -813,7 +813,7 @@ Feature: gg
       | Thick    |
 
 
-  @Revision @Draft @Save @Revision @Line @BrokenLine @Copy @ID=15-28 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Line @BrokenLine @Copy @P=15-2 @ID=16-28 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Broken Line
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -845,7 +845,7 @@ Feature: gg
       | Normal   |
       | Thick    |
 
-  @Revision @Draft @Save @Revision @Connector @Copy @ID=15-29 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Connector @Copy @P=15-2 @ID=16-29 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -877,7 +877,7 @@ Feature: gg
     Then Открыть get-draft page ревизии с именем TestSave
     And Проверить что в json присутствуют объекты "connector,connector"
 
-  @Revision @Draft @Save @Revision @Connector @Copy @ID=15-30 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Connector @Copy @P=15-3 @ID=16-30 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -915,7 +915,7 @@ Feature: gg
       | Headers | Connector | 2      |
       | RJ      | Connector | 2      |
 
-  @Revision @Draft @Save @Revision @Connector @Copy @Smoke @ID=15-31 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Connector @Copy @Smoke @P=15-3 @ID=16-31 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -947,7 +947,7 @@ Feature: gg
     Then Открыть get-draft page ревизии с именем TestSave
     And Проверить что в json присутствуют объекты "connector,connector,connector,connector,connector,connector"
 
-  @Revision @Draft @Save @Revision @Connector @Copy @ID=15-32 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Connector @Copy @P=15-3 @ID=16-32 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -985,7 +985,7 @@ Feature: gg
       | Headers | Connector | 2      |
       | RJ      | Connector | 2      |
 
-  @Revision @Draft @Save @Revision @UserImage @Copy @ID=15-33 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @UserImage @Copy @P=15-3 @ID=16-33 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта User images
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1009,7 +1009,7 @@ Feature: gg
       | Number |
       | 1      |
 
-  @Revision @Draft @Save @Revision @UserImage @Copy @ID=15-34 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @UserImage @Copy @P=15-3 @ID=16-34 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта User images
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1033,7 +1033,7 @@ Feature: gg
       | Number |
       | 1      |
 
-  @Revision @Draft @Save @Revision @Accessories @Smoke @Copy @ID=15-35 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Accessories @Smoke @Copy @P=15-3 @ID=16-35 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Accessories
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

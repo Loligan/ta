@@ -27,14 +27,13 @@ class ScenarioRepository extends \Doctrine\ORM\EntityRepository
         $newScenario->setTitle($title);
         $newScenario = $this->getEntityManager()->merge($newScenario);
         $this->getEntityManager()->flush();
-        $this->getEntityManager()->clear();
 
         $tagRep = $this->getEntityManager()->getRepository("TestAutomationAll4BomBundle:Tag");
         $tags = $scenario->getTags();
         $tagRep->createTags($newScenario, $tags);
 
-        $stepRep = $this->getEntityManager()->getRepository("TestAutomationAll4BomBundle:Step");
-        $steps = $scenario->getSteps();
+//        $stepRep = $this->getEntityManager()->getRepository("TestAutomationAll4BomBundle:Step");
+//        $steps = $scenario->getSteps();
 
     }
 }

@@ -1,6 +1,6 @@
 Feature: Input Tests
 
-  @CableAssemblies @Create @ID=17-00-00 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-00 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -19,7 +19,7 @@ Feature: Input Tests
       |    | “♣☺♂” ,               | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-01 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-01 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -38,7 +38,7 @@ Feature: Input Tests
       |    | Create TA test        | “♣☺♂” ,               | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-02 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-02 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -57,7 +57,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | “♣☺♂” ,               | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-03 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-03 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -76,7 +76,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | “♣☺♂” ,               |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-04 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-04 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -95,7 +95,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | “♣☺♂” ,               |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-05 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-05 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -114,7 +114,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | “♣☺♂” ,               |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-06 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-06 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -133,7 +133,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | “♣☺♂” ,               |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-07 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-07 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -152,7 +152,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | “♣☺♂” ,               | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-08 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-08 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -171,7 +171,7 @@ Feature: Input Tests
       |    | “”‘~!@#$%^&*()?>      | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-09 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-0 @ID=09-09 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -190,7 +190,7 @@ Feature: Input Tests
       |    | Create TA test        | “”‘~!@#$%^&*()?>      | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-10 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-10 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -209,7 +209,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | “”‘~!@#$%^&*()?>      | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-11 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-11 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -228,7 +228,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | “”‘~!@#$%^&*()?>      |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-12 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-12 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -247,7 +247,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | “”‘~!@#$%^&*()?>      |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-13 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-13 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -266,7 +266,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | “”‘~!@#$%^&*()?>      |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-14 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-14 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -285,7 +285,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | “”‘~!@#$%^&*()?>      |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-15 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-15 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -304,7 +304,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | “”‘~!@#$%^&*()?>      | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-16 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-16 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -323,7 +323,7 @@ Feature: Input Tests
       |    | ,./\<][               | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-17 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-17 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -342,7 +342,7 @@ Feature: Input Tests
       |    | Create TA test        | ,./\<][               | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-18 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-18 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -361,7 +361,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | ,./\<][               | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-19 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-1 @ID=09-19 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -380,7 +380,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | ,./\<][               |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-20 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-20 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -399,7 +399,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | ,./\<][               |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-21 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-21 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -418,7 +418,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | ,./\<][               |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-22 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-22 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -437,7 +437,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | ,./\<][               |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-23 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-23 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -456,7 +456,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | ,./\<][               | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-24 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-24 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -475,7 +475,7 @@ Feature: Input Tests
       |    | /*<!–“”, “${code}”;–> | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-25 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-25 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -494,7 +494,7 @@ Feature: Input Tests
       |    | Create TA test        | /*<!–“”, “${code}”;–> | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-26 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-26 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -513,7 +513,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | /*<!–“”, “${code}”;–> | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-27 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-27 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -532,7 +532,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | /*<!–“”, “${code}”;–> |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-28 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-28 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -551,7 +551,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | /*<!–“”, “${code}”;–> |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-29 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-2 @ID=09-29 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -570,7 +570,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | /*<!–“”, “${code}”;–> |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-30 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-30 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -589,7 +589,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | /*<!–“”, “${code}”;–> |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-31 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-31 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -608,7 +608,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | /*<!–“”, “${code}”;–> | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-32 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-32 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -627,7 +627,7 @@ Feature: Input Tests
       |    | Aa!@#$%^&*()          | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-33 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-33 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -646,7 +646,7 @@ Feature: Input Tests
       |    | Create TA test        | Aa!@#$%^&*()          | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-34 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-34 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -665,7 +665,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | Aa!@#$%^&*()          | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-35 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-35 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -684,7 +684,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Aa!@#$%^&*()          |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-36 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-36 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -703,7 +703,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | Aa!@#$%^&*()          |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-37 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-37 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -722,7 +722,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | Aa!@#$%^&*()          |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-38 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-38 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -741,7 +741,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | Aa!@#$%^&*()          |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-39 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-3 @ID=09-39 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -760,7 +760,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | Aa!@#$%^&*()          | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-40 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-40 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -779,7 +779,7 @@ Feature: Input Tests
       |    | -_+=`~/\,.?></b       | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-41 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-41 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -798,7 +798,7 @@ Feature: Input Tests
       |    | Create TA test        | -_+=`~/\,.?></b       | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-42 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-42 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -817,7 +817,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | -_+=`~/\,.?></b       | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-43 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-43 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -836,7 +836,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | -_+=`~/\,.?></b       |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-44 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-44 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -855,7 +855,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | -_+=`~/\,.?></b       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-45 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-45 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -874,7 +874,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | -_+=`~/\,.?></b       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-46 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-46 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -893,7 +893,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | -_+=`~/\,.?></b       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-47 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-47 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -912,7 +912,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | -_+=`~/\,.?></b       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-48 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-48 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -931,7 +931,7 @@ Feature: Input Tests
       |    | / PaSSword!@#$%       | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-49 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-4 @ID=09-49 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -950,7 +950,7 @@ Feature: Input Tests
       |    | Create TA test        | / PaSSword!@#$%       | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-50 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-50 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -969,7 +969,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | / PaSSword!@#$%       | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-51 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-51 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -988,7 +988,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | / PaSSword!@#$%       |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-52 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-52 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1007,7 +1007,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | / PaSSword!@#$%       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-53 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-53 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1026,7 +1026,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | / PaSSword!@#$%       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-54 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-54 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1045,7 +1045,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | / PaSSword!@#$%       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-55 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-55 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1064,7 +1064,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | / PaSSword!@#$%       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-56 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-56 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1083,7 +1083,7 @@ Feature: Input Tests
       |    | ^&*()-_+=`~/\,.?><    |                       | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Create @ID=17-00-57 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-57 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1102,7 +1102,7 @@ Feature: Input Tests
       |    | Create TA test        | ^&*()-_+=`~/\,.?><    |                       | XY001100              | Removed in a moment   |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Create @ID=17-00-58 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-58 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1121,7 +1121,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | ^&*()-_+=`~/\,.?><    |                       | Removed in a moment   |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Create @ID=17-00-59 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-5 @ID=09-59 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1140,7 +1140,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | ^&*()-_+=`~/\,.?><    |                       |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Create @ID=17-00-60 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-60 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1159,7 +1159,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | ^&*()-_+=`~/\,.?><    |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Create @ID=17-00-61 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-61 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1178,7 +1178,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | ^&*()-_+=`~/\,.?><    |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Create @ID=17-00-62 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-62 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1197,7 +1197,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | ^&*()-_+=`~/\,.?><    |                       |           | Numerical      |
 
 
-  @CableAssemblies @Create @ID=17-00-63 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-63 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1216,7 +1216,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | ^&*()-_+=`~/\,.?><    |           | Numerical      |
 
 
-  @CableAssemblies @Create @ID=17-00-64 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-64 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1235,7 +1235,7 @@ Feature: Input Tests
       |    | %%%/%%%               | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-65 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-65 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1254,7 +1254,7 @@ Feature: Input Tests
       |    | Create TA test        | %%%/%%%               | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-66 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-66 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1273,7 +1273,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | %%%/%%%               | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-67 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-67 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1292,7 +1292,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | %%%/%%%               |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-68 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-68 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1311,7 +1311,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | %%%/%%%               |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-69 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-6 @ID=09-69 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1330,7 +1330,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | %%%/%%%               |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-70 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-7 @ID=09-70 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1349,7 +1349,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | %%%/%%%               |                       | Numerical |                |
 
 
-  @CableAssemblies @Create @ID=17-00-71 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Create @P=17-7 @ID=09-71 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1369,7 +1369,7 @@ Feature: Input Tests
 
 
 
-  @CableAssemblies @Edit  @ID=17-01-00 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-7 @ID=09-72 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1391,7 +1391,7 @@ Feature: Input Tests
       |    | “♣☺♂” ,               | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-01 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-7 @ID=09-73 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1413,7 +1413,7 @@ Feature: Input Tests
       |    | Create TA test        | “♣☺♂” ,               | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-02 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-7 @ID=09-74 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1435,7 +1435,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | “♣☺♂” ,               | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-03 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-7 @ID=09-75 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1457,7 +1457,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | “♣☺♂” ,               |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-04 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-7 @ID=09-76 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1479,7 +1479,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | “♣☺♂” ,               |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-05 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-7 @ID=09-77 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1501,7 +1501,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | “♣☺♂” ,               |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-06 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-7 @ID=09-78 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1523,7 +1523,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | “♣☺♂” ,               |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-07 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-7 @ID=09-79 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1545,7 +1545,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | “♣☺♂” ,               | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-08 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-80 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1567,7 +1567,7 @@ Feature: Input Tests
       |    | “”‘~!@#$%^&*()?>      | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-09 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-81 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1589,7 +1589,7 @@ Feature: Input Tests
       |    | Create TA test        | “”‘~!@#$%^&*()?>      | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-10 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-82 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1611,7 +1611,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | “”‘~!@#$%^&*()?>      | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-11 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-83 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1633,7 +1633,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | “”‘~!@#$%^&*()?>      |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-12 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-84 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1655,7 +1655,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | “”‘~!@#$%^&*()?>      |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-13 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-85 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1677,7 +1677,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | “”‘~!@#$%^&*()?>      |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-14 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-86 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1699,7 +1699,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | “”‘~!@#$%^&*()?>      |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-15 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-87 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1721,7 +1721,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | “”‘~!@#$%^&*()?>      | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-16 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-88 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1743,7 +1743,7 @@ Feature: Input Tests
       |    | ,./\<][               | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-17 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-8 @ID=09-89 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1765,7 +1765,7 @@ Feature: Input Tests
       |    | Create TA test        | ,./\<][               | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-18 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-90 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1787,7 +1787,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | ,./\<][               | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-19 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-91 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1809,7 +1809,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | ,./\<][               |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-20 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-92 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1831,7 +1831,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | ,./\<][               |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-21 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-93 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1853,7 +1853,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | ,./\<][               |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-22 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-94 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1875,7 +1875,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | ,./\<][               |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-23 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-95 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1897,7 +1897,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | ,./\<][               | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-24 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-96 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1919,7 +1919,7 @@ Feature: Input Tests
       |    | /*<!–“”, “${code}”;–> | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-25 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-97 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1941,7 +1941,7 @@ Feature: Input Tests
       |    | Create TA test        | /*<!–“”, “${code}”;–> | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-26 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-98 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1963,7 +1963,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | /*<!–“”, “${code}”;–> | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-27 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-9 @ID=09-99 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1985,7 +1985,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | /*<!–“”, “${code}”;–> |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-28 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-100 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2007,7 +2007,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | /*<!–“”, “${code}”;–> |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-29 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-101 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2029,7 +2029,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | /*<!–“”, “${code}”;–> |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-30 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-102 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2051,7 +2051,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | /*<!–“”, “${code}”;–> |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-31 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-103 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2073,7 +2073,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | /*<!–“”, “${code}”;–> | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-32 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-104 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2095,7 +2095,7 @@ Feature: Input Tests
       |    | Aa!@#$%^&*()          | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-33 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-105 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2117,7 +2117,7 @@ Feature: Input Tests
       |    | Create TA test        | Aa!@#$%^&*()          | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-34 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-106 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2139,7 +2139,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | Aa!@#$%^&*()          | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-35 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-107 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2161,7 +2161,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Aa!@#$%^&*()          |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-36 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-108 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2183,7 +2183,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | Aa!@#$%^&*()          |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-37 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-10 @ID=09-109 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2205,7 +2205,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | Aa!@#$%^&*()          |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-38 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-110 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2227,7 +2227,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | Aa!@#$%^&*()          |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-39 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-111 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2249,7 +2249,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | Aa!@#$%^&*()          | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-40 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-112 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2271,7 +2271,7 @@ Feature: Input Tests
       |    | -_+=`~/\,.?></b       | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-41 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-113 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2293,7 +2293,7 @@ Feature: Input Tests
       |    | Create TA test        | -_+=`~/\,.?></b       | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-42 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-114 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2315,7 +2315,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | -_+=`~/\,.?></b       | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-43 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-115 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2337,7 +2337,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | -_+=`~/\,.?></b       |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-44 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-116 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2359,7 +2359,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | -_+=`~/\,.?></b       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-45 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-117 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2381,7 +2381,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | -_+=`~/\,.?></b       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-46 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-118 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2403,7 +2403,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | -_+=`~/\,.?></b       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-47 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-11 @ID=09-119 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2425,7 +2425,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | -_+=`~/\,.?></b       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-48 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-120 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2447,7 +2447,7 @@ Feature: Input Tests
       |    | / PaSSword!@#$%       | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-49 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-121 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2469,7 +2469,7 @@ Feature: Input Tests
       |    | Create TA test        | / PaSSword!@#$%       | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-50 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-122 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2491,7 +2491,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | / PaSSword!@#$%       | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-51 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-123 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2513,7 +2513,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | / PaSSword!@#$%       |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-52 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-124 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2535,7 +2535,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | / PaSSword!@#$%       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-53 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-125 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2557,7 +2557,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | / PaSSword!@#$%       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-54 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-126 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2579,7 +2579,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | / PaSSword!@#$%       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-55 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-127 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2601,7 +2601,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | / PaSSword!@#$%       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-56 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-128 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2623,7 +2623,7 @@ Feature: Input Tests
       |    | ^&*()-_+=`~/\,.?><    |                       | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Edit  @ID=17-01-57 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-12 @ID=09-129 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2645,7 +2645,7 @@ Feature: Input Tests
       |    | Create TA test        | ^&*()-_+=`~/\,.?><    |                       | XY001100              | Removed in a moment   |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Edit  @ID=17-01-58 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-130 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2667,7 +2667,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | ^&*()-_+=`~/\,.?><    |                       | Removed in a moment   |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Edit  @ID=17-01-59 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-131 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2689,7 +2689,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | ^&*()-_+=`~/\,.?><    |                       |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Edit  @ID=17-01-60 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-132 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2711,7 +2711,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | ^&*()-_+=`~/\,.?><    |                       |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Edit  @ID=17-01-61 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-133 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2733,7 +2733,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | ^&*()-_+=`~/\,.?><    |                       |                       |           | Numerical      |
 
 
-  @CableAssemblies @Edit  @ID=17-01-62 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-134 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2755,7 +2755,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | ^&*()-_+=`~/\,.?><    |                       |           | Numerical      |
 
 
-  @CableAssemblies @Edit  @ID=17-01-63 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-135 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2777,7 +2777,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | ^&*()-_+=`~/\,.?><    |           | Numerical      |
 
 
-  @CableAssemblies @Edit  @ID=17-01-64 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-136 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2799,7 +2799,7 @@ Feature: Input Tests
       |    | %%%/%%%               | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-65 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-137 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2821,7 +2821,7 @@ Feature: Input Tests
       |    | Create TA test        | %%%/%%%               | XY001100              | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-66 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-138 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2843,7 +2843,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | %%%/%%%               | Removed in a moment   |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-67 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-13 @ID=09-139 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2865,7 +2865,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | %%%/%%%               |                       |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-68 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-14 @ID=09-140 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2887,7 +2887,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | %%%/%%%               |                       |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-69 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-14 @ID=09-141 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2909,7 +2909,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | %%%/%%%               |                       |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-70 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-14 @ID=09-142 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2931,7 +2931,7 @@ Feature: Input Tests
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | %%%/%%%               |                       | Numerical |                |
 
 
-  @CableAssemblies @Edit  @ID=17-01-71 @PRIORITY=5 @ASSIGNED=1
+  @CableAssemblies @Edit  @P=17-14 @ID=09-143 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Assemblies c валидными данными
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2956,7 +2956,7 @@ Feature: Input Tests
 
 
 
-  @CableRowMaterials @Edit  @ID=17-02-00 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-14 @ID=09-144 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2976,7 +2976,7 @@ Feature: Input Tests
       |    | “♣☺♂” ,               | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | “♣☺♂” , 0              | “♣☺♂” , 1                 | “♣☺♂” , 2              | “♣☺♂” , 3              | NAME wire14 | Pairs “♣☺♂” , 5              | “♣☺♂” , 6              | “♣☺♂” , 7              | “♣☺♂” , 8              | “♣☺♂” , 9              | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-01 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-14 @ID=09-145 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2996,7 +2996,7 @@ Feature: Input Tests
       |    | NAME1                 | “♣☺♂” ,               | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | “♣☺♂” , 0              | “♣☺♂” , 1              | “♣☺♂” , 2              | “♣☺♂” , 3              | “♣☺♂” , 4              | “♣☺♂” , 5              | “♣☺♂” , 6              | “♣☺♂” , 7              | “♣☺♂” , 8              | “♣☺♂” , 9              | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-02 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-14 @ID=09-146 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3016,7 +3016,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | “♣☺♂” ,               | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | “♣☺♂” , 0              | “♣☺♂” , 1              | “♣☺♂” , 2                     | “♣☺♂” , 3                | “♣☺♂” , 4               | “♣☺♂” , 5              | “♣☺♂” , 6              | “♣☺♂” , 7              | “♣☺♂” , 8              |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-03 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-14 @ID=09-147 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3036,7 +3036,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | “♣☺♂” ,               | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-04 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-14 @ID=09-148 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3056,7 +3056,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | “♣☺♂” ,               | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-05 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-14 @ID=09-149 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3076,7 +3076,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | “♣☺♂” ,               | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-06 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-150 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3096,7 +3096,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | “♣☺♂” ,               | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-07 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-151 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3116,7 +3116,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | “♣☺♂” ,               | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-08 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-152 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3136,7 +3136,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | “♣☺♂” ,               | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-09 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-153 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3156,7 +3156,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | “♣☺♂” ,                | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-10 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-154 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3176,7 +3176,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | “♣☺♂” ,                   | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-11 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-155 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3196,7 +3196,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | “♣☺♂” ,                | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-12 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-156 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3216,7 +3216,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | “♣☺♂” ,                | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-13 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-157 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3236,7 +3236,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-14 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-158 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3256,7 +3256,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs “♣☺♂” ,                | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-15 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-15 @ID=09-159 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3276,7 +3276,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | “♣☺♂” ,                | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-16 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-160 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3296,7 +3296,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | “♣☺♂” ,                | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-17 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-161 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3316,7 +3316,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | “♣☺♂” ,                | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-18 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-162 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3336,7 +3336,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | “♣☺♂” ,                | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-19 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-163 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3356,7 +3356,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | “♣☺♂” ,                | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-20 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-164 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3376,7 +3376,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | “♣☺♂” ,                | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-21 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-165 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3396,7 +3396,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | “♣☺♂” ,                | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-22 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-166 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3416,7 +3416,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | “♣☺♂” ,                | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-23 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-167 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3436,7 +3436,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | “♣☺♂” ,                | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-24 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-168 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3456,7 +3456,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | “♣☺♂” ,                | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-25 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-16 @ID=09-169 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3476,7 +3476,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | “♣☺♂” ,                | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-26 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-170 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3496,7 +3496,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | “♣☺♂” ,                | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-27 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-171 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3516,7 +3516,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | “♣☺♂” ,                | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-28 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-172 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3536,7 +3536,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | “♣☺♂” ,                | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-29 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-173 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3556,7 +3556,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | “♣☺♂” ,                | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-30 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-174 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3576,7 +3576,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | “♣☺♂” ,                | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-31 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-175 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3596,7 +3596,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | “♣☺♂” ,                       | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-32 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-176 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3616,7 +3616,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | “♣☺♂” ,                  | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-33 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-177 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3636,7 +3636,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | “♣☺♂” ,                 | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-34 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-178 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3656,7 +3656,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | “♣☺♂” ,                | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-35 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-17 @ID=09-179 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3676,7 +3676,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | “♣☺♂” ,                | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-36 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-180 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3696,7 +3696,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | “♣☺♂” ,                | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-37 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-181 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3716,7 +3716,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | “♣☺♂” ,                |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-38 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-182 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3736,7 +3736,7 @@ Feature: Input Tests
       |    | “”‘~!@#$%^&*()?>      | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | “”‘~!@#$%^&*()?>0      | “”‘~!@#$%^&*()?>1         | “”‘~!@#$%^&*()?>2      | “”‘~!@#$%^&*()?>3      | NAME wire14 | Pairs “”‘~!@#$%^&*()?>5      | “”‘~!@#$%^&*()?>6      | “”‘~!@#$%^&*()?>7      | “”‘~!@#$%^&*()?>8      | “”‘~!@#$%^&*()?>9      | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-39 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-183 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3756,7 +3756,7 @@ Feature: Input Tests
       |    | NAME1                 | “”‘~!@#$%^&*()?>      | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | “”‘~!@#$%^&*()?>0      | “”‘~!@#$%^&*()?>1      | “”‘~!@#$%^&*()?>2      | “”‘~!@#$%^&*()?>3      | “”‘~!@#$%^&*()?>4      | “”‘~!@#$%^&*()?>5      | “”‘~!@#$%^&*()?>6      | “”‘~!@#$%^&*()?>7      | “”‘~!@#$%^&*()?>8      | “”‘~!@#$%^&*()?>9      | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-40 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-184 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3776,7 +3776,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | “”‘~!@#$%^&*()?>      | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | “”‘~!@#$%^&*()?>0      | “”‘~!@#$%^&*()?>1      | “”‘~!@#$%^&*()?>2             | “”‘~!@#$%^&*()?>3        | “”‘~!@#$%^&*()?>4       | “”‘~!@#$%^&*()?>5      | “”‘~!@#$%^&*()?>6      | “”‘~!@#$%^&*()?>7      | “”‘~!@#$%^&*()?>8      |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-41 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-185 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3796,7 +3796,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | “”‘~!@#$%^&*()?>      | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-42 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-186 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3816,7 +3816,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | “”‘~!@#$%^&*()?>      | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-43 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-187 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3836,7 +3836,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | “”‘~!@#$%^&*()?>      | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-44 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-188 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3856,7 +3856,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | “”‘~!@#$%^&*()?>      | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-45 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-18 @ID=09-189 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3876,7 +3876,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | “”‘~!@#$%^&*()?>      | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-46 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-190 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3896,7 +3896,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | “”‘~!@#$%^&*()?>      | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-47 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-191 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3916,7 +3916,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | “”‘~!@#$%^&*()?>       | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-48 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-192 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3936,7 +3936,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | “”‘~!@#$%^&*()?>          | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-49 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-193 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3956,7 +3956,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | “”‘~!@#$%^&*()?>       | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-50 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-194 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3976,7 +3976,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | “”‘~!@#$%^&*()?>       | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-51 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-195 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -3996,7 +3996,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-52 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-196 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4016,7 +4016,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs “”‘~!@#$%^&*()?>       | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-53 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-197 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4036,7 +4036,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | “”‘~!@#$%^&*()?>       | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-54 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-198 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4056,7 +4056,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | “”‘~!@#$%^&*()?>       | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-55 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-19 @ID=09-199 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4076,7 +4076,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | “”‘~!@#$%^&*()?>       | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-56 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-200 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4096,7 +4096,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | “”‘~!@#$%^&*()?>       | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-57 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-201 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4116,7 +4116,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | “”‘~!@#$%^&*()?>       | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-58 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-202 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4136,7 +4136,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | “”‘~!@#$%^&*()?>       | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-59 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-203 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4156,7 +4156,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | “”‘~!@#$%^&*()?>       | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-60 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-204 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4176,7 +4176,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | “”‘~!@#$%^&*()?>       | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-61 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-205 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4196,7 +4196,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | “”‘~!@#$%^&*()?>       | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-62 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-206 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4216,7 +4216,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | “”‘~!@#$%^&*()?>       | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-63 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-207 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4236,7 +4236,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | “”‘~!@#$%^&*()?>       | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-64 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-208 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4256,7 +4256,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | “”‘~!@#$%^&*()?>       | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-65 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-20 @ID=09-209 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4276,7 +4276,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | “”‘~!@#$%^&*()?>       | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-66 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-210 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4296,7 +4296,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | “”‘~!@#$%^&*()?>       | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-67 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-211 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4316,7 +4316,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | “”‘~!@#$%^&*()?>       | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-68 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-212 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4336,7 +4336,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | “”‘~!@#$%^&*()?>       | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-69 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-213 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4356,7 +4356,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | “”‘~!@#$%^&*()?>              | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-70 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-214 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4376,7 +4376,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | “”‘~!@#$%^&*()?>         | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-71 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-215 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4396,7 +4396,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | “”‘~!@#$%^&*()?>        | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-72 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-216 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4416,7 +4416,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | “”‘~!@#$%^&*()?>       | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-73 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-217 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4436,7 +4436,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | “”‘~!@#$%^&*()?>       | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-74 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-218 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4456,7 +4456,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | “”‘~!@#$%^&*()?>       | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-75 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-21 @ID=09-219 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4476,7 +4476,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | “”‘~!@#$%^&*()?>       |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-76 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-220 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4496,7 +4496,7 @@ Feature: Input Tests
       |    | ,.<][                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | ,.<][ 0                | ,.<][ 1                   | ,.<][ 2                | ,.<][ 3                | NAME wire14 | Pairs ,.<][ 5                | ,.<][ 6                | ,.<][ 7                | ,.<][ 8                | ,.<][ 9                | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-77 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-221 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4516,7 +4516,7 @@ Feature: Input Tests
       |    | NAME1                 | ,.<][                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | ,.<][ 0                | ,.<][ 1                | ,.<][ 2                | ,.<][ 3                | ,.<][ 4                | ,.<][ 5                | ,.<][ 6                | ,.<][ 7                | ,.<][ 8                | ,.<][ 9                | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-78 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-222 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4536,7 +4536,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | ,.<][                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | ,.<][ 0                | ,.<][ 1                | ,.<][ 2                       | ,.<][ 3                  | ,.<][ 4                 | ,.<][ 5                | ,.<][ 6                | ,.<][ 7                | ,.<][ 8                |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-79 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-223 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4556,7 +4556,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | ,.<][                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-80 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-224 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4576,7 +4576,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | ,.<][                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-81 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-225 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4596,7 +4596,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | ,.<][                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-82 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-226 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4616,7 +4616,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | ,.<][                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-83 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-227 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4636,7 +4636,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | ,.<][                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-84 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-228 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4656,7 +4656,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | ,.<][                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-85 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-22 @ID=09-229 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4676,7 +4676,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | ,.<][                  | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-86 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-230 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4696,7 +4696,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | ,.<][                     | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-87 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-231 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4716,7 +4716,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | ,.<][                  | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-88 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-232 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4736,7 +4736,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | ,.<][                  | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-89 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-233 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4756,7 +4756,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-90 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-234 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4776,7 +4776,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs ,.<][                  | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-91 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-235 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4796,7 +4796,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | ,.<][                  | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-92 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-236 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4816,7 +4816,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | ,.<][                  | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-93 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-237 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4836,7 +4836,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | ,.<][                  | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-94 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-238 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4856,7 +4856,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | ,.<][                  | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-95 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-23 @ID=09-239 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4876,7 +4876,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | ,.<][                  | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-96 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-240 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4896,7 +4896,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | ,.<][                  | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-97 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-241 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4916,7 +4916,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | ,.<][                  | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-98 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-242 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4936,7 +4936,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | ,.<][                  | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-99 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-243 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4956,7 +4956,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | ,.<][                  | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-100 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-1540 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4976,7 +4976,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | ,.<][                  | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-101 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-1541 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -4996,7 +4996,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | ,.<][                  | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-102 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-1542 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5016,7 +5016,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | ,.<][                  | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-103 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-1543 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5036,7 +5036,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | ,.<][                  | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-104 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-1544 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5056,7 +5056,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | ,.<][                  | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-105 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-24 @ID=09-1545 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5076,7 +5076,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | ,.<][                  | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-106 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1546 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5096,7 +5096,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | ,.<][                  | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-107 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1547 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5116,7 +5116,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | ,.<][                         | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-108 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1548 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5136,7 +5136,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | ,.<][                    | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-109 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1549 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5156,7 +5156,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | ,.<][                   | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-110 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1550 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5176,7 +5176,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | ,.<][                  | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-111 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1551 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5196,7 +5196,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | ,.<][                  | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-112 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1552 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5216,7 +5216,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | ,.<][                  | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-113 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1553 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5236,7 +5236,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | ,.<][                  |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-114 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1554 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5256,7 +5256,7 @@ Feature: Input Tests
       |    | /*<!–“”, “${code}”;–> | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | /*<!–“”, “${code}”;–>0 | /*<!–“”, “${code}”;–>1    | /*<!–“”, “${code}”;–>2 | /*<!–“”, “${code}”;–>3 | NAME wire14 | Pairs /*<!–“”, “${code}”;–>5 | /*<!–“”, “${code}”;–>6 | /*<!–“”, “${code}”;–>7 | /*<!–“”, “${code}”;–>8 | /*<!–“”, “${code}”;–>9 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-115 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-25 @ID=09-1555 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5276,7 +5276,7 @@ Feature: Input Tests
       |    | NAME1                 | /*<!–“”, “${code}”;–> | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | /*<!–“”, “${code}”;–>0 | /*<!–“”, “${code}”;–>1 | /*<!–“”, “${code}”;–>2 | /*<!–“”, “${code}”;–>3 | /*<!–“”, “${code}”;–>4 | /*<!–“”, “${code}”;–>5 | /*<!–“”, “${code}”;–>6 | /*<!–“”, “${code}”;–>7 | /*<!–“”, “${code}”;–>8 | /*<!–“”, “${code}”;–>9 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-116 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1556 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5296,7 +5296,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | /*<!–“”, “${code}”;–> | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | /*<!–“”, “${code}”;–>0 | /*<!–“”, “${code}”;–>1 | /*<!–“”, “${code}”;–>2        | /*<!–“”, “${code}”;–>3   | /*<!–“”, “${code}”;–>4  | /*<!–“”, “${code}”;–>5 | /*<!–“”, “${code}”;–>6 | /*<!–“”, “${code}”;–>7 | /*<!–“”, “${code}”;–>8 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-117 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1557 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5316,7 +5316,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | /*<!–“”, “${code}”;–> | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-118 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1558 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5336,7 +5336,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | /*<!–“”, “${code}”;–> | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-119 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1559 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5356,7 +5356,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | /*<!–“”, “${code}”;–> | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-120 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1560 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5376,7 +5376,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | /*<!–“”, “${code}”;–> | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-121 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1561 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5396,7 +5396,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | /*<!–“”, “${code}”;–> | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-122 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1562 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5416,7 +5416,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | /*<!–“”, “${code}”;–> | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-123 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1563 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5436,7 +5436,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | /*<!–“”, “${code}”;–>  | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-124 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1564 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5456,7 +5456,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | /*<!–“”, “${code}”;–>     | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-125 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-26 @ID=09-1565 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5476,7 +5476,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | /*<!–“”, “${code}”;–>  | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-126 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1566 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5496,7 +5496,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | /*<!–“”, “${code}”;–>  | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-127 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1567 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5516,7 +5516,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-128 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1568 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5536,7 +5536,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs /*<!–“”, “${code}”;–>  | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-129 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1569 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5556,7 +5556,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | /*<!–“”, “${code}”;–>  | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-130 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1570 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5576,7 +5576,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | /*<!–“”, “${code}”;–>  | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-131 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1571 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5596,7 +5596,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | /*<!–“”, “${code}”;–>  | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-132 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1572 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5616,7 +5616,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | /*<!–“”, “${code}”;–>  | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-133 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1573 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5636,7 +5636,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | /*<!–“”, “${code}”;–>  | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-134 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1574 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5656,7 +5656,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | /*<!–“”, “${code}”;–>  | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-135 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-27 @ID=09-1575 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5676,7 +5676,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | /*<!–“”, “${code}”;–>  | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-136 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1576 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5696,7 +5696,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | /*<!–“”, “${code}”;–>  | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-137 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1577 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5716,7 +5716,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | /*<!–“”, “${code}”;–>  | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-138 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1578 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5736,7 +5736,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | /*<!–“”, “${code}”;–>  | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-139 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1579 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5756,7 +5756,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | /*<!–“”, “${code}”;–>  | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-140 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1580 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5776,7 +5776,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | /*<!–“”, “${code}”;–>  | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-141 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1581 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5796,7 +5796,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | /*<!–“”, “${code}”;–>  | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-142 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1582 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5816,7 +5816,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | /*<!–“”, “${code}”;–>  | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-143 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1583 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5836,7 +5836,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | /*<!–“”, “${code}”;–>  | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-144 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1584 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5856,7 +5856,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | /*<!–“”, “${code}”;–>  | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-145 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-28 @ID=09-1585 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5876,7 +5876,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | /*<!–“”, “${code}”;–>         | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-146 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1586 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5896,7 +5896,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | /*<!–“”, “${code}”;–>    | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-147 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1587 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5916,7 +5916,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | /*<!–“”, “${code}”;–>   | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-148 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1588 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5936,7 +5936,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | /*<!–“”, “${code}”;–>  | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-149 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1589 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5956,7 +5956,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | /*<!–“”, “${code}”;–>  | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-150 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1590 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5976,7 +5976,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | /*<!–“”, “${code}”;–>  | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-151 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1591 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -5996,7 +5996,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | /*<!–“”, “${code}”;–>  |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-152 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1592 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6016,7 +6016,7 @@ Feature: Input Tests
       |    | Aa!@#$%^&*()          | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | Aa!@#$%^&*()0          | Aa!@#$%^&*()1             | Aa!@#$%^&*()2          | Aa!@#$%^&*()3          | NAME wire14 | Pairs Aa!@#$%^&*()5          | Aa!@#$%^&*()6          | Aa!@#$%^&*()7          | Aa!@#$%^&*()8          | Aa!@#$%^&*()9          | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-153 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1593 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6036,7 +6036,7 @@ Feature: Input Tests
       |    | NAME1                 | Aa!@#$%^&*()          | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | Aa!@#$%^&*()0          | Aa!@#$%^&*()1          | Aa!@#$%^&*()2          | Aa!@#$%^&*()3          | Aa!@#$%^&*()4          | Aa!@#$%^&*()5          | Aa!@#$%^&*()6          | Aa!@#$%^&*()7          | Aa!@#$%^&*()8          | Aa!@#$%^&*()9          | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-154 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1594 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6056,7 +6056,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | Aa!@#$%^&*()          | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | Aa!@#$%^&*()0          | Aa!@#$%^&*()1          | Aa!@#$%^&*()2                 | Aa!@#$%^&*()3            | Aa!@#$%^&*()4           | Aa!@#$%^&*()5          | Aa!@#$%^&*()6          | Aa!@#$%^&*()7          | Aa!@#$%^&*()8          |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-155 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-29 @ID=09-1595 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6076,7 +6076,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | Aa!@#$%^&*()          | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-156 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1596 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6096,7 +6096,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | Aa!@#$%^&*()          | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-157 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1597 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6116,7 +6116,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | Aa!@#$%^&*()          | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-158 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1598 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6136,7 +6136,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | Aa!@#$%^&*()          | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-159 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1599 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6156,7 +6156,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | Aa!@#$%^&*()          | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-160 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1600 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6176,7 +6176,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | Aa!@#$%^&*()          | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-161 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1601 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6196,7 +6196,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | Aa!@#$%^&*()           | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-162 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1602 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6216,7 +6216,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | Aa!@#$%^&*()              | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-163 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1603 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6236,7 +6236,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | Aa!@#$%^&*()           | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-164 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1604 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6256,7 +6256,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | Aa!@#$%^&*()           | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-165 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-30 @ID=09-1605 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6276,7 +6276,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-166 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1606 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6296,7 +6296,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs Aa!@#$%^&*()           | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-167 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1607 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6316,7 +6316,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | Aa!@#$%^&*()           | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-168 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1608 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6336,7 +6336,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | Aa!@#$%^&*()           | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-169 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1609 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6356,7 +6356,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | Aa!@#$%^&*()           | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-170 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1610 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6376,7 +6376,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | Aa!@#$%^&*()           | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-171 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1611 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6396,7 +6396,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | Aa!@#$%^&*()           | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-172 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1612 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6416,7 +6416,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | Aa!@#$%^&*()           | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-173 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1613 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6436,7 +6436,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | Aa!@#$%^&*()           | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-174 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1614 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6456,7 +6456,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | Aa!@#$%^&*()           | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-175 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-31 @ID=09-1615 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6476,7 +6476,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | Aa!@#$%^&*()           | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-176 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1616 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6496,7 +6496,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | Aa!@#$%^&*()           | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-177 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1617 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6516,7 +6516,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | Aa!@#$%^&*()           | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-178 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1618 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6536,7 +6536,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | Aa!@#$%^&*()           | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-179 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1619 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6556,7 +6556,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | Aa!@#$%^&*()           | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-180 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1620 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6576,7 +6576,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | Aa!@#$%^&*()           | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-181 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1621 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6596,7 +6596,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | Aa!@#$%^&*()           | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-182 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1622 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6616,7 +6616,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | Aa!@#$%^&*()           | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-183 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1623 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6636,7 +6636,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | Aa!@#$%^&*()                  | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-184 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1624 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6656,7 +6656,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | Aa!@#$%^&*()             | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-185 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-32 @ID=09-1625 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6676,7 +6676,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | Aa!@#$%^&*()            | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-186 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1626 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6696,7 +6696,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | Aa!@#$%^&*()           | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-187 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1627 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6716,7 +6716,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | Aa!@#$%^&*()           | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-188 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1628 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6736,7 +6736,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | Aa!@#$%^&*()           | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-189 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1629 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6756,7 +6756,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | Aa!@#$%^&*()           |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-190 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1630 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6776,7 +6776,7 @@ Feature: Input Tests
       |    | -_+=`~/\,.?></\|b     | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | -_+=`~/\,.?></\|b0     | -_+=`~/\,.?></\|b1        | -_+=`~/\,.?></\|b2     | -_+=`~/\,.?></\|b3     | NAME wire14 | Pairs -_+=`~/\,.?></\|b5     | -_+=`~/\,.?></\|b6     | -_+=`~/\,.?></\|b7     | -_+=`~/\,.?></\|b8     | -_+=`~/\,.?></\|b9     | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-191 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1631 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6796,7 +6796,7 @@ Feature: Input Tests
       |    | NAME1                 | -_+=`~/\,.?></\|b     | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | -_+=`~/\,.?></\|b0     | -_+=`~/\,.?></\|b1     | -_+=`~/\,.?></\|b2     | -_+=`~/\,.?></\|b3     | -_+=`~/\,.?></\|b4     | -_+=`~/\,.?></\|b5     | -_+=`~/\,.?></\|b6     | -_+=`~/\,.?></\|b7     | -_+=`~/\,.?></\|b8     | -_+=`~/\,.?></\|b9     | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-192 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1632 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6816,7 +6816,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | -_+=`~/\,.?></\|b     | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | -_+=`~/\,.?></\|b0     | -_+=`~/\,.?></\|b1     | -_+=`~/\,.?></\|b2            | -_+=`~/\,.?></\|b3       | -_+=`~/\,.?></\|b4      | -_+=`~/\,.?></\|b5     | -_+=`~/\,.?></\|b6     | -_+=`~/\,.?></\|b7     | -_+=`~/\,.?></\|b8     |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-193 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1633 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6836,7 +6836,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | -_+=`~/\,.?></\|b     | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-194 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1634 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6856,7 +6856,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | -_+=`~/\,.?></\|b     | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-195 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-33 @ID=09-1635 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6876,7 +6876,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | -_+=`~/\,.?></\|b     | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-196 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1636 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6896,7 +6896,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | -_+=`~/\,.?></\|b     | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-197 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1637 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6916,7 +6916,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | -_+=`~/\,.?></\|b     | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-198 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1638 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6936,7 +6936,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | -_+=`~/\,.?></\|b     | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-199 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1639 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6956,7 +6956,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | -_+=`~/\,.?></\|b      | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-200 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1640 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6976,7 +6976,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | -_+=`~/\,.?></\|b         | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-201 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1641 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -6996,7 +6996,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | -_+=`~/\,.?></\|b      | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-202 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1642 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7016,7 +7016,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | -_+=`~/\,.?></\|b      | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-203 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1643 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7036,7 +7036,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-204 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1644 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7056,7 +7056,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs -_+=`~/\,.?></\|b      | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-205 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-34 @ID=09-1645 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7076,7 +7076,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | -_+=`~/\,.?></\|b      | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-206 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1646 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7096,7 +7096,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | -_+=`~/\,.?></\|b      | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-207 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1647 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7116,7 +7116,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | -_+=`~/\,.?></\|b      | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-208 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1648 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7136,7 +7136,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | -_+=`~/\,.?></\|b      | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-209 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1649 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7156,7 +7156,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | -_+=`~/\,.?></\|b      | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-210 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1650 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7176,7 +7176,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | -_+=`~/\,.?></\|b      | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-211 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1651 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7196,7 +7196,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | -_+=`~/\,.?></\|b      | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-212 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1652 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7216,7 +7216,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | -_+=`~/\,.?></\|b      | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-213 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1653 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7236,7 +7236,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | -_+=`~/\,.?></\|b      | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-214 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1654 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7256,7 +7256,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | -_+=`~/\,.?></\|b      | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-215 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-35 @ID=09-1655 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7276,7 +7276,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | -_+=`~/\,.?></\|b      | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-216 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1656 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7296,7 +7296,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | -_+=`~/\,.?></\|b      | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-217 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1657 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7316,7 +7316,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | -_+=`~/\,.?></\|b      | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-218 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1658 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7336,7 +7336,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | -_+=`~/\,.?></\|b      | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-219 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1659 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7356,7 +7356,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | -_+=`~/\,.?></\|b      | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-220 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1660 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7376,7 +7376,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | -_+=`~/\,.?></\|b      | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-221 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1661 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7396,7 +7396,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | -_+=`~/\,.?></\|b             | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-222 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1662 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7416,7 +7416,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | -_+=`~/\,.?></\|b        | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-223 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1663 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7436,7 +7436,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | -_+=`~/\,.?></\|b       | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-224 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1664 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7456,7 +7456,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | -_+=`~/\,.?></\|b      | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-225 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-36 @ID=09-1665 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7476,7 +7476,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | -_+=`~/\,.?></\|b      | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-226 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1666 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7496,7 +7496,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | -_+=`~/\,.?></\|b      | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-227 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1667 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7516,7 +7516,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | -_+=`~/\,.?></\|b      |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-228 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1668 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7536,7 +7536,7 @@ Feature: Input Tests
       |    | / PaSSword!@#$%       | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | / PaSSword!@#$%0       | / PaSSword!@#$%1          | / PaSSword!@#$%2       | / PaSSword!@#$%3       | NAME wire14 | Pairs / PaSSword!@#$%5       | / PaSSword!@#$%6       | / PaSSword!@#$%7       | / PaSSword!@#$%8       | / PaSSword!@#$%9       | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-229 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1669 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7556,7 +7556,7 @@ Feature: Input Tests
       |    | NAME1                 | / PaSSword!@#$%       | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | / PaSSword!@#$%0       | / PaSSword!@#$%1       | / PaSSword!@#$%2       | / PaSSword!@#$%3       | / PaSSword!@#$%4       | / PaSSword!@#$%5       | / PaSSword!@#$%6       | / PaSSword!@#$%7       | / PaSSword!@#$%8       | / PaSSword!@#$%9       | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-230 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1670 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7576,7 +7576,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | / PaSSword!@#$%       | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | / PaSSword!@#$%0       | / PaSSword!@#$%1       | / PaSSword!@#$%2              | / PaSSword!@#$%3         | / PaSSword!@#$%4        | / PaSSword!@#$%5       | / PaSSword!@#$%6       | / PaSSword!@#$%7       | / PaSSword!@#$%8       |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-231 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1671 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7596,7 +7596,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | / PaSSword!@#$%       | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-232 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1672 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7616,7 +7616,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | / PaSSword!@#$%       | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-233 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1673 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7636,7 +7636,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | / PaSSword!@#$%       | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-234 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1674 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7656,7 +7656,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | / PaSSword!@#$%       | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-235 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-37 @ID=09-1675 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7676,7 +7676,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | / PaSSword!@#$%       | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-236 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1676 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7696,7 +7696,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | / PaSSword!@#$%       | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-237 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1677 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7716,7 +7716,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | / PaSSword!@#$%        | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-238 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1678 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7736,7 +7736,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | / PaSSword!@#$%           | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-239 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1679 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7756,7 +7756,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | / PaSSword!@#$%        | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-240 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1680 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7776,7 +7776,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | / PaSSword!@#$%        | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-241 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1681 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7796,7 +7796,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-242 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1682 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7816,7 +7816,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs / PaSSword!@#$%        | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-243 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1683 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7836,7 +7836,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | / PaSSword!@#$%        | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-244 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1684 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7856,7 +7856,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | / PaSSword!@#$%        | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-245 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-38 @ID=09-1685 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7876,7 +7876,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | / PaSSword!@#$%        | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-246 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1686 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7896,7 +7896,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | / PaSSword!@#$%        | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-247 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1687 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7916,7 +7916,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | / PaSSword!@#$%        | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-248 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1688 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7936,7 +7936,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | / PaSSword!@#$%        | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-249 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1689 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7956,7 +7956,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | / PaSSword!@#$%        | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-250 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1690 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7976,7 +7976,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | / PaSSword!@#$%        | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-251 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1691 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -7996,7 +7996,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | / PaSSword!@#$%        | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-252 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1692 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8016,7 +8016,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | / PaSSword!@#$%        | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-253 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1693 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8036,7 +8036,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | / PaSSword!@#$%        | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-254 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1694 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8056,7 +8056,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | / PaSSword!@#$%        | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-255 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-39 @ID=09-1695 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8076,7 +8076,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | / PaSSword!@#$%        | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-256 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1696 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8096,7 +8096,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | / PaSSword!@#$%        | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-257 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1697 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8116,7 +8116,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | / PaSSword!@#$%        | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-258 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1698 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8136,7 +8136,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | / PaSSword!@#$%        | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-259 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1699 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8156,7 +8156,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | / PaSSword!@#$%               | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-260 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1700 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8176,7 +8176,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | / PaSSword!@#$%          | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-261 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1701 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8196,7 +8196,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | / PaSSword!@#$%         | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-262 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1702 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8216,7 +8216,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | / PaSSword!@#$%        | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-263 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1703 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8236,7 +8236,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | / PaSSword!@#$%        | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-264 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1704 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8256,7 +8256,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | / PaSSword!@#$%        | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-265 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-40 @ID=09-1705 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8276,7 +8276,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | / PaSSword!@#$%        |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-266 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1706 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8296,7 +8296,7 @@ Feature: Input Tests
       |    | ^&*()-_+=`~/\,.?><\|  | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | ^&*()-_+=`~/\,.?><\|0  | ^&*()-_+=`~/\,.?><\|1     | ^&*()-_+=`~/\,.?><\|2  | ^&*()-_+=`~/\,.?><\|3  | NAME wire14 | Pairs ^&*()-_+=`~/\,.?><\|5  | ^&*()-_+=`~/\,.?><\|6  | ^&*()-_+=`~/\,.?><\|7  | ^&*()-_+=`~/\,.?><\|8  | ^&*()-_+=`~/\,.?><\|9  | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-267 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1707 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8316,7 +8316,7 @@ Feature: Input Tests
       |    | NAME1                 | ^&*()-_+=`~/\,.?><\|  | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | ^&*()-_+=`~/\,.?><\|0  | ^&*()-_+=`~/\,.?><\|1  | ^&*()-_+=`~/\,.?><\|2  | ^&*()-_+=`~/\,.?><\|3  | ^&*()-_+=`~/\,.?><\|4  | ^&*()-_+=`~/\,.?><\|5  | ^&*()-_+=`~/\,.?><\|6  | ^&*()-_+=`~/\,.?><\|7  | ^&*()-_+=`~/\,.?><\|8  | ^&*()-_+=`~/\,.?><\|9  | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-268 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1708 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8336,7 +8336,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | ^&*()-_+=`~/\,.?><\|  | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | ^&*()-_+=`~/\,.?><\|0  | ^&*()-_+=`~/\,.?><\|1  | ^&*()-_+=`~/\,.?><\|2         | ^&*()-_+=`~/\,.?><\|3    | ^&*()-_+=`~/\,.?><\|4   | ^&*()-_+=`~/\,.?><\|5  | ^&*()-_+=`~/\,.?><\|6  | ^&*()-_+=`~/\,.?><\|7  | ^&*()-_+=`~/\,.?><\|8  |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-269 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1709 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8356,7 +8356,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | ^&*()-_+=`~/\,.?><\|  | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-270 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1710 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8376,7 +8376,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | ^&*()-_+=`~/\,.?><\|  | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-271 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1711 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8396,7 +8396,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | ^&*()-_+=`~/\,.?><\|  | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-272 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1712 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8416,7 +8416,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | ^&*()-_+=`~/\,.?><\|  | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-273 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1713 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8436,7 +8436,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | ^&*()-_+=`~/\,.?><\|  | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-274 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1714 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8456,7 +8456,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | ^&*()-_+=`~/\,.?><\|  | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-275 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-41 @ID=09-1715 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8476,7 +8476,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | ^&*()-_+=`~/\,.?><\|   | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-276 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1716 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8496,7 +8496,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | ^&*()-_+=`~/\,.?><\|      | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-277 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1717 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8516,7 +8516,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | ^&*()-_+=`~/\,.?><\|   | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-278 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1718 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8536,7 +8536,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | ^&*()-_+=`~/\,.?><\|   | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-279 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1719 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8556,7 +8556,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-280 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1720 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8576,7 +8576,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs ^&*()-_+=`~/\,.?><\|   | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-281 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1721 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8596,7 +8596,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | ^&*()-_+=`~/\,.?><\|   | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-282 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1722 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8616,7 +8616,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | ^&*()-_+=`~/\,.?><\|   | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-283 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1723 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8636,7 +8636,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | ^&*()-_+=`~/\,.?><\|   | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-284 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1724 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8656,7 +8656,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | ^&*()-_+=`~/\,.?><\|   | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-285 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-42 @ID=09-1725 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8676,7 +8676,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | ^&*()-_+=`~/\,.?><\|   | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-286 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1726 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8696,7 +8696,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | ^&*()-_+=`~/\,.?><\|   | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-287 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1727 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8716,7 +8716,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | ^&*()-_+=`~/\,.?><\|   | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-288 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1728 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8736,7 +8736,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | ^&*()-_+=`~/\,.?><\|   | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-289 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1729 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8756,7 +8756,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | ^&*()-_+=`~/\,.?><\|   | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-290 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1730 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8776,7 +8776,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | ^&*()-_+=`~/\,.?><\|   | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-291 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1731 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8796,7 +8796,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | ^&*()-_+=`~/\,.?><\|   | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-292 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1732 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8816,7 +8816,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | ^&*()-_+=`~/\,.?><\|   | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-293 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1733 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8836,7 +8836,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | ^&*()-_+=`~/\,.?><\|   | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-294 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1734 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8856,7 +8856,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | ^&*()-_+=`~/\,.?><\|   | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-295 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-43 @ID=09-1735 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8876,7 +8876,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | ^&*()-_+=`~/\,.?><\|   | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-296 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-44 @ID=09-1736 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8896,7 +8896,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | ^&*()-_+=`~/\,.?><\|   | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-297 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-44 @ID=09-1737 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8916,7 +8916,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | ^&*()-_+=`~/\,.?><\|          | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-298 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-44 @ID=09-1738 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8936,7 +8936,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | ^&*()-_+=`~/\,.?><\|     | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-299 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-44 @ID=09-1739 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8956,7 +8956,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | ^&*()-_+=`~/\,.?><\|    | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-300 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-44 @ID=09-1740 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8976,7 +8976,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | ^&*()-_+=`~/\,.?><\|   | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-301 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-44 @ID=09-1741 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -8996,7 +8996,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | ^&*()-_+=`~/\,.?><\|   | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-302 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-44 @ID=09-1742 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9016,7 +9016,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | ^&*()-_+=`~/\,.?><\|   | NAME38                 |
 
 
-  @CableRowMaterials @Edit  @ID=17-02-303 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit  @P=17-44 @ID=09-1743 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9038,7 +9038,7 @@ Feature: Input Tests
 
 
 
-  @CableRowMaterials @Save  @ID=17-03-00 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-44 @ID=09-448 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9053,7 +9053,7 @@ Feature: Input Tests
       |    | “♣☺♂” ,               | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | “♣☺♂” , 0              | “♣☺♂” , 1                 | “♣☺♂” , 2              | “♣☺♂” , 3              | NAME wire14 | Pairs “♣☺♂” , 5              | “♣☺♂” , 6              | “♣☺♂” , 7              | “♣☺♂” , 8              | “♣☺♂” , 9              | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-01 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-44 @ID=09-449 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9068,7 +9068,7 @@ Feature: Input Tests
       |    | NAME1                 | “♣☺♂” ,               | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | “♣☺♂” , 0              | “♣☺♂” , 1              | “♣☺♂” , 2              | “♣☺♂” , 3              | “♣☺♂” , 4              | “♣☺♂” , 5              | “♣☺♂” , 6              | “♣☺♂” , 7              | “♣☺♂” , 8              | “♣☺♂” , 9              | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-02 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-450 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9083,7 +9083,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | “♣☺♂” ,               | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | “♣☺♂” , 0              | “♣☺♂” , 1              | “♣☺♂” , 2                     | “♣☺♂” , 3                | “♣☺♂” , 4               | “♣☺♂” , 5              | “♣☺♂” , 6              | “♣☺♂” , 7              | “♣☺♂” , 8              |
 
 
-  @CableRowMaterials @Save  @ID=17-03-03 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-451 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9098,7 +9098,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | “♣☺♂” ,               | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-04 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-452 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9113,7 +9113,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | “♣☺♂” ,               | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-05 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-453 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9128,7 +9128,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | “♣☺♂” ,               | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-06 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-454 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9143,7 +9143,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | “♣☺♂” ,               | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-07 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-455 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9158,7 +9158,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | “♣☺♂” ,               | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-08 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-456 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9173,7 +9173,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | “♣☺♂” ,               | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-09 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-457 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9188,7 +9188,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | “♣☺♂” ,                | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-10 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-458 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9203,7 +9203,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | “♣☺♂” ,                   | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-11 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-45 @ID=09-459 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9218,7 +9218,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | “♣☺♂” ,                | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-12 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-460 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9233,7 +9233,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | “♣☺♂” ,                | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-13 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-461 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9248,7 +9248,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-14 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-462 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9263,7 +9263,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs “♣☺♂” ,                | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-15 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-463 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9278,7 +9278,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | “♣☺♂” ,                | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-16 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-464 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9293,7 +9293,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | “♣☺♂” ,                | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-17 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-465 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9308,7 +9308,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | “♣☺♂” ,                | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-18 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-466 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9323,7 +9323,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | “♣☺♂” ,                | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-19 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-467 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9338,7 +9338,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | “♣☺♂” ,                | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-20 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-468 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9353,7 +9353,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | “♣☺♂” ,                | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-21 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-46 @ID=09-469 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9368,7 +9368,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | “♣☺♂” ,                | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-22 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-470 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9383,7 +9383,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | “♣☺♂” ,                | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-23 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-471 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9398,7 +9398,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | “♣☺♂” ,                | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-24 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-472 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9413,7 +9413,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | “♣☺♂” ,                | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-25 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-473 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9428,7 +9428,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | “♣☺♂” ,                | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-26 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-474 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9443,7 +9443,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | “♣☺♂” ,                | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-27 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-475 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9458,7 +9458,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | “♣☺♂” ,                | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-28 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-476 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9473,7 +9473,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | “♣☺♂” ,                | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-29 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-477 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9488,7 +9488,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | “♣☺♂” ,                | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-30 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-478 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9503,7 +9503,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | “♣☺♂” ,                | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-31 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-47 @ID=09-479 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9518,7 +9518,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | “♣☺♂” ,                       | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-32 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-480 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9533,7 +9533,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | “♣☺♂” ,                  | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-33 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-481 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9548,7 +9548,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | “♣☺♂” ,                 | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-34 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-482 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9563,7 +9563,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | “♣☺♂” ,                | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-35 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-483 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9578,7 +9578,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | “♣☺♂” ,                | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-36 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-484 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9593,7 +9593,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | “♣☺♂” ,                | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-37 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-485 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9608,7 +9608,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | “♣☺♂” ,                |
 
 
-  @CableRowMaterials @Save  @ID=17-03-38 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-486 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9623,7 +9623,7 @@ Feature: Input Tests
       |    | “”‘~!@#$%^&*()?>      | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | “”‘~!@#$%^&*()?>0      | “”‘~!@#$%^&*()?>1         | “”‘~!@#$%^&*()?>2      | “”‘~!@#$%^&*()?>3      | NAME wire14 | Pairs “”‘~!@#$%^&*()?>5      | “”‘~!@#$%^&*()?>6      | “”‘~!@#$%^&*()?>7      | “”‘~!@#$%^&*()?>8      | “”‘~!@#$%^&*()?>9      | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-39 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-487 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9638,7 +9638,7 @@ Feature: Input Tests
       |    | NAME1                 | “”‘~!@#$%^&*()?>      | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | “”‘~!@#$%^&*()?>0      | “”‘~!@#$%^&*()?>1      | “”‘~!@#$%^&*()?>2      | “”‘~!@#$%^&*()?>3      | “”‘~!@#$%^&*()?>4      | “”‘~!@#$%^&*()?>5      | “”‘~!@#$%^&*()?>6      | “”‘~!@#$%^&*()?>7      | “”‘~!@#$%^&*()?>8      | “”‘~!@#$%^&*()?>9      | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-40 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-488 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9653,7 +9653,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | “”‘~!@#$%^&*()?>      | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | “”‘~!@#$%^&*()?>0      | “”‘~!@#$%^&*()?>1      | “”‘~!@#$%^&*()?>2             | “”‘~!@#$%^&*()?>3        | “”‘~!@#$%^&*()?>4       | “”‘~!@#$%^&*()?>5      | “”‘~!@#$%^&*()?>6      | “”‘~!@#$%^&*()?>7      | “”‘~!@#$%^&*()?>8      |
 
 
-  @CableRowMaterials @Save  @ID=17-03-41 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-48 @ID=09-489 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9668,7 +9668,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | “”‘~!@#$%^&*()?>      | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-42 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-490 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9683,7 +9683,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | “”‘~!@#$%^&*()?>      | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-43 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-491 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9698,7 +9698,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | “”‘~!@#$%^&*()?>      | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-44 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-492 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9713,7 +9713,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | “”‘~!@#$%^&*()?>      | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-45 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-493 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9728,7 +9728,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | “”‘~!@#$%^&*()?>      | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-46 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-494 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9743,7 +9743,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | “”‘~!@#$%^&*()?>      | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-47 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-495 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9758,7 +9758,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | “”‘~!@#$%^&*()?>       | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-48 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-496 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9773,7 +9773,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | “”‘~!@#$%^&*()?>          | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-49 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-497 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9788,7 +9788,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | “”‘~!@#$%^&*()?>       | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-50 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-498 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9803,7 +9803,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | “”‘~!@#$%^&*()?>       | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-51 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-49 @ID=09-499 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9818,7 +9818,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-52 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-500 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9833,7 +9833,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs “”‘~!@#$%^&*()?>       | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-53 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-501 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9848,7 +9848,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | “”‘~!@#$%^&*()?>       | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-54 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-502 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9863,7 +9863,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | “”‘~!@#$%^&*()?>       | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-55 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-503 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9878,7 +9878,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | “”‘~!@#$%^&*()?>       | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-56 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-504 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9893,7 +9893,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | “”‘~!@#$%^&*()?>       | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-57 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-505 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9908,7 +9908,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | “”‘~!@#$%^&*()?>       | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-58 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-506 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9923,7 +9923,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | “”‘~!@#$%^&*()?>       | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-59 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-507 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9938,7 +9938,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | “”‘~!@#$%^&*()?>       | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-60 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-508 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9953,7 +9953,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | “”‘~!@#$%^&*()?>       | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-61 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-50 @ID=09-509 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9968,7 +9968,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | “”‘~!@#$%^&*()?>       | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-62 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-510 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9983,7 +9983,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | “”‘~!@#$%^&*()?>       | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-63 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-511 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -9998,7 +9998,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | “”‘~!@#$%^&*()?>       | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-64 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-512 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10013,7 +10013,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | “”‘~!@#$%^&*()?>       | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-65 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-513 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10028,7 +10028,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | “”‘~!@#$%^&*()?>       | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-66 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-514 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10043,7 +10043,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | “”‘~!@#$%^&*()?>       | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-67 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-515 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10058,7 +10058,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | “”‘~!@#$%^&*()?>       | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-68 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-516 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10073,7 +10073,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | “”‘~!@#$%^&*()?>       | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-69 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-517 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10088,7 +10088,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | “”‘~!@#$%^&*()?>              | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-70 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-518 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10103,7 +10103,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | “”‘~!@#$%^&*()?>         | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-71 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-51 @ID=09-519 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10118,7 +10118,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | “”‘~!@#$%^&*()?>        | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-72 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-520 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10133,7 +10133,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | “”‘~!@#$%^&*()?>       | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-73 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-521 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10148,7 +10148,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | “”‘~!@#$%^&*()?>       | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-74 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-522 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10163,7 +10163,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | “”‘~!@#$%^&*()?>       | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-75 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-523 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10178,7 +10178,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | “”‘~!@#$%^&*()?>       |
 
 
-  @CableRowMaterials @Save  @ID=17-03-76 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-524 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10193,7 +10193,7 @@ Feature: Input Tests
       |    | ,.<][                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | ,.<][ 0                | ,.<][ 1                   | ,.<][ 2                | ,.<][ 3                | NAME wire14 | Pairs ,.<][ 5                | ,.<][ 6                | ,.<][ 7                | ,.<][ 8                | ,.<][ 9                | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-77 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-525 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10208,7 +10208,7 @@ Feature: Input Tests
       |    | NAME1                 | ,.<][                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | ,.<][ 0                | ,.<][ 1                | ,.<][ 2                | ,.<][ 3                | ,.<][ 4                | ,.<][ 5                | ,.<][ 6                | ,.<][ 7                | ,.<][ 8                | ,.<][ 9                | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-78 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-526 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10223,7 +10223,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | ,.<][                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | ,.<][ 0                | ,.<][ 1                | ,.<][ 2                       | ,.<][ 3                  | ,.<][ 4                 | ,.<][ 5                | ,.<][ 6                | ,.<][ 7                | ,.<][ 8                |
 
 
-  @CableRowMaterials @Save  @ID=17-03-79 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-527 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10238,7 +10238,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | ,.<][                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-80 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-528 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10253,7 +10253,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | ,.<][                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-81 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-52 @ID=09-529 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10268,7 +10268,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | ,.<][                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-82 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-530 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10283,7 +10283,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | ,.<][                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-83 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-531 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10298,7 +10298,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | ,.<][                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-84 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-532 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10313,7 +10313,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | ,.<][                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-85 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-533 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10328,7 +10328,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | ,.<][                  | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-86 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-534 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10343,7 +10343,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | ,.<][                     | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-87 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-535 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10358,7 +10358,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | ,.<][                  | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-88 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-536 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10373,7 +10373,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | ,.<][                  | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-89 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-537 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10388,7 +10388,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-90 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-538 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10403,7 +10403,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs ,.<][                  | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-91 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-53 @ID=09-539 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10418,7 +10418,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | ,.<][                  | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-92 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-540 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10433,7 +10433,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | ,.<][                  | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-93 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-541 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10448,7 +10448,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | ,.<][                  | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-94 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-542 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10463,7 +10463,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | ,.<][                  | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-95 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-543 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10478,7 +10478,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | ,.<][                  | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-96 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-544 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10493,7 +10493,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | ,.<][                  | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-97 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-545 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10508,7 +10508,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | ,.<][                  | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-98 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-546 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10523,7 +10523,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | ,.<][                  | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-99 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-547 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10538,7 +10538,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | ,.<][                  | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-100 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-4580 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10553,7 +10553,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | ,.<][                  | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-101 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-54 @ID=09-4581 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10568,7 +10568,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | ,.<][                  | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-102 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4582 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10583,7 +10583,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | ,.<][                  | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-103 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4583 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10598,7 +10598,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | ,.<][                  | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-104 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4584 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10613,7 +10613,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | ,.<][                  | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-105 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4585 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10628,7 +10628,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | ,.<][                  | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-106 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4586 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10643,7 +10643,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | ,.<][                  | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-107 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4587 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10658,7 +10658,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | ,.<][                         | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-108 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4588 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10673,7 +10673,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | ,.<][                    | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-109 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4589 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10688,7 +10688,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | ,.<][                   | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-110 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4590 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10703,7 +10703,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | ,.<][                  | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-111 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-55 @ID=09-4591 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10718,7 +10718,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | ,.<][                  | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-112 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4592 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10733,7 +10733,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | ,.<][                  | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-113 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4593 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10748,7 +10748,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | ,.<][                  |
 
 
-  @CableRowMaterials @Save  @ID=17-03-114 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4594 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10763,7 +10763,7 @@ Feature: Input Tests
       |    | /*<!–“”, “${code}”;–> | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | /*<!–“”, “${code}”;–>0 | /*<!–“”, “${code}”;–>1    | /*<!–“”, “${code}”;–>2 | /*<!–“”, “${code}”;–>3 | NAME wire14 | Pairs /*<!–“”, “${code}”;–>5 | /*<!–“”, “${code}”;–>6 | /*<!–“”, “${code}”;–>7 | /*<!–“”, “${code}”;–>8 | /*<!–“”, “${code}”;–>9 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-115 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4595 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10778,7 +10778,7 @@ Feature: Input Tests
       |    | NAME1                 | /*<!–“”, “${code}”;–> | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | /*<!–“”, “${code}”;–>0 | /*<!–“”, “${code}”;–>1 | /*<!–“”, “${code}”;–>2 | /*<!–“”, “${code}”;–>3 | /*<!–“”, “${code}”;–>4 | /*<!–“”, “${code}”;–>5 | /*<!–“”, “${code}”;–>6 | /*<!–“”, “${code}”;–>7 | /*<!–“”, “${code}”;–>8 | /*<!–“”, “${code}”;–>9 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-116 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4596 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10793,7 +10793,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | /*<!–“”, “${code}”;–> | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | /*<!–“”, “${code}”;–>0 | /*<!–“”, “${code}”;–>1 | /*<!–“”, “${code}”;–>2        | /*<!–“”, “${code}”;–>3   | /*<!–“”, “${code}”;–>4  | /*<!–“”, “${code}”;–>5 | /*<!–“”, “${code}”;–>6 | /*<!–“”, “${code}”;–>7 | /*<!–“”, “${code}”;–>8 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-117 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4597 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10808,7 +10808,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | /*<!–“”, “${code}”;–> | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-118 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4598 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10823,7 +10823,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | /*<!–“”, “${code}”;–> | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-119 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4599 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10838,7 +10838,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | /*<!–“”, “${code}”;–> | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-120 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4600 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10853,7 +10853,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | /*<!–“”, “${code}”;–> | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-121 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-56 @ID=09-4601 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10868,7 +10868,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | /*<!–“”, “${code}”;–> | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-122 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4602 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10883,7 +10883,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | /*<!–“”, “${code}”;–> | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-123 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4603 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10898,7 +10898,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | /*<!–“”, “${code}”;–>  | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-124 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4604 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10913,7 +10913,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | /*<!–“”, “${code}”;–>     | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-125 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4605 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10928,7 +10928,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | /*<!–“”, “${code}”;–>  | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-126 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4606 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10943,7 +10943,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | /*<!–“”, “${code}”;–>  | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-127 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4607 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10958,7 +10958,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-128 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4608 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10973,7 +10973,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs /*<!–“”, “${code}”;–>  | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-129 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4609 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -10988,7 +10988,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | /*<!–“”, “${code}”;–>  | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-130 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4610 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11003,7 +11003,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | /*<!–“”, “${code}”;–>  | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-131 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-57 @ID=09-4611 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11018,7 +11018,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | /*<!–“”, “${code}”;–>  | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-132 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4612 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11033,7 +11033,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | /*<!–“”, “${code}”;–>  | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-133 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4613 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11048,7 +11048,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | /*<!–“”, “${code}”;–>  | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-134 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4614 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11063,7 +11063,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | /*<!–“”, “${code}”;–>  | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-135 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4615 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11078,7 +11078,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | /*<!–“”, “${code}”;–>  | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-136 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4616 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11093,7 +11093,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | /*<!–“”, “${code}”;–>  | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-137 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4617 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11108,7 +11108,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | /*<!–“”, “${code}”;–>  | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-138 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4618 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11123,7 +11123,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | /*<!–“”, “${code}”;–>  | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-139 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4619 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11138,7 +11138,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | /*<!–“”, “${code}”;–>  | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-140 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4620 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11153,7 +11153,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | /*<!–“”, “${code}”;–>  | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-141 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-58 @ID=09-4621 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11168,7 +11168,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | /*<!–“”, “${code}”;–>  | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-142 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4622 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11183,7 +11183,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | /*<!–“”, “${code}”;–>  | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-143 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4623 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11198,7 +11198,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | /*<!–“”, “${code}”;–>  | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-144 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4624 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11213,7 +11213,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | /*<!–“”, “${code}”;–>  | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-145 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4625 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11228,7 +11228,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | /*<!–“”, “${code}”;–>         | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-146 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4626 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11243,7 +11243,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | /*<!–“”, “${code}”;–>    | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-147 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4627 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11258,7 +11258,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | /*<!–“”, “${code}”;–>   | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-148 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4628 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11273,7 +11273,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | /*<!–“”, “${code}”;–>  | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-149 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4629 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11288,7 +11288,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | /*<!–“”, “${code}”;–>  | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-150 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4630 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11303,7 +11303,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | /*<!–“”, “${code}”;–>  | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-151 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-59 @ID=09-4631 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11318,7 +11318,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | /*<!–“”, “${code}”;–>  |
 
 
-  @CableRowMaterials @Save  @ID=17-03-152 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4632 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11333,7 +11333,7 @@ Feature: Input Tests
       |    | Aa!@#$%^&*()          | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | Aa!@#$%^&*()0          | Aa!@#$%^&*()1             | Aa!@#$%^&*()2          | Aa!@#$%^&*()3          | NAME wire14 | Pairs Aa!@#$%^&*()5          | Aa!@#$%^&*()6          | Aa!@#$%^&*()7          | Aa!@#$%^&*()8          | Aa!@#$%^&*()9          | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-153 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4633 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11348,7 +11348,7 @@ Feature: Input Tests
       |    | NAME1                 | Aa!@#$%^&*()          | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | Aa!@#$%^&*()0          | Aa!@#$%^&*()1          | Aa!@#$%^&*()2          | Aa!@#$%^&*()3          | Aa!@#$%^&*()4          | Aa!@#$%^&*()5          | Aa!@#$%^&*()6          | Aa!@#$%^&*()7          | Aa!@#$%^&*()8          | Aa!@#$%^&*()9          | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-154 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4634 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11363,7 +11363,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | Aa!@#$%^&*()          | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | Aa!@#$%^&*()0          | Aa!@#$%^&*()1          | Aa!@#$%^&*()2                 | Aa!@#$%^&*()3            | Aa!@#$%^&*()4           | Aa!@#$%^&*()5          | Aa!@#$%^&*()6          | Aa!@#$%^&*()7          | Aa!@#$%^&*()8          |
 
 
-  @CableRowMaterials @Save  @ID=17-03-155 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4635 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11378,7 +11378,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | Aa!@#$%^&*()          | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-156 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4636 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11393,7 +11393,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | Aa!@#$%^&*()          | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-157 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4637 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11408,7 +11408,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | Aa!@#$%^&*()          | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-158 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4638 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11423,7 +11423,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | Aa!@#$%^&*()          | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-159 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4639 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11438,7 +11438,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | Aa!@#$%^&*()          | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-160 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4640 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11453,7 +11453,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | Aa!@#$%^&*()          | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-161 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-60 @ID=09-4641 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11468,7 +11468,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | Aa!@#$%^&*()           | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-162 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4642 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11483,7 +11483,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | Aa!@#$%^&*()              | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-163 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4643 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11498,7 +11498,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | Aa!@#$%^&*()           | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-164 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4644 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11513,7 +11513,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | Aa!@#$%^&*()           | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-165 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4645 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11528,7 +11528,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-166 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4646 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11543,7 +11543,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs Aa!@#$%^&*()           | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-167 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4647 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11558,7 +11558,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | Aa!@#$%^&*()           | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-168 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4648 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11573,7 +11573,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | Aa!@#$%^&*()           | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-169 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4649 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11588,7 +11588,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | Aa!@#$%^&*()           | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-170 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4650 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11603,7 +11603,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | Aa!@#$%^&*()           | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-171 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-61 @ID=09-4651 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11618,7 +11618,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | Aa!@#$%^&*()           | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-172 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4652 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11633,7 +11633,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | Aa!@#$%^&*()           | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-173 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4653 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11648,7 +11648,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | Aa!@#$%^&*()           | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-174 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4654 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11663,7 +11663,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | Aa!@#$%^&*()           | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-175 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4655 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11678,7 +11678,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | Aa!@#$%^&*()           | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-176 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4656 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11693,7 +11693,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | Aa!@#$%^&*()           | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-177 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4657 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11708,7 +11708,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | Aa!@#$%^&*()           | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-178 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4658 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11723,7 +11723,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | Aa!@#$%^&*()           | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-179 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4659 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11738,7 +11738,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | Aa!@#$%^&*()           | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-180 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4660 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11753,7 +11753,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | Aa!@#$%^&*()           | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-181 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-62 @ID=09-4661 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11768,7 +11768,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | Aa!@#$%^&*()           | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-182 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4662 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11783,7 +11783,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | Aa!@#$%^&*()           | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-183 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4663 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11798,7 +11798,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | Aa!@#$%^&*()                  | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-184 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4664 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11813,7 +11813,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | Aa!@#$%^&*()             | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-185 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4665 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11828,7 +11828,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | Aa!@#$%^&*()            | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-186 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4666 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11843,7 +11843,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | Aa!@#$%^&*()           | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-187 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4667 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11858,7 +11858,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | Aa!@#$%^&*()           | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-188 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4668 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11873,7 +11873,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | Aa!@#$%^&*()           | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-189 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4669 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11888,7 +11888,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | Aa!@#$%^&*()           |
 
 
-  @CableRowMaterials @Save  @ID=17-03-190 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4670 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11903,7 +11903,7 @@ Feature: Input Tests
       |    | -_+=`~/\,.?></\|b     | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | -_+=`~/\,.?></\|b0     | -_+=`~/\,.?></\|b1        | -_+=`~/\,.?></\|b2     | -_+=`~/\,.?></\|b3     | NAME wire14 | Pairs -_+=`~/\,.?></\|b5     | -_+=`~/\,.?></\|b6     | -_+=`~/\,.?></\|b7     | -_+=`~/\,.?></\|b8     | -_+=`~/\,.?></\|b9     | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-191 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-63 @ID=09-4671 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11918,7 +11918,7 @@ Feature: Input Tests
       |    | NAME1                 | -_+=`~/\,.?></\|b     | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | -_+=`~/\,.?></\|b0     | -_+=`~/\,.?></\|b1     | -_+=`~/\,.?></\|b2     | -_+=`~/\,.?></\|b3     | -_+=`~/\,.?></\|b4     | -_+=`~/\,.?></\|b5     | -_+=`~/\,.?></\|b6     | -_+=`~/\,.?></\|b7     | -_+=`~/\,.?></\|b8     | -_+=`~/\,.?></\|b9     | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-192 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4672 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11933,7 +11933,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | -_+=`~/\,.?></\|b     | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | -_+=`~/\,.?></\|b0     | -_+=`~/\,.?></\|b1     | -_+=`~/\,.?></\|b2            | -_+=`~/\,.?></\|b3       | -_+=`~/\,.?></\|b4      | -_+=`~/\,.?></\|b5     | -_+=`~/\,.?></\|b6     | -_+=`~/\,.?></\|b7     | -_+=`~/\,.?></\|b8     |
 
 
-  @CableRowMaterials @Save  @ID=17-03-193 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4673 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11948,7 +11948,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | -_+=`~/\,.?></\|b     | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-194 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4674 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11963,7 +11963,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | -_+=`~/\,.?></\|b     | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-195 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4675 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11978,7 +11978,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | -_+=`~/\,.?></\|b     | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-196 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4676 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -11993,7 +11993,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | -_+=`~/\,.?></\|b     | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-197 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4677 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12008,7 +12008,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | -_+=`~/\,.?></\|b     | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-198 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4678 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12023,7 +12023,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | -_+=`~/\,.?></\|b     | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-199 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4679 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12038,7 +12038,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | -_+=`~/\,.?></\|b      | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-200 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4680 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12053,7 +12053,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | -_+=`~/\,.?></\|b         | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-201 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-64 @ID=09-4681 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12068,7 +12068,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | -_+=`~/\,.?></\|b      | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-202 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4682 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12083,7 +12083,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | -_+=`~/\,.?></\|b      | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-203 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4683 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12098,7 +12098,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-204 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4684 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12113,7 +12113,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs -_+=`~/\,.?></\|b      | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-205 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4685 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12128,7 +12128,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | -_+=`~/\,.?></\|b      | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-206 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4686 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12143,7 +12143,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | -_+=`~/\,.?></\|b      | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-207 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4687 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12158,7 +12158,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | -_+=`~/\,.?></\|b      | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-208 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4688 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12173,7 +12173,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | -_+=`~/\,.?></\|b      | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-209 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4689 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12188,7 +12188,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | -_+=`~/\,.?></\|b      | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-210 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4690 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12203,7 +12203,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | -_+=`~/\,.?></\|b      | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-211 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-65 @ID=09-4691 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12218,7 +12218,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | -_+=`~/\,.?></\|b      | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-212 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4692 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12233,7 +12233,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | -_+=`~/\,.?></\|b      | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-213 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4693 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12248,7 +12248,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | -_+=`~/\,.?></\|b      | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-214 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4694 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12263,7 +12263,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | -_+=`~/\,.?></\|b      | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-215 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4695 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12278,7 +12278,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | -_+=`~/\,.?></\|b      | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-216 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4696 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12293,7 +12293,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | -_+=`~/\,.?></\|b      | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-217 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4697 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12308,7 +12308,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | -_+=`~/\,.?></\|b      | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-218 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4698 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12323,7 +12323,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | -_+=`~/\,.?></\|b      | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-219 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4699 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12338,7 +12338,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | -_+=`~/\,.?></\|b      | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-220 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4700 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12353,7 +12353,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | -_+=`~/\,.?></\|b      | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-221 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-66 @ID=09-4701 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12368,7 +12368,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | -_+=`~/\,.?></\|b             | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-222 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4702 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12383,7 +12383,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | -_+=`~/\,.?></\|b        | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-223 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4703 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12398,7 +12398,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | -_+=`~/\,.?></\|b       | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-224 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4704 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12413,7 +12413,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | -_+=`~/\,.?></\|b      | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-225 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4705 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12428,7 +12428,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | -_+=`~/\,.?></\|b      | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-226 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4706 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12443,7 +12443,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | -_+=`~/\,.?></\|b      | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-227 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4707 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12458,7 +12458,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | -_+=`~/\,.?></\|b      |
 
 
-  @CableRowMaterials @Save  @ID=17-03-228 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4708 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12473,7 +12473,7 @@ Feature: Input Tests
       |    | / PaSSword!@#$%       | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | / PaSSword!@#$%0       | / PaSSword!@#$%1          | / PaSSword!@#$%2       | / PaSSword!@#$%3       | NAME wire14 | Pairs / PaSSword!@#$%5       | / PaSSword!@#$%6       | / PaSSword!@#$%7       | / PaSSword!@#$%8       | / PaSSword!@#$%9       | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-229 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4709 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12488,7 +12488,7 @@ Feature: Input Tests
       |    | NAME1                 | / PaSSword!@#$%       | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | / PaSSword!@#$%0       | / PaSSword!@#$%1       | / PaSSword!@#$%2       | / PaSSword!@#$%3       | / PaSSword!@#$%4       | / PaSSword!@#$%5       | / PaSSword!@#$%6       | / PaSSword!@#$%7       | / PaSSword!@#$%8       | / PaSSword!@#$%9       | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-230 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4710 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12503,7 +12503,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | / PaSSword!@#$%       | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | / PaSSword!@#$%0       | / PaSSword!@#$%1       | / PaSSword!@#$%2              | / PaSSword!@#$%3         | / PaSSword!@#$%4        | / PaSSword!@#$%5       | / PaSSword!@#$%6       | / PaSSword!@#$%7       | / PaSSword!@#$%8       |
 
 
-  @CableRowMaterials @Save  @ID=17-03-231 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-67 @ID=09-4711 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12518,7 +12518,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | / PaSSword!@#$%       | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-232 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4712 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12533,7 +12533,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | / PaSSword!@#$%       | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-233 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4713 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12548,7 +12548,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | / PaSSword!@#$%       | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-234 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4714 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12563,7 +12563,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | / PaSSword!@#$%       | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-235 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4715 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12578,7 +12578,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | / PaSSword!@#$%       | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-236 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4716 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12593,7 +12593,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | / PaSSword!@#$%       | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-237 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4717 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12608,7 +12608,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | / PaSSword!@#$%        | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-238 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4718 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12623,7 +12623,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | / PaSSword!@#$%           | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-239 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4719 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12638,7 +12638,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | / PaSSword!@#$%        | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-240 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4720 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12653,7 +12653,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | / PaSSword!@#$%        | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-241 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-68 @ID=09-4721 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12668,7 +12668,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-242 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4722 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12683,7 +12683,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs / PaSSword!@#$%        | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-243 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4723 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12698,7 +12698,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | / PaSSword!@#$%        | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-244 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4724 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12713,7 +12713,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | / PaSSword!@#$%        | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-245 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4725 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12728,7 +12728,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | / PaSSword!@#$%        | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-246 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4726 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12743,7 +12743,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | / PaSSword!@#$%        | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-247 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4727 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12758,7 +12758,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | / PaSSword!@#$%        | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-248 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4728 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12773,7 +12773,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | / PaSSword!@#$%        | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-249 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4729 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12788,7 +12788,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | / PaSSword!@#$%        | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-250 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4730 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12803,7 +12803,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | / PaSSword!@#$%        | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-251 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-69 @ID=09-4731 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12818,7 +12818,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | / PaSSword!@#$%        | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-252 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4732 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12833,7 +12833,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | / PaSSword!@#$%        | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-253 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4733 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12848,7 +12848,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | / PaSSword!@#$%        | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-254 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4734 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12863,7 +12863,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | / PaSSword!@#$%        | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-255 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4735 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12878,7 +12878,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | / PaSSword!@#$%        | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-256 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4736 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12893,7 +12893,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | / PaSSword!@#$%        | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-257 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4737 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12908,7 +12908,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | / PaSSword!@#$%        | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-258 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4738 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12923,7 +12923,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | / PaSSword!@#$%        | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-259 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4739 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12938,7 +12938,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | / PaSSword!@#$%               | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-260 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4740 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12953,7 +12953,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | / PaSSword!@#$%          | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-261 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-70 @ID=09-4741 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12968,7 +12968,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | / PaSSword!@#$%         | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-262 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4742 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12983,7 +12983,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | / PaSSword!@#$%        | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-263 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4743 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -12998,7 +12998,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | / PaSSword!@#$%        | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-264 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4744 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13013,7 +13013,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | / PaSSword!@#$%        | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-265 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4745 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13028,7 +13028,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | / PaSSword!@#$%        |
 
 
-  @CableRowMaterials @Save  @ID=17-03-266 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4746 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13043,7 +13043,7 @@ Feature: Input Tests
       |    | ^&*()-_+=`~/\,.?><\|  | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | ^&*()-_+=`~/\,.?><\|0  | ^&*()-_+=`~/\,.?><\|1     | ^&*()-_+=`~/\,.?><\|2  | ^&*()-_+=`~/\,.?><\|3  | NAME wire14 | Pairs ^&*()-_+=`~/\,.?><\|5  | ^&*()-_+=`~/\,.?><\|6  | ^&*()-_+=`~/\,.?><\|7  | ^&*()-_+=`~/\,.?><\|8  | ^&*()-_+=`~/\,.?><\|9  | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-267 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4747 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13058,7 +13058,7 @@ Feature: Input Tests
       |    | NAME1                 | ^&*()-_+=`~/\,.?><\|  | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | ^&*()-_+=`~/\,.?><\|0  | ^&*()-_+=`~/\,.?><\|1  | ^&*()-_+=`~/\,.?><\|2  | ^&*()-_+=`~/\,.?><\|3  | ^&*()-_+=`~/\,.?><\|4  | ^&*()-_+=`~/\,.?><\|5  | ^&*()-_+=`~/\,.?><\|6  | ^&*()-_+=`~/\,.?><\|7  | ^&*()-_+=`~/\,.?><\|8  | ^&*()-_+=`~/\,.?><\|9  | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-268 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4748 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13073,7 +13073,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | ^&*()-_+=`~/\,.?><\|  | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | ^&*()-_+=`~/\,.?><\|0  | ^&*()-_+=`~/\,.?><\|1  | ^&*()-_+=`~/\,.?><\|2         | ^&*()-_+=`~/\,.?><\|3    | ^&*()-_+=`~/\,.?><\|4   | ^&*()-_+=`~/\,.?><\|5  | ^&*()-_+=`~/\,.?><\|6  | ^&*()-_+=`~/\,.?><\|7  | ^&*()-_+=`~/\,.?><\|8  |
 
 
-  @CableRowMaterials @Save  @ID=17-03-269 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4749 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13088,7 +13088,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | ^&*()-_+=`~/\,.?><\|  | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-270 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4750 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13103,7 +13103,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | ^&*()-_+=`~/\,.?><\|  | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-271 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-71 @ID=09-4751 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13118,7 +13118,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | ^&*()-_+=`~/\,.?><\|  | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-272 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4752 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13133,7 +13133,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | ^&*()-_+=`~/\,.?><\|  | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-273 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4753 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13148,7 +13148,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | ^&*()-_+=`~/\,.?><\|  | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-274 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4754 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13163,7 +13163,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | ^&*()-_+=`~/\,.?><\|  | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-275 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4755 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13178,7 +13178,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | ^&*()-_+=`~/\,.?><\|   | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-276 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4756 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13193,7 +13193,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | ^&*()-_+=`~/\,.?><\|      | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-277 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4757 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13208,7 +13208,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | ^&*()-_+=`~/\,.?><\|   | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-278 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4758 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13223,7 +13223,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | ^&*()-_+=`~/\,.?><\|   | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-279 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4759 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13238,7 +13238,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-280 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4760 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13253,7 +13253,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs ^&*()-_+=`~/\,.?><\|   | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-281 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-72 @ID=09-4761 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13268,7 +13268,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | ^&*()-_+=`~/\,.?><\|   | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-282 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4762 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13283,7 +13283,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | ^&*()-_+=`~/\,.?><\|   | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-283 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4763 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13298,7 +13298,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | ^&*()-_+=`~/\,.?><\|   | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-284 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4764 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13313,7 +13313,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | ^&*()-_+=`~/\,.?><\|   | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-285 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4765 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13328,7 +13328,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | ^&*()-_+=`~/\,.?><\|   | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-286 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4766 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13343,7 +13343,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | ^&*()-_+=`~/\,.?><\|   | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-287 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4767 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13358,7 +13358,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | ^&*()-_+=`~/\,.?><\|   | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-288 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4768 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13373,7 +13373,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | ^&*()-_+=`~/\,.?><\|   | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-289 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4769 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13388,7 +13388,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | ^&*()-_+=`~/\,.?><\|   | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-290 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4770 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13403,7 +13403,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | ^&*()-_+=`~/\,.?><\|   | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-291 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-73 @ID=09-4771 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13418,7 +13418,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | ^&*()-_+=`~/\,.?><\|   | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-292 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4772 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13433,7 +13433,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | ^&*()-_+=`~/\,.?><\|   | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-293 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4773 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13448,7 +13448,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | ^&*()-_+=`~/\,.?><\|   | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-294 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4774 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13463,7 +13463,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | ^&*()-_+=`~/\,.?><\|   | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-295 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4775 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13478,7 +13478,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | ^&*()-_+=`~/\,.?><\|   | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-296 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4776 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13493,7 +13493,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | ^&*()-_+=`~/\,.?><\|   | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-297 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4777 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13508,7 +13508,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | ^&*()-_+=`~/\,.?><\|          | NAME33                   | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-298 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4778 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13523,7 +13523,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | ^&*()-_+=`~/\,.?><\|     | NAME34                  | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-299 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4779 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13538,7 +13538,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | ^&*()-_+=`~/\,.?><\|    | NAME35                 | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-300 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4780 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13553,7 +13553,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | ^&*()-_+=`~/\,.?><\|   | NAME36                 | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-301 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-74 @ID=09-4781 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13568,7 +13568,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | ^&*()-_+=`~/\,.?><\|   | NAME37                 | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-302 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-75 @ID=09-4782 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13583,7 +13583,7 @@ Feature: Input Tests
       |    | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 | NAME10                 | NAME11                    | NAME12                 | NAME13                 | NAME wire14 | Pairs NAME15                 | NAME16                 | NAME17                 | NAME18                 | NAME19                 | NAME20                 | NAME21                 | NAME22                 | NAME23                 | NAME24                 | NAME25                 | NAME26                 | NAME27                 | NAME28                 | NAME29                 | NAME30                 | NAME31                 | NAME32                        | NAME33                   | NAME34                  | NAME35                 | NAME36                 | ^&*()-_+=`~/\,.?><\|   | NAME38                 |
 
 
-  @CableRowMaterials @Save  @ID=17-03-303 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save  @P=17-75 @ID=09-4783 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -13599,7 +13599,7 @@ Feature: Input Tests
 
 
 
- @Save @Revision @Bom @Connector @CustomPart @ID=17-04-00 @PRIORITY=5 @ASSIGNED=1
+ @Save @Revision @Bom @Connector @CustomPart @P=17-75 @ID=09-752 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13618,7 +13618,7 @@ Examples:
 |                       | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-01 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-75 @ID=09-753 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13637,7 +13637,7 @@ Examples:
 | NAME1                 |                       | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-02 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-75 @ID=09-754 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13656,7 +13656,7 @@ Examples:
 | NAME1                 | NAME2                 |                       | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-03 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-75 @ID=09-755 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13675,7 +13675,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 |                       | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-04 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-75 @ID=09-756 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13694,7 +13694,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 |                       | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-05 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-75 @ID=09-757 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13713,7 +13713,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 |                       | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-06 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-75 @ID=09-758 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13732,7 +13732,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 |                       | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-07 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-75 @ID=09-759 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13751,7 +13751,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 |                       | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-08 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-760 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13770,7 +13770,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 |                       |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-09 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-761 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13789,7 +13789,7 @@ Examples:
 | “♣☺♂” ,               | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-10 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-762 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13808,7 +13808,7 @@ Examples:
 | NAME1                 | “♣☺♂” ,               | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-11 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-763 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13827,7 +13827,7 @@ Examples:
 | NAME1                 | NAME2                 | “♣☺♂” ,               | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-12 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-764 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13846,7 +13846,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | “♣☺♂” ,               | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-13 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-765 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13865,7 +13865,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | “♣☺♂” ,               | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-14 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-766 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13884,7 +13884,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | “♣☺♂” ,               | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-15 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-767 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13903,7 +13903,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | “♣☺♂” ,               | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-16 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-768 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13922,7 +13922,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | “♣☺♂” ,               | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-17 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-76 @ID=09-769 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13941,7 +13941,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | “♣☺♂” ,               |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-18 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-770 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13960,7 +13960,7 @@ Examples:
 | “”‘~!@#$%^&*()?>      | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-19 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-771 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13979,7 +13979,7 @@ Examples:
 | NAME1                 | “”‘~!@#$%^&*()?>      | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-20 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-772 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -13998,7 +13998,7 @@ Examples:
 | NAME1                 | NAME2                 | “”‘~!@#$%^&*()?>      | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-21 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-773 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14017,7 +14017,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | “”‘~!@#$%^&*()?>      | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-22 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-774 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14036,7 +14036,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | “”‘~!@#$%^&*()?>      | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-23 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-775 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14055,7 +14055,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | “”‘~!@#$%^&*()?>      | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-24 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-776 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14074,7 +14074,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | “”‘~!@#$%^&*()?>      | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-25 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-777 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14093,7 +14093,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | “”‘~!@#$%^&*()?>      | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-26 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-778 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14112,7 +14112,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | “”‘~!@#$%^&*()?>      |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-27 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-77 @ID=09-779 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14131,7 +14131,7 @@ Examples:
 | ,.<][                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-28 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-780 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14150,7 +14150,7 @@ Examples:
 | NAME1                 | ,.<][                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-29 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-781 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14169,7 +14169,7 @@ Examples:
 | NAME1                 | NAME2                 | ,.<][                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-30 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-782 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14188,7 +14188,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | ,.<][                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-31 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-783 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14207,7 +14207,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | ,.<][                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-32 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-784 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14226,7 +14226,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | ,.<][                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-33 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-785 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14245,7 +14245,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | ,.<][                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-34 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-786 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14264,7 +14264,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | ,.<][                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-35 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-787 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14283,7 +14283,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | ,.<][                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-36 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-788 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14302,7 +14302,7 @@ Examples:
 | /*<!–“”, “${code}”;–> | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-37 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-78 @ID=09-789 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14321,7 +14321,7 @@ Examples:
 | NAME1                 | /*<!–“”, “${code}”;–> | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-38 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-790 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14340,7 +14340,7 @@ Examples:
 | NAME1                 | NAME2                 | /*<!–“”, “${code}”;–> | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-39 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-791 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14359,7 +14359,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | /*<!–“”, “${code}”;–> | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-40 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-792 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14378,7 +14378,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | /*<!–“”, “${code}”;–> | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-41 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-793 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14397,7 +14397,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | /*<!–“”, “${code}”;–> | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-42 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-794 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14416,7 +14416,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | /*<!–“”, “${code}”;–> | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-43 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-795 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14435,7 +14435,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | /*<!–“”, “${code}”;–> | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-44 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-796 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14454,7 +14454,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | /*<!–“”, “${code}”;–> |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-45 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-797 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14473,7 +14473,7 @@ Examples:
 | Aa!@#$%^&*()          | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-46 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-798 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14492,7 +14492,7 @@ Examples:
 | NAME1                 | Aa!@#$%^&*()          | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-47 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-79 @ID=09-799 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14511,7 +14511,7 @@ Examples:
 | NAME1                 | NAME2                 | Aa!@#$%^&*()          | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-48 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-800 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14530,7 +14530,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | Aa!@#$%^&*()          | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-49 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-801 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14549,7 +14549,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | Aa!@#$%^&*()          | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-50 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-802 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14568,7 +14568,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | Aa!@#$%^&*()          | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-51 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-803 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14587,7 +14587,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | Aa!@#$%^&*()          | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-52 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-804 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14606,7 +14606,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | Aa!@#$%^&*()          | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-53 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-805 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14625,7 +14625,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | Aa!@#$%^&*()          |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-54 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-806 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14644,7 +14644,7 @@ Examples:
 | -_+=`~/\,.?></\|b     | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-55 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-807 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14663,7 +14663,7 @@ Examples:
 | NAME1                 | -_+=`~/\,.?></\|b     | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-56 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-808 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14682,7 +14682,7 @@ Examples:
 | NAME1                 | NAME2                 | -_+=`~/\,.?></\|b     | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-57 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-80 @ID=09-809 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14701,7 +14701,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | -_+=`~/\,.?></\|b     | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-58 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-810 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14720,7 +14720,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | -_+=`~/\,.?></\|b     | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-59 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-811 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14739,7 +14739,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | -_+=`~/\,.?></\|b     | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-60 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-812 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14758,7 +14758,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | -_+=`~/\,.?></\|b     | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-61 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-813 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14777,7 +14777,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | -_+=`~/\,.?></\|b     | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-62 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-814 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14796,7 +14796,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | -_+=`~/\,.?></\|b     |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-63 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-815 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14815,7 +14815,7 @@ Examples:
 | / PaSSword!@#$%       | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-64 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-816 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14834,7 +14834,7 @@ Examples:
 | NAME1                 | / PaSSword!@#$%       | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-65 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-817 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14853,7 +14853,7 @@ Examples:
 | NAME1                 | NAME2                 | / PaSSword!@#$%       | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-66 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-818 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14872,7 +14872,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | / PaSSword!@#$%       | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-67 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-81 @ID=09-819 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14891,7 +14891,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | / PaSSword!@#$%       | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-68 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-820 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14910,7 +14910,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | / PaSSword!@#$%       | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-69 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-821 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14929,7 +14929,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | / PaSSword!@#$%       | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-70 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-822 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14948,7 +14948,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | / PaSSword!@#$%       | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-71 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-823 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14967,7 +14967,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | / PaSSword!@#$%       |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-72 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-824 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -14986,7 +14986,7 @@ Examples:
 | ^&*()-_+=`~/\,.?><\|  | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-73 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-825 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -15005,7 +15005,7 @@ Examples:
 | NAME1                 | ^&*()-_+=`~/\,.?><\|  | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-74 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-826 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -15024,7 +15024,7 @@ Examples:
 | NAME1                 | NAME2                 | ^&*()-_+=`~/\,.?><\|  | NAME4                 | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-75 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-827 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -15043,7 +15043,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | ^&*()-_+=`~/\,.?><\|  | NAME5                 | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-76 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-828 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -15062,7 +15062,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | ^&*()-_+=`~/\,.?><\|  | NAME6                 | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-77 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-82 @ID=09-829 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -15081,7 +15081,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | ^&*()-_+=`~/\,.?><\|  | NAME7                 | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-78 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-83 @ID=09-830 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -15100,7 +15100,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | ^&*()-_+=`~/\,.?><\|  | NAME8                 | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-79 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-83 @ID=09-831 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]
@@ -15119,7 +15119,7 @@ Examples:
 | NAME1                 | NAME2                 | NAME3                 | NAME4                 | NAME5                 | NAME6                 | NAME7                 | ^&*()-_+=`~/\,.?><\|  | NAME9                 |
 
 
-@Save @Revision @Bom @Connector @CustomPart @ID=17-04-80 @PRIORITY=5 @ASSIGNED=1
+@Save @Revision @Bom @Connector @CustomPart @P=17-83 @ID=09-832 @PRIORITY=5 @ASSIGNED=1
 Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
 Given Открыть главную страницу
 And Кликнуть на кнопку [LOGIN]

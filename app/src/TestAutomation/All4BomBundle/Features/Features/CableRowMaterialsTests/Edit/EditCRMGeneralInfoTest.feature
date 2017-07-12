@@ -1,6 +1,6 @@
 Feature: Test Cable Row Materials Module
 
-  @CableRowMaterials @Edit @Smoke @ID=11-01 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @Smoke @P=11-0 @ID=05-00 @PRIORITY=5 @ASSIGNED=1
   Scenario: Редактирование Cable Row Materials с валидными данными
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -16,7 +16,7 @@ Feature: Test Cable Row Materials Module
     And Нажать на вкладку General Info
     And В инпутах будет ранее введенная информация: "1Test TA","Description","Customer name","UL File","CASFile","Awg","Material","Construction","Diameter","Material2","Minimum Average Thickness","Braid","Foil","Drain wire","Pairs number","Conductors number","Outdoor requirements","Material3","Diameter3","Average Thickness","Surface","Color","Marking olor","Overall diameter","Dielectric strength","Spark test","Temperature rating","Insulation resistance","Conductor resistance","Rating Voltage","Flame test","Tensile strength before aging","Elongation before agling","Elongation after agling","Deformation test","Cold bend test","Heat shock test","Marking"
 
-  @CableRowMaterials @Edit @ID=11-02-00 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-01 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -34,7 +34,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 2   | T           |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-01 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-02 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -52,7 +52,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 3   | 123         |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-02 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-03 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -70,7 +70,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 4   | Русский     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-03 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-04 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -88,7 +88,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 5   | עברי        |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-04 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-05 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -106,7 +106,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 6   | 中国          |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-05 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-06 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -124,7 +124,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 7   | Test TA     | Description   |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-06 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-07 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -142,7 +142,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 8   | Test TA     | D             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-07 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-08 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -160,7 +160,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 9   | Test TA     | 123           |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-08 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-0 @ID=05-09 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -178,7 +178,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 10  | Test TA     | Русский       |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-09 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-10 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -196,7 +196,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 11  | Test TA     | עברי          |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-10 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-11 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -214,7 +214,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 12  | Test TA     | 中国            |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-11 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-12 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -232,7 +232,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 13  | Test TA     | GoodMaxString |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-12 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-13 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -250,7 +250,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 14  | Test TA     |               | Customer name |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-13 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-14 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -268,7 +268,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 15  | Test TA     |               | D             |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-14 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-15 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -286,7 +286,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 16  | Test TA     |               | 123           |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-15 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-16 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -304,7 +304,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 17  | Test TA     |               | Русский       |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-16 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-17 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -322,7 +322,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 18  | Test TA     |               | עברי          |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-17 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-18 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -340,7 +340,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 19  | Test TA     |               | 中国            |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-18 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-1 @ID=05-19 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -358,7 +358,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 20  | Test TA     |               | GoodMaxString |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-19 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-20 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -376,7 +376,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 21  | Test TA     |               |               | UL File       |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-20 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-21 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -394,7 +394,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 22  | Test TA     |               |               | U             |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-21 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-22 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -412,7 +412,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 23  | Test TA     |               |               | 123           |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-22 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-23 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -430,7 +430,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 24  | Test TA     |               |               | Русский       |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-23 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-24 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -448,7 +448,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 25  | Test TA     |               |               | עִבְרִית      |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-24 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-25 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -466,7 +466,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 26  | Test TA     |               |               | 中国            |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-25 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-26 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -484,7 +484,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 27  | Test TA     |               |               | GoodMaxString |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-26 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-27 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -502,7 +502,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 28  | Test TA     |               |               |               | CASFile       |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-27 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-28 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -520,7 +520,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 29  | Test TA     |               |               |               | С             |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-28 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-2 @ID=05-29 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -538,7 +538,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 30  | Test TA     |               |               |               | 123           |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-29 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-30 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -556,7 +556,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 31  | Test TA     |               |               |               | Русский       |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-30 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-31 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -574,7 +574,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 32  | Test TA     |               |               |               | עִבְרִית      |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-31 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-32 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -592,7 +592,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 33  | Test TA     |               |               |               | 中国            |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-32 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-33 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -610,7 +610,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 34  | Test TA     |               |               |               | GoodMaxString |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-33 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-34 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -628,7 +628,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 35  | Test TA     |               |               |               |               | Awg           |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-34 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-35 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -646,7 +646,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 36  | Test TA     |               |               |               |               | A             |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-35 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-36 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -664,7 +664,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 37  | Test TA     |               |               |               |               | 123           |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-36 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-37 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -682,7 +682,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 38  | Test TA     |               |               |               |               | Русский       |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-37 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-38 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -700,7 +700,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 39  | Test TA     |               |               |               |               | עִבְרִית      |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-38 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-3 @ID=05-39 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -718,7 +718,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 40  | Test TA     |               |               |               |               | 中国            |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-39 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-40 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -736,7 +736,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 41  | Test TA     |               |               |               |               | GoodMaxString |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-40 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-41 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -754,7 +754,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 42  | Test TA     |               |               |               |               |               | Material      |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-41 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-42 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -772,7 +772,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 43  | Test TA     |               |               |               |               |               | M             |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-42 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-43 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -790,7 +790,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 44  | Test TA     |               |               |               |               |               | 123           |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-43 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-44 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -808,7 +808,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 45  | Test TA     |               |               |               |               |               | Русский       |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-44 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-45 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -826,7 +826,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 46  | Test TA     |               |               |               |               |               | עִבְרִית      |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-45 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-46 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -844,7 +844,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 47  | Test TA     |               |               |               |               |               | 中国            |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-46 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-47 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -862,7 +862,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 48  | Test TA     |               |               |               |               |               | GoodMaxString |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-47 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-48 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -880,7 +880,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 49  | Test TA     |               |               |               |               |               |               | Construction  |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-48 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-4 @ID=05-49 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -898,7 +898,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 50  | Test TA     |               |               |               |               |               |               | C             |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-49 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-50 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -916,7 +916,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 51  | Test TA     |               |               |               |               |               |               | 123           |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-50 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-51 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -934,7 +934,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 52  | Test TA     |               |               |               |               |               |               | Русский       |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-51 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-52 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -952,7 +952,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 53  | Test TA     |               |               |               |               |               |               | עִבְרִית      |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-52 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-53 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -970,7 +970,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 54  | Test TA     |               |               |               |               |               |               | 中国            |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-53 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-54 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -988,7 +988,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 55  | Test TA     |               |               |               |               |               |               | GoodMaxString |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-54 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-55 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1006,7 +1006,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 56  | Test TA     |               |               |               |               |               |               |               | Diameter      |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-55 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-56 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1024,7 +1024,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 57  | Test TA     |               |               |               |               |               |               |               | D             |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-56 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-57 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1042,7 +1042,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 58  | Test TA     |               |               |               |               |               |               |               | 123           |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-57 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-58 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1060,7 +1060,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 59  | Test TA     |               |               |               |               |               |               |               | Русский       |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-58 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-5 @ID=05-59 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1078,7 +1078,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 60  | Test TA     |               |               |               |               |               |               |               | עִבְרִית      |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-59 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-60 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1096,7 +1096,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 61  | Test TA     |               |               |               |               |               |               |               | 中国            |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-60 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-61 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1114,7 +1114,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 62  | Test TA     |               |               |               |               |               |               |               | GoodMaxString |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-61 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-62 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1132,7 +1132,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 63  | Test TA     |               |               |               |               |               |               |               |               | Material2     |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-62 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-63 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1150,7 +1150,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 64  | Test TA     |               |               |               |               |               |               |               |               | M             |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-63 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-64 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1168,7 +1168,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 65  | Test TA     |               |               |               |               |               |               |               |               | 123           |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-64 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-65 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1186,7 +1186,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 66  | Test TA     |               |               |               |               |               |               |               |               | Русский       |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-65 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-66 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1204,7 +1204,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 67  | Test TA     |               |               |               |               |               |               |               |               | עִבְרִית      |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-66 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-67 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1222,7 +1222,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 68  | Test TA     |               |               |               |               |               |               |               |               | 中国            |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-67 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-68 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1240,7 +1240,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 69  | Test TA     |               |               |               |               |               |               |               |               | GoodMaxString |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-68 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-6 @ID=05-69 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1258,7 +1258,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 70  | Test TA     |               |               |               |               |               |               |               |               |               | Minimum Average Thickness |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-69 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-70 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1276,7 +1276,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 71  | Test TA     |               |               |               |               |               |               |               |               |               | M                         |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-70 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-71 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1294,7 +1294,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 72  | Test TA     |               |               |               |               |               |               |               |               |               | 123                       |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-71 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-72 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1312,7 +1312,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 73  | Test TA     |               |               |               |               |               |               |               |               |               | Русский                   |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-72 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-73 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1330,7 +1330,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 74  | Test TA     |               |               |               |               |               |               |               |               |               | עִבְרִית                  |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-73 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-74 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1348,7 +1348,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 75  | Test TA     |               |               |               |               |               |               |               |               |               | 中国                        |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-74 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-75 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1366,7 +1366,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 76  | Test TA     |               |               |               |               |               |               |               |               |               | GoodMaxString             |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-75 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-76 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1384,7 +1384,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 77  | Test TA     |               |               |               |               |               |               |               |               |               |                           | Braid         |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-76 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-77 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1402,7 +1402,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 78  | Test TA     |               |               |               |               |               |               |               |               |               |                           | B             |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-77 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-78 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1420,7 +1420,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 79  | Test TA     |               |               |               |               |               |               |               |               |               |                           | 123           |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-78 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-7 @ID=05-79 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1438,7 +1438,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 80  | Test TA     |               |               |               |               |               |               |               |               |               |                           | Русский       |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-79 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-80 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1456,7 +1456,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 81  | Test TA     |               |               |               |               |               |               |               |               |               |                           | עִבְרִית      |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-#  @CableRowMaterials @Edit @ID=11-02-80 @PRIORITY=5 @ASSIGNED=1
+#  @CableRowMaterials @Edit @P=11-8 @ID=05-81 @PRIORITY=5 @ASSIGNED=1
 #  Scenario Outline: Edit cable row materials with good data
 #    Given Создать новый Cable Row Materials
 #    When Нажать на вкладку General Info
@@ -1474,7 +1474,7 @@ Feature: Test Cable Row Materials Module
 #    Examples:
 #      | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
 #      | 82  | Test TA     |               |               |               |               |               |               |               |               |               |                           | 中国            |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-81 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-82 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1492,7 +1492,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 83  | Test TA     |               |               |               |               |               |               |               |               |               |                           | GoodMaxString |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-82 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-83 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1510,7 +1510,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 84  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               | Foil          |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-83 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-84 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1528,7 +1528,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 85  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               | F             |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-84 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-85 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1546,7 +1546,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 86  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               | 123           |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-85 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-86 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1564,7 +1564,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 87  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               | Русский       |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-86 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-87 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1582,7 +1582,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 88  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               | עִבְרִית      |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-87 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-88 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1600,7 +1600,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 89  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               | 中国            |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-88 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-8 @ID=05-89 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1618,7 +1618,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 90  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               | GoodMaxString |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-89 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-90 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1636,7 +1636,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 91  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               | Drain wire    |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-90 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-91 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1654,7 +1654,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 92  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               | D             |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-91 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-92 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1672,7 +1672,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 93  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               | 123           |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-92 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-93 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1690,7 +1690,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 94  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               | Русский       |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-93 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-94 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1708,7 +1708,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 95  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               | עִבְרִית      |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-94 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-95 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1726,7 +1726,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 96  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               | 中国            |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-95 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-96 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1744,7 +1744,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 97  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               | GoodMaxString |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-96 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-97 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1762,7 +1762,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 98  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               | Pairs number  |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-97 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-98 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1780,7 +1780,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 99  | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               | P             |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-98 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-9 @ID=05-99 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1798,7 +1798,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 100 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               | 123           |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-99 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-100 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1816,7 +1816,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 101 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               | Русский       |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-100 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-110 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1834,7 +1834,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 102 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               | עִבְרִית      |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-101 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-111 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1852,7 +1852,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 103 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               | 中国            |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-102 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-112 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1870,7 +1870,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 104 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               | GoodMaxString |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-103 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-113 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1888,7 +1888,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 105 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               | Conductors number |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-104 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-114 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1906,7 +1906,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 106 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               | C                 |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-105 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-115 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1924,7 +1924,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 107 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               | 123               |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-106 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-116 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1942,7 +1942,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 108 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               | Русский           |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-107 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-117 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1960,7 +1960,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 109 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               | עִבְרִית          |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-108 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-10 @ID=05-118 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1978,7 +1978,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 110 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               | 中国                |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-109 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-119 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1996,7 +1996,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 111 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               | GoodMaxString     |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-110 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-120 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2014,7 +2014,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 112 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | Outdoor requirements |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-111 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-121 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2032,7 +2032,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 113 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | O                    |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-112 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-122 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2050,7 +2050,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 114 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | 123                  |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-113 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-123 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2068,7 +2068,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 115 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | Русский              |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-114 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-124 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2086,7 +2086,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 116 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | עִבְרִית             |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-115 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-125 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2104,7 +2104,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 117 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | 中国                   |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-116 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-126 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2122,7 +2122,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 118 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | GoodMaxString        |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-117 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-127 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2140,7 +2140,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 119 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | Material3     |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-118 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-11 @ID=05-128 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2158,7 +2158,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 120 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | M             |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-119 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-129 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2176,7 +2176,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 121 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | 123           |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-120 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-130 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2194,7 +2194,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 122 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | Русский       |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-121 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-131 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2212,7 +2212,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 123 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | עִבְרִית      |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-122 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-132 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2230,7 +2230,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 124 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | 中国            |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-123 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-133 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2248,7 +2248,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 125 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | GoodMaxString |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-124 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-134 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2266,7 +2266,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 126 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | Diameter3     |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-125 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-135 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2284,7 +2284,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 127 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | D             |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-126 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-136 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2302,7 +2302,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 128 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | 123           |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-127 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-137 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2320,7 +2320,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 129 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | Русский       |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-128 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-12 @ID=05-138 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2338,7 +2338,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 130 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | עִבְרִית      |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-129 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-139 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2356,7 +2356,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 131 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | 中国            |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-130 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-140 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2374,7 +2374,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 132 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | GoodMaxString |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-131 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-141 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2392,7 +2392,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 133 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | Average Thickness |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-132 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-142 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2410,7 +2410,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 134 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | A                 |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-133 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-143 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2428,7 +2428,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 135 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | 123               |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-134 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-144 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2446,7 +2446,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 136 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | Русский           |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-135 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-145 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2464,7 +2464,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 137 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | עִבְרִית          |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-136 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-146 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2482,7 +2482,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 138 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | 中国                |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-137 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-147 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2500,7 +2500,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 139 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | GoodMaxString     |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-138 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-13 @ID=05-148 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2518,7 +2518,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 140 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | Surface       |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-139 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-149 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2536,7 +2536,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 141 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | S             |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-140 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-150 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2554,7 +2554,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 142 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | 123           |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-141 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-151 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2572,7 +2572,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 143 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | Русский       |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-142 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-152 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2590,7 +2590,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 144 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | עִבְרִית      |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-143 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-153 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2608,7 +2608,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 145 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | 中国            |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-144 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-154 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2626,7 +2626,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 146 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | GoodMaxString |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-145 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-155 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2644,7 +2644,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 147 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               | Color   |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-146 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-156 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2662,7 +2662,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 148 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               | С       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-147 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-157 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -2680,7 +2680,7 @@ Feature: Test Cable Row Materials Module
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 149 | Test TA     |               |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               | 123     |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Edit @ID=11-02-148 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Edit @P=11-14 @ID=05-158 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Edit cable row materials with good data
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info

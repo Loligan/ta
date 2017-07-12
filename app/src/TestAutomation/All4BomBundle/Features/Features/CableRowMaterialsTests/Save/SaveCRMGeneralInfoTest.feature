@@ -1,6 +1,6 @@
 Feature: Проверка сохранения Cable Row
 
-  @CableRowMaterials @Save @Smoke @ID=10-01 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @Smoke @P=10-0 @ID=06-00 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -14,7 +14,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 1  | Test TA     | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
 
-  @CableRowMaterials @Save @ID=10-02-00 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-01 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -28,7 +28,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 2  | T           |             |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-01 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-02 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -42,7 +42,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 3  | 123         |             |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-02 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-03 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -56,7 +56,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 4  | Русский     |             |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-03 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-04 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -70,7 +70,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 5  | עברי        |             |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-04 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-05 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -84,7 +84,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 6  | 中国          |             |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-05 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-06 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -98,7 +98,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 7  | Test TA     | Description |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-06 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-07 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -112,7 +112,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 8  | Test TA     | D           |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-07 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-08 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -126,7 +126,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 9  | Test TA     | 123         |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-08 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-0 @ID=06-09 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -140,7 +140,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 10 | Test TA     | Русский     |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-09 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-10 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -154,7 +154,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 11 | Test TA     | עברי        |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-10 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-11 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -168,7 +168,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 12 | Test TA     | 中国          |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-11 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-12 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -182,7 +182,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description   | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 13 | Test TA     | GoodMaxString |               |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-12 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-13 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -196,7 +196,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 14 | Test TA     |             | Customer name |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-13 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-14 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -210,7 +210,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 15 | Test TA     |             | D             |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-14 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-15 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -224,7 +224,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 16 | Test TA     |             | 123           |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-15 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-16 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -238,7 +238,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 17 | Test TA     |             | Русский       |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-16 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-17 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -252,7 +252,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 18 | Test TA     |             | עברי          |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-17 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-18 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -266,7 +266,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 19 | Test TA     |             | 中国            |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-18 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-1 @ID=06-19 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -280,7 +280,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 20 | Test TA     |             | GoodMaxString |         |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-19 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-20 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -294,7 +294,7 @@ Feature: Проверка сохранения Cable Row
       | ID | Part number | Description | Customer name | UL File | CASFile | Awg | Material | Construction | Diameter | Material2 | Minimum Average Thickness | Braid | Foil | Drain wire | Pairs number | Conductors number | Outdoor requirements | Material3 | Diameter3 | Average Thickness | Surface | Color | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 21 | Test TA     |             |               | UL File |         |     |          |              |          |           |                           |       |      |            |              |                   |                      |           |           |                   |         |       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
 
-  @CableRowMaterials @Save @ID=10-02-20 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-21 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -307,7 +307,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 22  | Test TA     |             |               | U             |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-21 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-22 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -320,7 +320,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 23 | Test TA |  |  | 123 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-  @CableRowMaterials @Save @ID=10-02-22 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-23 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -333,7 +333,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 24  | Test TA     |             |               | Русский       |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-23 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-24 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -346,7 +346,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 25  | Test TA     |             |               | עִבְרִית      |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-24 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-25 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -359,7 +359,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 26  | Test TA     |             |               | 中国            |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-25 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-26 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -372,7 +372,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 27  | Test TA     |             |               | GoodMaxString |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-26 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-27 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -385,7 +385,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 28  | Test TA     |             |               |               | CASFile       |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-27 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-28 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -398,7 +398,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 29  | Test TA     |             |               |               | С             |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-28 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-2 @ID=06-29 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -411,7 +411,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 30  | Test TA     |             |               |               | 123           |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-29 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-30 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -424,7 +424,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 31  | Test TA     |             |               |               | Русский       |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-30 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-31 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -437,7 +437,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 32  | Test TA     |             |               |               | עִבְרִית      |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-31 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-32 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -450,7 +450,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 33  | Test TA     |             |               |               | 中国            |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-32 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-33 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -463,7 +463,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 34  | Test TA     |             |               |               | GoodMaxString |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-33 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-34 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -476,7 +476,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 35  | Test TA     |             |               |               |               | Awg           |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-34 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-35 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -489,7 +489,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 36  | Test TA     |             |               |               |               | A             |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-35 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-36 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -502,7 +502,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 37  | Test TA     |             |               |               |               | 123           |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-36 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-37 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -515,7 +515,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 38  | Test TA     |             |               |               |               | Русский       |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-37 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-38 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -528,7 +528,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 39  | Test TA     |             |               |               |               | עִבְרִית      |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-38 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-3 @ID=06-39 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -541,7 +541,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 40  | Test TA     |             |               |               |               | 中国            |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-39 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-40 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -554,7 +554,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 41  | Test TA     |             |               |               |               | GoodMaxString |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-40 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-41 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -567,7 +567,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 42  | Test TA     |             |               |               |               |               | Material      |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-41 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-42 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -580,7 +580,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 43  | Test TA     |             |               |               |               |               | M             |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-42 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-43 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -593,7 +593,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 44  | Test TA     |             |               |               |               |               | 123           |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-43 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-44 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -606,7 +606,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 45  | Test TA     |             |               |               |               |               | Русский       |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-44 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-45 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -619,7 +619,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 46  | Test TA     |             |               |               |               |               | עִבְרִית      |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-45 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-46 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -632,7 +632,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 47  | Test TA     |             |               |               |               |               | 中国            |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-46 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-47 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -645,7 +645,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 48  | Test TA     |             |               |               |               |               | GoodMaxString |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-47 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-48 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -658,7 +658,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 49  | Test TA     |             |               |               |               |               |               | Construction  |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-48 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-4 @ID=06-49 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -671,7 +671,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 50  | Test TA     |             |               |               |               |               |               | C             |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-49 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-50 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -684,7 +684,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 51  | Test TA     |             |               |               |               |               |               | 123           |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-50 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-51 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -697,7 +697,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 52  | Test TA     |             |               |               |               |               |               | Русский       |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-51 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-52 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -710,7 +710,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 53  | Test TA     |             |               |               |               |               |               | עִבְרִית      |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-52 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-53 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -723,7 +723,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 54  | Test TA     |             |               |               |               |               |               | 中国            |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-53 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-54 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -736,7 +736,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 55  | Test TA     |             |               |               |               |               |               | GoodMaxString |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-54 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-55 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -749,7 +749,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 56  | Test TA     |             |               |               |               |               |               |               | Diameter      |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-55 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-56 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -762,7 +762,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 57  | Test TA     |             |               |               |               |               |               |               | D             |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-56 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-57 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -775,7 +775,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 58  | Test TA     |             |               |               |               |               |               |               | 123           |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-57 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-58 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -788,7 +788,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 59  | Test TA     |             |               |               |               |               |               |               | Русский       |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-58 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-5 @ID=06-59 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -801,7 +801,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 60  | Test TA     |             |               |               |               |               |               |               | עִבְרִית      |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-59 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-60 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -814,7 +814,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 61  | Test TA     |             |               |               |               |               |               |               | 中国            |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-60 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-61 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -827,7 +827,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 62  | Test TA     |             |               |               |               |               |               |               | GoodMaxString |               |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-61 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-62 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -840,7 +840,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 63  | Test TA     |             |               |               |               |               |               |               |               | Material2     |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-62 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-63 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -853,7 +853,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 64  | Test TA     |             |               |               |               |               |               |               |               | M             |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-63 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-64 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -866,7 +866,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 65  | Test TA     |             |               |               |               |               |               |               |               | 123           |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-64 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-65 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -879,7 +879,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 66  | Test TA     |             |               |               |               |               |               |               |               | Русский       |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-65 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-66 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -892,7 +892,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 67  | Test TA     |             |               |               |               |               |               |               |               | עִבְרִית      |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-66 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-67 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -905,7 +905,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 68  | Test TA     |             |               |               |               |               |               |               |               | 中国            |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-67 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-68 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -918,7 +918,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 69  | Test TA     |             |               |               |               |               |               |               |               | GoodMaxString |                           |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-68 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-6 @ID=06-69 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -931,7 +931,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 70  | Test TA     |             |               |               |               |               |               |               |               |               | Minimum Average Thickness |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-69 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-70 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -944,7 +944,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 71  | Test TA     |             |               |               |               |               |               |               |               |               | M                         |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-70 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-71 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -957,7 +957,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 72  | Test TA     |             |               |               |               |               |               |               |               |               | 123                       |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-71 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-72 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -970,7 +970,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 73  | Test TA     |             |               |               |               |               |               |               |               |               | Русский                   |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-72 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-73 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -983,7 +983,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 74  | Test TA     |             |               |               |               |               |               |               |               |               | עִבְרִית                  |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-73 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-74 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -996,7 +996,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 75  | Test TA     |             |               |               |               |               |               |               |               |               | 中国                        |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-74 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-75 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1009,7 +1009,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 76  | Test TA     |             |               |               |               |               |               |               |               |               | GoodMaxString             |               |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-75 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-76 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1022,7 +1022,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 77  | Test TA     |             |               |               |               |               |               |               |               |               |                           | Braid         |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-76 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-77 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1035,7 +1035,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 78  | Test TA     |             |               |               |               |               |               |               |               |               |                           | B             |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-77 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-78 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1048,7 +1048,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 79  | Test TA     |             |               |               |               |               |               |               |               |               |                           | 123           |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-78 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-7 @ID=06-79 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1061,7 +1061,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 80  | Test TA     |             |               |               |               |               |               |               |               |               |                           | Русский       |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-79 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-80 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1074,7 +1074,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 81  | Test TA     |             |               |               |               |               |               |               |               |               |                           | עִבְרִית      |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-80 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-81 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1087,7 +1087,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 82  | Test TA     |             |               |               |               |               |               |               |               |               |                           | 中国            |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-81 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-82 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1100,7 +1100,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 83  | Test TA     |             |               |               |               |               |               |               |               |               |                           | GoodMaxString |               |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-82 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-83 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1113,7 +1113,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 84  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               | Foil          |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-83 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-84 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1126,7 +1126,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 85  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               | F             |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-84 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-85 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1139,7 +1139,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 86  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               | 123           |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-85 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-86 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1152,7 +1152,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 87  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               | Русский       |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-86 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-87 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1165,7 +1165,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 88  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               | עִבְרִית      |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-87 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-88 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1178,7 +1178,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 89  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               | 中国            |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-88 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-8 @ID=06-89 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1191,7 +1191,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 90  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               | GoodMaxString |               |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-89 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-90 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1204,7 +1204,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 91  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               | Drain wire    |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-90 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-91 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1217,7 +1217,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 92  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               | D             |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-91 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-92 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1230,7 +1230,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 93  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               | 123           |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-92 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-93 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1243,7 +1243,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 94  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               | Русский       |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-93 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-94 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1256,7 +1256,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 95  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               | עִבְרִית      |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-94 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-95 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1269,7 +1269,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 96  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               | 中国            |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-95 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-96 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1282,7 +1282,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 97  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               | GoodMaxString |               |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-96 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-97 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1295,7 +1295,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 98  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               | Pairs number  |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-97 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-98 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1308,7 +1308,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 99  | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               | P             |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-98 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-9 @ID=06-99 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1321,7 +1321,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 100 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               | 123           |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-99 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-100 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1334,7 +1334,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 101 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               | Русский       |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-100 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-110 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1347,7 +1347,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 102 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               | עִבְרִית      |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-101 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-111 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1360,7 +1360,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 103 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               | 中国            |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-102 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-112 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1373,7 +1373,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 104 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               | GoodMaxString |                   |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-103 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-113 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1386,7 +1386,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 105 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               | Conductors number |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-104 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-114 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1399,7 +1399,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 106 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               | C                 |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-105 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-115 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1412,7 +1412,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 107 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               | 123               |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-106 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-116 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1425,7 +1425,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 108 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               | Русский           |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-107 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-117 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1438,7 +1438,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 109 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               | עִבְרִית          |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-108 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-10 @ID=06-118 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1451,7 +1451,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 110 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               | 中国                |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-109 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-119 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1464,7 +1464,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 111 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               | GoodMaxString     |                      |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-110 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-120 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1477,7 +1477,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 112 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | Outdoor requirements |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-111 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-121 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1490,7 +1490,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 113 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | O                    |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-112 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-122 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1503,7 +1503,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 114 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | 123                  |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-113 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-123 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1516,7 +1516,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 115 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | Русский              |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-114 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-124 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1529,7 +1529,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 116 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | עִבְרִית             |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-115 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-125 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1542,7 +1542,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 117 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | 中国                   |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-116 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-126 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1555,7 +1555,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 118 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   | GoodMaxString        |               |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-117 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-127 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1568,7 +1568,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 119 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | Material3     |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-118 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-11 @ID=06-128 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1581,7 +1581,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 120 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | M             |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-119 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-129 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1594,7 +1594,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 121 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | 123           |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-120 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-130 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1607,7 +1607,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 122 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | Русский       |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-121 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-131 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1620,7 +1620,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 123 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | עִבְרִית      |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-122 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-132 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1633,7 +1633,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 124 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | 中国            |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-123 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-133 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1646,7 +1646,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 125 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      | GoodMaxString |               |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-124 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-134 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1659,7 +1659,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 126 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | Diameter3     |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-125 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-135 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1672,7 +1672,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 127 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | D             |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-126 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-136 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1685,7 +1685,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 128 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | 123           |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-127 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-137 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1698,7 +1698,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 129 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | Русский       |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-128 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-12 @ID=06-138 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1711,7 +1711,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 130 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | עִבְרִית      |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-129 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-139 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1724,7 +1724,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 131 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | 中国            |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-130 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-140 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1737,7 +1737,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 132 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               | GoodMaxString |                   |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-131 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-141 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1750,7 +1750,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 133 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | Average Thickness |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-132 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-142 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1763,7 +1763,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 134 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | A                 |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-133 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-143 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1776,7 +1776,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 135 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | 123               |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-134 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-144 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1789,7 +1789,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 136 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | Русский           |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-135 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-145 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1802,7 +1802,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 137 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | עִבְרִית          |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-136 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-146 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1815,7 +1815,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 138 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | 中国                |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-137 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-147 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1828,7 +1828,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 139 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               | GoodMaxString     |               |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-138 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-13 @ID=06-148 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1841,7 +1841,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 140 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | Surface       |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-139 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-149 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1854,7 +1854,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 141 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | S             |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-140 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-150 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1867,7 +1867,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 142 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | 123           |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-141 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-151 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1880,7 +1880,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 143 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | Русский       |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-142 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-152 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1893,7 +1893,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 144 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | עִבְרִית      |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-143 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-153 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1906,7 +1906,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 145 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | 中国            |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-144 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-154 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1919,7 +1919,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 146 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   | GoodMaxString |         |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-145 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-155 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1932,7 +1932,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 147 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               | Color   |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-146 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-156 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1945,7 +1945,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 148 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               | С       |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-147 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-157 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info
@@ -1958,7 +1958,7 @@ Feature: Проверка сохранения Cable Row
     Examples:
       | ID  | Part number | Description   | Customer name | UL File       | CASFile       | Awg           | Material      | Construction  | Diameter      | Material2     | Minimum Average Thickness | Braid         | Foil          | Drain wire    | Pairs number  | Conductors number | Outdoor requirements | Material3     | Diameter3     | Average Thickness | Surface       | Color   | Marking color | Overall diameter | Dielectric strength | Spark test | Temperature rating | Insulation resistance | Conductor resistance | Rating Voltage | Flame test | Tensile strength before aging | Elongation before agling | Elongation after agling | Deformation test | Cold bend test | Heat shock test | Marking |
       | 149 | Test TA     |             |               |               |               |               |               |               |               |               |                           |               |               |               |               |                   |                      |               |               |                   |               | 123     |               |                  |                     |            |                    |                       |                      |                |            |                               |                          |                         |                  |                |                 |         |
-  @CableRowMaterials @Save @ID=10-02-148 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Save @P=10-14 @ID=06-158 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение Cable Row Materials с информацией в вкладке General Info
     Given Создать новый Cable Row Materials
     When Нажать на вкладку General Info

@@ -32,9 +32,14 @@ class UpdateScenariosFromFileCommand extends ContainerAwareCommand
         $this->tagRepository = $this->getContainer()->get("doctrine")->getManager()->getRepository("TestAutomationAll4BomBundle:Tag");
         $this->scenarioRepository = $this->getContainer()->get("doctrine")->getManager()->getRepository("TestAutomationAll4BomBundle:ScenarioItem");
         $files = $this->getAllFiles();
-        foreach ($files as $file) {
+
+        foreach ($files as $key => $file) {
+            $numberFile = $key+1;
+            print "Parsing [".$numberFile."/".count($files)."]: ".$file.PHP_EOL;
             $scenarios = $this->getScenariosByFile($file);
+            print "Making ".count($scenarios)." ...".PHP_EOL;
             $this->createScenarios($scenarios);
+            print "Make finish".PHP_EOL;
 
         }
     }

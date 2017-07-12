@@ -1,6 +1,6 @@
 Feature: Создание объектов в Draft и BOM. Проверка данных после сохранения
 
-  @Save @Revision @Bom @Cable @Smoke @PlainCable @ID=06-01-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Smoke @PlainCable @P=06-0 @ID=18-00 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -19,7 +19,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight | familyCable | numberLine | nameRevision |
       | Plain | Normal | Lan Cable   | 1          | Test save    |
 
-  @Save @Revision @Bom @Cable @Smoke @PlainCable @ID=06-01-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Smoke @PlainCable @P=06-0 @ID=18-01 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -38,7 +38,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight | familyCable | numberLine | nameRevision |
       | Plain | Normal | RF Cable    | 2          | Test save    |
 
-  @Save @Revision @Bom @Cable @Smoke @PlainCable @ID=06-01-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Smoke @PlainCable @P=06-0 @ID=18-02 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -57,7 +57,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight | familyCable | numberLine | nameRevision |
       | Plain | Normal | Flat Cable  | 3          | Test save    |
 
-  @Save @Revision @Bom @Cable @Smoke @PlainCable @ID=06-01-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Smoke @PlainCable @P=06-0 @ID=18-03 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -77,7 +77,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Plain | Normal | Row Material | 1          | Test save    |
 
 
-  @Save @Revision @Bom @Cable @PlainCable @ID=06-02-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @PlainCable @P=06-0 @ID=18-04 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -95,7 +95,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable  | numberLine | nameRevision |
       | Plain | Thin   | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @PlainCable @ID=06-02-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @PlainCable @P=06-0 @ID=18-05 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -113,7 +113,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable  | numberLine | nameRevision |
       | Plain | Thin   | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @PlainCable @ID=06-02-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @PlainCable @P=06-0 @ID=18-06 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -131,7 +131,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable  | numberLine | nameRevision |
       | Plain | Thin   | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @PlainCable @ID=06-02-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @PlainCable @P=06-0 @ID=18-07 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -149,7 +149,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable  | numberLine | nameRevision |
       | Plain | Thin   | Row Material | 1          | Test save    |
-  @Save @Revision @Bom @Cable @PlainCable @ID=06-02-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @PlainCable @P=06-0 @ID=18-08 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -167,7 +167,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable  | numberLine | nameRevision |
       | Plain | Thick  | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @PlainCable @ID=06-02-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @PlainCable @P=06-0 @ID=18-09 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -185,7 +185,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable  | numberLine | nameRevision |
       | Plain | Thick  | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @PlainCable @ID=06-02-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @PlainCable @P=06-1 @ID=18-10 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -203,7 +203,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable  | numberLine | nameRevision |
       | Plain | Thick  | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @PlainCable @ID=06-02-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @PlainCable @P=06-1 @ID=18-11 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -223,7 +223,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Plain | Thick  | Row Material | 1          | Test save    |
 
 
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-1 @ID=18-12 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -241,7 +241,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thinnest | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-1 @ID=18-13 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -259,7 +259,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thinnest | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-1 @ID=18-14 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -277,7 +277,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thinnest | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-1 @ID=18-15 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -295,7 +295,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thinnest | Row Material | 1          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-1 @ID=18-16 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -313,7 +313,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thin     | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-1 @ID=18-17 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -331,7 +331,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thin     | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-1 @ID=18-18 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -349,7 +349,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thin     | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-1 @ID=18-19 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -367,7 +367,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thin     | Row Material | 1          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-08 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-2 @ID=18-20 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -385,7 +385,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Normal   | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-09 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-2 @ID=18-21 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -403,7 +403,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Normal   | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-10 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-2 @ID=18-22 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -421,7 +421,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Normal   | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-11 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-2 @ID=18-23 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -439,7 +439,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Normal   | Row Material | 1          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-12 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-2 @ID=18-24 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -457,7 +457,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thick    | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-13 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-2 @ID=18-25 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -475,7 +475,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thick    | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-14 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-2 @ID=18-26 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -493,7 +493,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable  | numberLine | nameRevision |
       | Curve | Thick    | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @CurveCable @ID=06-03-15 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @CurveCable @P=06-2 @ID=18-27 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -513,7 +513,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Curve | Thick    | Row Material | 1          | Test save    |
 
 
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-2 @ID=18-28 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -531,7 +531,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thinnest | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-2 @ID=18-29 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -549,7 +549,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thinnest | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-30 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -567,7 +567,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thinnest | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-31 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -585,7 +585,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thinnest | Row Material | 1          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-32 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -603,7 +603,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thin     | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-33 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -621,7 +621,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thin     | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-34 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -639,7 +639,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thin     | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-35 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -657,7 +657,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thin     | Row Material | 1          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-08 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-36 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -675,7 +675,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Normal   | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-09 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-37 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -693,7 +693,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Normal   | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-10 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-38 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -711,7 +711,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Normal   | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-11 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-3 @ID=18-39 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -729,7 +729,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Normal   | Row Material | 1          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-12 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-4 @ID=18-40 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -747,7 +747,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thick    | Lan Cable    | 1          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-13 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-4 @ID=18-41 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -765,7 +765,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thick    | RF Cable     | 2          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-14 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-4 @ID=18-42 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -783,7 +783,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable  | numberLine | nameRevision |
       | Broken | Thick    | Flat Cable   | 3          | Test save    |
-  @Save @Revision @Bom @Cable @BrokenCable @ID=06-04-15 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @BrokenCable @P=06-4 @ID=18-43 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами cable BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -804,7 +804,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
 
 
 
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @Smoke @PlainCable @ID=06-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @Smoke @PlainCable @P=06-4 @ID=18-44 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -827,7 +827,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Plain | Normal | RF Cable    | 2          | 1                | Test save    |
 
 
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @ID=06-06-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @P=06-4 @ID=18-45 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -847,7 +847,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Thin   | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @ID=06-06-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @P=06-4 @ID=18-46 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -867,7 +867,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Thin   | RF Cable    | 2          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @ID=06-06-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @P=06-4 @ID=18-47 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -887,7 +887,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Thick  | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @ID=06-06-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @P=06-4 @ID=18-48 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -908,7 +908,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Thick  | RF Cable    | 2          | 2                | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @ID=06-07-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @P=06-4 @ID=18-49 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -928,7 +928,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thinnest | Lan Cable   | 1          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @ID=06-07-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @P=06-5 @ID=18-50 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -948,7 +948,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thinnest | RF Cable    | 2          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @ID=06-07-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @P=06-5 @ID=18-51 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -968,7 +968,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thin     | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @ID=06-07-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @P=06-5 @ID=18-52 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -988,7 +988,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thin     | RF Cable    | 2          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @ID=06-07-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @P=06-5 @ID=18-53 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1008,7 +1008,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Normal   | Lan Cable   | 1          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @ID=06-07-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @P=06-5 @ID=18-54 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1028,7 +1028,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Normal   | RF Cable    | 2          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @ID=06-07-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @P=06-5 @ID=18-55 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1048,7 +1048,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thick    | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @ID=06-07-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @CurveCable @P=06-5 @ID=18-56 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1069,7 +1069,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thick    | RF Cable    | 2          | 2                | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @ID=06-08-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @P=06-5 @ID=18-57 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1089,7 +1089,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thinnest | Lan Cable   | 1          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @ID=06-08-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @P=06-5 @ID=18-58 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1109,7 +1109,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thinnest | RF Cable    | 2          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @ID=06-08-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @P=06-5 @ID=18-59 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1129,7 +1129,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thin     | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @ID=06-08-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @P=06-6 @ID=18-60 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1149,7 +1149,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thin     | RF Cable    | 2          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @ID=06-08-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @P=06-6 @ID=18-61 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1169,7 +1169,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Normal   | Lan Cable   | 1          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @ID=06-08-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @P=06-6 @ID=18-62 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1189,7 +1189,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Normal   | RF Cable    | 2          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @ID=06-08-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @P=06-6 @ID=18-63 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1209,7 +1209,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thick    | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @ID=06-08-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @LeftShrink @BrokenCable @P=06-6 @ID=18-64 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1230,7 +1230,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thick    | RF Cable    | 2          | 2                | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @Smoke @PlainCable @ID=06-09 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @Smoke @PlainCable @P=06-6 @ID=18-65 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1251,7 +1251,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Plain | Normal | Lan Cable   | 1          | 2                | Test save    |
       | Plain | Normal | RF Cable    | 2          | 1                | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @PlainCable @ID=06-10-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @PlainCable @P=06-6 @ID=18-66 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1270,7 +1270,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Thin   | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @PlainCable @ID=06-10-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @PlainCable @P=06-6 @ID=18-67 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1289,7 +1289,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Thin   | RF Cable    | 2          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @PlainCable @ID=06-10-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @PlainCable @P=06-6 @ID=18-68 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1308,7 +1308,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Thick  | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @PlainCable @ID=06-10-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @PlainCable @P=06-6 @ID=18-69 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1328,7 +1328,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Thick  | RF Cable    | 2          | 2                | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @ID=06-11-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @P=06-7 @ID=18-70 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1347,7 +1347,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thinnest | Lan Cable   | 1          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @ID=06-11-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @P=06-7 @ID=18-71 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1366,7 +1366,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thinnest | RF Cable    | 2          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @ID=06-11-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @P=06-7 @ID=18-72 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1385,7 +1385,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thin     | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @ID=06-11-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @P=06-7 @ID=18-73 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1404,7 +1404,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thin     | RF Cable    | 2          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @ID=06-11-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @P=06-7 @ID=18-74 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1423,7 +1423,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Normal   | Lan Cable   | 1          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @ID=06-11-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @P=06-7 @ID=18-75 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1442,7 +1442,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Normal   | RF Cable    | 2          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @ID=06-11-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @P=06-7 @ID=18-76 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1461,7 +1461,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thick    | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @ID=06-11-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @CurveCable @P=06-7 @ID=18-77 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1481,7 +1481,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Curve | Thick    | RF Cable    | 2          | 2                | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @ID=06-12-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @P=06-7 @ID=18-78 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1500,7 +1500,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thinnest | Lan Cable   | 1          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @ID=06-12-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @P=06-7 @ID=18-79 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1519,7 +1519,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thinnest | RF Cable    | 2          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @ID=06-12-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @P=06-8 @ID=18-80 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1538,7 +1538,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thin     | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @ID=06-12-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @P=06-8 @ID=18-81 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1557,7 +1557,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thin     | RF Cable    | 2          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @ID=06-12-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @P=06-8 @ID=18-82 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1576,7 +1576,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Normal   | Lan Cable   | 1          | 2                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @ID=06-12-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @P=06-8 @ID=18-83 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1595,7 +1595,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Normal   | RF Cable    | 2          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @ID=06-12-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @P=06-8 @ID=18-84 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1614,7 +1614,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thick    | Lan Cable   | 1          | 1                | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @ID=06-12-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @RightShrink @BrokenCable @P=06-8 @ID=18-85 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1634,7 +1634,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type   | Weight   | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Broken | Thick    | RF Cable    | 2          | 2                | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @Smoke @PlainCable @ID=06-13 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @Smoke @PlainCable @P=06-8 @ID=18-86 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1657,7 +1657,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Plain | Normal | Lan Cable   | 1          | 2                    | 2                     | Test save    |
       | Plain | Normal | RF Cable    | 2          | 1                    | 1                     | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @PlainCable @ID=06-14-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @PlainCable @P=06-8 @ID=18-87 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1678,7 +1678,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Plain | Thin   | Lan Cable   | 1          | 1                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @PlainCable @ID=06-14-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @PlainCable @P=06-8 @ID=18-88 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1699,7 +1699,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Plain | Thin   | RF Cable    | 2          | 2                    | 1                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @PlainCable @ID=06-14-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @PlainCable @P=06-8 @ID=18-89 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1720,7 +1720,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Plain | Thick  | Lan Cable   | 1          | 1                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @PlainCable @ID=06-14-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @PlainCable @P=06-9 @ID=18-90 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1742,7 +1742,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Plain | Thick  | RF Cable    | 2          | 2                    | 1                     | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @ID=06-15-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @P=06-9 @ID=18-91 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1763,7 +1763,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Curve | Thinnest | Lan Cable   | 1          | 2                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @ID=06-15-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @P=06-9 @ID=18-92 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1784,7 +1784,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Curve | Thinnest | RF Cable    | 2          | 1                    | 1                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @ID=06-15-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @P=06-9 @ID=18-93 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1805,7 +1805,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Curve | Thin     | Lan Cable   | 1          | 1                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @ID=06-15-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @P=06-9 @ID=18-94 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1826,7 +1826,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Curve | Thin     | RF Cable    | 2          | 2                    | 1                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @ID=06-15-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @P=06-9 @ID=18-95 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1847,7 +1847,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Curve | Normal   | Lan Cable   | 1          | 2                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @ID=06-15-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @P=06-9 @ID=18-96 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1868,7 +1868,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Curve | Normal   | RF Cable    | 2          | 1                    | 1                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @ID=06-15-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @P=06-9 @ID=18-97 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1889,7 +1889,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Curve | Thick    | Lan Cable   | 1          | 1                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @ID=06-15-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @CurveCable @P=06-9 @ID=18-98 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1911,7 +1911,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type  | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Curve | Thick    | RF Cable    | 2          | 2                    | 1                     | Test save    |
 
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @ID=06-16-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @P=06-9 @ID=18-99 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1932,7 +1932,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Broken | Thinnest | Lan Cable   | 1          | 2                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @ID=06-16-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @P=06-10 @ID=18-100 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1953,7 +1953,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Broken | Thinnest | RF Cable    | 2          | 1                    | 1                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @ID=06-16-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @P=06-10 @ID=18-101 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1974,7 +1974,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Broken | Thin     | Lan Cable   | 1          | 1                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @ID=06-16-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @P=06-10 @ID=18-102 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1995,7 +1995,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Broken | Thin     | RF Cable    | 2          | 2                    | 1                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @ID=06-16-04 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @P=06-10 @ID=18-103 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2016,7 +2016,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Broken | Normal   | Lan Cable   | 1          | 2                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @ID=06-16-05 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @P=06-10 @ID=18-104 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2037,7 +2037,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Broken | Normal   | RF Cable    | 2          | 1                    | 1                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @ID=06-16-06 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @P=06-10 @ID=18-105 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2058,7 +2058,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type   | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Broken | Thick    | Lan Cable   | 1          | 1                    | 2                     | Test save    |
-  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @ID=06-16-07 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Cable @Shrink @BothShrink @BrokenCable @P=06-10 @ID=18-106 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектами Cable и Left Shrink, Right Shrink в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2080,7 +2080,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Type   | Weight   | familyCable | numberLine | leftShrinkLineNumber | rightShrinkLineNumber | nameRevision |
       | Broken | Thick    | RF Cable    | 2          | 2                    | 1                     | Test save    |
 
-  @Save @Revision @Bom @Connector @Smoke @ID=06-17 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Connector @Smoke @P=06-10 @ID=18-107 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектом Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2100,7 +2100,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | RJ     | Connector | 1      | 1          | Test save    |
 
 
-  @Save @Revision @Bom @Connector @ID=06-18-00 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Connector @P=06-10 @ID=18-108 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектом Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2119,7 +2119,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Family  | Category  | Number | NumberLine | nameRevision |
       | RF      | Connector | 2      | 2          | Test save    |
 
-  @Save @Revision @Bom @Connector @ID=06-18-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Connector @P=06-10 @ID=18-109 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектом Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2137,7 +2137,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Family  | Category  | Number | NumberLine | nameRevision |
       | IDC     | IDC pitch | 1      | 1          | Test save    |
-  @Save @Revision @Bom @Connector @ID=06-18-02 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Connector @P=06-11 @ID=18-110 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектом Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2155,7 +2155,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Family  | Category  | Number | NumberLine | nameRevision |
       | Headers | Connector | 2      | 2          | Test save    |
-  @Save @Revision @Bom @Connector @ID=06-18-03 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Connector @P=06-11 @ID=18-111 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектом Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2174,7 +2174,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | Family  | Category  | Number | NumberLine | nameRevision |
       | RJ      |           | 2      | 1          | Test save    |
 
-  @Save @Revision @Bom @Connector @Molder @Smoke @REWRITE @ID=06-19 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Connector @Molder @Smoke @REWRITE @P=06-11 @ID=18-112 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2195,7 +2195,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | RJ     | Connector | 1      | 1          | Test save    |
 
 
-  @Save @Revision @Bom @Connector @Molder @REWRITE @ID=06-20 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Connector @Molder @REWRITE @P=06-11 @ID=18-113 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2216,7 +2216,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | RJ     | Connector | 2      | 1          | Test save    |
       | RJ     | Connector | 1      | 2          | Test save    |
 
-  @Save @Revision @Bom @Connector @CustomPart @ID=06-21 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Bom @Connector @CustomPart @P=06-11 @ID=18-114 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение ревизии с объектом Connector и меткой Molder
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2235,7 +2235,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
       | 1        | 2          | 3               | 4           | 5         | 6                  | 7       | 8        | 9         |
 
 
-  @Save @Revision @Labels @Labels @Smoke @ID=08-01 @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @Labels @Labels @Smoke @ID=18-115 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Сохранение данных в вкладке Labels
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

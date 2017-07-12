@@ -1,6 +1,6 @@
 Feature: Check info in Tenders
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-00
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-00
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -24,7 +24,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable | CategoryCable |
       | Plain     | Normal      | Lan Cable   | Cable         |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-01
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-01
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -48,7 +48,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable | CategoryCable |
       | Plain     | Normal      | RF Cable    | Cable         |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-02
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-02
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -72,7 +72,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable | CategoryCable |
       | Plain     | Normal      | Flat Cable  | Cable         |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-03
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-03
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -96,7 +96,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable                             | CategoryCable  |
       | Plain     | Normal      | Multicondactor / Multipair Cable / Wire | Multiconductor |
 
-  @Revision @Cable  @Draft @Tenders @Revision @Save @ID=18-00-04
+  @Revision @Cable  @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-04
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -120,7 +120,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable                             | CategoryCable |
       | Plain     | Normal      | Multicondactor / Multipair Cable / Wire | Miltipair     |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-05
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-05
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -144,7 +144,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable                             | CategoryCable       |
       | Plain     | Normal      | Multicondactor / Multipair Cable / Wire | Multiconductor flex |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-06
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-06
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -168,7 +168,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable                             | CategoryCable |
       | Plain     | Normal      | Multicondactor / Multipair Cable / Wire | Wire          |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-07
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-07
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -192,7 +192,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable  | CategoryCable |
       | Plain     | Normal      | Row Material | Multicable    |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-08
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-08
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -216,7 +216,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable | CategoryCable |
       | Plain     | Normal      | HDMI        | Cable         |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-09
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-0 @ID=18-00-09
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -240,7 +240,7 @@ Feature: Check info in Tenders
       | TypeCable | WeightCable | FamilyCable | CategoryCable |
       | Plain     | Normal      | USB         | Cable         |
 
-  @Revision @Cable @Draft @Tenders @Revision @Save @ID=18-00-10
+  @Revision @Cable @Draft @Tenders @Revision @Save @P=18-1 @ID=18-00-10
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -265,7 +265,7 @@ Feature: Check info in Tenders
       | Plain     | Normal      | Power       | Cable         |
 
 
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-00
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-00
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -286,7 +286,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | RJ              | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-01
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-01
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -307,7 +307,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | RF              | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-02
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-02
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -328,7 +328,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | IDC             | IDC pitch         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-03
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-03
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -349,7 +349,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | IDC             | IDC D-Sub         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-04
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-04
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -370,7 +370,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | Headers         | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-05
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-05
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -391,7 +391,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | Circular        | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-06
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-06
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -412,7 +412,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | Terminal Block  | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-07
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-07
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -433,7 +433,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | D-Type Solder   | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-08
+  @Revision @Connector @Draft @Tenders @Save @P=18-1 @ID=18-01-08
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -454,7 +454,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | D-Type Crimp    | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-09
+  @Revision @Connector @Draft @Tenders @Save @P=18-2 @ID=18-01-09
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -475,7 +475,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | Terminal        | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-10
+  @Revision @Connector @Draft @Tenders @Save @P=18-2 @ID=18-01-10
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -496,7 +496,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | HDMI            | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-11
+  @Revision @Connector @Draft @Tenders @Save @P=18-2 @ID=18-01-11
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -517,7 +517,7 @@ Feature: Check info in Tenders
     Examples:
       | FamilyConnector | CategoryConnector | NumberCellConnector |
       | USB             | Connector         | 1                   |
-  @Revision @Connector @Draft @Tenders @Save @ID=18-01-12
+  @Revision @Connector @Draft @Tenders @Save @P=18-2 @ID=18-01-12
   Scenario Outline: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -540,7 +540,7 @@ Feature: Check info in Tenders
       | Power           | Connector         | 1                   |
 
 
-  @Revision @Draft @Tenders @Revision @Save @ID=18-02-00
+  @Revision @Draft @Tenders @Revision @Save @P=18-2 @ID=18-02-00
   Scenario: Создание объекта Cable с данными в BOM
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

@@ -1,6 +1,6 @@
 Feature: Сохранение ревизии с данными в Pinout Details
 
-  @Save @Revision @PinoutDetails @Smoke @ID=09-01  @PRIORITY=5 @ASSIGNED=1
+  @Save @Revision @PinoutDetails @Smoke @P=09-0 @ID=21-00  @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание и сохранение информации в вкладке Pinout Details
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

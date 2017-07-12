@@ -1,6 +1,6 @@
 Feature: Create Revision from PDF
 
-  @Create @Save @Edit @RevisionPDF @BOM @Alternative @Cable @Connector @Smoke @ID=17-00 @PRIORITY=5 @ASSIGNED=1
+  @Create @Save @Edit @RevisionPDF @BOM @Alternative @Cable @Connector @Smoke @P=17-0 @ID=13-00 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка работы добавления альтернативных деталей
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -23,7 +23,7 @@ Feature: Create Revision from PDF
     And Проверить что чекбокс нажат в дочерней категории "Connector" с именем "RJ" на страницу Create From PDF
     And Проверить что чекбокс нажат в дочерней категории "Cable" с именем "Flat Cable" на страницу Create From PDF
 
-  @Create @Save @Edit @RevisionPDF @BOM @Alternative @Cable @Connector @Smoke @ID=17-01 @PRIORITY=5 @ASSIGNED=1
+  @Create @Save @Edit @RevisionPDF @BOM @Alternative @Cable @Connector @Smoke @P=17-0 @ID=13-01 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка работы добавления альтернативных деталей
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

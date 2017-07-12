@@ -1,6 +1,6 @@
 Feature: Создание объектов на Draft CRM без сохранения
 
-  @Smoke @CableRowMaterials @Draft @Text @ID=12-01 @PRIORITY=5 @ASSIGNED=1
+  @Smoke @CableRowMaterials @Draft @Text @P=12-0 @ID=04-00 @PRIORITY=5 @ASSIGNED=1
   Scenario: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -12,7 +12,7 @@ Feature: Создание объектов на Draft CRM без сохране�
     And Нажать кнопку [TEXT] на панели иструментов CRM
     Then Объект Text появился на Draft
 
-  @CableRowMaterials @Draft @Text @ID=12-02-00 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-01 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -30,7 +30,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 18         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-01 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-02 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -48,7 +48,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front  | SizeNumber | Color  |
       | Tahoma | 18         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-02 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-03 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -66,7 +66,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front   | SizeNumber | Color  |
       | Verdana | 18         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-03 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-04 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -84,7 +84,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front           | SizeNumber | Color  |
       | Times New Roman | 18         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-04 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-05 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -103,7 +103,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front           | SizeNumber | Color  |
       | Times New Roman | 18         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-05 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-06 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -121,7 +121,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front       | SizeNumber | Color  |
       | Courier New | 18         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-06 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-07 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -139,7 +139,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 6          | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-07 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-08 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -157,7 +157,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 14         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-08 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-0 @ID=04-09 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -175,7 +175,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 22         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-09 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-1 @ID=04-10 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -193,7 +193,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 26         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-10 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-1 @ID=04-11 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -211,7 +211,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 26         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-11 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-1 @ID=04-12 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -229,7 +229,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 30         | 000000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-12 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-1 @ID=04-13 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -247,7 +247,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 18         | ff0000 |
 
-  @CableRowMaterials @Draft @Text @ID=12-02-13 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Text @P=12-1 @ID=04-14 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -265,7 +265,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Front | SizeNumber | Color  |
       | Arial | 18         | 800080 |
 
-  @Smoke @CableRowMaterials @Draft @CustomDimention @ID=12-03 @PRIORITY=5 @ASSIGNED=1
+  @Smoke @CableRowMaterials @Draft @CustomDimention @P=12-1 @ID=04-15 @PRIORITY=5 @ASSIGNED=1
   Scenario: Создание на полотне объекта Custom Dimention
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -279,7 +279,7 @@ Feature: Создание объектов на Draft CRM без сохране�
     And Кликнуть на полотне по координатам X = "140" Y= "200"
     Then Проверить что последний добавленный элемент является Custom Dimention
 
- @CableRowMaterials @Draft @CRMObject @ID=12-04 @PRIORITY=5 @ASSIGNED=1
+ @CableRowMaterials @Draft @CRMObject @P=12-1 @ID=04-16 @PRIORITY=5 @ASSIGNED=1
   Scenario: Создание на полотне объекта Cable Row Materials
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -292,7 +292,7 @@ Feature: Создание объектов на Draft CRM без сохране�
     And Ждать "2" секунды
     And Проверить что последний добавленный элемент является Cable Row Materials
 
-  @CableRowMaterials @Draft @CRMObject @ID=12-05-00 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @CRMObject @P=12-1 @ID=04-17 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Cable Row Materials
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -307,7 +307,7 @@ Feature: Создание объектов на Draft CRM без сохране�
     Examples:
       | Number |
       | 1      |
-  @CableRowMaterials @Draft @CRMObject @ID=12-05-01 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @CRMObject @P=12-1 @ID=04-18 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Cable Row Materials
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -322,7 +322,7 @@ Feature: Создание объектов на Draft CRM без сохране�
     Examples:
       | Number |
       | 2      |
-  @CableRowMaterials @Draft @CRMObject @ID=12-05-02 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @CRMObject @P=12-1 @ID=04-19 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Cable Row Materials
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -338,7 +338,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Number |
       | 3      |
 
-  @Smoke @CableRowMaterials @Draft @Wrap @ID=12-06 @PRIORITY=5 @ASSIGNED=1
+  @Smoke @CableRowMaterials @Draft @Wrap @P=12-2 @ID=04-20 @PRIORITY=5 @ASSIGNED=1
   Scenario: Создание на полотне объекта Wrap
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -351,7 +351,7 @@ Feature: Создание объектов на Draft CRM без сохране�
     And Нажать на иконку [WRAP] на панели иструментов CRM
     And Проверить что последний добавленный элемент является Wrap
 
-  @CableRowMaterials @Draft @Wrap @ID=12-07-00 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Wrap @P=12-2 @ID=04-21 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Wrap
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -366,7 +366,7 @@ Feature: Создание объектов на Draft CRM без сохране�
     Examples:
       | Number |
       | 1      |
-  @CableRowMaterials @Draft @Wrap @ID=12-07-02 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Wrap @P=12-2 @ID=04-22 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Wrap
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -381,7 +381,7 @@ Feature: Создание объектов на Draft CRM без сохране�
     Examples:
       | Number |
       | 2      |
-  @CableRowMaterials @Draft @Wrap @ID=12-07-03 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Draft @Wrap @P=12-2 @ID=04-23 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта Wrap
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -397,7 +397,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | Number |
       | 3      |
 
-  @Smoke @CableRowMaterials @Draft @Copy @CustomDimention @ID=12-08 @PRIORITY=5 @ASSIGNED=1
+  @Smoke @CableRowMaterials @Draft @Copy @CustomDimention @P=12-2 @ID=04-24 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание копии объекта Custom Dimention
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -421,7 +421,7 @@ Feature: Создание объектов на Draft CRM без сохране�
       | 1   |
       | 5   |
 
-  @CableRowMaterials @Copy @Draft @Text @ID=12-09 @PRIORITY=5 @ASSIGNED=1
+  @CableRowMaterials @Copy @Draft @Text @P=12-2 @ID=04-25 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание на полотне объекта копии объекта Cable Row Materials
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

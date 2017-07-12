@@ -1,7 +1,7 @@
 Feature: Test mixed object on draft
 
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-00
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-00
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -16,7 +16,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-01
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-01
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -31,7 +31,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-02
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-02
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -46,7 +46,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-03
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-03
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -61,7 +61,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-04
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-04
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -76,7 +76,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-05
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-05
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -91,7 +91,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-06
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-06
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -106,7 +106,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-07
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-07
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -121,7 +121,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-08
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-08
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -136,7 +136,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-09
+  @Revision @Draft @MixedDraft @Create @Save @P=16-0 @ID=16-09
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -151,7 +151,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-10
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-10
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -166,7 +166,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-11
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-11
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -181,7 +181,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-12
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-12
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -196,7 +196,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-13
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-13
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -213,7 +213,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-14
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-14
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -234,7 +234,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-15
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-15
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -261,7 +261,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-16
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-16
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -289,7 +289,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-17
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-17
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -317,7 +317,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-18
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-18
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -339,7 +339,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-19
+  @Revision @Draft @MixedDraft @Create @Save @P=16-1 @ID=16-19
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -362,7 +362,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-20
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-20
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -384,7 +384,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-21
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-21
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -410,7 +410,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-22
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-22
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -427,7 +427,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-23
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-23
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -444,7 +444,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-24
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-24
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -461,7 +461,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-25
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-25
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -480,7 +480,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-26
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-26
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -503,7 +503,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-27
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-27
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -532,7 +532,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-28
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-28
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -562,7 +562,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-29
+  @Revision @Draft @MixedDraft @Create @Save @P=16-2 @ID=16-29
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -592,7 +592,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-30
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-30
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -616,7 +616,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-31
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-31
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -641,7 +641,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-32
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-32
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -665,7 +665,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-33
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-33
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -693,7 +693,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-34
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-34
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -712,7 +712,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-35
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-35
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -731,7 +731,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-36
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-36
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -750,7 +750,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-37
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-37
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -771,7 +771,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-38
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-38
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -796,7 +796,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-39
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-39
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -827,7 +827,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-40
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-40
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -859,7 +859,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-41
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-41
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -891,7 +891,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-42
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-42
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -917,7 +917,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-43
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-43
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -944,7 +944,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-44
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-44
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -970,7 +970,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-45
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-45
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1000,7 +1000,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-46
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-46
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1021,7 +1021,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-47
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-47
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1042,7 +1042,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-48
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-48
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1063,7 +1063,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-49
+  @Revision @Draft @MixedDraft @Create @Save @P=16-4 @ID=16-49
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1086,7 +1086,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-50
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-50
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1113,7 +1113,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-51
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-51
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1146,7 +1146,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-52
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-52
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1180,7 +1180,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-53
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-53
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1214,7 +1214,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-54
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-54
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1242,7 +1242,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-55
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-55
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1271,7 +1271,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-56
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-56
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1299,7 +1299,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-57
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-57
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1331,7 +1331,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-58
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-58
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1354,7 +1354,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-59
+  @Revision @Draft @MixedDraft @Create @Save @P=16-5 @ID=16-59
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1377,7 +1377,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-60
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-60
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1400,7 +1400,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-61
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-61
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1425,7 +1425,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-62
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-62
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1454,7 +1454,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-63
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-63
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1489,7 +1489,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-64
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-64
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1525,7 +1525,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-65
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-65
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1561,7 +1561,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-66
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-66
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1591,7 +1591,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-67
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-67
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1622,7 +1622,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-68
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-68
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1652,7 +1652,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-69
+  @Revision @Draft @MixedDraft @Create @Save @P=16-6 @ID=16-69
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1686,7 +1686,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-70
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-70
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1711,7 +1711,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-71
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-71
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1736,7 +1736,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-72
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-72
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1761,7 +1761,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-73
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-73
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1788,7 +1788,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-74
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-74
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1819,7 +1819,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-75
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-75
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1856,7 +1856,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-76
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-76
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1894,7 +1894,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-77
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-77
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1932,7 +1932,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-78
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-78
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1964,7 +1964,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-79
+  @Revision @Draft @MixedDraft @Create @Save @P=16-7 @ID=16-79
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -1997,7 +1997,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-80
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-80
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2029,7 +2029,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-81
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-81
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2065,7 +2065,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-82
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-82
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2092,7 +2092,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-83
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-83
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2119,7 +2119,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-84
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-84
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2146,7 +2146,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-85
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-85
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2175,7 +2175,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-86
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-86
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2208,7 +2208,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-87
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-87
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2247,7 +2247,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-88
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-88
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2287,7 +2287,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-89
+  @Revision @Draft @MixedDraft @Create @Save @P=16-8 @ID=16-89
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2327,7 +2327,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-90
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-90
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2361,7 +2361,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-91
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-91
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2396,7 +2396,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-92
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-92
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2430,7 +2430,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-93
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-93
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2468,7 +2468,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-94
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-94
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2497,7 +2497,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-95
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-95
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2526,7 +2526,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-96
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-96
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2555,7 +2555,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-97
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-97
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2586,7 +2586,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-98
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-98
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2621,7 +2621,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-99
+  @Revision @Draft @MixedDraft @Create @Save @P=16-9 @ID=16-99
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2662,7 +2662,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-100
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-100
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2704,7 +2704,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-101
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-101
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2746,7 +2746,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-102
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-102
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2782,7 +2782,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-103
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-103
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2819,7 +2819,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-104
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-104
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2855,7 +2855,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-105
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-105
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2895,7 +2895,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-106
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-106
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2926,7 +2926,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-107
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-107
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2957,7 +2957,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-108
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-108
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -2988,7 +2988,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-109
+  @Revision @Draft @MixedDraft @Create @Save @P=16-10 @ID=16-109
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3021,7 +3021,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-110
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-110
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3058,7 +3058,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-111
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-111
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3101,7 +3101,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-112
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-112
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3145,7 +3145,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-113
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-113
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3189,7 +3189,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-114
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-114
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3227,7 +3227,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-115
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-115
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3266,7 +3266,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-116
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-116
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3304,7 +3304,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-117
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-117
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3346,7 +3346,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-118
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-118
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3379,7 +3379,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-119
+  @Revision @Draft @MixedDraft @Create @Save @P=16-11 @ID=16-119
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3412,7 +3412,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-120
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-120
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3445,7 +3445,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-121
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-121
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3480,7 +3480,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-122
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-122
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3519,7 +3519,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-dimention,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-123
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-123
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3564,7 +3564,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-124
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-124
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3610,7 +3610,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-125
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-125
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3656,7 +3656,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-126
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-126
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3696,7 +3696,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,plain-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-127
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-127
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3737,7 +3737,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,curve-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-128
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-128
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3777,7 +3777,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,broken-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-129
+  @Revision @Draft @MixedDraft @Create @Save @P=16-12 @ID=16-129
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3821,7 +3821,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,connector,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-130
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-130
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3856,7 +3856,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-131
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-131
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3891,7 +3891,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,accessories,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-132
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-132
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3926,7 +3926,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-133
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-133
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -3965,7 +3965,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "custom-dimention,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-134
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-134
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4010,7 +4010,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "plain-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-135
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-135
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4056,7 +4056,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "curve-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-136
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-136
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4102,7 +4102,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "broken-cable,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-137
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-137
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4142,7 +4142,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "plain-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-138
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-138
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4183,7 +4183,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "curve-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-139
+  @Revision @Draft @MixedDraft @Create @Save @P=16-13 @ID=16-139
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4223,7 +4223,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "broken-line,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-140
+  @Revision @Draft @MixedDraft @Create @Save @P=16-14 @ID=16-140
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4267,7 +4267,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "connector,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-141
+  @Revision @Draft @MixedDraft @Create @Save @P=16-14 @ID=16-141
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4302,7 +4302,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "user-image,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-142
+  @Revision @Draft @MixedDraft @Create @Save @P=16-14 @ID=16-142
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -4337,7 +4337,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "accessories,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @ID=16-143
+  @Revision @Draft @MixedDraft @Create @Save @P=16-14 @ID=16-143
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

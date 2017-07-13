@@ -183,7 +183,7 @@ Feature: Input Tests
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
   #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
+    And Нажать кнопку [EDIT] рядом с за{"id":8689,"tag":"ID=09-63"}писью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
@@ -1037,13 +1037,11 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | / PaSSword!@#$%       |                       | Numerical |                |
-
 
   @CableAssemblies @Create @P=17-5 @ID=09-55 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies
@@ -1056,7 +1054,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1074,10 +1071,7 @@ Feature: Input Tests
     When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
-    And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
-    And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA PDF Create Examples
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | ^&*()-_+=`~/\,.?><    |                       | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |           | Numerical      |
@@ -1093,10 +1087,7 @@ Feature: Input Tests
     When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
-    And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
-    And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA PDF Create Examples
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | ^&*()-_+=`~/\,.?><    |                       | XY001100              | Removed in a moment   |                       |                       |                       |           | Numerical      |
@@ -1112,11 +1103,8 @@ Feature: Input Tests
     When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
-    And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
-    And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
-    Examples:
+      And Проверить что мы находимся на страницу CA PDF Create Examples
+      Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | ^&*()-_+=`~/\,.?><    |                       | Removed in a moment   |                       |                       |                       |           | Numerical      |
 
@@ -1131,11 +1119,8 @@ Feature: Input Tests
     When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
-    And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
-    And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
-    Examples:
+  And Проверить что мы находимся на страницу CA PDF Create Examples
+   Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | ^&*()-_+=`~/\,.?><    |                       |                       |                       |                       |           | Numerical      |
 
@@ -1150,10 +1135,7 @@ Feature: Input Tests
     When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
-    And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
-    And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA PDF Create Examples
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | ^&*()-_+=`~/\,.?><    |                       |                       |                       |           | Numerical      |
@@ -1169,11 +1151,8 @@ Feature: Input Tests
     When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
-    And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
-    And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
-    Examples:
+  And Проверить что мы находимся на страницу CA PDF Create Examples
+   Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | ^&*()-_+=`~/\,.?><    |                       |                       |           | Numerical      |
 
@@ -1188,11 +1167,8 @@ Feature: Input Tests
     When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
-    And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
-    And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
-    Examples:
+  And Проверить что мы находимся на страницу CA PDF Create Examples
+  Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | ^&*()-_+=`~/\,.?><    |                       |           | Numerical      |
 
@@ -1207,11 +1183,9 @@ Feature: Input Tests
     When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
-    And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
-    And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
-    Examples:
+    And Проверить что мы находимся на страницу CA PDF Create Examples
+
+   Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | ^&*()-_+=`~/\,.?><    |           | Numerical      |
 
@@ -1337,7 +1311,7 @@ Feature: Input Tests
     And Ввести стандартный логин и пароль
     And Нажать кнопку [LOGIN]
     And Кликнуть на [CABLE ASSEMBLIES] в шапке
-    When Нажать кнопку [CREATE FOR PDF]
+    When Нажать кнопку [CREATE FOПроверить что мы находимся на страницу CA EditR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
@@ -2614,10 +2588,7 @@ Feature: Input Tests
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Перейти на страницу Cable Assemblies
-    And Нажать кнопку [EDIT] рядом с записью с именем <ID><Revision details>
-    And На странице CA Edit Будут следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA Edit
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | ^&*()-_+=`~/\,.?><    |                       | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       |           | Numerical      |
@@ -2636,10 +2607,7 @@ Feature: Input Tests
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Перейти на страницу Cable Assemblies
-    And Нажать кнопку [EDIT] рядом с записью с именем <ID><Revision details>
-    And На странице CA Edit Будут следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA Edit
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | ^&*()-_+=`~/\,.?><    |                       | XY001100              | Removed in a moment   |                       |                       |                       |           | Numerical      |
@@ -2658,10 +2626,7 @@ Feature: Input Tests
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Перейти на страницу Cable Assemblies
-    And Нажать кнопку [EDIT] рядом с записью с именем <ID><Revision details>
-    And На странице CA Edit Будут следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA Edit
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | ^&*()-_+=`~/\,.?><    |                       | Removed in a moment   |                       |                       |                       |           | Numerical      |
@@ -2680,10 +2645,7 @@ Feature: Input Tests
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Перейти на страницу Cable Assemblies
-    And Нажать кнопку [EDIT] рядом с записью с именем <ID><Revision details>
-    And На странице CA Edit Будут следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA Edit
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | ^&*()-_+=`~/\,.?><    |                       |                       |                       |                       |           | Numerical      |
@@ -2702,10 +2664,7 @@ Feature: Input Tests
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Перейти на страницу Cable Assemblies
-    And Нажать кнопку [EDIT] рядом с записью с именем <ID><Revision details>
-    And На странице CA Edit Будут следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA Edit
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   | ^&*()-_+=`~/\,.?><    |                       |                       |                       |           | Numerical      |
@@ -2724,10 +2683,7 @@ Feature: Input Tests
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Перейти на страницу Cable Assemblies
-    And Нажать кнопку [EDIT] рядом с записью с именем <ID><Revision details>
-    And На странице CA Edit Будут следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA Edit
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       | ^&*()-_+=`~/\,.?><    |                       |                       |           | Numerical      |
@@ -2746,10 +2702,7 @@ Feature: Input Tests
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Перейти на страницу Cable Assemblies
-    And Нажать кнопку [EDIT] рядом с записью с именем <ID><Revision details>
-    And На странице CA Edit Будут следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA Edit
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       | ^&*()-_+=`~/\,.?><    |                       |           | Numerical      |
@@ -2768,10 +2721,7 @@ Feature: Input Tests
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]
-    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Перейти на страницу Cable Assemblies
-    And Нажать кнопку [EDIT] рядом с записью с именем <ID><Revision details>
-    And На странице CA Edit Будут следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
+    And Проверить что мы находимся на страницу CA Edit
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
       |    | Create TA test        | Company TA            | XY001100              | Removed in a moment   |                       |                       |                       | ^&*()-_+=`~/\,.?><    |           | Numerical      |

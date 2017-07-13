@@ -146,22 +146,18 @@ class CableAssembliesPageObject implements PageObject
      */
     public static function deleteAllCableAssembliesByName($nameCableAssemblies)
     {
-        while (true) {
-            $xpathLink = str_replace("VALUE", $nameCableAssemblies, SelectorsEnum::CABLE_ASSEMBLIES_LINKS);
-            $links = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathLink));
-            if (count($links) != 0 && $nameCableAssemblies != null) {
-                $hrefBuf = substr(preg_replace("/[^0-9]/", "", $links[0]->getAttribute("href")), 1);
-                $xpathDeleteButtom = str_replace("VALUE", $hrefBuf, SelectorsEnum::CABLE_ASSEMBLIES_DELETE_BUTTOM);
-                $deleteButtom = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpathDeleteButtom));
+            $xpathLink = str_replace("VALUE", $nameCableAssemblies, SelectorsEnum::CABLE_ASSEMBLIES_DELETE_BUTTOM);
+            $deleteButtoms = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathLink));
+
+            foreach ($deleteButtoms as $deleteButtom){
+                $id = $deleteButtom->getAttribute("ta-id-ca");
                 $deleteButtom->click();
-                $xpathAcceptButton = str_replace("VALUE", $hrefBuf, SelectorsEnum::CABLE_ASSEMBLIES_ACCEPT_DELETE_REVISION_BUTTON);
-                SimpleWait::waitShow($xpathAcceptButton);
-                $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpathAcceptButton));
-                SimpleWait::  waitingOfClick($button);
-            } else {
-                break;
+                $xpathAcceptDeleteButton = str_replace("VALUE",$id,SelectorsEnum::CABLE_ASSEMBLIES_ACCEPT_DELETE_REVISION_BUTTON);
+                SimpleWait::waitShow($xpathAcceptDeleteButton);
+                $acceptDeleteButton = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpathAcceptDeleteButton));
+                $acceptDeleteButton->click();
+                SimpleWait::waitHide($xpathAcceptDeleteButton);
             }
-        }
     }
 
     /**

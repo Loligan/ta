@@ -56,7 +56,7 @@ class SelectorsEnum
     const CABLE_ASSEMBLIES_CREATE_CABLE_ASSEMLIES_BUTTON = '//a[@ta-poject-button-create-ca]';
     const CABLE_ASSEMBLIES_CREATE_FOR_PDF_BUTTON = '//a[@ta-poject-button-create-ca-pdf]';
     const CABLE_ASSEMBLIES_CABLE_ROW_MATERIALS_TAB = '//a[@href="/multicable/"]';
-    const CABLE_ASSEMBLIES_DELETE_BUTTOM = '//a[@ta-ca-delete-action-button and @ta-id-ca="VALUE"]';
+    const CABLE_ASSEMBLIES_DELETE_BUTTOM = '//a[@ta-ca-delete-action-button][@ta-name-ca="VALUE"]';
     const CABLE_ASSEMBLIES_REVISION_LINKS = '//a[@ta-name-ca-revisions]';
     const CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME = '//a[@ta-name-ca-revisions="VALUE"]';
     const CABLE_ASSEMBLIES_LINKS = '//a[@ta-name-ca-revisions="VALUE"]';

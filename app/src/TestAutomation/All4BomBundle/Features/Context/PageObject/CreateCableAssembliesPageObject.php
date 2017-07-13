@@ -150,32 +150,32 @@ class CreateCableAssembliesPageObject implements PageObject
         $projectApprovedBy = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CREATE_CABLE_ASSEMBLIES_APPROVED_BY_INPUT));
         $projectCheckedBy = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CREATE_CABLE_ASSEMBLIES_CHECKED_BY_INPUT));
 
-        if ($projectRevDetails->getText() != $arg1) {
-            throw new \Exception("value not be good save. " . $arg1);
+        if ($projectRevDetails->getAttribute('value') != $arg1) {
+            throw new \Exception("value not be good save. '" . $arg1."' != '".$projectRevDetails->getAttribute('value')."'");
         }
-        if ($projectCompany->getText() != $arg2) {
-            throw new \Exception("value not be good save. " . $arg2);
-        }
-
-        if ($projectPartNumber->getText() != $arg3) {
-            throw new \Exception("value not be good save. " . $arg3);
+        if ($projectCompany->getAttribute('value') != $arg2) {
+            throw new \Exception("value not be good save. '" . $arg2."' != '".$projectCompany->getAttribute('value')."'");
         }
 
-        if ($projectCableDesc->getText() != $arg4) {
-            throw new \Exception("value not be good save. " . $arg4);
+        if ($projectPartNumber->getAttribute('value') != $arg3) {
+            throw new \Exception("value not be good save. '" . $arg3."' != '".$projectPartNumber->getAttribute('value')."'");
         }
 
-        if ($projectDrawNumber->getText() != $arg5) {
-            throw new \Exception("value not be good save. " . $arg5);
+        if ($projectCableDesc->getAttribute('value') != $arg4) {
+            throw new \Exception("value not be good save. '" . $arg4."' != '".$projectCableDesc->getAttribute('value')."'");
         }
-        if ($projectDesignBy->getText() != $arg6) {
-            throw new \Exception("value not be good save. " . $arg6);
+
+        if ($projectDrawNumber->getAttribute('value') != $arg5) {
+            throw new \Exception("value not be good save. '" . $arg5."' != '".$projectDrawNumber->getAttribute('value')."'");
         }
-        if ($projectApprovedBy->getText() != $arg7) {
-            throw new \Exception("value not be good save. " . $arg7);
+        if ($projectDesignBy->getAttribute('value') != $arg6) {
+            throw new \Exception("value not be good save. '" . $arg6."' != '".$projectDesignBy->getAttribute('value')."'");
         }
-        if ($projectCheckedBy->getText() != $arg8) {
-            throw new \Exception("value not be good save. " . $arg8);
+        if ($projectApprovedBy->getAttribute('value') != $arg7) {
+            throw new \Exception("value not be good save. '" . $arg7."' != '".$projectApprovedBy->getAttribute('value')."'");
+        }
+        if ($projectCheckedBy->getAttribute('value') != $arg8) {
+            throw new \Exception("value not be good save. '" . $arg8."' != '".$projectCheckedBy->getAttribute('value')."'");
         }
     }
 

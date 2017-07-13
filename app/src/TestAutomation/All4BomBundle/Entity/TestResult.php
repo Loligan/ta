@@ -57,6 +57,19 @@ class TestResult
     private $shellOutput;
 
     /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="timeStart", type="datetime",nullable=true)
+     */
+    private $timeStart;
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="timeFinish", type="datetime",nullable=true)
+     */
+    private $timeFinish;
+
+    /**
      * @return string
      */
     public function getNameScenario()
@@ -203,6 +216,38 @@ class TestResult
     public function setShellOutput($shellOutput)
     {
         $this->shellOutput = $shellOutput;
+    }
+
+    /**
+     * @return \DateTime
+     */
+    public function getTimeStart()
+    {
+        return $this->timeStart;
+    }
+
+    /**
+     * @param \DateTime $timeStart
+     */
+    public function setTimeStart($timeStart)
+    {
+        $this->timeStart = $timeStart;
+    }
+
+    /**
+     * @return \DateTime
+     */
+    public function getTimeFinish()
+    {
+        return $this->timeFinish;
+    }
+
+    /**
+     * @param \DateTime $timeFinish
+     */
+    public function setTimeFinish($timeFinish)
+    {
+        $this->timeFinish = $timeFinish;
     }
 
 

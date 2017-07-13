@@ -9,7 +9,7 @@ services:
     volumes:
       - ./app:/var/www
     ports:
-      - "8000:80"
+      - "80:80"
   php7:
     build: ./docker/php7
     ports:
@@ -27,7 +27,7 @@ services:
   db:
     build: ./docker/mysql
     ports:
-      - "33060:3306"
+      - "3306:3306"
     environment:
       MYSQL_DATABASE: db
       MYSQL_USER: user

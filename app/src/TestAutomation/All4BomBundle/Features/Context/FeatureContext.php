@@ -7,10 +7,13 @@ use Behat\Behat\Context\Context;
 use Behat\Behat\Hook\Scope\AfterScenarioScope;
 use Behat\Behat\Hook\Scope\AfterStepScope;
 use Behat\Behat\Hook\Scope\BeforeScenarioScope;
+use Behat\Behat\Tester\Exception\PendingException;
+use Behat\Mink\Exception\Exception;
 use Behat\Mink\Session;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
+use Symfony\Component\Validator\Constraints\DateTime;
 use TestAutomation\All4BomBundle\Entity\ScenarioItem;
 use TestAutomation\All4BomBundle\Entity\TestResult;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
@@ -20,6 +23,7 @@ use TestAutomation\All4BomBundle\Features\Context\PageObject\LoginPageObject;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\CableAssembliesPageObject;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\CreateCableAssembliesPageObject;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\DraftCreateRevisionsPageObject;
+use TestAutomation\All4BomBundle\Features\Context\PageObject\SimpleWait;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\TabCreateRevisionTabPageObject;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\BOMCreateRevisionPageObject;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\RevisionsPageObjects;
@@ -59,6 +63,8 @@ class FeatureContext implements Context
      */
     private static $webDriver;
     private $bufRevision;
+    /**@var \DateTime $timeStart*/
+    private $timeStart;
     private $bufPartNumberInBom;
     private $bufDescInBom;
     private $bufCableAssemblies;
@@ -116,7 +122,7 @@ class FeatureContext implements Context
      */
     public function BeforeScenario(BeforeScenarioScope $scope)
     {
-
+        $this->timeStart = new \DateTime("now");
         $capabilities = DesiredCapabilities::chrome();
 
         self::$webDriver = RemoteWebDriver::create("hub:4444/wd/hub", $capabilities, 90 * 1000, 90 * 1000);
@@ -149,6 +155,8 @@ class FeatureContext implements Context
                         $newTr->setScenarioId($tagEntity->getScenarioId());
                         $screen = self::getWebDriver()->takeScreenshot();
                         $newTr->setLastScreenshot(base64_encode($screen));
+                        $newTr->setTimeStart($this->timeStart);
+                        $newTr->setTimeFinish(new \DateTime("now"));
                         $newTr->setStatusResult($scope->getTestResult()->getResultCode());
                         $newTr->setFailStep($this->failStep);
                         $newTr->setNameScenario($scope->getFeature()->getTitle());
@@ -801,8 +809,8 @@ class FeatureContext implements Context
      */
     public function goToTheCableAssembliesPage()
     {
-        HeaderPageObject::clickOnCableAssembliesTab();
-        HeaderPageObject::clickOnLeaveWithoutSavingButton();
+//        HeaderPageObject::clickOnCableAssembliesTab();
+//        HeaderPageObject::clickOnLeaveWithoutSavingButton();
     }
 
     /**
@@ -2308,6 +2316,30 @@ class FeatureContext implements Context
     public function checkValuesOnCAEditPage1($arg3, $arg4, $arg5, $arg6, $arg7, $arg8, $arg9, $arg10)
     {
         CreateCableAssembliesPageObject::checkValues($arg3, $arg4, $arg5, $arg6, $arg7, $arg8, $arg9, $arg10);
+    }
+
+    /**
+     * @Given /^Проверить что мы находимся на страницу CA Edit$/
+     */
+    public function checkCACreateTitle()
+    {
+       $title = self::getWebDriver()->getTitle();
+       if($title!="Create cable assembly" || stristr(self::getWebDriver()->getTitle(),"Change cable assembly"))
+       {
+           throw new \Exception("No be on create ca page.".self::getWebDriver()->getCurrentURL());
+       }
+    }
+
+    /**
+     * @Given /^Проверить что мы находимся на страницу CA PDF Create Examples$/
+     */
+    public function checkCAPDFCreateTitle()
+    {
+
+        $title = self::getWebDriver()->getTitle();
+       if($title!="Create cable assembly for pdf" || stristr(self::getWebDriver()->getTitle(),"Create cable assembly")){
+           throw new \Exception("No be on create pdf ca page.".self::getWebDriver()->getCurrentURL());
+       }
     }
 
 

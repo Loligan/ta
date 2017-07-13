@@ -11,7 +11,7 @@ Feature: Cоздание объектов в Draft без сохранения
     And Нажать кнопку [CREATE REVISION]
     Then Открылась страница Revision
 
-  @Draft @Create @Text @Smoke @P=03-0 @ID=12-01 @PRIORITY=5 @ASSIGNED=1
+  @Draft @Create @Text @Smoke @P=03-0 @ID=12-01 @PRIORITY=1 @ASSIGNED=1
   Scenario: Создание на полотне объекта Text
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

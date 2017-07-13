@@ -13,10 +13,8 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use TestAutomation\All4BomBundle\Entity\Tag;
 
-class SendAllTestsInRabbit extends ContainerAwareCommand
+class SendAllTestsInRabbitCommand extends ContainerAwareCommand
 {
-    private $tagRepository;
-    private $scenarioRepository;
 
     protected function configure()
     {

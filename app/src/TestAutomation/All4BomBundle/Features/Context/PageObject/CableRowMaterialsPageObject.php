@@ -73,13 +73,16 @@ class CableRowMaterialsPageObject implements PageObject
      */
     public static function deleteAllCRMByName($nameCableAssemblies)
     {
-        $xpathDelButton = str_replace("VALUE",$nameCableAssemblies,SelectorsEnum::CABLE_ROW_MATERIALS_DELETE_BUTTOM);
-        $xpathAcceptDeleteButtons = str_replace("VALUE",$nameCableAssemblies,SelectorsEnum::CABLE_ROW_MATERIALS_DELETE_BUTTOM);
-        $deleteButtons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathDelButton));
-        $acceptDeleteButtons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathAcceptDeleteButtons));
-        foreach ($deleteButtons as $key => $button){
-            SimpleWait::waitingOfClick($button);
-            SimpleWait::waitingOfClick($acceptDeleteButtons[$key]);
+        while (true){
+            $xpathDelButton = str_replace("VALUE",$nameCableAssemblies,SelectorsEnum::CABLE_ROW_MATERIALS_DELETE_BUTTOM);
+            $xpathAcceptDeleteButtons = str_replace("VALUE",$nameCableAssemblies,SelectorsEnum::CABLE_ROW_MATERIALS_ACCEPT_DELETE_REVISION_BUTTON);
+            if(count($xpathDelButton)==0){
+                break;
+            }
+            $deleteButtons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathDelButton));
+            $acceptDeleteButtons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathAcceptDeleteButtons));
+            SimpleWait::waitingOfClick($deleteButtons[0]);
+            SimpleWait::waitingOfClick($acceptDeleteButtons[0]);
         }
     }
 

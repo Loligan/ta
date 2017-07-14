@@ -2,6 +2,7 @@
 
 namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
+use Facebook\WebDriver\Remote\LocalFileDetector;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
 
@@ -25,7 +26,9 @@ class RevisionFromPDF implements PageObject
 
     public static function setDefaultFileInPDFFileInput()
     {
+
         $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::REVISION_FROM_PDF_PDF_FILE_INPUT));
+        $input->setFileDetector(new LocalFileDetector());
         $input->sendKeys(__DIR__."/files/file.pdf");
     }
 
@@ -33,6 +36,7 @@ class RevisionFromPDF implements PageObject
     public static function setDefaultFileInExcelFileInput()
     {
         $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::REVISION_FROM_PDF_EXCEL_FILE_INPUT));
+        $input->setFileDetector(new LocalFileDetector());
         $input->sendKeys(__DIR__."/files/file.xlsx");
     }
 

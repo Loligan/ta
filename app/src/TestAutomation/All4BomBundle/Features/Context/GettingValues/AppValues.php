@@ -5,7 +5,6 @@ class AppValues
 {
     const LOGIN = "baruch";
     const PASSWORD = "testtest";
-//    const URL = "http://172.18.0.5/";
-    const URL = "http://all4bom.smartdesign.by:8378/";
+    const URL = "http://all4cables.com:8378/";
 
 }

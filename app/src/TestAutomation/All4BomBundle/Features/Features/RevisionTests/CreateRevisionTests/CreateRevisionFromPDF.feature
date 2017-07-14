@@ -39,7 +39,7 @@ Feature: Create Revision from PDF
     And Нажать на чекбокс дочерней категории "Connector" с именем "RJ" на страницу Create From PDF
     And Нажать на чекбокс дочерней категории "Cable" с именем "Flat Cable" на страницу Create From PDF
     Then Ждать "2" секунды
-    And Нажать на кнопку [Create] на странице CREATE REVISION FROM PDF
+#    And Нажать на кнопку [Create] на странице CREATE REVISION FROM PDF
     And Открыть последнюю ревизию с именем Test PDF rev
     And Ждать "2" секунды
     And Проверить что в поле Revision description данные "Test PDF rev" на странице CREATE REVISION FROM PDF

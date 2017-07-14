@@ -535,6 +535,7 @@ class FeatureContext implements Context
      */
     public function iOpenLastRevisionWithName($nameRevision)
     {
+
         RevisionsPageObjects::openLatestRevisionByName($nameRevision);
     }
 
@@ -879,6 +880,7 @@ class FeatureContext implements Context
     public function clickOnDraftByPoints($X, $Y)
     {
         DraftCreateRevisionsPageObject::clickOnDraftPoint($X, $Y);
+
     }
 
     /**
@@ -1867,6 +1869,7 @@ class FeatureContext implements Context
      */
     public function checkAddingAlternativeLineIntable($numb)
     {
+        self::getWebDriver()->takeScreenshot("FAIL.png");
         BOMCreateRevisionPageObject::checkAlternativeLineByNumber($numb);
     }
 

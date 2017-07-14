@@ -14,11 +14,11 @@ class SelectorsEnum
     const BOM_BOOT_BUTTON = './/button[@ta-button-type="Boot"]';
     const BOM_LEFT_SHRINK_BUTTON = './/button[@ta-button-type="shrink"]//span[text()="Left "]';
     const BOM_RIGHT_SHRINK_BUTTON = './/button[@ta-button-type="shrink"]//span[text()="Right "]';
-    const BOM_FAMILY_SELECT = './/select[@ta-bom-modal-table-select-family]';
-    const BOM_FAMILY_OPTION = './/select[@ta-bom-modal-table-select-family]//option[text()="VALUE"]';
-    const BOM_CATEGORY_SELECT = './/select[@ta-bom-modal-table-select-category]';
-    const BOM_CATEGORY_OPTION = './/select[@ta-bom-modal-table-select-category]//option[text()="VALUE"]';
-    const BOM_LINE_PART_NUMBER = '//td[@ta-bom-modal-table-cell]';
+    const BOM_FAMILY_SELECT = './/*[@ta-bom-modal-table-select-family]';
+    const BOM_FAMILY_OPTION = './/*[@ta-bom-modal-table-select-family]//option[@label="VALUE"]';
+    const BOM_CATEGORY_SELECT = './/*[@ta-bom-modal-table-select-category]';
+    const BOM_CATEGORY_OPTION = './/*[@ta-bom-modal-table-select-category]//option[text()="VALUE"]';
+    const BOM_LINE_PART_NUMBER = '//*[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name="Part Number"]';
     const BOM_SELECT_CUSTOM_VALUE = '//input[@ta-bom-modal-table-input-filiter-name="VALUE"]';
     const BOM_HEAD_TABLE_COLUMNS = '//table[@ta-bom-modal-table]//th';
     const BOM_TABLE_ITEM_VALUE = '//table[1][@ta-bom-modal-table]//td[@ta-bom-modal-table-cell-field-name]';
@@ -229,7 +229,7 @@ class SelectorsEnum
     /**RevisionsPageObjects COMPLETE*/
     const REVISION_CREATE_REVISION_BUTTON = '//span[@ta-create-revision-button]';
     const REVISION_LINKS_TO_REVISIONS_PAGE = '//a[@ta-edit-revision-button and @ta-table-value-name-revision="VALUE"]';
-    const REVISION_EDIT_REVISION_BUTTON_BY_NAME_REVISION = '//a[@ta-tender-create-button][@ta-table-value-name-revision="VALUE"]';
+    const REVISION_EDIT_REVISION_BUTTON_BY_NAME_REVISION = '//a[@ta-edit-revision-button][@ta-table-value-name-revision="VALUE"]';
     const REVISION_DELETE_REVISIONS_BUTTOMS = '//a[@ta-delete-revision-button and @ta-table-value-name-revision="VALUE"]';
     const REVISION_ACCEPT_DELETE_REVISION_BUTTON = '//button[@ta-accept-delete-button-rev="VALUE"]';
     const REVISION_CREATE_TENDER_REVISION_BUTTON_BY_NAME_REVISION = '//a[@ta-tender-create-button and @ta-table-value-name-revision="VALUE"]';

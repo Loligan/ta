@@ -124,6 +124,8 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function selectCableType($familyCable, $categoryCable, $numberLinePartNumber)
     {
         self::clickOnFamilySelect();
+        sleep(2);
+        FeatureContext::getWebDriver()->takeScreenshot("FAIL.png");
         self::setFamilyOption($familyCable);
         if ($categoryCable != null) {
             self::clickOnCategorySelect();

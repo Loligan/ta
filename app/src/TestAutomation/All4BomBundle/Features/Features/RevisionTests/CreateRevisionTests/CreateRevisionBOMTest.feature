@@ -46,7 +46,7 @@ Feature: Создание ревизии без сохранения с данн
     And Выбарать семейство кабелей <familyCable> и выбрать строку <numberLine> в таблице
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
-      | Type  CreateRevisionBOMTest.feature:726| Weight | familyCable | numberLine |
+      | Type  | Weight | familyCable | numberLine |
       | Plain | Normal | Flat Cable  | 3          |
 
   @Create @Revision @BOM @Cable @PlainCable @Smoke @P=04-0 @ID=11-03 @PRIORITY=5 @ASSIGNED=1
@@ -63,7 +63,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type  | Weight | familyCable  | numberLine |
-      | Plain | Normal | Row Material | 1          |
+      | Plain | Normal | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @PlainCable @P=04-0 @ID=11-04 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Cable с данными в BOM
@@ -127,7 +127,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type  | Weight | familyCable  | numberLine |
-      | Plain | Thin   | Row Material | 1          |
+      | Plain | Thin   | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @PlainCable @P=04-0 @ID=11-08 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Cable с данными в BOM
@@ -191,7 +191,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type  | Weight | familyCable  | numberLine |
-      | Plain | Thick  | Row Material | 1          |
+      | Plain | Thick  | Raw Material | 1          |
 
 
   @Create @Revision @BOM @Cable @CurveCable @P=04-1 @ID=11-12 @PRIORITY=5 @ASSIGNED=1
@@ -256,7 +256,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type  | Weight   | familyCable  | numberLine |
-      | Curve | Thinnest | Row Material | 1          |
+      | Curve | Thinnest | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @CurveCable @P=04-1 @ID=11-16 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Curve Cable с данными в BOM
@@ -320,7 +320,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type  | Weight | familyCable  | numberLine |
-      | Curve | Thin   | Row Material | 1          |
+      | Curve | Thin   | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @CurveCable @P=04-2 @ID=11-20 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Curve Cable с данными в BOM
@@ -384,7 +384,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type  | Weight | familyCable  | numberLine |
-      | Curve | Normal | Row Material | 1          |
+      | Curve | Normal | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @CurveCable @P=04-2 @ID=11-24 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Curve Cable с данными в BOM
@@ -448,7 +448,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type  | Weight | familyCable  | numberLine |
-      | Curve | Thick  | Row Material | 1          |
+      | Curve | Thick  | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @BrokenCable @P=04-2 @ID=11-28 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Cable с данными в BOM
@@ -512,7 +512,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type   | Weight   | familyCable  | numberLine |
-      | Broken | Thinnest | Row Material | 1          |
+      | Broken | Thinnest | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @BrokenCable @P=04-3 @ID=11-32 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Cable с данными в BOM
@@ -576,7 +576,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type   | Weight | familyCable  | numberLine |
-      | Broken | Thin   | Row Material | 1          |
+      | Broken | Thin   | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @BrokenCable @P=04-3 @ID=11-36 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Cable с данными в BOM
@@ -640,7 +640,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type   | Weight | familyCable  | numberLine |
-      | Broken | Normal | Row Material | 1          |
+      | Broken | Normal | Raw Material | 1          |
 
   @Create @Revision @BOM @Cable @BrokenCable @P=04-4 @ID=11-40 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание объекта Cable с данными в BOM
@@ -704,7 +704,7 @@ Feature: Создание ревизии без сохранения с данн
     Then В таблице будет информация по кабелям согластно выбранной линии
     Examples:
       | Type   | Weight | familyCable  | numberLine |
-      | Broken | Thick  | Row Material | 1          |
+      | Broken | Thick  | Raw Material | 1          |
 
 
   @Create @Revision @BOM @Cable @Shrink @LeftShrink @Smoke @PlainCable @P=04-4 @ID=11-44 @PRIORITY=5 @ASSIGNED=1
@@ -2119,7 +2119,7 @@ Feature: Создание ревизии без сохранения с данн
     And Ждать "3" секунды
     And В таблице находится 1 строки альтернативной детали
     And Нажать "2" кнопку Alternative
-    And Выбрать 1 строку в таблице
+    And Выбрать 2 строку в таблице
     And Ждать "3" секунды
     And В таблице находится 2 строки альтернативной детали
     And Сохранить ревизию с именем Test Save
@@ -2154,7 +2154,7 @@ Feature: Создание ревизии без сохранения с данн
     And Ждать "3" секунды
     And В таблице находится 1 строки альтернативной детали
     And Нажать "2" кнопку Alternative
-    And Выбрать 1 строку в таблице
+    And Выбрать 2 строку в таблице
     And Ждать "3" секунды
     And В таблице находится 2 строки альтернативной детали
     And Сохранить ревизию с именем Test Save
@@ -2189,7 +2189,7 @@ Feature: Создание ревизии без сохранения с данн
     And Ждать "3" секунды
     And В таблице находится 1 строки альтернативной детали
     And Нажать "2" кнопку Alternative
-    And Выбрать 1 строку в таблице
+    And Выбрать 2 строку в таблице
     And Ждать "3" секунды
     And В таблице находится 2 строки альтернативной детали
     And Сохранить ревизию с именем Test Save
@@ -2224,7 +2224,7 @@ Feature: Создание ревизии без сохранения с данн
     And Ждать "3" секунды
     And В таблице находится 1 строки альтернативной детали
     And Нажать "2" кнопку Alternative
-    And Выбрать 1 строку в таблице
+    And Выбрать 2 строку в таблице
     And Ждать "3" секунды
     And В таблице находится 2 строки альтернативной детали
     And Сохранить ревизию с именем Test Save
@@ -2255,11 +2255,11 @@ Feature: Создание ревизии без сохранения с данн
     And Ждать "3" секунды
     And Нажать "1" кнопку Alternative
     And Ждать "3" секунды
-    And Выбрать 2 строку в таблице
+    And Выбрать 3 строку в таблице
     And Ждать "3" секунды
-    And В таблице находится 2 строки альтернативной детали
+    And В таблице находится 1 строки альтернативной детали
     And Нажать "2" кнопку Alternative
-    And Выбрать 1 строку в таблице
+    And Выбрать 3 строку в таблице
     And Ждать "3" секунды
     And В таблице находится 2 строки альтернативной детали
     And Сохранить ревизию с именем Test Save

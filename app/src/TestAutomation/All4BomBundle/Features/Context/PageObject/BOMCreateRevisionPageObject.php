@@ -55,9 +55,7 @@ class BOMCreateRevisionPageObject implements PageObject
         FeatureContext::getWebDriver()->takeScreenshot("FAIL.png");
         LastPhrase::setPhrase("Кнопка раскрытия списка Family в таблице выбора не нажалась");
         $select->click();
-        sleep(2);
-        $select->click();
-        FeatureContext::getWebDriver()->takeScreenshot("ASD.png");
+
     }
 
     public static function clickOnCategorySelect()
@@ -77,11 +75,8 @@ class BOMCreateRevisionPageObject implements PageObject
         SimpleWait::waitShow($xpath);
         LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл найден по xpath: " . $xpath);
         $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        $actions = new WebDriverActions(FeatureContext::getWebDriver());
         LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл нажат. Xpath элемента: " . $xpath);
-        $actions->moveToElement($select);
-        sleep(4);
-        FeatureContext::getWebDriver()->takeScreenshot("FAILй.png");
+        $select->click();
     }
 
     /**

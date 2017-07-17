@@ -621,6 +621,7 @@ class FeatureContext implements Context
     {
         TabCreateRevisionTabPageObject::clickOnBOMTab();
         BOMCreateRevisionPageObject::setCableFamily(1, $FamilyCable);
+        FeatureContext::getWebDriver()->takeScreenshot("ASD123.png");
     }
 
 

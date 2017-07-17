@@ -128,8 +128,7 @@ Feature: Сохранение объектов на Draft
     And В ревизии все объекты на месте
     Examples:
       | Number | nameRevision |
-      | 2      | TestSave     |
-      | 3      | TestSave     |
+      | 1      | TestSave     |
 
   @Revision @Draft @Save @Accessories @Smoke @P=07-0 @ID=19-07 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание и сохранение объекта Accessories

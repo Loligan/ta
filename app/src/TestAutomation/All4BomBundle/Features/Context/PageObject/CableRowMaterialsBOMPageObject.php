@@ -82,6 +82,7 @@ class CableRowMaterialsBOMPageObject implements PageObject
     public static function clickOnFirstLineInTable()
     {
         $xpath = SelectorsEnum::CABLE_ROW_METERIALS_BOM_LINE_PART_NUMBER;
+        FeatureContext::getWebDriver()->takeScreenshot("fasf.png");
         SimpleWait::waitShow($xpath);
         $selects = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
         LastPhrase::setPhrase("В таблице выбора не нажалось на строку под номером 1. Xpath элемента" . $xpath);

@@ -544,7 +544,7 @@ Feature: Проверка условий связи коннекторов и к
       | Plain     | Normal      | RF              | Connector         | 1                   | RF Cable    | Cable         | Cable Group     | Cable Group         | U11              | ~          | Connector  |
 
   @Create @Revision @BOM @CableAndConnectorFilter @Cable @P=05-2 @ID=14-20 @PRIORITY=5 @ASSIGNED=1
-  Scenario Outline: Проверка всех условий связи коннекторов и кабелей
+  Scenario: Проверка всех условий связи коннекторов и кабелей
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
     And Ввести стандартный логин и пароль
@@ -552,24 +552,21 @@ Feature: Проверка условий связи коннекторов и к
     And Кликнуть на [CABLE ASSEMBLIES] в шапке
     And Нажать кнопку [EDIT] рядом с cable assmblies с именем 'tst'
     And Нажать кнопку [CREATE REVISION]
-    When Создать объект Cable типа <TypeCable> и толщиной <WeightCable> в Draft
-    And Создать объект типа Connector семейства <FamilyConnector>, категории <CategoryConnector> и выбрать кабель №<NumberCellConnector>
-    And Выбрать семейство кабелей <FamilyCable>
-    And Выбрать категорию кабеля <CategoryCable>
-    And Установить в фильтер <FilterCableName> значение <ValueCableFilter>
+    When Создать объект Cable типа Plain и толщиной Normal в Draft
+    And Создать объект типа Connector семейства RF, категории Connector и выбрать кабель №1
+    And Выбрать семейство кабелей RF Cable
+    And Выбрать категорию кабеля Cable
+#    And Установить в фильтер Cable Group значение X28
     And Ждать "2" секунды
     And Выбрать 1 строку в таблице
     And Выбрать первое значение в Connected With
-    And Нажать на первую кнопку [<ButtonName>] в BOM
+    And Нажать на первую кнопку [Connector] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу Cable Group соответствуют условию: ~
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
     And В ревизии все объекты на месте
-    Examples:
-      | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable | CategoryCable | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | RF              | Connector         | 1                   | RF Cable    | Cable         | Cable Group     | Cable Group         | X28              | ~          | Connector  |
 
   @Create @Revision @BOM @CableAndConnectorFilter @Cable @P=05-2 @ID=14-21 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей

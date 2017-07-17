@@ -14,8 +14,9 @@ class SelectorsEnum
     const BOM_BOOT_BUTTON = './/button[@ta-button-type="Boot"]';
     const BOM_LEFT_SHRINK_BUTTON = './/button[@ta-button-type="shrink"]//span[text()="Left "]';
     const BOM_RIGHT_SHRINK_BUTTON = './/button[@ta-button-type="shrink"]//span[text()="Right "]';
-    const BOM_FAMILY_SELECT = './/*[@ta-bom-modal-table-select-family]';
-    const BOM_FAMILY_OPTION = './/*[@ta-bom-modal-table-select-family]//option[@label="VALUE"]';
+    const BOM_FAMILY_SELECT = './/div[./*[@ta-bom-modal-table-select-family]]/select';
+//    const BOM_FAMILY_SELECT = './/*[@ta-bom-modal-table-select-family]';
+    const BOM_FAMILY_OPTION = './/div[./*[@ta-bom-modal-table-select-family]]/select/option[@label="VALUE"]';
     const BOM_CATEGORY_SELECT = './/*[@ta-bom-modal-table-select-category]';
     const BOM_CATEGORY_OPTION = './/*[@ta-bom-modal-table-select-category]//option[text()="VALUE"]';
     const BOM_LINE_PART_NUMBER = '//*[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name="Part Number"]';

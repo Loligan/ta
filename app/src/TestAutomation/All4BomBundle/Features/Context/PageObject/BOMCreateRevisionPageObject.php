@@ -2,6 +2,7 @@
 
 namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
+use Facebook\WebDriver\Interactions\WebDriverActions;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
@@ -46,12 +47,17 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function clickOnFamilySelect()
     {
+        sleep(2);
         LastPhrase::setPhrase("Кнопка раскрытия списка Family в таблице выбора не появилась");
         SimpleWait::waitShow(SelectorsEnum::BOM_FAMILY_SELECT);
         LastPhrase::setPhrase("Кнопка раскрытия списка Family в таблице выбора небыла найдена по xpath: " . SelectorsEnum::BOM_FAMILY_SELECT);
         $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::BOM_FAMILY_SELECT));
+        FeatureContext::getWebDriver()->takeScreenshot("FAIL.png");
         LastPhrase::setPhrase("Кнопка раскрытия списка Family в таблице выбора не нажалась");
         $select->click();
+        sleep(2);
+        $select->click();
+        FeatureContext::getWebDriver()->takeScreenshot("ASD.png");
     }
 
     public static function clickOnCategorySelect()
@@ -67,13 +73,15 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function setFamilyOption($value)
     {
         $xpath = str_replace("VALUE", $value, SelectorsEnum::BOM_FAMILY_OPTION);
-        print $xpath;
         LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл найден. Xpath элемента: " . $xpath);
         SimpleWait::waitShow($xpath);
         LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл найден по xpath: " . $xpath);
         $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
+        $actions = new WebDriverActions(FeatureContext::getWebDriver());
         LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл нажат. Xpath элемента: " . $xpath);
-        $select->click();
+        $actions->moveToElement($select);
+        sleep(4);
+        FeatureContext::getWebDriver()->takeScreenshot("FAILй.png");
     }
 
     /**
@@ -95,7 +103,7 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function setLinePartNumber($number)
     {
-
+        FeatureContext::getWebDriver()->takeScreenshot("Fafsaf.png");
         $number++;
         SimpleWait::waitShow(SelectorsEnum::BOM_LINE_PART_NUMBER);
         $select = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LINE_PART_NUMBER));
@@ -124,13 +132,12 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function selectCableType($familyCable, $categoryCable, $numberLinePartNumber)
     {
         self::clickOnFamilySelect();
-        sleep(2);
-        FeatureContext::getWebDriver()->takeScreenshot("FAIL.png");
         self::setFamilyOption($familyCable);
         if ($categoryCable != null) {
             self::clickOnCategorySelect();
             self::setCategoryOption($familyCable);
         }
+        print "fff6";
         self::setLinePartNumber($numberLinePartNumber);
 
     }

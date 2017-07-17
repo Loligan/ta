@@ -89,11 +89,12 @@ class RevisionFromPDF implements PageObject
         $checkboxes = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::REVISION_FROM_PDF_SUBCATEGORIES_CHECKBOX_INPUT));
         $index = null;
         foreach ($spans as $key =>$span){
+            print $span.PHP_EOL;
             if(trim($span->getText()) == $value){
                 $index=$key;
             }
         }
-        if(!$checkboxes[$index]->isSelected()){
+        if(!is_null($index) && !$checkboxes[$index]->isSelected()){
             throw new \Exception("Checkbox not be selected: ".$value);
         }
     }

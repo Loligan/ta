@@ -46,8 +46,7 @@ class SendAllTestsInRabbitCommand extends ContainerAwareCommand
             ->createQueryBuilder('o')
             ->where("o.name LIKE 'ID=%'")
             ->getQuery()
-            ->getResult()
-        ->orderBy('o.id','desc');
+            ->getResult();
         $ids = [];
         /**@var Tag $tag*/
         foreach ($tags as $tag){

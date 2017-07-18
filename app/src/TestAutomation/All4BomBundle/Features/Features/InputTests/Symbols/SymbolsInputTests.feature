@@ -183,7 +183,7 @@ Feature: Input Tests
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
   #    Then В таблице будет запись с именем "<ID><Revision details>"
-    And Нажать кнопку [EDIT] рядом с за{"id":8689,"tag":"ID=09-63"}писью с именем <Revision details>
+    And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
       | ID | Revision details      | Company name          | Part number           | Cable description     | Drawing number        | Design by             | Approved by           | Checked by            | Revision  | Attached Files |
@@ -1311,7 +1311,7 @@ Feature: Input Tests
     And Ввести стандартный логин и пароль
     And Нажать кнопку [LOGIN]
     And Кликнуть на [CABLE ASSEMBLIES] в шапке
-    When Нажать кнопку [CREATE FOПроверить что мы находимся на страницу CA EditR PDF]
+    When Нажать кнопку [CREATE FOR PDF]
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies

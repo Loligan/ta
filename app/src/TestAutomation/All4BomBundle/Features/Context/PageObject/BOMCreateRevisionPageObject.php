@@ -732,6 +732,7 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function getConnectorButtoms()
     {
+        FeatureContext::getWebDriver()->takeScreenshot("img.png");
         LastPhrase::setPhrase("Кнопки [Connectors] в BOM небыли найдены");
         $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CONNECTOR_BUTTONS));
         return count($buttons);
@@ -751,12 +752,11 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function clickOnLineTableByName($arg1)
     {
-        $number = $arg1++;
         SimpleWait::waitShow(SelectorsEnum::BOM_LINE_PART_NUMBER);
         $select = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LINE_PART_NUMBER));
-        LastPhrase::setPhrase("Не удалось нажать на строку с значением PartNumber = " . $arg1);
-        $select[$number]->click();
-        LastPhrase::setPhrase("Таблица не исчезла после клика по строке в таблице");
+        print "COUNT ELEMENTS: ".count($select).PHP_EOL;
+        print "arg1: ".$arg1.PHP_EOL;
+        $select[$arg1-1]->click();
     }
 
     public static function checkDescriptionValueByNameCableObject($numberConnector, $nameParam, $value)

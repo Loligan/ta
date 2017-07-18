@@ -49,10 +49,10 @@ class CableRowMaterialsPageObject implements PageObject
     {
         LastPhrase::setPhrase("Cable Row Materials с именем " . $name . " не был найден");
         SimpleWait::waitShow(SelectorsEnum::CABLE_ROW_MATERIALS_CREATE_BUTTON);
-        $pageSource = FeatureContext::getWebDriver()->getPageSource();
-        $contentFount = strpos($pageSource, substr(self::getValue($name), 0, 10));
-        if ($contentFount == false) {
-            throw new \Exception("Cannot find content: " . substr($name, 0, 100));
+        $xpathTd = str_replace('VALUE',$name,SelectorsEnum::CABLE_ROW_MATERIALS_TR);
+        $td = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathTd));
+        if(count($td)==0){
+            throw new \Exception('In table not found CA with name: '.$name);
         }
     }
 

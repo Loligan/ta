@@ -17,8 +17,8 @@ class SelectorsEnum
     const BOM_FAMILY_SELECT = './/div[./*[@ta-bom-modal-table-select-family]]/select';
 //    const BOM_FAMILY_SELECT = './/*[@ta-bom-modal-table-select-family]';
     const BOM_FAMILY_OPTION = './/div[./*[@ta-bom-modal-table-select-family]]/select/option[@label="VALUE"]';
-    const BOM_CATEGORY_SELECT = './/*[@ta-bom-modal-table-select-category]';
-    const BOM_CATEGORY_OPTION = './/*[@ta-bom-modal-table-select-category]//option[text()="VALUE"]';
+    const BOM_CATEGORY_SELECT = './/div[./*[@ta-bom-modal-table-select-category]]/select';
+    const BOM_CATEGORY_OPTION = './/div[./*[@ta-bom-modal-table-select-category]]/select/option[text()="VALUE"]';
     const BOM_LINE_PART_NUMBER = '//*[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name="Part Number"]';
     const BOM_SELECT_CUSTOM_VALUE = '//input[@ta-bom-modal-table-input-filiter-name="VALUE"]';
     const BOM_HEAD_TABLE_COLUMNS = '//table[@ta-bom-modal-table]//th';
@@ -82,12 +82,12 @@ class SelectorsEnum
     const CABLE_ROW_MATERIALS_CREATE_BUTTON = '//a[@ta-mc-button-create]';
     const CABLE_ROW_MATERIALS_EDIT_BUTTON = '//a[@ta-mc-edit-button="VALUE"]';
     const CABLE_ROW_MATERIALS_DELETE_BUTTOM = '//a[@ta-mc-delete-button="VALUE"]';
+    const CABLE_ROW_MATERIALS_TR = './/*[text()="VALUE"]';
     const CABLE_ROW_MATERIALS_ACCEPT_DELETE_REVISION_BUTTON = '//button[@ta-mc-accept-delete-button="VALUE"]';
-
     /**ChangeTenderPageObject TODO */
     const CHANGE_TENDER_VALUE_BY_NAME = "/html/body/main/div/form/fieldset/table[1]/tbody/tr[td[1]/text()=\"VALUE:\"]/td[2]";
-    const CHANGE_TENDER_PRICES = "/html/body/main/div/form/fieldset/table[2]/tbody/tr/td[4]";
 
+    const CHANGE_TENDER_PRICES = "/html/body/main/div/form/fieldset/table[2]/tbody/tr/td[4]";
     /**CreateCableAssembliesPageObject COMPLETE*/
     const CREATE_CABLE_ASSEMBLIES_REV_DETAILS_INPUT = '//input[@id="project_name"]';
     const CREATE_CABLE_ASSEMBLIES_COMPANY_INPUT = '//input[@id="project_companyName"]';
@@ -100,15 +100,15 @@ class SelectorsEnum
     const CREATE_CABLE_ASSEMBLIES_UPLOAD_FILES_INPUT = '//input[@id="project_uploadFiles"]';
     const CREATE_CABLE_ASSEMBLIES_REVISION_TYPE_NUMERICAL = '//option[text()="Numerical"]';
     const CREATE_CABLE_ASSEMBLIES_REVISION_TYPE_ALPHABETIC = '//option[text()="Alphabetic"]';
-    const CREATE_CABLE_ASSEMBLIES_CREATE_BUTTON = '//button[@name="save"]';
 
+    const CREATE_CABLE_ASSEMBLIES_CREATE_BUTTON = '//button[@name="save"]';
     /**CreateCableRowMaterialsPageObject COMPLETE*/
     const CREATE_CABLE_ROW_MATERIALS_DRAFT_TAB = '//div[@ta-crm-menu-draft]';
     const CREATE_CABLE_ROW_MATERIALS_BOM_TAB = '//li[@ta-crm-menu-bom]';
     const CREATE_CABLE_ROW_MATERIALS_GENERAL_INFO_TAB = '//li[@ta-crm-menu-general-info]';
     const CREATE_CABLE_ROW_MATERIALS_SAVE_TAB = '//li[@ta-crm-menu-save]';
-    const CREATE_CABLE_ROW_MATERIALS_INPUTS_GENERAL_INFO = '//div[@data-tab="pinout"]//div[@class="form__group"]//input';
 
+    const CREATE_CABLE_ROW_MATERIALS_INPUTS_GENERAL_INFO = '//div[@data-tab="pinout"]//div[@class="form__group"]//input';
     /**DraftCableRowMaterialsPageObject COMPLETE*/
     const DRAFT_CABLE_ROW_MATERIALS_TEXT_ICON = '//button[@ta-crm-draft-icon-text]';
     const DRAFT_CABLE_ROW_MATERIALS_CUSTOM_DIMENTION_ICON = '//button[@ta-crm-draft-icon-c-dimention]';
@@ -121,8 +121,8 @@ class SelectorsEnum
     const DRAFT_CABLE_ROW_MATERIALS_TEXT_SIZE = '//option[@ta-crm-option-size and @value="VALUE"]';
     const DRAFT_CABLE_ROW_MATERIALS_TEXT_COLOR = '//div[@ta-crm-color-input]//input';
     const DRAFT_CABLE_ROW_MATERIALS_COPY_QUANTITY = '//input[@ta-copy-input-qty]';
-    const DRAFT_CABLE_ROW_MATERIALS_CLONE_BUTTON = '//button[@ta-copy-button]';
 
+    const DRAFT_CABLE_ROW_MATERIALS_CLONE_BUTTON = '//button[@ta-copy-button]';
     /**DraftCreateRevisionsPageObject COMPLETE*/
     const DRAFT_CREATE_REVISIONS_CANVAS = '//canvas[@class="upper-canvas "]';
     const DRAFT_CREATE_REVISIONS_ABSOLUTE_HEIGHT = 1300;
@@ -162,15 +162,15 @@ class SelectorsEnum
     const DRAFT_CREATE_REVISIONS_CUSTOM_PART_ICON = '//button[@ta-text-custom-part-icon]';
     const DRAFT_CREATE_REVISIONS_COPY_ICON = '//button[@ta-copy-icon]';
     const DRAFT_CREATE_REVISIONS_COPY_BUTTON = '//button[@ta-copy-button]';
-    const DRAFT_CREATE_REVISIONS_COPY_QUANTITY = '//input[@ta-copy-input-qty]';
 
+    const DRAFT_CREATE_REVISIONS_COPY_QUANTITY = '//input[@ta-copy-input-qty]';
     /**HeaderPageObject COMPLETE*/
     const HEADER_HOME_TAB = '//a[@href="/" and @class="menu__link"]';
     const HEADER_CABLE_ASSEMBLIES_TAB = '//a[@href="/user/project/"]';
     const HEADER_CABLE_ROW_MATERIALS_TAB = '//a[@href="/multicable/"]';
     const HEADER_USER_IMAGES_TAB = '//a[@href="/user-image/"]';
-    const HEADER_LEAVE_WITHOUT_SAVING_BUTTON = '//a[@data-exit="leavePage"]';
 
+    const HEADER_LEAVE_WITHOUT_SAVING_BUTTON = '//a[@data-exit="leavePage"]';
     /**HomePageObject COMPLETE*/
     const HOME_PAGE_LOGIN_BUTTON = '//a[@href="/login"]';
     const HOME_PAGE_CABLE_ASSEMLIES_TAB = '//a[@href="/user/project/"]';
@@ -180,8 +180,8 @@ class SelectorsEnum
     const HOME_PAGE_WELCOME_TAB = '//a[@ta-tab-dropdown]';
     const HOME_PAGE_SUPPLIER_PANEL_BUTTON = '//a[@ta-tab-supplier-panel-button]';
     const HOME_PAGE_LOGOUT_BUTTON = '//a[@href="/logout"]';
-    const HOME_PAGE_SIMFONY_TAB_BUTTON = ".//*[@title=\"Close Toolbar\"]";
 
+    const HOME_PAGE_SIMFONY_TAB_BUTTON = ".//*[@title=\"Close Toolbar\"]";
     /**LabelsCreateRevisionPageObject COMPLETE*/
     const LABELS_CREATE_REVISION_BUTTON_ADD_LABEL = '//button[@ta-label-add-label-button]';
     const LABELS_CREATE_REVISION_LINES = '//table[@ta-label-table]//tbody//tr';
@@ -191,17 +191,17 @@ class SelectorsEnum
     const LABELS_CREATE_REVISION_HEIGHT_IN_MM_INPUTS = '//input[@ta-label-table-height-input]';
     const LABELS_CREATE_REVISION_WIDTH_IN_MM_INPUTS = '//input[@ta-label-table-width-input]';
     const LABELS_CREATE_REVISION_DISTANSE_FROM_INPUTS = '//input[@ta-label-table-distance-input]';
-    const LABELS_CREATE_REVISION_TOLERANCE_INPUTS = '//input[@ta-label-table-tolerance-input]';
 
+    const LABELS_CREATE_REVISION_TOLERANCE_INPUTS = '//input[@ta-label-table-tolerance-input]';
     /**LoginPageObject COMPLETE*/
     const LOGIN_PAGE_USERNAME_INPUT = '//input[@ta-username-input]';
     const LOGIN_PAGE_PASSWORD_INPUT = '//input[@ta-password-input]';
-    const LOGIN_PAGE_LOGIN_BUTTON = '//button[@ta-login-button]';
 
+    const LOGIN_PAGE_LOGIN_BUTTON = '//button[@ta-login-button]';
     /**NotesCreateRevisionsPageObject COMPLETE*/
     const NOTES_CREATE_REVISIONS_BUTTON_INSERT_OTHERS_BUTTON = '//button[@ta-notes-insert-button]';
-    const NOTES_CREATE_REVISIONS_INPUTS_TEXTAREA = '//textarea[@ta-notes-text-input]';
 
+    const NOTES_CREATE_REVISIONS_INPUTS_TEXTAREA = '//textarea[@ta-notes-text-input]';
     /**PinoutDetailsCreateRevisionsPageObject COMPLETE*/
     const PINOUT_DETAILS_CREATE_REVISION_SELECT_FIRST_CONNECTOR = '//select[@ta-pd-select-first]';
     const PINOUT_DETAILS_CREATE_REVISION_SELECT_SECOND_CONNECTOR = '//select[@ta-pd-select-second]';
@@ -209,36 +209,36 @@ class SelectorsEnum
     const PINOUT_DETAILS_CREATE_REVISION_OPTION_SECOND_CONNECTOR = '//select[@ta-pd-select-second]//option[text()="VALUE"]';
     const PINOUT_DETAILS_CREATE_REVISION_ADD_SCHEMATIC_CONNECTION_BUTTON = '//button[@ta-pd-add-button]';
     const PINOUT_DETAILS_CREATE_REVISION_TABLES = '//table[@ta-pd-table]';
-    const PINOUT_DETAILS_CREATE_REVISION_CABLE_CHECKBOXES = '//table[@ta-pd-table][TABLE]//input[@ta-main-checkbox-cell]';
 
+    const PINOUT_DETAILS_CREATE_REVISION_CABLE_CHECKBOXES = '//table[@ta-pd-table][TABLE]//input[@ta-main-checkbox-cell]';
     /**PinoutSchemasCreateRevisionPageObject COMPLETE*/
     const PINOUT_SCHEMAS_CREATE_REVISION_PLUS_BUTTON = '//span[@ta-rev-ps-add-button]';
     const PINOUT_SCHEMAS_CREATE_REVISION_TABLE_LINE_LABELS_BY_NAME = '//span[@ta-rev-pinout-scemas-checbox="VALUE"]';
     const PINOUT_SCHEMAS_CREATE_REVISION_TABLE_CHECKBOX_BY_NAME = '//span[@ta-rev-pinout-scemas-checbox="VALUE"]';
     const PINOUT_SCHEMAS_CREATE_REVISION_ADD_BUTTON_IN_TABLE = '//button[@ta-rev-pinout-schemas-add-button]';
     const PINOUT_SCHEMAS_CREATE_REVISION_TITLE_CONNECTION_IN_TABLE = '//input[@ta-rev-p-s-connection-title-input]';
-    const PINOUT_SCHEMAS_CREATE_REVISION_TITLES_LABEL_TABS = '//div[@ta-rev-pinout-schemas-tab="VALUE"]';
 
+    const PINOUT_SCHEMAS_CREATE_REVISION_TITLES_LABEL_TABS = '//div[@ta-rev-pinout-schemas-tab="VALUE"]';
     /**RevisionFromPDF COMPLETE*/
     const REVISION_FROM_PDF_REVISION_DESCRIPTION_INPUT ='//*[@id="project_version_from_pdf_name"]';
     const REVISION_FROM_PDF_PDF_FILE_INPUT =  '//*[@id="project_version_from_pdf_pdfFile"]';
     const REVISION_FROM_PDF_EXCEL_FILE_INPUT = '//*[@id="project_version_from_pdf_xlsFile"]';
     const REVISION_FROM_PDF_CREATE_BUTTON = '//button[@name="save"]';
     const REVISION_FROM_PDF_SUBCATEGORIES_CHECKBOX_LABEL = '//td[@data-type="VALUE"]//span[@class="ng-binding ng-scope"]';
-    const REVISION_FROM_PDF_SUBCATEGORIES_CHECKBOX_INPUT = '//td[@data-type="VALUE"]//span[@class="checkbox__custom"]';
 
+    const REVISION_FROM_PDF_SUBCATEGORIES_CHECKBOX_INPUT = '//td[@data-type="VALUE"]//span[@class="checkbox__custom"]';
     /**RevisionsPageObjects COMPLETE*/
     const REVISION_CREATE_REVISION_BUTTON = '//span[@ta-create-revision-button]';
     const REVISION_LINKS_TO_REVISIONS_PAGE = '//a[@ta-edit-revision-button and @ta-table-value-name-revision="VALUE"]';
     const REVISION_EDIT_REVISION_BUTTON_BY_NAME_REVISION = '//a[@ta-edit-revision-button][@ta-table-value-name-revision="VALUE"]';
     const REVISION_DELETE_REVISIONS_BUTTOMS = '//a[@ta-delete-revision-button and @ta-table-value-name-revision="VALUE"]';
     const REVISION_ACCEPT_DELETE_REVISION_BUTTON = '//button[@ta-accept-delete-button-rev="VALUE"]';
-    const REVISION_CREATE_TENDER_REVISION_BUTTON_BY_NAME_REVISION = '//a[@ta-tender-create-button and @ta-table-value-name-revision="VALUE"]';
 
+    const REVISION_CREATE_TENDER_REVISION_BUTTON_BY_NAME_REVISION = '//a[@ta-tender-create-button and @ta-table-value-name-revision="VALUE"]';
     /**SupplierPanelPageObject COMPLETE*/
     const SUPPLIER_PANEL_TENDERS_BUTTON = '//a[@ta-supplier-tenders-button]';
-    const SUPPLIER_PANEL_EDIT_BUTTONS = '//a[@ta-tender-button-edit]';
 
+    const SUPPLIER_PANEL_EDIT_BUTTONS = '//a[@ta-tender-button-edit]';
     /**TabCreateRevisionTabPageObject COMPLETE*/
     const TAB_CREATE_REVISION_REVISIONS_TAB = '//a[@ta-draft-revision-tab]';
     const TAB_CREATE_REVISION_DRAFT_TAB = '//i[@ta-draft-draft-tab]';
@@ -247,8 +247,8 @@ class SelectorsEnum
     const TAB_CREATE_REVISION_PINOUT_SCHEMAS_TAB = '//i[@ta-draft-pinout-schemas-tab]';
     const TAB_CREATE_REVISION_LABELS_TAB = '//i[@ta-labels-tab]';
     const TAB_CREATE_REVISION_NOTES_TAB = '//i[@ta-draft-notes-tab]';
-    const TAB_CREATE_REVISION_SAVE_TAB = '//i[@ta-draft-save-tab]';
 
+    const TAB_CREATE_REVISION_SAVE_TAB = '//i[@ta-draft-save-tab]';
     /**TenderAnswerPageObject COMPLETE*/
     const TENDER_ANSWER_TENDER_INFORMATION = '//span[@class="tender__checkbox"]';
     const TENDER_ANSWER_VALUE_BY_NAME = '//tr[td/text()="VALUE:"]//td[2]';
@@ -260,19 +260,19 @@ class SelectorsEnum
     const TENDER_ANSWER_SHIPMENT_TO_INPUT = '//*[@id="tender_answer_shipmentTo"]';
     const TENDER_ANSWER_PAYMENT_TERMS_INPUT = '//*[@id="tender_answer_paymentTerms"]';
     const TENDER_ANSWER_ADDITIONAL_INFORMATION_INPUT = '//*[@id="tender_answer_additionalInformation"]';
+
     const TENDER_ANSWER_ANSER_BUTTON = '//button[@name="save"]';
 
     /**TenderAnswersPageObject COMPLETE*/
     const TENDER_ANSWERS_VIEW_BUTTONS = '//a[@ta-tender-answer-edit-button]';
-
     /**TenderAnswerViewPageObject COMPLETE*/
     const TENDER_ANSWER_VIEW_ANSWER_FROM_SITE_VALUE_BY_NAME = 'ta-tender-answer-edit-value="VALUE"';
     const TENDER_ANSWER_VIEW_DESCRIPTION_TEXTS = '//td[@ta-tender-answer-part-desc]';
-    const TENDER_ANSWER_VIEW_PART_NUMBERS_TEXTS = '//td[@ta-tender-answer-part-numer]';
 
+    const TENDER_ANSWER_VIEW_PART_NUMBERS_TEXTS = '//td[@ta-tender-answer-part-numer]';
     /**TenderPageObject TODO */
-    const TENDER_PART_NUMBERS_TEXTS = "//*[@id=\"tender\"]/div[1]/div[2]/table/tbody/tr/td[2]";
-    const TENDER_DESCRIPTION_TEXTS = "//*[@id=\"tender\"]/div[1]/div[2]/table/tbody/tr/td[3]";
+    const TENDER_PART_NUMBERS_TEXTS = '//*[@id="tender"]/div[1]/div[2]/div/table/tbody/tr/td[2]';
+    const TENDER_DESCRIPTION_TEXTS = '//*[@id="tender"]/div[1]/div[2]/div/table/tbody/tr/td[3]';
     const TENDER_SELECT_PRICE_TYPE = "//*[@id=\"tender\"]/div[1]/div[1]/div/select";
     const TENDER_OPTION_VALUE_PRICE_TYPE_BY_NAME = "//*[@id=\"tender\"]/div[1]/div[1]/div/select/option[text()=\"VALUE\"]";
     const TENDER_TARGET_PRICE_INPUT = "//*[@id=\"tender\"]/div[1]/div[3]/div/input";
@@ -290,8 +290,8 @@ class SelectorsEnum
     const TENDER_COUNTRIES_INPUT = "//*[@id=\"tender_countries_chosen\"]/ul/li/input";
     const TENDER_CREATE_BUTTON = "/html/body/main/div/form/fieldset/button";
     const TENDER_SUPPLY_AT_INPUT = "//*[@id=\"tender_supplyAt\"]";
-    const TENDER_PRICES_DETAILS = "//*[@id=\"tender\"]/div[1]/div[2]/table/tbody/tr/td[4]/input";
 
+    const TENDER_PRICES_DETAILS = "//*[@id=\"tender\"]/div[1]/div[2]/table/tbody/tr/td[4]/input";
     /**TendersPageObject COMPLETE*/
     const TENDERS_EDIT_BUTTONS = '//a[@ta-tender-button-edit]';
     const TENDERS_CHECKBOX_ALL = '//span[@ta-tender-checkboxall]';

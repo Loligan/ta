@@ -947,7 +947,7 @@ Feature: gg
     Then Открыть get-draft page ревизии с именем TestSave
     And Проверить что в json присутствуют объекты "connector,connector,connector,connector,connector,connector"
 
-  @Revision @Draft @Save @Revision @Connector @Copy @P=15-3 @ID=16-32 @PRIORITY=5 @ASSIGNED=1
+  @Revision @Draft @Save @Revision @Connector @Copy @P=15-3 @ID=16-322 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Connector
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
@@ -968,7 +968,6 @@ Feature: gg
     And Выбрать 1 строку в таблице
     And Перейти на вкладку Draft
     And Ждать "2" секунды
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов
     And Установить настройку Quantity на значение 5
     And Нажать на кнопку [Copy]
@@ -981,9 +980,9 @@ Feature: gg
     Examples:
       | Family  | Category  | Number |
       | RF      | Connector | 2      |
-      | IDC     | IDC pitch | 1      |
-      | Headers | Connector | 2      |
-      | RJ      | Connector | 2      |
+#      | IDC     | IDC pitch | 1      |
+#      | Headers | Connector | 2      |
+#      | RJ      | Connector | 2      |
 
   @Revision @Draft @Save @Revision @UserImage @Copy @P=15-3 @ID=16-33 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта User images

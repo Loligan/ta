@@ -96,6 +96,7 @@ class CableRowMaterialsBOMPageObject implements PageObject
     public static function checkPartNumberSelectPartByNumberNotNull($number)
     {
         $partNumbers = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::CABLE_ROW_METERIALS_BOM_PART_NUMBER));
+
         if ($partNumbers[$number - 1]->getText() == null) {
             throw new \Exception("PartNumbers by " . $number . " number is null");
         }
@@ -107,6 +108,7 @@ class CableRowMaterialsBOMPageObject implements PageObject
      */
     public static function checkSelectPartBottomsNumbers($number)
     {
+        FeatureContext::getWebDriver()->takeScreenshot("aarr01.png");
         $buttoms = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::CABLE_ROW_METERIALS_BOM_SELECT_PART_BUTTONS));
         if (count($buttoms) != $number) {
             throw new \Exception("In bom " . count($buttoms) . " [Select part] buttoms");

@@ -324,7 +324,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "Cable" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 1 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -351,7 +350,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "Cable" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 5 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -378,7 +376,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "<CategoryCable>" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 1 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -408,7 +405,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "<CategoryCable>" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 1 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -438,7 +434,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "<CategoryCable>" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 1 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -468,7 +463,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "<CategoryCable>" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 1 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -498,7 +492,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "<CategoryCable>" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 1 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -728,7 +721,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "Drain wire" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 1 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -754,7 +746,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "Braid" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 1 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -1101,7 +1092,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "<CategoryCable>" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 5 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM
@@ -1131,7 +1121,6 @@ Feature: BOM Create Cable Row Materials Test without saving revisions
     And Выбрать значение "<CategoryCable>" из выпадающего списка Category в CRM
     And Выбрать первую строку в таблице CRM
     And Перейти на вкладку Draft в CRM
-    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов CRM
     And Установить настройку Quantity на значение 5 на панели иструментов CRM
     And Нажать на кнопку [Copy] на панели иструментов CRM

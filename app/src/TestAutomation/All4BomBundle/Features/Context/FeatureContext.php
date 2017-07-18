@@ -621,7 +621,6 @@ class FeatureContext implements Context
     {
         TabCreateRevisionTabPageObject::clickOnBOMTab();
         BOMCreateRevisionPageObject::setCableFamily(1, $FamilyCable);
-        FeatureContext::getWebDriver()->takeScreenshot("ASD123.png");
     }
 
 
@@ -631,13 +630,8 @@ class FeatureContext implements Context
      */
     public function iSetCategoryCable($CategoryCable)
     {
-        try {
-            FeatureContext::getWebDriver()->takeScreenshot("asdzxcqweWQQ.png");
             BOMCreateRevisionPageObject::setCableCategory($CategoryCable);
-        } catch (\Exception $e) {
-            $log = FeatureContext::getWebDriver()->manage()->getLog("browser");
-            var_dump($log);
-        }
+
     }
 
 
@@ -1839,6 +1833,8 @@ class FeatureContext implements Context
      */
     public function clickOnFirstLineInTableCRM()
     {
+        sleep(5);
+        self::getWebDriver()->takeScreenshot("11aa.png");
         CableRowMaterialsBOMPageObject::clickOnFirstLineInTable();
     }
 
@@ -1864,7 +1860,6 @@ class FeatureContext implements Context
     public function checkSelectPartButtomsNumbers($arg1)
     {
         CableRowMaterialsBOMPageObject::checkSelectPartBottomsNumbers($arg1);
-        FeatureContext::getWebDriver()->takeScreenshot("fff1.png");
     }
 
     /**
@@ -2338,7 +2333,9 @@ class FeatureContext implements Context
     public function checkCACreateTitle()
     {
         $title = self::getWebDriver()->getTitle();
-        if ($title != "Create cable assembly" || stristr(self::getWebDriver()->getTitle(), "Change cable assembly")) {
+        var_dump($title);
+        var_dump(self::getWebDriver()->getCurrentURL());
+        if (!stristr(self::getWebDriver()->getCurrentURL(), "project/edit")) {
             throw new \Exception("No be on create ca page." . self::getWebDriver()->getCurrentURL());
         }
     }
@@ -2348,11 +2345,15 @@ class FeatureContext implements Context
      */
     public function checkCAPDFCreateTitle()
     {
-
         $title = self::getWebDriver()->getTitle();
-        if ($title != "Create cable assembly for pdf" || stristr(self::getWebDriver()->getTitle(), "Create cable assembly")) {
-            throw new \Exception("No be on create pdf ca page." . self::getWebDriver()->getCurrentURL());
+        var_dump($title);
+        var_dump(self::getWebDriver()->getCurrentURL());
+        if ($title == "Create cable assembly for pdf") {
+            return true;
+        }else if (stristr(self::getWebDriver()->getCurrentURL(), "create-for-pdf")) {
+            return true;
         }
+        throw new \Exception("No be on create pdf ca page." . self::getWebDriver()->getCurrentURL());
     }
 
 

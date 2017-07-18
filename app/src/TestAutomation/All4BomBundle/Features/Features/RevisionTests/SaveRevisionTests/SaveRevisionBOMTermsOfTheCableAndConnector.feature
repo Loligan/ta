@@ -462,6 +462,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RF              | Connector         | 1                   | RF Cable                                | Cable               | Cable Group     | Cable Group         | U11              | ~          | Connector      |
+
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-2 @ID=17-20 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
     Given Открыть главную страницу

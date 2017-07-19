@@ -19,7 +19,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RJ              | Connector         | 1                   | Lan Cable                               | Cable          | AWG             | AWG                   | 26               | =          | Connector      |
@@ -42,7 +42,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RJ              | Connector         | 1                   | Lan Cable                               | Cable          | Category        | Category              | CAT5E            | =          | Connector      |
@@ -65,7 +65,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RJ              | Connector         | 1                   | Lan Cable                               | Cable          | Solid/Stranded  | Solid/Stranded        | Solid            | =          | Connector      |
@@ -88,7 +88,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RF              | Connector         | 1                   | RF Cable                                | Cable          | Cable Group     | Cable Group           | S16              | ~          | Connector      |
@@ -111,7 +111,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | IDC             | IDC D-Sub         | 1                   | Flat Cable                              | Cable          | Solid/Stranded  | Solid/Stranded        | Stranded         | =          | Connector      |
@@ -134,7 +134,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | IDC             | IDC D-Sub         | 1                   | Flat Cable                              | Cable          | Pitch           | Flat Cable Pitch (mm) | 1.27             | =          | Connector      |
@@ -157,7 +157,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Headers         | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire           | AWG             | AWG                   | 18               | =          | Terminal       |
@@ -180,7 +180,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD              | 11.73            | =          | Connector      |
@@ -203,7 +203,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | AWG             | AWG                   | 24               | =          | Connector      |
@@ -226,7 +226,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | AWG             | AWG                   | 26               | >          | Connector      |
@@ -249,7 +249,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD              | 5.05             | <          | D-sub hood     |
@@ -272,7 +272,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | AWG             | AWG                   | 28               | >min       | Crimp terminal |
@@ -295,7 +295,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD              | 3.76             | <          | D-sub hood     |
@@ -318,7 +318,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | AWG             | AWG Solid             | 24               | =          | Connector      |
@@ -341,7 +341,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName   | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | AWG             | AWG Stranded          | 24               | =          | Connector      |
@@ -366,7 +366,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RJ              | Connector         | 1                   | Lan Cable                               | Cable               | Category        | Category            | CAT5E            | =          | Connector      |
@@ -389,7 +389,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RJ              | Connector         | 1                   | Lan Cable                               | Cable               | Solid/Stranded  | Solid/Stranded      | Stranded         | =          | Connector      |
@@ -412,7 +412,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RF              | Connector         | 1                   | RF Cable                                | Cable               | Cable Group     | Cable Group         | S24              | ~          | Connector      |
@@ -435,7 +435,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RF              | Connector         | 1                   | RF Cable                                | Cable               | Cable Group     | Cable Group         | S39              | ~          | Connector      |
@@ -458,7 +458,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RF              | Connector         | 1                   | RF Cable                                | Cable               | Cable Group     | Cable Group         | U11              | ~          | Connector      |
@@ -482,7 +482,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | RF              | Connector         | 1                   | RF Cable                                | Cable               | Cable Group     | Cable Group         | X28              | ~          | Connector      |
@@ -505,7 +505,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Headers         | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG                 | 16               | =          | Terminal       |
@@ -528,7 +528,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Headers         | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG                 | 18               | =          | Terminal       |
@@ -551,7 +551,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Headers         | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG                 | 26               | =          | Terminal       |
@@ -574,7 +574,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | Nominal OD      | Cable OD            | 10.34            | =          | Connector      |
@@ -597,7 +597,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | Nominal OD      | Cable OD            | 10.16            | =          | Connector      |
@@ -620,7 +620,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 10.59            | =          | Connector      |
@@ -643,7 +643,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 14.66            | =          | Connector      |
@@ -666,7 +666,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | Nominal OD      | Cable OD            | 11.76            | =          | Connector      |
@@ -689,7 +689,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | Nominal OD      | Cable OD            | 4.93             | =          | Connector      |
@@ -712,7 +712,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG                 | 26               | =          | Connector      |
@@ -735,7 +735,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG                 | 26               | =          | Connector      |
@@ -758,7 +758,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | AWG             | AWG                 | 26               | =          | Connector      |
@@ -781,7 +781,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG                 | 26               | =          | Connector      |
@@ -804,7 +804,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Circular        | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire                | AWG             | AWG                 | 26               | =          | Connector      |
@@ -827,7 +827,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG                 | 28               | >          | Connector      |
@@ -850,7 +850,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG                 | 28               | >          | Connector      |
@@ -873,7 +873,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG                 | 24               | >          | Connector      |
@@ -896,7 +896,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG                 | 24               | >          | Connector      |
@@ -919,7 +919,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG                 | 26               | >          | Connector      |
@@ -942,7 +942,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire                | AWG             | AWG                 | 26               | >          | Connector      |
@@ -965,7 +965,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | Nominal OD      | Cable OD            | 4.45             | <          | D-sub hood     |
@@ -988,7 +988,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | Nominal OD      | Cable OD            | 5.18             | <          | D-sub hood     |
@@ -1011,7 +1011,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | Nominal OD      | Cable OD            | 10.34            | <          | D-sub hood     |
@@ -1034,7 +1034,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | Nominal OD      | Cable OD            | 12.07            | <          | D-sub hood     |
@@ -1057,7 +1057,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 5.28             | <          | D-sub hood     |
@@ -1080,7 +1080,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 4.62             | <          | D-sub hood     |
@@ -1103,7 +1103,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | Nominal OD      | Cable OD            | 5.87             | <          | D-sub hood     |
@@ -1126,7 +1126,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG                 | 26               | >min       | Crimp terminal |
@@ -1149,7 +1149,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG                 | 28               | >min       | Crimp terminal |
@@ -1172,7 +1172,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG                 | 24               | >min       | Crimp terminal |
@@ -1195,7 +1195,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG                 | 26               | >min       | Crimp terminal |
@@ -1218,7 +1218,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG                 | 24               | >min       | Crimp terminal |
@@ -1241,7 +1241,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG                 | 26               | >min       | Crimp terminal |
@@ -1264,7 +1264,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | AWG             | AWG                 | 24               | >min       | Crimp terminal |
@@ -1287,7 +1287,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | AWG             | AWG                 | 26               | >min       | Crimp terminal |
@@ -1310,7 +1310,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire                | AWG             | AWG                 | 26               | >min       | Crimp terminal |
@@ -1333,7 +1333,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire                | AWG             | AWG                 | 26               | >min       | Crimp terminal |
@@ -1356,7 +1356,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | Nominal OD      | Cable OD            | 10.29            | <          | D-sub hood     |
@@ -1379,7 +1379,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | Nominal OD      | Cable OD            | 11.02            | <          | D-sub hood     |
@@ -1402,7 +1402,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | Nominal OD      | Cable OD            | 12.07            | <          | D-sub hood     |
@@ -1425,7 +1425,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | Nominal OD      | Cable OD            | 11.68            | <          | D-sub hood     |
@@ -1448,7 +1448,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 10.57            | <          | D-sub hood     |
@@ -1471,7 +1471,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 11.28            | <          | D-sub hood     |
@@ -1494,7 +1494,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | Nominal OD      | Cable OD            | 5.59             | <          | D-sub hood     |
@@ -1517,7 +1517,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | Nominal OD      | Cable OD            | 7.42             | <          | D-sub hood     |
@@ -1540,7 +1540,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG Solid           | 26               | =          | Connector      |
@@ -1563,7 +1563,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG Solid           | 16               | =          | Connector      |
@@ -1586,7 +1586,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG Solid           | 18               | =          | Connector      |
@@ -1609,7 +1609,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG Solid           | 26               | =          | Connector      |
@@ -1632,7 +1632,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | AWG             | AWG Solid           | 16               | =          | Connector      |
@@ -1655,7 +1655,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | AWG             | AWG Solid           | 26               | =          | Connector      |
@@ -1678,7 +1678,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG Solid           | 24               | =          | Connector      |
@@ -1701,7 +1701,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG Solid           | 26               | =          | Connector      |
@@ -1724,7 +1724,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire                | AWG             | AWG Solid           | 24               | =          | Connector      |
@@ -1747,7 +1747,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire                | AWG             | AWG Solid           | 26               | =          | Connector      |
@@ -1770,7 +1770,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG Stranded        | 26               | =          | Connector      |
@@ -1793,7 +1793,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor      | AWG             | AWG Stranded        | 16               | =          | Connector      |
@@ -1816,7 +1816,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG Stranded        | 18               | =          | Connector      |
@@ -1839,7 +1839,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair           | AWG             | AWG Stranded        | 26               | =          | Connector      |
@@ -1862,7 +1862,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | AWG             | AWG Stranded        | 16               | =          | Connector      |
@@ -1885,7 +1885,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | AWG             | AWG Stranded        | 26               | =          | Connector      |
@@ -1908,7 +1908,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG Stranded        | 24               | =          | Connector      |
@@ -1931,7 +1931,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex      | AWG             | AWG Stranded        | 26               | =          | Connector      |
@@ -1954,7 +1954,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire                | AWG             | AWG Stranded        | 24               | =          | Connector      |
@@ -1977,7 +1977,7 @@ Feature: Cохранение ревизии с привязками cable и con
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
       | Plain     | Normal      | Terminal Block  | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Wire                | AWG             | AWG Stranded        | 26               | =          | Connector      |

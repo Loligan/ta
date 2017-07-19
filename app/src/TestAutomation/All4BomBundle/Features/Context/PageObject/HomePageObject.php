@@ -6,6 +6,7 @@ use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
 use TestAutomation\All4BomBundle\Features\Context\GettingValues\AppValues;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class HomePageObject implements PageObject
 {
@@ -43,7 +44,10 @@ class HomePageObject implements PageObject
     static function pressOnLoginButton()
     {
         LastPhrase::setPhrase("Кнопка Login небыла найдена. Xpath: " . SelectorsEnum::HOME_PAGE_LOGIN_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::HOME_PAGE_LOGIN_BUTTON));
+
+//        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::HOME_PAGE_LOGIN_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::HOME_PAGE_LOGIN_BUTTON,$screen);
+        file_put_contents("asfas213566666.png",$screen);
         LastPhrase::setPhrase("Кнопка Login небыла нажата. Xpath: " . SelectorsEnum::HOME_PAGE_LOGIN_BUTTON);
         $button->click();
     }

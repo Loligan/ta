@@ -564,6 +564,7 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnCustomOptionByNameLabelAndValue($nameLabel, $valueOption)
     {
+        sleep(2);
         $xpath = str_replace("VALUE", $nameLabel, SelectorsEnum::BOM_SELECT_CUSTOM_VALUE);
         SimpleWait::waitShow($xpath);
         $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
@@ -618,7 +619,9 @@ class BOMCreateRevisionPageObject implements PageObject
                 break;
             }
         }
-        return FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_TABLE_ITEM_VALUE))[$numberColumn-1]->getText();
+        $elements = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_TABLE_ITEM_VALUE));
+        $text = $elements[0]->getText();
+        return $text;
     }
 
     /**

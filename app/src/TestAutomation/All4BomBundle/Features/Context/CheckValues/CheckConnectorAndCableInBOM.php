@@ -31,7 +31,7 @@ class CheckConnectorAndCableInBOM
         return $firstValue;
     }
 
-    private function parseOneFloat($str)
+    private static function parseOneFloat($str)
     {
         $str = str_replace(",", ".", $str);
         preg_match("/[+-]*[0-9]{1,}.[0-9]{1,}/", $str, $result, PREG_OFFSET_CAPTURE);

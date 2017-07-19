@@ -44,6 +44,23 @@ class SimpleWait
         }
     }
 
+    /**
+     * @param $xpath
+     * @throws \Exception
+     */
+    public static function waitShowElements($xpath)
+    {
+        SimpleWait::$xpathBuf = $xpath;
+        try {
+            FeatureContext::getWebDriver()->wait(60, 20)->until(function ($driver) {
+                /**@var RemoteWebDriver $driver */
+                return $driver->findElements(WebDriverBy::xpath(SimpleWait::$xpathBuf))[0]->isDisplayed() === true && $driver->findElements(WebDriverBy::xpath(SimpleWait::$xpathBuf))[0]->isEnabled() === true;
+            });
+        } catch (\Exception $e) {
+            throw new \Exception("File not be show with xpath:" . $xpath . " \nby url: " . FeatureContext::getWebDriver()->getCurrentURL());
+        }
+    }
+
 
     /**
      * @param $xpath

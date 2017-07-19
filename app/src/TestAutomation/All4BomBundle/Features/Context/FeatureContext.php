@@ -630,7 +630,7 @@ class FeatureContext implements Context
      */
     public function iSetCategoryCable($CategoryCable)
     {
-            BOMCreateRevisionPageObject::setCableCategory($CategoryCable);
+        BOMCreateRevisionPageObject::setCableCategory($CategoryCable);
 
     }
 
@@ -642,7 +642,6 @@ class FeatureContext implements Context
      */
     public function iSetFilterByNameWithValue($FilterName, $ValueFilter)
     {
-
         BOMCreateRevisionPageObject::clickOnCustomOptionByNameLabelAndValue($FilterName, $ValueFilter);
     }
 
@@ -665,15 +664,13 @@ class FeatureContext implements Context
     }
 
     /**
-     * @Then /^В таблице, значения по стобцу (.*) соответствуют условию: (.*)$/
+     * @Then /^В таблице, значения по стобцу (.*) соответствуют условию: (.*), (.*)$/
      */
-    public function iSeeInTheTableOfValuesForTheFilterAndTheValueMustBe($FilterName, $Conditions)
+    public function iSeeInTheTableOfValuesForTheFilterAndTheValueMustBe($FilterName, $Conditions, $value)
     {
-        if ($this->bufFirstBOMTableValueForCheck === null) {
-            $this->bufFirstBOMTableValueForCheck = BOMCreateRevisionPageObject::getValueInFirstLineInTableByNameColumn($FilterName);
-        } else {
-            $this->bufSecondBOMTableValueForCheck = BOMCreateRevisionPageObject::getValueInFirstLineInTableByNameColumn($FilterName);
-        }
+        sleep(3);
+        $this->bufFirstBOMTableValueForCheck = $value;
+        $this->bufSecondBOMTableValueForCheck = BOMCreateRevisionPageObject::getValueInFirstLineInTableByNameColumn($FilterName);
         if (!CheckConnectorAndCableInBOM::conditions($Conditions, $this->bufFirstBOMTableValueForCheck, $this->bufSecondBOMTableValueForCheck)) {
             throw  new \Error("Values not equals");
         }
@@ -2350,7 +2347,7 @@ class FeatureContext implements Context
         var_dump(self::getWebDriver()->getCurrentURL());
         if ($title == "Create cable assembly for pdf") {
             return true;
-        }else if (stristr(self::getWebDriver()->getCurrentURL(), "create-for-pdf")) {
+        } else if (stristr(self::getWebDriver()->getCurrentURL(), "create-for-pdf")) {
             return true;
         }
         throw new \Exception("No be on create pdf ca page." . self::getWebDriver()->getCurrentURL());

@@ -42,7 +42,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -69,7 +69,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -96,7 +96,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -123,7 +123,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -150,7 +150,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -177,7 +177,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -204,7 +204,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -231,7 +231,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -258,7 +258,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -285,7 +285,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -312,7 +312,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -339,7 +339,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -366,7 +366,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -393,7 +393,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -422,7 +422,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -450,7 +450,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -478,7 +478,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -506,7 +506,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -534,7 +534,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -587,7 +587,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -615,7 +615,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -643,7 +643,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -671,7 +671,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -699,7 +699,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -727,7 +727,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -755,7 +755,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -783,7 +783,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -811,7 +811,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -839,7 +839,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -867,7 +867,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -895,7 +895,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -923,7 +923,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -951,7 +951,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -979,7 +979,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1007,7 +1007,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1035,7 +1035,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1063,7 +1063,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1091,7 +1091,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1119,7 +1119,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1147,7 +1147,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1175,7 +1175,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1203,7 +1203,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1231,7 +1231,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1259,7 +1259,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1287,7 +1287,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1315,7 +1315,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1343,7 +1343,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1371,7 +1371,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1399,7 +1399,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1427,7 +1427,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1455,7 +1455,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1483,7 +1483,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1511,7 +1511,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1539,7 +1539,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1567,7 +1567,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1595,7 +1595,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1623,7 +1623,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1651,7 +1651,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1679,7 +1679,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1707,7 +1707,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1735,7 +1735,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1763,7 +1763,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1791,7 +1791,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1819,7 +1819,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1847,7 +1847,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1875,7 +1875,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1903,7 +1903,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1931,7 +1931,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1959,7 +1959,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -1987,7 +1987,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2015,7 +2015,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2043,7 +2043,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2071,7 +2071,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2099,7 +2099,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2127,7 +2127,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2155,7 +2155,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2183,7 +2183,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2211,7 +2211,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2239,7 +2239,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2267,7 +2267,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2295,7 +2295,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2323,7 +2323,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2351,7 +2351,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save
@@ -2379,7 +2379,7 @@ Feature: Проверка условий связи коннекторов и к
     And Выбрать первое значение в Connected With
     And Нажать на первую кнопку [<ButtonName>] в BOM
     And Ждать "2" секунды
-    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>
+    And В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     And Выбрать 1 строку в таблице
     And Сохранить ревизию с именем Test Save
     Then Открыть последнюю ревизию с именем Test Save

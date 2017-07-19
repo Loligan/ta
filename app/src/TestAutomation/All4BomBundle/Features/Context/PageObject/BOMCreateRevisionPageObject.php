@@ -6,6 +6,7 @@ use Facebook\WebDriver\Interactions\WebDriverActions;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class BOMCreateRevisionPageObject implements PageObject
 {
@@ -15,11 +16,7 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function setTextInRevisionDescription($text = "Test")
     {
-        LastPhrase::setPhrase("Поле ввода Description в BOM не появился");
-        SimpleWait::waitShow(SelectorsEnum::BOM_REVISION_DESCRIPTION_INPUT);
-        LastPhrase::setPhrase("Поле ввода Description в BOM не нашелся по xpath: " . SelectorsEnum::BOM_REVISION_DESCRIPTION_INPUT);
-        $revDesc = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::BOM_REVISION_DESCRIPTION_INPUT));
-        LastPhrase::setPhrase("В поле ввода Description в BOM не ввелся текст: " . $text);
+        $revDesc = FindElements::findElement(SelectorsEnum::BOM_REVISION_DESCRIPTION_INPUT);
         $revDesc->sendKeys($text);
     }
 
@@ -33,49 +30,31 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnCableButton($numberCable)
     {
-        LastPhrase::setPhrase("Кнопка [Cable Button] под номером " . $numberCable . " небыла найдена");
-        SimpleWait::waitShow(SelectorsEnum::BOM_CABLE_BUTTON);
-        LastPhrase::setPhrase("Кнопка [Cable Button] небыла найден по xpath " . SelectorsEnum::BOM_CABLE_BUTTON);
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CABLE_BUTTON));
+        $buttons = FindElements::findElements(SelectorsEnum::BOM_CABLE_BUTTON);
         if ($numberCable == null) {
-            LastPhrase::setPhrase("Кнопка [Cable Button] под номером 1 не приняла нажатие");
             SimpleWait::  waitingOfClick($buttons[0]);
         }
-        LastPhrase::setPhrase("Кнопка [Cable Button] под номером " . $numberCable . "не приняла нажатие");
         SimpleWait::  waitingOfClick($buttons[$numberCable - 1]);
     }
 
     public static function clickOnFamilySelect()
     {
         sleep(2);
-        LastPhrase::setPhrase("Кнопка раскрытия списка Family в таблице выбора не появилась");
-        SimpleWait::waitShow(SelectorsEnum::BOM_FAMILY_SELECT);
-        LastPhrase::setPhrase("Кнопка раскрытия списка Family в таблице выбора небыла найдена по xpath: " . SelectorsEnum::BOM_FAMILY_SELECT);
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::BOM_FAMILY_SELECT));
-        FeatureContext::getWebDriver()->takeScreenshot("FAIL.png");
-        LastPhrase::setPhrase("Кнопка раскрытия списка Family в таблице выбора не нажалась");
+        $select = FindElements::findElement(SelectorsEnum::BOM_FAMILY_SELECT);
         $select->click();
 
     }
 
     public static function clickOnCategorySelect()
     {
-        LastPhrase::setPhrase("Кнопка раскрытия списка Category в таблице выбора не появилась");
-        SimpleWait::waitShow(SelectorsEnum::BOM_CATEGORY_SELECT);
-        LastPhrase::setPhrase("Кнопка раскрытия списка Category в таблице выбора не найдена по xpath:" . SelectorsEnum::BOM_CATEGORY_SELECT);
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::BOM_CATEGORY_SELECT));
-        LastPhrase::setPhrase("Кнопка раскрытия списка Category в таблице выбора не нажалась");
+        $select = FindElements::findElement(SelectorsEnum::BOM_CATEGORY_SELECT);
         $select->click();
     }
 
     public static function setFamilyOption($value)
     {
         $xpath = str_replace("VALUE", $value, SelectorsEnum::BOM_FAMILY_OPTION);
-        LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл найден. Xpath элемента: " . $xpath);
-        SimpleWait::waitShow($xpath);
-        LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл найден по xpath: " . $xpath);
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл нажат. Xpath элемента: " . $xpath);
+        $select = FindElements::findElement($xpath);
         $select->click();
     }
 
@@ -85,11 +64,7 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function setCategoryOption($value)
     {
         $xpath = str_replace("VALUE", $value, SelectorsEnum::BOM_CATEGORY_OPTION);
-        LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл найден. Xpath элемента: " . $xpath);
-        SimpleWait::waitShow($xpath);
-        LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл найден по xpath: " . $xpath);
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Вариант с текстом " . $value . " в выпадающем списке Family в таблице выбора небыл нажат. Xpath элемента: " . $xpath);
+        $select = FindElements::findElement($xpath);
         $select->click();
     }
 
@@ -98,10 +73,9 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function setLinePartNumber($number)
     {
-        FeatureContext::getWebDriver()->takeScreenshot("Fafsaf.png");
         $number++;
         SimpleWait::waitShow(SelectorsEnum::BOM_LINE_PART_NUMBER);
-        $select = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LINE_PART_NUMBER));
+        $select = FindElements::findElements(SelectorsEnum::BOM_LINE_PART_NUMBER);
         $select[$number]->click();
         SimpleWait::  waitHide(SelectorsEnum::BOM_LINE_PART_NUMBER);
     }
@@ -110,13 +84,9 @@ class BOMCreateRevisionPageObject implements PageObject
     {
         $number = 2;
         $xpath = str_replace("VALUE", $number, SelectorsEnum::BOM_LINE_PART_NUMBER);
-        LastPhrase::setPhrase("В таблице выбора не появилась строка с данными под номером 1 Xpath элемента: " . SelectorsEnum::BOM_LINE_PART_NUMBER);
-        SimpleWait::waitShow($xpath);
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("В таблице выбора не нажалось на строку под номером 1. Xpath элемента" . $xpath);
+        $select = FindElements::findElements($xpath,true);
         $select->click();
-        LastPhrase::setPhrase("Таблица после нажатия на строку под номером 1 не скрылась");
-        SimpleWait::  waitHide($xpath);
+        SimpleWait::waitHide($xpath);
     }
 
     /**
@@ -132,7 +102,6 @@ class BOMCreateRevisionPageObject implements PageObject
             self::clickOnCategorySelect();
             self::setCategoryOption($familyCable);
         }
-        print "fff6";
         self::setLinePartNumber($numberLinePartNumber);
 
     }
@@ -160,14 +129,9 @@ class BOMCreateRevisionPageObject implements PageObject
     {
         if ($text != null) {
             $xpath = str_replace("TYPE", $typeObject, SelectorsEnum::BOM_CUSTOMER_PART_NUMBER_INPUT);
-            LastPhrase::setPhrase("Поля ввода Customer Part Number в BOM небыло найдено по XPATH: " . SelectorsEnum::BOM_CUSTOMER_PART_NUMBER_INPUT);
-            SimpleWait::waitShow($xpath);
-            $inputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
-            LastPhrase::setPhrase("Найдено полей ввода Customer Part Number в BOM: " . count($inputs));
+            $inputs = FindElements::findElements($xpath);
             $input = $inputs[$numberCable - 1];
-            LastPhrase::setPhrase("Полей ввода Customer Part Number в BOM не очищается");
             $input->clear();
-            LastPhrase::setPhrase("В поле ввода Customer Part Number в BOM не могут вводится значение. Текст значения: " . $text);
             $input->sendKeys($text);
         }
     }
@@ -182,14 +146,9 @@ class BOMCreateRevisionPageObject implements PageObject
     {
         if ($text != null) {
             $xpath = str_replace("TYPE", $typeObject, SelectorsEnum::BOM_REMARKS_INPUT);
-            LastPhrase::setPhrase("Поля ввода Remarks в BOM небыло найдено по XPATH: " . SelectorsEnum::BOM_REMARKS_INPUT);
-            SimpleWait::waitShow($xpath);
-            $inputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
-            LastPhrase::setPhrase("Найдено полей ввода Remarks Number в BOM: " . count($inputs));
+            $inputs = FindElements::findElements($xpath);
             $input = $inputs[$numberCable - 1];
-            LastPhrase::setPhrase("Полей ввода Remarks в BOM не очищается");
             $input->clear();
-            LastPhrase::setPhrase("В поле ввода Remarks в BOM не могут вводится значение. Текст значения: " . $text);
             $input->sendKeys($text);
         }
     }
@@ -203,14 +162,9 @@ class BOMCreateRevisionPageObject implements PageObject
     {
         if ($text != null) {
             $xpath = str_replace("TYPE", $typeObject, SelectorsEnum::BOM_QUANTITY_INPUT);
-            LastPhrase::setPhrase("Поля ввода quantity небыло найдено по XPATH: " . SelectorsEnum::BOM_QUANTITY_INPUT);
-            SimpleWait::waitShow($xpath);
-            $inputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
-            LastPhrase::setPhrase("Найдено полей ввода quantity в BOM: " . count($inputs));
+            $inputs = FindElements::findElements($xpath);
             $input = $inputs[$numberCable - 1];
-            LastPhrase::setPhrase("Полей ввода Customer quantity не очищается");
             $input->clear();
-            LastPhrase::setPhrase("В поле ввода quantity в BOM не могут вводится значение. Текст значения: " . $text);
             $input->sendKeys($text);
         }
     }
@@ -224,14 +178,9 @@ class BOMCreateRevisionPageObject implements PageObject
     {
         if ($text != null) {
             $xpath = str_replace("TYPE", $typeObject, SelectorsEnum::BOM_TOLERANCE_INPUT);
-            LastPhrase::setPhrase("Поля ввода Tolerance небыло найдено по XPATH: " . SelectorsEnum::BOM_TOLERANCE_INPUT);
-            SimpleWait::waitShow($xpath);
-            $inputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
-            LastPhrase::setPhrase("Найдено полей ввода Tolerance в BOM: " . count($inputs));
+            $inputs = FindElements::findElements($xpath);
             $input = $inputs[$numberCable - 1];
-            LastPhrase::setPhrase("Полей ввода Tolerance в BOM не очищается");
             $input->clear();
-            LastPhrase::setPhrase("В поле ввода Tolerance в BOM не могут вводится значение. Текст значения: " . $text);
             $input->sendKeys($text);
         }
     }
@@ -248,14 +197,10 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function clickOnLeftShrinkButton($numberCable)
     {
-        LastPhrase::setPhrase("Кнопки Left Shrink в BOM небыли найдены. Xpath: " . SelectorsEnum::BOM_LEFT_SHRINK_BUTTON);
-        SimpleWait::waitShow(SelectorsEnum::BOM_LEFT_SHRINK_BUTTON);
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LEFT_SHRINK_BUTTON));
+        $buttons  = FindElements::findElements(SelectorsEnum::BOM_LEFT_SHRINK_BUTTON);
         if ($numberCable == null) {
-            LastPhrase::setPhrase("Кнопка Left Shrink под номером 1 в BOM небыла нажата.");
             SimpleWait::  waitingOfClick($buttons[0]);
         }
-        LastPhrase::setPhrase("Кнопка Left Shrink под номером" . $numberCable . " в BOM небыла нажата.");
         SimpleWait::  waitingOfClick($buttons[$numberCable - 1]);
     }
 
@@ -300,14 +245,10 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnRightShrinkButton($numberCable)
     {
-        LastPhrase::setPhrase("Кнопки Right Shrink  в BOM небыли найдена. Xpath элемента: " . SelectorsEnum::BOM_RIGHT_SHRINK_BUTTON);
-        SimpleWait::waitShow(SelectorsEnum::BOM_RIGHT_SHRINK_BUTTON);
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_RIGHT_SHRINK_BUTTON));
+        $buttons = FindElements::findElements(SelectorsEnum::BOM_RIGHT_SHRINK_BUTTON);
         if ($numberCable == null) {
-            LastPhrase::setPhrase("Кнопка Right Shrink под номером 1 в BOM небыла нажата.");
             SimpleWait::  waitingOfClick($buttons[0]);
         }
-        LastPhrase::setPhrase("Кнопка Right Shrink под номером" . $numberCable . " в BOM небыла нажата.");
         SimpleWait::  waitingOfClick($buttons[$numberCable - 1]);
     }
 
@@ -341,9 +282,7 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function setRightShrinkData($numberCable = null, $numberLinePartNumber = 1)
     {
-        print ("clickOnRightShrinkButton");
         self::clickOnRightShrinkButton($numberCable);
-        print ("selectRightShrinkType");
         self::selectRightShrinkType($numberLinePartNumber);
     }
 
@@ -362,11 +301,9 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function clickOnCleanCableButton($numberItem, $typeItem)
     {
         $xpath = str_replace("TYPE", $typeItem, SelectorsEnum::BOM_CLEAR_BUTTON);
-        LastPhrase::setPhrase("Кнопка [CLEAN] для элемента " . $typeItem . " под номером " . $numberItem . " в BOM небыла найден. Xpath элемента: " . $xpath);
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
+        $buttons = FindElements::findElements($xpath);
         $button = $buttons[$numberItem - 1];
         FeatureContext::getWebDriver()->executeScript("document.getElementsByClassName(\"form z-form\")[3].scrollLeft += 10000");
-        LastPhrase::setPhrase("Кнопка [CLEAN] для элемента " . $typeItem . " под номером " . $numberItem . " в BOM небыла нажата");
         SimpleWait::  waitingOfClick($button);
     }
 
@@ -386,11 +323,9 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function clickOnDeleteCableButton($numberItem, $typeItem)
     {
         $xpath = str_replace("TYPE", $typeItem, SelectorsEnum::BOM_DELETE_BUTTON);
-        LastPhrase::setPhrase("Кнопка [DELETE] для элемента " . $typeItem . " под номером " . $numberItem . " в BOM небыла найден. Xpath элемента: " . $xpath);
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
+        $buttons = FindElements::findElements($xpath);
         $button = $buttons[$numberItem - 1];
         FeatureContext::getWebDriver()->executeScript("document.getElementsByClassName(\"form z-form\")[3].scrollLeft += 10000");
-        LastPhrase::setPhrase("Кнопка [DELETE] для элемента " . $typeItem . " под номером " . $numberItem . " в BOM небыла нажата");
         SimpleWait::  waitingOfClick($button);
     }
 
@@ -410,14 +345,10 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function clickOnButtonByName($buttonName, $numberObject = 1)
     {
         $xpath = str_replace("VALUE", $buttonName, SelectorsEnum::BOM_BUTTON_BY_NAME);
-        LastPhrase::setPhrase("Кнопка [" . $buttonName . "] под номером " . $numberObject . " не была найдена по xpath: " . $xpath);
-        SimpleWait::waitShow($xpath);
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
+        $buttons = FindElements::findElements($xpath);
         if ($numberObject == null) {
-            LastPhrase::setPhrase("Кнопка [" . $buttonName . "] под номером 1 не была нажата. Xpath элемента: " . $xpath);
             SimpleWait::  waitingOfClick($buttons[0]);
         }
-        LastPhrase::setPhrase("Кнопка [" . $buttonName . "] под номером " . $numberObject . " не была нажата. Xpath элемента: " . $xpath);
         SimpleWait::  waitingOfClick($buttons[$numberObject - 1]);
     }
 
@@ -426,14 +357,10 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnConnectorButton($numberCable)
     {
-        LastPhrase::setPhrase("Кнопки [Connector] не были найдены. Xpath элемента: " . SelectorsEnum::BOM_CONNECTOR_BUTTON);
-        SimpleWait::waitShow(SelectorsEnum::BOM_CONNECTOR_BUTTON);
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CONNECTOR_BUTTON));
+        $buttons = FindElements::findElements(SelectorsEnum::BOM_CONNECTOR_BUTTON);
         if ($numberCable == null) {
-            LastPhrase::setPhrase("Кнопка [Connector] под номером 1 не были найдена или нажата.");
             SimpleWait::waitingOfClick($buttons[0]);
         }
-        LastPhrase::setPhrase("Кнопка [Connector] под номером " . $numberCable . " не были найдена или нажата.");
         SimpleWait::waitingOfClick($buttons[$numberCable - 1]);
     }
 
@@ -505,13 +432,10 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnBootButton($numberConnector)
     {
-        LastPhrase::setPhrase("Кнопки [Boot] не были найдены по xpath: " . SelectorsEnum::BOM_BOOT_BUTTON);
         $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_BOOT_BUTTON));
         if ($numberConnector == null) {
-            LastPhrase::setPhrase("Кнопка [Boot] под номером 1 не была нажата или найдена");
             SimpleWait::  waitingOfClick($buttons[0]);
         }
-        LastPhrase::setPhrase("Кнопка [Boot] под номером " . $numberConnector . " не была нажата или найдена");
         SimpleWait::  waitingOfClick($buttons[$numberConnector - 1]);
     }
 
@@ -550,10 +474,8 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnConnetorMolderFlag($numberConnector = 1)
     {
-        LastPhrase::setPhrase("Метки [Molder] на вкладке BOM небыли найдены по xpath: " . SelectorsEnum::BOM_CONNECTOR_MOLDER);
-        $molders = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CONNECTOR_MOLDER));
+        $molders = FindElements::findElements(SelectorsEnum::BOM_CONNECTOR_MOLDER);
         $molder = $molders[$numberConnector - 1];
-        LastPhrase::setPhrase("Метка [Molder] под номером " . $numberConnector . " на вкладке BOM небыла нажата");
         SimpleWait::  waitingOfClick($molder);
     }
 
@@ -567,7 +489,7 @@ class BOMCreateRevisionPageObject implements PageObject
         sleep(2);
         $xpath = str_replace("VALUE", $nameLabel, SelectorsEnum::BOM_SELECT_CUSTOM_VALUE);
         SimpleWait::waitShow($xpath);
-        $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
+        $option = FindElements::findElement($xpath);
         $option->sendKeys($valueOption);
     }
 
@@ -608,9 +530,7 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function getValueInFirstLineInTableByNameColumn($ValueFilter)
     {
-        LastPhrase::setPhrase("Подписи к столбцам в таблице выбора небыли найдены по xpath: " . SelectorsEnum::BOM_HEAD_TABLE_COLUMNS);
-        SimpleWait::waitShow(SelectorsEnum::BOM_HEAD_TABLE_COLUMNS);
-        $colums = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_HEAD_TABLE_COLUMNS));
+        $colums = FindElements::findElements(SelectorsEnum::BOM_HEAD_TABLE_COLUMNS);
         $numberColumn = 1;
         foreach ($colums as $column) {
             if ($column->getText() !== $ValueFilter) {
@@ -619,8 +539,8 @@ class BOMCreateRevisionPageObject implements PageObject
                 break;
             }
         }
-        $elements = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_TABLE_ITEM_VALUE));
-        $text = $elements[0]->getText();
+        $element = FindElements::findElements(SelectorsEnum::BOM_TABLE_ITEM_VALUE,true);
+        $text = $element->getText();
         return $text;
     }
 
@@ -629,10 +549,7 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnSelectConnectedWithByNumber($numberConnector = 1)
     {
-        LastPhrase::setPhrase("Кнопка открытия выпадающего списка Connected With в BOM под номером: " . $numberConnector . " небыла найдена");
-        SimpleWait::waitShow(SelectorsEnum::BOM_CONNECTED_WITH_SELECT);
-        $selects = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CONNECTED_WITH_SELECT));
-        LastPhrase::setPhrase("Кнопка открытия выпадающего списка Connected With в BOM под номером: " . $numberConnector . " небыла нажата");
+        $selects = FindElements::findElements(SelectorsEnum::BOM_CONNECTED_WITH_SELECT);
         SimpleWait::  waitingOfClick($selects[$numberConnector - 1]);
     }
 
@@ -642,11 +559,8 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnOptionConnectedWithByNameAndNumber($optionValue, $numberConnector = 1)
     {
-        LastPhrase::setPhrase("Вариант connected with находящийся " . $optionValue . " в списке в поле коннектора под номером " . $numberConnector . " небыл найден");
         $xpath = str_replace("VALUE", $optionValue + 1, SelectorsEnum::BOM_OPTION_CONNECTED_WITH);
-        SimpleWait::waitShow($xpath);
-        $options = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Вариант connected with находящийся " . $optionValue . " в списке в поле коннектора под номером " . $numberConnector . " небыл выбран");
+        $options = FindElements::findElements($xpath);
         SimpleWait::  waitingOfClick($options[$numberConnector - 1]);
     }
 
@@ -667,77 +581,45 @@ class BOMCreateRevisionPageObject implements PageObject
     {
 
         $num = $numberCustomerPart - 1;
-        SimpleWait::waitShow(SelectorsEnum::BOM_CATEGORY_TEXT_INPUTS);
-        LastPhrase::setPhrase("поле ввода Category у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $categoryInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CATEGORY_TEXT_INPUTS));
-        LastPhrase::setPhrase("поле ввода Part Number у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $partNumberInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_PART_NUMBER_TEXT_INPUTS));
-        LastPhrase::setPhrase("поле ввода manufacture у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $manufactureNameInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_MANUFACTURE_NAME_TEXT_INPUTS));
-        LastPhrase::setPhrase("поле ввода Description у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $descriptionInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_DESCRIPTION_TEXT_INPUTS));
-        LastPhrase::setPhrase("поле ввода Datasheet у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $datasheetInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_DATASHEET_TEXT_INPUTS));
-        LastPhrase::setPhrase("поле ввода Custom Part number у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $customerPartNumberInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CUSTOMER_PART_NUMBER_INPUTS));
-        LastPhrase::setPhrase("поле ввода Remarks у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $remarksInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_REMARKS_INPUTS));
-        LastPhrase::setPhrase("поле ввода Quantity у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $quantityInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_QUANTITY_INPUTS));
-        LastPhrase::setPhrase("поле ввода Tolerance у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
-        $toleranceInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_TOLERANCE_INPUTS));
-        LastPhrase::setPhrase("поле ввода Custom Part у " . $numberCustomerPart . " объекта Custom Part не был найден в BOM");
+        $categoryInputs = FindElements::findElements(SelectorsEnum::BOM_CATEGORY_TEXT_INPUTS);
+        $partNumberInputs = FindElements::findElements(SelectorsEnum::BOM_PART_NUMBER_TEXT_INPUTS);
+        $manufactureNameInputs = FindElements::findElements(SelectorsEnum::BOM_MANUFACTURE_NAME_TEXT_INPUTS);
+        $descriptionInputs = FindElements::findElements(SelectorsEnum::BOM_DESCRIPTION_TEXT_INPUTS);
+        $datasheetInputs = FindElements::findElements(SelectorsEnum::BOM_DATASHEET_TEXT_INPUTS);
+        $customerPartNumberInputs = FindElements::findElements(SelectorsEnum::BOM_CUSTOMER_PART_NUMBER_INPUTS);
+        $remarksInputs = FindElements::findElements(SelectorsEnum::BOM_REMARKS_INPUTS);
+        $quantityInputs = FindElements::findElements(SelectorsEnum::BOM_QUANTITY_INPUTS);
+        $toleranceInputs = FindElements::findElements(SelectorsEnum::BOM_TOLERANCE_INPUTS);
         if (count($categoryInputs) > 0) {
-            LastPhrase::setPhrase("поле ввода Category у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $categoryInputs[$num]->clear();
-            LastPhrase::setPhrase("поле ввода Part Number у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $partNumberInputs[$num]->clear();
-            LastPhrase::setPhrase("поле ввода Manufacture Name у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $manufactureNameInputs[$num]->clear();
-            LastPhrase::setPhrase("поле ввода Description у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $descriptionInputs[$num]->clear();
-            LastPhrase::setPhrase("поле ввода Dataseet у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $datasheetInputs[$num]->clear();
-            LastPhrase::setPhrase("поле ввода Customer Part Number у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $customerPartNumberInputs[$num]->clear();
-            LastPhrase::setPhrase("поле ввода Remarks у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $remarksInputs[$num]->clear();
-            LastPhrase::setPhrase("поле ввода Quantity у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $quantityInputs[$num]->clear();
-            LastPhrase::setPhrase("поле ввода Tolerance у " . $numberCustomerPart . " объекта Custom Part не было очищенно");
             $toleranceInputs[$num]->clear();
 
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Category Inputs у " . $numberCustomerPart . " объекта Custom Part");
             $categoryInputs[$num]->sendKeys($category);
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Part Number у " . $numberCustomerPart . " объекта Custom Part");
             $partNumberInputs[$num]->sendKeys($partNumber);
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Manufacture name у " . $numberCustomerPart . " объекта Custom Part");
             $manufactureNameInputs[$num]->sendKeys($manufactureName);
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Description у " . $numberCustomerPart . " объекта Custom Part");
             $descriptionInputs[$num]->sendKeys($description);
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Datasheet у " . $numberCustomerPart . " объекта Custom Part");
             $datasheetInputs[$num]->sendKeys($datasheet);
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Customer Part Number у " . $numberCustomerPart . " объекта Custom Part");
             $customerPartNumberInputs[$num]->sendKeys($customerPartNumber);
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Remarks у " . $numberCustomerPart . " объекта Custom Part");
             $remarksInputs[$num]->sendKeys($remarks);
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Quantity у " . $numberCustomerPart . " объекта Custom Part");
             $quantityInputs[$num]->sendKeys($quantity);
-            LastPhrase::setPhrase("Не ввелись данные в поле ввода Tolerance у " . $numberCustomerPart . " объекта Custom Part");
             $toleranceInputs[$num]->sendKeys($tolerance);
 
 
         } else {
-            LastPhrase::setPhrase("Customer Part Number не был добавлен в BOM");
             throw new \Exception("Customer part number not be added to BOM tab");
         }
     }
 
     public static function getConnectorButtoms()
     {
-        FeatureContext::getWebDriver()->takeScreenshot("img.png");
-        LastPhrase::setPhrase("Кнопки [Connectors] в BOM небыли найдены");
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CONNECTOR_BUTTONS));
+        $buttons = FindElements::findElements(SelectorsEnum::BOM_CONNECTOR_BUTTONS);
         return count($buttons);
     }
 
@@ -746,25 +628,20 @@ class BOMCreateRevisionPageObject implements PageObject
     {
         $xpath = str_replace("LABEL", $nameLabel, SelectorsEnum::BOM_OPTION_CUSTOM_VALUE_IN_CONNECTOR_TABLE);
         $xpath = str_replace("VALUE", $valueOption, $xpath);
-        LastPhrase::setPhrase("Значение " . $valueOption . " в списке " . $nameLabel . " в таблице выбора коннектора, не была найденно по xpath: " . $xpath);
-        SimpleWait::waitShow($xpath);
-        $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Значение " . $valueOption . " в списке " . $nameLabel . " в таблице выбора коннектора, не было нажато. Xpath элемента: " . $xpath);
+
+        $option = FindElements::findElement($xpath);
         SimpleWait::  waitingOfClick($option);
     }
 
     public static function clickOnLineTableByName($arg1)
     {
-        SimpleWait::waitShow(SelectorsEnum::BOM_LINE_PART_NUMBER);
-        $select = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LINE_PART_NUMBER));
-        print "COUNT ELEMENTS: ".count($select).PHP_EOL;
-        print "arg1: ".$arg1.PHP_EOL;
+        $select = FindElements::findElements(SelectorsEnum::BOM_LINE_PART_NUMBER);
         $select[$arg1-1]->click();
     }
 
     public static function checkDescriptionValueByNameCableObject($numberConnector, $nameParam, $value)
     {
-        $descriptions = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CONNECTOR_DESCRIPTION_TEXT));
+        $descriptions = FindElements::findElements(SelectorsEnum::BOM_CONNECTOR_DESCRIPTION_TEXT);
         $description = $descriptions[$numberConnector - 1];
         $textDescription = $description->getText();
         $searchValues = $nameParam . " = " . $value;
@@ -775,13 +652,13 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function getNumberCableButtons()
     {
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CABLE_BUTTON));
+        $buttons = FindElements::findElements(SelectorsEnum::BOM_CABLE_BUTTON);
         return count($buttons);
     }
 
     public static function checkCategoryInputByNumberInputs($number)
     {
-        $categoryTextInputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_CATEGORY_TEXT_INPUTS));
+        $categoryTextInputs  = FindElements::findElements(SelectorsEnum::BOM_CATEGORY_TEXT_INPUTS);
         $countCategoryTextInputs = count($categoryTextInputs);
         if ($countCategoryTextInputs != $number) {
             throw new \Exception("In bom not be found " . $number . " custom part. In BOM " . $countCategoryTextInputs . " custom part");
@@ -793,12 +670,8 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnAlternativeButtonByNumber($number)
     {
-        print "find" . PHP_EOL;
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_ALTERNATIVE_BUTTONS));
-        print "COUNT ALT BUTTONS: " . count($buttons);
-        print "click" . PHP_EOL;
+        $buttons = FindElements::findElements(SelectorsEnum::BOM_ALTERNATIVE_BUTTONS);
         $buttons[$number - 1]->click();
-        print "exit" . PHP_EOL;
     }
 
     /**
@@ -807,7 +680,7 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function checkAlternativeLineByNumber($number)
     {
-        $lines = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(".//tr[@ng-repeat=\"alternativeProduct in selectedProduct.alternativeProducts\"]"));
+        $lines = FindElements::findElements(SelectorsEnum::BOM_ALTERNATIVE_LINES);
         $altLines = count($lines);
         if ($altLines != $number) {
             throw new \Exception("Count alternative lines no be equal " . $number . " Number of alt. lines in page = " . $altLines);
@@ -816,8 +689,8 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function saveAllPartNumberAndDescInBom()
     {
-        $partNumbersItems = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_PART_NUMBER_TEXTS));
-        $descriptionsItems = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_DESCRIPTIONS_TEXTS));
+        $partNumbersItems = FindElements::findElements(SelectorsEnum::BOM_PART_NUMBER_TEXTS);
+        $descriptionsItems = FindElements::findElements(SelectorsEnum::BOM_DESCRIPTIONS_TEXTS);
 
         $partNumbersValues = array();
         $descValues = array();
@@ -833,10 +706,6 @@ class BOMCreateRevisionPageObject implements PageObject
                 array_push($descValues, $text);
             }
         }
-
-        var_dump($descValues);
-        var_dump($partNumbersValues);
-
     }
 
     /**
@@ -844,8 +713,8 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function getAllDescInBom()
     {
-        $descriptionsItems = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_DESCRIPTIONS_TEXTS));
 
+        $descriptionsItems = FindElements::findElements(SelectorsEnum::BOM_DESCRIPTIONS_TEXTS);
         $descValues = array();
         foreach ($descriptionsItems as $descriptionsItem) {
             $text = $descriptionsItem->getText();
@@ -861,8 +730,7 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function getAllPartNumberInBom()
     {
-        $partNumbersItems = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_PART_NUMBER_TEXTS));
-
+        $partNumbersItems = FindElements::findElements(SelectorsEnum::BOM_PART_NUMBER_TEXTS);
         $partNumbersValues = array();
         foreach ($partNumbersItems as $partNumbersItem) {
             $text = $partNumbersItem->getText();

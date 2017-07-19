@@ -4,6 +4,7 @@ namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class BuyerTendersPageObject implements PageObject
 {
@@ -14,7 +15,7 @@ class BuyerTendersPageObject implements PageObject
 
     public static function clickOnTendersButtom()
     {
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::BUYER_TENDERS_TENDERS_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::BUYER_TENDERS_TENDERS_BUTTON);
         $button->click();
     }
 

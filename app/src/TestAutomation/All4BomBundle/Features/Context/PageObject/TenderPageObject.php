@@ -2,9 +2,8 @@
 
 namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
-use Facebook\WebDriver\WebDriverBy;
 use Facebook\WebDriver\WebDriverKeys;
-use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class TenderPageObject implements PageObject
 {
@@ -20,8 +19,8 @@ class TenderPageObject implements PageObject
      */
     public static function checkPartNumbersAndDesc($bufPartNumberInBom, $bufDescInBom)
     {
-        $descriptionsItems = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::TENDER_DESCRIPTION_TEXTS));
-        $partNumbersItems = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::TENDER_PART_NUMBERS_TEXTS));
+        $descriptionsItems = FindElements::findElements(SelectorsEnum::TENDER_DESCRIPTION_TEXTS);
+        $partNumbersItems = FindElements::findElements(SelectorsEnum::TENDER_PART_NUMBERS_TEXTS);
 
         $descValues = array();
         $partNumbersValues = array();
@@ -53,11 +52,11 @@ class TenderPageObject implements PageObject
      */
     public static function setTenderByName($name)
     {
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_SELECT_PRICE_TYPE));
+        $select = FindElements::findElement(SelectorsEnum::TENDER_SELECT_PRICE_TYPE);
         $select->click();
         sleep(0.5);
         $xpathOption = str_replace("VALUE", $name, SelectorsEnum::TENDER_OPTION_VALUE_PRICE_TYPE_BY_NAME);
-        $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpathOption));
+        $option = FindElements::findElement($xpathOption);
         $option->click();
     }
 
@@ -66,7 +65,7 @@ class TenderPageObject implements PageObject
      */
     public static function setTargetPrice($arg1)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_TARGET_PRICE_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_TARGET_PRICE_INPUT);
         $input->clear();
         $input->sendKeys($arg1);
     }
@@ -76,7 +75,7 @@ class TenderPageObject implements PageObject
      */
     public static function setQTY($arg1)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_QTY_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_QTY_INPUT);
         $input->clear();
         $input->sendKeys($arg1);
     }
@@ -88,7 +87,7 @@ class TenderPageObject implements PageObject
      */
     public static function setSupplyAt($month, $day, $year)
     {
-        $supplyAt = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_SUPPLY_AT_INPUT));
+        $supplyAt = FindElements::findElement(SelectorsEnum::TENDER_SUPPLY_AT_INPUT);
         $supplyAt->clear();
         $supplyAt->sendKeys($day . "-" . $month . "-" . $year);
     }
@@ -98,7 +97,7 @@ class TenderPageObject implements PageObject
      */
     public static function setShipmentTo($arg1)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_SHIPMENT_TO_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_SHIPMENT_TO_INPUT);
         $input->clear();
         $input->sendKeys($arg1);
     }
@@ -108,7 +107,7 @@ class TenderPageObject implements PageObject
      */
     public static function setShipmentMethod($arg1)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_SHIPMENT_METHOD_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_SHIPMENT_METHOD_INPUT);
         $input->clear();
         $input->sendKeys($arg1);
     }
@@ -118,7 +117,7 @@ class TenderPageObject implements PageObject
      */
     public static function setSpecialReq($arg1)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_SPECIAL_REQUIRMENTS_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_SPECIAL_REQUIRMENTS_INPUT);
         $input->clear();
         $input->sendKeys($arg1);
     }
@@ -128,7 +127,7 @@ class TenderPageObject implements PageObject
      */
     public static function setAdditionalInformation($arg1)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ADDITIONAL_INFORMATION_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ADDITIONAL_INFORMATION_INPUT);
         $input->clear();
         $input->sendKeys($arg1);
     }
@@ -138,7 +137,7 @@ class TenderPageObject implements PageObject
      */
     public static function setCountriesInformation($arg1)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_COUNTRIES_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_COUNTRIES_INPUT);
         $input->clear();
         $input->sendKeys($arg1);
         $input->sendKeys(WebDriverKeys::ENTER);
@@ -147,7 +146,7 @@ class TenderPageObject implements PageObject
 
     public static function clickOnCreateButton()
     {
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_CREATE_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::TENDER_CREATE_BUTTON);
         $button->click();
     }
 
@@ -156,7 +155,7 @@ class TenderPageObject implements PageObject
      */
     public static function setInPricesDetails($value)
     {
-        $prices = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::TENDER_PRICES_DETAILS));
+        $prices = FindElements::findElements(SelectorsEnum::TENDER_PRICES_DETAILS);
         foreach ($prices as $price) {
             $price->clear();
             $price->sendKeys($value);

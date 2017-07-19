@@ -4,6 +4,7 @@ namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class CableAssemblyForPDF implements PageObject
 {
@@ -14,7 +15,7 @@ class CableAssemblyForPDF implements PageObject
 
     public static function clickOnCreateFromPdfButton()
     {
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CABLE_ASSEMBLY_FOR_PDF_CREATE_FROM_PDF_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::CABLE_ASSEMBLY_FOR_PDF_CREATE_FROM_PDF_BUTTON);
         $button->click();
     }
 }

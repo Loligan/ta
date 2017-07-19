@@ -5,6 +5,7 @@ namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class CableAssembliesPageObject implements PageObject
 {
@@ -28,9 +29,7 @@ class CableAssembliesPageObject implements PageObject
      */
     static function clickOnCableRowMaterialsTab()
     {
-        LastPhrase::setPhrase("Кнопка Cable Row Materials в панели не была найдена на странице Cable Assemblies");
-        $tab = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CABLE_ASSEMBLIES_CABLE_ROW_MATERIALS_TAB));
-        LastPhrase::setPhrase("Кнопка Cable Row Materials в панели не была нажата на странице Cable Assemblies");
+        $tab = FindElements::findElement(SelectorsEnum::CABLE_ASSEMBLIES_CABLE_ROW_MATERIALS_TAB);
         $tab->click();
     }
 
@@ -39,10 +38,7 @@ class CableAssembliesPageObject implements PageObject
      */
     static function clickOnCreateCableAssemblyButton()
     {
-        LastPhrase::setPhrase("Кнопка [Create Cable Assembly] не была найдена на странице Cable Assemblies");
-        SimpleWait::waitShow(SelectorsEnum::CABLE_ASSEMBLIES_CREATE_CABLE_ASSEMLIES_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CABLE_ASSEMBLIES_CREATE_CABLE_ASSEMLIES_BUTTON));
-        LastPhrase::setPhrase("Кнопка [Create Cable Assembly] не была нажата на странице Cable Assemblies");
+        $button = FindElements::findElement(SelectorsEnum::CABLE_ASSEMBLIES_CREATE_CABLE_ASSEMLIES_BUTTON);
         $button->click();
     }
 
@@ -52,9 +48,10 @@ class CableAssembliesPageObject implements PageObject
     static function openRevisionsPageLatestCableAssembliesOnPage()
     {
         self::openPage();
-        $count = count(FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::CABLE_ASSEMBLIES_REVISION_LINKS)));
+        $elements = FindElements::findElements(SelectorsEnum::CABLE_ASSEMBLIES_REVISION_LINKS);
+        $count = count($elements);
         if ($count > 0) {
-            SimpleWait::  waitingOfClick(FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::CABLE_ASSEMBLIES_REVISION_LINKS))[$count - 1]);
+            $elements[$count - 1]->click();
         } else {
             throw new \Exception("On Cable Assemblies Page not found cable assemblies.");
         }
@@ -78,7 +75,8 @@ class CableAssembliesPageObject implements PageObject
     static function openCableAssembliesByName($name)
     {
         self::openPage();
-        $revision = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(self::getXpath(SelectorsEnum::CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME, $name)));
+        $xpath = self::getXpath(SelectorsEnum::CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME, $name);
+        $revision = FindElements::findElements($xpath);
         $count = count($revision);
         if (count($revision) > 0) {
             $revision[$count - 1]->click();
@@ -93,16 +91,12 @@ class CableAssembliesPageObject implements PageObject
      */
     static function clickOnEditButtonByCableAssembliesName($name)
     {
-        LastPhrase::setPhrase("Не была найдена ссылка на ревизии или Cable Assemblies с именем " . $name);
         $xpath = str_replace('VALUE',$name,SelectorsEnum::CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME);
-        SimpleWait::waitShow($xpath);
-        $revision = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
-        var_dump($xpath);
+        $revision = FindElements::findElements($xpath);
         $count = count($revision);
         if (count($revision) > 0) {
             $revision[$count - 1]->click();
         } else {
-            LastPhrase::setPhrase("Не была найдена ссылка на ревизии или Cable Assemblies с именем " . $name);
             throw new \Exception("Cable assembly with name: " . $name . " not found");
         }
     }
@@ -113,14 +107,12 @@ class CableAssembliesPageObject implements PageObject
      */
     public static function clickOnRevisionsLinkByNameCableAssemblies($name)
     {
-        LastPhrase::setPhrase("Не была найдена ссылка на ревизии с именем " . $name);
-        $revision = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(self::getXpath(SelectorsEnum::CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME, $name)));
+        $xpath = self::getXpath(SelectorsEnum::CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME, $name);
+        $revision = FindElements::findElements($xpath);
         $count = count($revision);
         if (count($revision) > 0) {
-            LastPhrase::setPhrase("Не была нажата ссылка на ревизии с именем " . $name);
             $revision[$count - 1]->click();
         } else {
-            LastPhrase::setPhrase("Не был найдена ссылка на ревизии с именем " . $name);
             throw new \Exception("Cable assembly with name: " . $name . " not found");
         }
     }
@@ -132,8 +124,8 @@ class CableAssembliesPageObject implements PageObject
      */
     public static function checkCableAssemliesByName($name)
     {
-        LastPhrase::setPhrase("Cable Assemblies с именеим " . $name . " небыла найдена. Поиск проивзодился по наличию линка на Cable revision по xpath: " . self::getXpath(SelectorsEnum::CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME, $name));
-        $revision = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(self::getXpath(SelectorsEnum::CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME, $name)));
+        $xpath = self::getXpath(SelectorsEnum::CABLE_ASSEMBLIES_LINK_TO_CABLE_ASSEMBLIES_PAGE_BY_NAME, $name);
+        $revision = FindElements::findElements($xpath);
         if (count($revision) > 0) {
             return true;
         } else {
@@ -147,14 +139,12 @@ class CableAssembliesPageObject implements PageObject
     public static function deleteAllCableAssembliesByName($nameCableAssemblies)
     {
             $xpathLink = str_replace("VALUE", $nameCableAssemblies, SelectorsEnum::CABLE_ASSEMBLIES_DELETE_BUTTOM);
-            $deleteButtoms = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathLink));
-
+            $deleteButtoms = FindElements::findElements($xpathLink);
             foreach ($deleteButtoms as $deleteButtom){
                 $id = $deleteButtom->getAttribute("ta-id-ca");
                 $deleteButtom->click();
                 $xpathAcceptDeleteButton = str_replace("VALUE",$id,SelectorsEnum::CABLE_ASSEMBLIES_ACCEPT_DELETE_REVISION_BUTTON);
-                SimpleWait::waitShow($xpathAcceptDeleteButton);
-                $acceptDeleteButton = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpathAcceptDeleteButton));
+                $acceptDeleteButton = FindElements::findElement($xpathAcceptDeleteButton);
                 $acceptDeleteButton->click();
                 SimpleWait::waitHide($xpathAcceptDeleteButton);
             }
@@ -164,7 +154,7 @@ class CableAssembliesPageObject implements PageObject
      */
     public static function pressLastEditButton()
     {
-        $buttons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::CABLE_ASSEMBLIES_EDIT_ACTION_BUTTONS));
+        $buttons = FindElements::findElements(SelectorsEnum::CABLE_ASSEMBLIES_EDIT_ACTION_BUTTONS);
         $button = $buttons[count($buttons) - 1];
         $button->click();
     }
@@ -173,8 +163,7 @@ class CableAssembliesPageObject implements PageObject
      */
     public static function clickOnCreateForPDFButton()
     {
-        SimpleWait::waitShow(SelectorsEnum::CABLE_ASSEMBLIES_CREATE_FOR_PDF_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CABLE_ASSEMBLIES_CREATE_FOR_PDF_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::CABLE_ASSEMBLIES_CREATE_FOR_PDF_BUTTON);
         $button->click();
     }
 

@@ -5,6 +5,7 @@ namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class CreateCableRowMaterialsPageObject implements PageObject
 {
@@ -17,33 +18,25 @@ class CreateCableRowMaterialsPageObject implements PageObject
 
     static function clickOnDraftTab()
     {
-        LastPhrase::setPhrase("Элемент Draft Tab не был найден по xpath: " . SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_DRAFT_TAB);
-        $tab = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_DRAFT_TAB));
-        LastPhrase::setPhrase("Элемент Draft Tab не был нажат. Xpath элемента: " . SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_DRAFT_TAB);
+        $tab = FindElements::findElement(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_DRAFT_TAB);
         SimpleWait:: waitingOfClick($tab);
     }
 
     static function clickOnBomInfoTab()
     {
-        LastPhrase::setPhrase("Элемент BOM Tab не был найден по xpath: " . SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_BOM_TAB);
-        $tab = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_BOM_TAB));
-        LastPhrase::setPhrase("Элемент BOM Tab не был нажат. Xpath элемента: " . SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_BOM_TAB);
+        $tab = FindElements::findElement(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_BOM_TAB);
         SimpleWait:: waitingOfClick($tab);
     }
 
     static function clickOnGeneralInfoTab()
     {
-        LastPhrase::setPhrase("Элемент General Info Tab не был найден по xpath:" . SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_GENERAL_INFO_TAB);
-        $tab = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_GENERAL_INFO_TAB));
-        LastPhrase::setPhrase("Элемент General Info Tab не был нажат. Xpath элемента:" . SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_GENERAL_INFO_TAB);
+        $tab = FindElements::findElement(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_GENERAL_INFO_TAB);
         SimpleWait:: waitingOfClick($tab);
     }
 
     static function clickOnSaveTab()
     {
-        LastPhrase::setPhrase("Элемент Save Tab не был найден по xpath:" . SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_SAVE_TAB);
-        $tab = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_SAVE_TAB));
-        LastPhrase::setPhrase("Элемент Save Tab не был нажат. Xpath элемента:" . SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_SAVE_TAB);
+        $tab = FindElements::findElement(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_SAVE_TAB);
         SimpleWait:: waitingOfClick($tab);
     }
 
@@ -102,7 +95,7 @@ class CreateCableRowMaterialsPageObject implements PageObject
     static function setInformationInInputsInGeneralInfo($arg1, $arg2, $arg3, $arg4, $arg5, $arg6, $arg7, $arg8, $arg9, $arg10, $arg11, $arg12, $arg13, $arg14, $arg15, $arg16, $arg17, $arg18, $arg19, $arg20, $arg21, $arg22, $arg23, $arg24, $arg25, $arg26, $arg27, $arg28, $arg29, $arg30, $arg31, $arg32, $arg33, $arg34, $arg35, $arg36, $arg37, $arg38)
     {
         $values = [$arg1, $arg2, $arg3, $arg4, $arg5, $arg6, $arg7, $arg8, $arg9, $arg10, $arg11, $arg12, $arg13, $arg14, $arg15, $arg16, $arg17, $arg18, $arg19, $arg20, $arg21, $arg22, $arg23, $arg24, $arg25, $arg26, $arg27, $arg28, $arg29, $arg30, $arg31, $arg32, $arg33, $arg34, $arg35, $arg36, $arg37, $arg38];
-        $inputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_INPUTS_GENERAL_INFO));
+        $inputs = FindElements::findElements(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_INPUTS_GENERAL_INFO);
         foreach ($values as $key => $value) {
             $inputs[$key]->clear();
             $inputs[$key]->sendKeys($values[$key]);
@@ -154,7 +147,7 @@ class CreateCableRowMaterialsPageObject implements PageObject
     {
         $checkedValues = [$arg1, $arg2, $arg3, $arg4, $arg5, $arg6, $arg7, $arg8, $arg9, $arg10, $arg11, $arg12, $arg13, $arg14, $arg15, $arg16, $arg17, $arg18, $arg19, $arg20, $arg21, $arg22, $arg23, $arg24, $arg25, $arg26, $arg27, $arg28, $arg29, $arg30, $arg31, $arg32, $arg33, $arg34, $arg35, $arg36, $arg37, $arg38];
         $inputValue = array();
-        $inputs = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_INPUTS_GENERAL_INFO));
+        $inputs = FindElements::findElements(SelectorsEnum::CREATE_CABLE_ROW_MATERIALS_INPUTS_GENERAL_INFO);
         foreach ($inputs as $key => $input) {
             $inputValue[$key] = $input->getAttribute("value");
         }

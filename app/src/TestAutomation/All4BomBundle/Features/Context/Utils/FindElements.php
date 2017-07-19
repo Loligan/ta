@@ -9,39 +9,58 @@ use TestAutomation\All4BomBundle\Features\Context\PageObject\SimpleWait;
 
 class FindElements
 {
-    public static function findElements($xpath, &$screenshot, $getFirst = false)
+    static $count = 0;
+    /**
+     * @param string $xpath
+     * @param bool $getFirst
+     * @return \Facebook\WebDriver\Remote\RemoteWebElement|\Facebook\WebDriver\Remote\RemoteWebElement[]
+     */
+    public static function findElements($xpath, $getFirst = false)
     {
         SimpleWait::waitShowElements($xpath);
         $elements = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
         if (!$getFirst) {
             self::borderEdit($xpath);
             sleep(1);
-            $screenshot = FeatureContext::getWebDriver()->takeScreenshot();
+            self::takeScreen();
             self::borderRestart($xpath);
             return $elements;
         } else {
             self::borderEdit($xpath,true);
             sleep(1);
-            $screenshot = FeatureContext::getWebDriver()->takeScreenshot();
+        self::takeScreen();
             self::borderRestart($xpath);
             return $elements[0];
         }
     }
 
-
-    public static function findElement($xpath, &$screenshot)
+    /**
+     * @param string $xpath
+     * @return \Facebook\WebDriver\Remote\RemoteWebElement
+     */
+    public static function findElement($xpath)
     {
         SimpleWait::waitShow($xpath);
         $element = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
         self::borderEdit($xpath,true);
         sleep(1);
-        $screenshot = FeatureContext::getWebDriver()->takeScreenshot();
+        self::takeScreen();
         self::borderRestart($xpath);
         return $element;
     }
 
 
-    public static function borderEdit($xpath, $editFirst = false)
+
+    private static function takeScreen(){
+        $screenshot = FeatureContext::getWebDriver()->takeScreenshot();
+//        $name =self::$count++.'f.png';
+//        print $name.PHP_EOL;
+//        file_put_contents('screenshot/'.$name,$screenshot);
+    }
+
+
+
+    private static function borderEdit($xpath, $editFirst = false)
     {
         $style = "element.style.borderColor = '#9400D3';
                   element.style.background = '#ff33cc';
@@ -66,7 +85,7 @@ class FindElements
 }
 
 
-    public static function borderRestart($xpath)
+    private static function borderRestart($xpath)
     {
         $findAll = "element = 
                     document.evaluate('" . $xpath . "', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;";

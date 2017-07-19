@@ -4,6 +4,7 @@ namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class TenderAnswerViewPageObject implements PageObject
 {
@@ -22,7 +23,7 @@ class TenderAnswerViewPageObject implements PageObject
     public static function checkAnswerFromSite($name, $value)
     {
         $xpath = str_replace("VALUE", $name, SelectorsEnum::TENDER_ANSWER_VIEW_ANSWER_FROM_SITE_VALUE_BY_NAME);
-        $label = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
+        $label = FindElements::findElement($xpath);
         $valueInPage = $label->getText();
         if ($valueInPage != $value) {
             throw new \Exception("Value in line " . $name . " not be equals. " . $value . " != " . $valueInPage . " in page");
@@ -37,8 +38,8 @@ class TenderAnswerViewPageObject implements PageObject
     public static function checkPartNumberAndDescription($partNumber, $bufDescription)
     {
 
-        $descriptionsItems = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_VIEW_DESCRIPTION_TEXTS));
-        $partNumbersItems = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_VIEW_PART_NUMBERS_TEXTS));
+        $descriptionsItems = FindElements::findElements(SelectorsEnum::TENDER_ANSWER_VIEW_DESCRIPTION_TEXTS);
+        $partNumbersItems = FindElements::findElements(SelectorsEnum::TENDER_ANSWER_VIEW_PART_NUMBERS_TEXTS);
 
         $descValues = array();
         $partNumbersValues = array();

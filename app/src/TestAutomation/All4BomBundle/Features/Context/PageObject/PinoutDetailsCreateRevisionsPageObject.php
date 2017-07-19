@@ -2,8 +2,7 @@
 
 namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
-use Facebook\WebDriver\WebDriverBy;
-use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 
 class PinoutDetailsCreateRevisionsPageObject implements PageObject
@@ -19,14 +18,14 @@ class PinoutDetailsCreateRevisionsPageObject implements PageObject
 
     static function clickOnSelectFirstConnector()
     {
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_SELECT_FIRST_CONNECTOR));
+        $select = FindElements::findElement(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_SELECT_FIRST_CONNECTOR);
         $select->click();
     }
 
 
     static function clickOnSelectSecondConnector()
     {
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_SELECT_SECOND_CONNECTOR));
+        $select = FindElements::findElement(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_SELECT_SECOND_CONNECTOR);
         $select->click();
     }
 
@@ -36,8 +35,7 @@ class PinoutDetailsCreateRevisionsPageObject implements PageObject
     static function clickOnOptionFirstConnectorByName($value)
     {
         $xpath = str_replace("VALUE", $value, SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_OPTION_FIRST_CONNECTOR);
-        SimpleWait::waitShow($xpath);
-        $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
+        $option = FindElements::findElement($xpath);
         SimpleWait::  waitingOfClick($option);
     }
 
@@ -47,16 +45,14 @@ class PinoutDetailsCreateRevisionsPageObject implements PageObject
     static function clickOnOptionSecondConnectorByName($value)
     {
         $xpath = str_replace("VALUE", $value, SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_OPTION_SECOND_CONNECTOR);
-        SimpleWait::waitShow($xpath);
-        $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
+        $option = FindElements::findElement($xpath);
         SimpleWait::  waitingOfClick($option);
     }
 
 
     static function clickOnAddSchematicConnectionButton()
     {
-        SimpleWait::waitShow(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_ADD_SCHEMATIC_CONNECTION_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_ADD_SCHEMATIC_CONNECTION_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_ADD_SCHEMATIC_CONNECTION_BUTTON);
         SimpleWait:: waitingOfClick($button);
     }
 
@@ -65,7 +61,7 @@ class PinoutDetailsCreateRevisionsPageObject implements PageObject
      */
     static function getCountTables()
     {
-        $tables = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_TABLES));
+        $tables = FindElements::findElements(SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_TABLES);
         $count = count($tables);
         return $count;
     }
@@ -77,7 +73,7 @@ class PinoutDetailsCreateRevisionsPageObject implements PageObject
     {
         $countTables = self::getCountTables();
         $xpath = str_replace("TABLE", $countTables, SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_CABLE_CHECKBOXES);
-        $checkboxes = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
+        $checkboxes = FindElements::findElements($xpath);
         $checkbox = $checkboxes[$numberCable - 1];
         SimpleWait:: waitingOfClick($checkbox);
     }
@@ -89,7 +85,7 @@ class PinoutDetailsCreateRevisionsPageObject implements PageObject
     public static function checkChooseConnectorValueByName($value)
     {
         $xpath = str_replace("VALUE", $value, SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_OPTION_FIRST_CONNECTOR);
-        $options = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
+        $options = FindElements::findElements($xpath);
         if (count($options) != 1) {
             throw new \Exception("In choose connector " . count($options) . " connectors");
         }
@@ -98,7 +94,7 @@ class PinoutDetailsCreateRevisionsPageObject implements PageObject
     public static function checkChooseSecondConnectorValueByName($value)
     {
         $xpath = str_replace("VALUE", $value, SelectorsEnum::PINOUT_DETAILS_CREATE_REVISION_OPTION_SECOND_CONNECTOR);
-        $options = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
+        $options = FindElements::findElements($xpath);
         if (count($options) != 1) {
             throw new \Exception("In choose connector " . count($options) . " connectors");
         }

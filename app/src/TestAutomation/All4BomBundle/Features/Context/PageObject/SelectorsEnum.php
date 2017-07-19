@@ -48,6 +48,7 @@ class SelectorsEnum
     const BOM_ALTERNATIVE_BUTTONS = "//button[@ta-alternative-button]";
     const BOM_PART_NUMBER_TEXTS = "//td[@ta-bom-part-number]";
     const BOM_DESCRIPTIONS_TEXTS = "//td[@ta-bom-product-parameters]";
+    const BOM_ALTERNATIVE_LINES = ".//tr[@ng-repeat='alternativeProduct in selectedProduct.alternativeProducts']";
 
 
     /**BuyerTendersPageObject COMPLETE*/
@@ -259,16 +260,16 @@ class SelectorsEnum
     const TENDER_ANSWER_SHIPMENT_METHOD_INPUT = '//*[@id="tender_answer_shipmentMethod"]';
     const TENDER_ANSWER_SHIPMENT_TO_INPUT = '//*[@id="tender_answer_shipmentTo"]';
     const TENDER_ANSWER_PAYMENT_TERMS_INPUT = '//*[@id="tender_answer_paymentTerms"]';
+
     const TENDER_ANSWER_ADDITIONAL_INFORMATION_INPUT = '//*[@id="tender_answer_additionalInformation"]';
 
     const TENDER_ANSWER_ANSER_BUTTON = '//button[@name="save"]';
-
     /**TenderAnswersPageObject COMPLETE*/
     const TENDER_ANSWERS_VIEW_BUTTONS = '//a[@ta-tender-answer-edit-button]';
     /**TenderAnswerViewPageObject COMPLETE*/
     const TENDER_ANSWER_VIEW_ANSWER_FROM_SITE_VALUE_BY_NAME = 'ta-tender-answer-edit-value="VALUE"';
-    const TENDER_ANSWER_VIEW_DESCRIPTION_TEXTS = '//td[@ta-tender-answer-part-desc]';
 
+    const TENDER_ANSWER_VIEW_DESCRIPTION_TEXTS = '//td[@ta-tender-answer-part-desc]';
     const TENDER_ANSWER_VIEW_PART_NUMBERS_TEXTS = '//td[@ta-tender-answer-part-numer]';
     /**TenderPageObject TODO */
     const TENDER_PART_NUMBERS_TEXTS = '//*[@id="tender"]/div[1]/div[2]/div/table/tbody/tr/td[2]';
@@ -289,8 +290,8 @@ class SelectorsEnum
     const TENDER_ADDITIONAL_INFORMATION_INPUT = "//*[@id=\"tender_additionalInformation\"]";
     const TENDER_COUNTRIES_INPUT = "//*[@id=\"tender_countries_chosen\"]/ul/li/input";
     const TENDER_CREATE_BUTTON = "/html/body/main/div/form/fieldset/button";
-    const TENDER_SUPPLY_AT_INPUT = "//*[@id=\"tender_supplyAt\"]";
 
+    const TENDER_SUPPLY_AT_INPUT = "//*[@id=\"tender_supplyAt\"]";
     const TENDER_PRICES_DETAILS = "//*[@id=\"tender\"]/div[1]/div[2]/table/tbody/tr/td[4]/input";
     /**TendersPageObject COMPLETE*/
     const TENDERS_EDIT_BUTTONS = '//a[@ta-tender-button-edit]';

@@ -2,10 +2,10 @@
 
 namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
-use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\CheckValues\CheckJSONValue;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class DraftCreateRevisionsPageObject implements PageObject
 {
@@ -16,8 +16,7 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static private function getIndexSize()
     {
-        LastPhrase::setPhrase("Полотно не было найдено на странице Revision по cssSelector: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS);
-        $canvas = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS))[0];
+        $canvas = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS, true);
         self::$CANVAS_HEIGHT = $canvas->getSize()->getHeight();
         self::$CANVAS_WIDTH = $canvas->getSize()->getWidth();
         self::$INDEX_X = self::$CANVAS_HEIGHT / SelectorsEnum::DRAFT_CREATE_REVISIONS_ABSOLUTE_HEIGHT;
@@ -51,33 +50,25 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnCableIcon()
     {
-        LastPhrase::setPhrase("Иконка Cable на панели инструментов не была найдена по xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CABLE_ICON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CABLE_ICON));
-        LastPhrase::setPhrase("Иконка Cable на панели инструментов не была нажата. Xpath элемента: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CABLE_ICON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CABLE_ICON);
         $icon->click();
     }
 
     static function clickOnPlainCableButton()
     {
-        LastPhrase::setPhrase("Кнопка Plain Cable на панели инструментов не была найдена по xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_PLAIN_CABLE_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_PLAIN_CABLE_BUTTON));
-        LastPhrase::setPhrase("Кнопка Plain Cable на панели инструментов не была нажата. Xpath элемента: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_PLAIN_CABLE_BUTTON);
+        $button = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_PLAIN_CABLE_BUTTON);
         $button->click();
     }
 
     static function clickOnCurveCableButton()
     {
-        LastPhrase::setPhrase("Кнопка Curve Cable на панели инструментов не была найдена по xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CURVE_CABLE_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CURVE_CABLE_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CURVE_CABLE_BUTTON);
         $button->click();
-        LastPhrase::setPhrase("Кнопка Curve Cable на панели инструментов не была нажата. Xpath элемента: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CURVE_CABLE_BUTTON);
     }
 
     static function clickOnBrokenCableButton()
     {
-        LastPhrase::setPhrase("Кнопка Broken Cable на панели инструментов не была найдена по xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_BROKEN_CABLE_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_BROKEN_CABLE_BUTTON));
-        LastPhrase::setPhrase("Кнопка Broken Cable на панели инструментов не была нажата. Xpath элемента: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_BROKEN_CABLE_BUTTON);
+        $button = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_BROKEN_CABLE_BUTTON);
         $button->click();
 
     }
@@ -89,19 +80,14 @@ class DraftCreateRevisionsPageObject implements PageObject
     {
         $option = null;
         if ($weight === "Thinnest") {
-            LastPhrase::setPhrase("Значение в выпадающем списка Weight у объекта Cable не найдено значение " . $weight . " по xpath" . SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THINNEST);
-            $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THINNEST));
+            $option = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THINNEST);
         } else if ($weight === "Thin") {
-            LastPhrase::setPhrase("Значение в выпадающем списка Weight у объекта Cable не найдено значение " . $weight . " по xpath" . SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THIN);
-            $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THIN));
+            $option = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THIN);
         } else if ($weight === "Thick") {
-            LastPhrase::setPhrase("Значение в выпадающем списка Weight у объекта Cable не найдено значение " . $weight . " по xpath" . SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THICK);
-            $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THICK));
+            $option = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CABEL_WEIGHT_THICK);
 
         }
-
         if ($option != null) {
-            LastPhrase::setPhrase("Значение в выпадающем списка Weight у объекта Cable не выбрано.");
             $option->click();
         }
 
@@ -155,7 +141,7 @@ class DraftCreateRevisionsPageObject implements PageObject
     static function drawCabel($firstPointX, $firstPointY, $secondPointX, $secondPointY, $dimentionPointX, $dimentionPointY)
     {
         $mouse = FeatureContext::getWebDriver()->getMouse();
-        $canvas = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS))[0];
+        $canvas = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS, true);
         self::getIndexSize();
         $setFirstPointX = self::getSetX($firstPointX);
         $setFirstPointY = self::getSetY($firstPointY);
@@ -174,7 +160,7 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnDimentionButton()
     {
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_DIMEMTION_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_DIMEMTION_BUTTON);
         $button->click();
     }
 
@@ -192,17 +178,14 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnIconText()
     {
-        LastPhrase::setPhrase("Иконка Text небыла найдена на панели инструментов. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_ICON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_ICON));
-        LastPhrase::setPhrase("Иконка Text небыла нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_ICON);
+        $button = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_ICON);
         $button->click();
     }
 
     static function setTextFont($value)
     {
-        LastPhrase::setPhrase("Значение " . $value . " из выпадающего списка выбора шрифта небыло найдено. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_FONT);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(str_replace("VALUE", $value, SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_FONT)));
-        LastPhrase::setPhrase("Значение " . $value . " из выпадающего списка выбора шрифта небыло нажато. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_FONT);
+        $xpath = str_replace("VALUE", $value, SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_FONT);
+        $button = FindElements::findElement($xpath);
         $button->click();
     }
 
@@ -211,9 +194,8 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function setTextSize($value)
     {
-        LastPhrase::setPhrase("Значение " . $value . " из выпадающего списка выбора размера текста небыло найдено. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_SIZE);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(str_replace("VALUE", $value, SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_SIZE)));
-        LastPhrase::setPhrase("Значение " . $value . " из выпадающего списка выбора размера текста небыло нажато. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_SIZE);
+        $xpath = str_replace("VALUE", $value, SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_SIZE);
+        $button = FindElements::findElement($xpath);
         $button->click();
     }
 
@@ -222,9 +204,7 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function setColorValue($color)
     {
-        LastPhrase::setPhrase("Поле ввода значения цвета текста небыло найдено. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_COLOR);
-        $colorInput = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_COLOR));
-        LastPhrase::setPhrase("Значение " . $color . " небыло введено в поле ввода цвета текста. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_COLOR);
+        $colorInput = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_COLOR);
         $colorInput->sendKeys($color);
     }
 
@@ -235,14 +215,11 @@ class DraftCreateRevisionsPageObject implements PageObject
     {
         $option = null;
         if ($weight === "Thinnest") {
-            LastPhrase::setPhrase("Значение Thinnest небыло найдено в выборе толщины объекта Line. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THINNEST);
-            $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THINNEST));
+            $option = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THINNEST);
         } else if ($weight === "Thin") {
-            LastPhrase::setPhrase("Значение Thinnest небыло найдено в выборе толщины объекта Line. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THIN);
-            $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THIN));
+            $option = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THIN);
         } else if ($weight === "Thick") {
-            LastPhrase::setPhrase("Значение Thinnest небыло найдено в выборе толщины объекта Line. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THICK);
-            $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THICK));
+            $option = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_WEIGHT_THICK);
         }
         if ($option != null) {
             $option->click();
@@ -264,43 +241,33 @@ class DraftCreateRevisionsPageObject implements PageObject
             self::setColorValue($color);
         }
         self::clickOnTextButton();
-
-
     }
 
 
     static function clickOnLinesIcon()
     {
-        LastPhrase::setPhrase("Иконка Line небыла найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_ICON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_ICON));
-        LastPhrase::setPhrase("Иконка Line небыла нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_ICON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_LINE_ICON);
         $icon->click();
     }
 
 
     static function clickOnPlainLinesButton()
     {
-        LastPhrase::setPhrase("Кнопка Plain Line небыла найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_PLAIN_LINE_BUTTON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_PLAIN_LINE_BUTTON));
-        LastPhrase::setPhrase("Кнопка Plain Line небыла нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_PLAIN_LINE_BUTTON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_PLAIN_LINE_BUTTON);
         $icon->click();
     }
 
 
     static function clickOnCurveLinesButton()
     {
-        LastPhrase::setPhrase("Кнопка Curve Line небыла найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CURVE_LINE_BUTTON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CURVE_LINE_BUTTON));
-        LastPhrase::setPhrase("Кнопка Curve Line небыла нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CURVE_LINE_BUTTON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CURVE_LINE_BUTTON);
         $icon->click();
     }
 
 
     static function clickOnBrokenLinesButton()
     {
-        LastPhrase::setPhrase("Кнопка Broken Line небыла найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_BROKEN_LINE_BUTTON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_BROKEN_LINE_BUTTON));
-        LastPhrase::setPhrase("Кнопка Broken Line небыла нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_BROKEN_LINE_BUTTON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_BROKEN_LINE_BUTTON);
         $icon->click();
     }
 
@@ -373,9 +340,7 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnConnectorIcon()
     {
-        LastPhrase::setPhrase("Иконка Connector небыла найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_ICON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_ICON));
-        LastPhrase::setPhrase("Иконка Connector небыла нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_ICON);
+        $button = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_ICON);
         $button->click();
     }
 
@@ -384,9 +349,8 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function clickOnConnectorCell($cellNumber)
     {
-        SimpleWait::waitShow(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CELL);
-        $cells = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CELL));
-        $cell = $cells[$cellNumber-1];
+        $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CELL);
+        $cell = $cells[$cellNumber - 1];
         SimpleWait::waitingOfClick($cell);
     }
 
@@ -395,14 +359,10 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function selectFamilyConnector($familyName)
     {
-        LastPhrase::setPhrase("Кнопка рскрытия списка Family у объекта Connector на Draft не найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT);
-        $familySelect = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT));
-        LastPhrase::setPhrase("Кнопка рскрытия списка Family у объекта Connector на Draft не нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT);
+        $familySelect = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT);
         $familySelect->click();
         $xpath = str_replace("VALUE", $familyName, SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_OPTION);
-        SimpleWait::waitShow($xpath);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Значение " . $familyName . " из выпадающего списка Family у объекта Connector на Draft не выбран. Xpath: " . $xpath);
+        $button = FindElements::findElement($xpath);
         $button->click();
     }
 
@@ -411,14 +371,10 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function selectCategoryConnector($categoryName)
     {
-        LastPhrase::setPhrase("Кнопка рскрытия списка Family у объекта Connector на Draft не найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_OPTION);
-        $hh = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_SELECT));
-        LastPhrase::setPhrase("Кнопка рскрытия списка Family у объекта Connector на Draft не нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_OPTION);
+        $hh = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_SELECT);
         $hh->click();
         $xpath = str_replace("VALUE", $categoryName, SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_OPTION);
-        SimpleWait::waitShow($xpath);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Значение " . $categoryName . " из выпадающего списка Family у объекта Connector на Draft не выбран. Xpath: " . $xpath);
+        $button = FindElements::findElement($xpath);
         $button->click();
     }
 
@@ -444,9 +400,7 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function clickOnUserImageIcon()
     {
-        LastPhrase::setPhrase("Иконка Custom Image на панели иструментов не найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_ICON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_ICON));
-        LastPhrase::setPhrase("Иконка Custom Image на панели иструментов не нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_ICON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_ICON);
         $icon->click();
     }
 
@@ -455,10 +409,8 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function clickOnUserImageCell($idImage)
     {
-        SimpleWait::waitShow(SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_CELL);
-        $cells = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_CELL));
-        $cell = $cells[$idImage-1];
-        LastPhrase::setPhrase("Изображение в " . $idImage . " ячейке не нажато. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_CELL);
+        $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_CELL);
+        $cell = $cells[$idImage - 1];
         $cell->click();
     }
 
@@ -475,10 +427,7 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnAccessoriesIcon()
     {
-        LastPhrase::setPhrase("Иконка Accessories на панели иструментов не найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_ICON);
-        SimpleWait::waitShow(SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_ICON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_ICON));
-        LastPhrase::setPhrase("Иконка Accessories на панели иструментов не нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_ICON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_ICON);
         SimpleWait::waitingOfClick($icon);
     }
 
@@ -487,9 +436,8 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function clickOnAccessoriesCell($numberCell)
     {
-        SimpleWait::waitShow(SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_CELL);
-        $cells = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_CELL));
-        $cell = $cells[$numberCell-1];
+        $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_CELL);
+        $cell = $cells[$numberCell - 1];
         SimpleWait::waitingOfClick($cell);
     }
 
@@ -507,9 +455,7 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnCutomPartIcon()
     {
-        LastPhrase::setPhrase("Иконка Custom Part на панели инструметов в Draft не была найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CUSTOM_PART_ICON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CUSTOM_PART_ICON));
-        LastPhrase::setPhrase("Иконка Custom Part на панели инструметов в Draft не была нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CUSTOM_PART_ICON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CUSTOM_PART_ICON);
         $icon->click();
     }
 
@@ -527,7 +473,7 @@ class DraftCreateRevisionsPageObject implements PageObject
     static function clickOnDraftPoint($positionX, $positionY)
     {
         $mouse = FeatureContext::getWebDriver()->getMouse();
-        $canvas = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS))[0];
+        $canvas = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS, true);
         self::getIndexSize();
         $setFirstPointX = self::getSetX($positionX);
         $setFirstPointY = self::getSetY($positionY);
@@ -548,9 +494,7 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnCopyIcon()
     {
-        LastPhrase::setPhrase("Иконка Copy на панели инструментов Draft не была найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_ICON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_ICON));
-        LastPhrase::setPhrase("Иконка Copy на панели инструментов Draft не была нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_ICON);
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_ICON);
         $icon->click();
     }
 
@@ -559,19 +503,15 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function setCopyQuantity($quantity)
     {
-        LastPhrase::setPhrase("Поле параметра QTY для Copy небыло найдено. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_QUANTITY);
-        $qty = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_QUANTITY));
-        LastPhrase::setPhrase("Поле параметра QTY для Copy небыло очищенно. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_QUANTITY);
+        $qty = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_QUANTITY);
         $qty->clear();
-        LastPhrase::setPhrase("В поле параметра QTY для Copy небыли введены значения: " . $quantity . ". Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_QUANTITY);
         $qty->sendKeys($quantity);
     }
 
 
     static function clickOnCopyButton()
     {
-        LastPhrase::setPhrase("Кнопка Copy небыла найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_BUTTON);
-        $icon = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_BUTTON));
+        $icon = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_BUTTON);
         LastPhrase::setPhrase("Кнопка Copy небыла нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_COPY_BUTTON);
         $icon->click();
     }
@@ -608,11 +548,10 @@ class DraftCreateRevisionsPageObject implements PageObject
     static function mouseButtonDownOnObject($positionX, $positionY)
     {
         $mouse = FeatureContext::getWebDriver()->getMouse();
-        $canvas = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS))[0];
+        $canvas = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS, true);
         self::getIndexSize();
         $setFirstPointX = self::getSetX($positionX);
         $setFirstPointY = self::getSetY($positionY);
-        print $setFirstPointX . "x" . $setFirstPointY;
         $canvasCoordinates = $canvas->getCoordinates();
         $mouse->mouseMove($canvasCoordinates, $setFirstPointY, $setFirstPointX);
         $mouse->click();
@@ -627,7 +566,7 @@ class DraftCreateRevisionsPageObject implements PageObject
     {
         $mouse = FeatureContext::getWebDriver()->getMouse();
         SimpleWait::waitShow(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS);
-        $canvas = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS))[0];
+        $canvas = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_CANVAS, true);
         self::getIndexSize();
         $setFirstPointX = self::getSetX($positionX);
         $setFirstPointY = self::getSetY($positionY);
@@ -661,7 +600,6 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function moveImageFamilyObject($positionPointX, $positionPointY, $newPositionX, $newPositionY)
     {
-
         print($positionPointX . "x" . $positionPointY);
         DraftCreateRevisionsPageObject::mouseButtonDownOnObject($positionPointX, $positionPointY);
         DraftCreateRevisionsPageObject::mouseButtonUpOnObject($newPositionX, $newPositionY);
@@ -669,17 +607,13 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnTextButton()
     {
-        LastPhrase::setPhrase("Кнопка Text небыла найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_BUTTON));
-        LastPhrase::setPhrase("Кнопка Text небыла нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_BUTTON);
+        $button = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_BUTTON);
         $button->click();
     }
 
     public static function selectOnSelectConnector()
     {
-        LastPhrase::setPhrase("Кнопка раскрытия списка Family у Connector на Draft не найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT);
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT));
-        LastPhrase::setPhrase("Кнопка раскрытия списка Family у Connector на Draft не нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT);
+        $select = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT);
         $select->click();
 
     }
@@ -687,29 +621,20 @@ class DraftCreateRevisionsPageObject implements PageObject
     public static function setConnectorFamilyName($familyName)
     {
         $xpath = str_replace("VALUE", $familyName, SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_OPTION);
-        LastPhrase::setPhrase("Значение " . $familyName . " из выпадающего списка Family Connector на Draft не найдено. Xpath: " . $xpath);
-        SimpleWait::waitShow($xpath);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Значение " . $familyName . " из выпадающего списка Family Connector на Draft не выбрано. Xpath: " . $xpath);
+        $button = FindElements::findElement($xpath);
         $button->click();
     }
 
     public static function clickOnCategorySelectConnector()
     {
-        LastPhrase::setPhrase("Кнопка раскрытия списка Category у Connector на Draft не найдена. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_SELECT);
-        SimpleWait::waitShow(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_SELECT);
-        $select = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_SELECT));
-        LastPhrase::setPhrase("Кнопка раскрытия списка Category у Connector на Draft не нажата. Xpath: " . SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_FAMILY_SELECT);
+        $select = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_SELECT);
         $select->click();
     }
 
     public static function clickOnOptionsConnectorCategoryByName($nameValue)
     {
         $xpath = str_replace("VALUE", $nameValue, SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CATEGORY_OPTION);
-        LastPhrase::setPhrase("Значение " . $nameValue . " из выпадающего списка Category Connector на Draft не найдено. Xpath: " . $xpath);
-        SimpleWait::waitShow($xpath);
-        $option = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Значение " . $nameValue . " из выпадающего списка Category Connector на Draft не выбрано. Xpath: " . $xpath);
+        $option = FindElements::findElement($xpath);
         $option->click();
     }
 }

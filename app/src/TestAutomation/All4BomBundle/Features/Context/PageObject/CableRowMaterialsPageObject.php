@@ -5,6 +5,7 @@ namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class CableRowMaterialsPageObject implements PageObject
 {
@@ -12,9 +13,7 @@ class CableRowMaterialsPageObject implements PageObject
 
     static function clickOnCreateButton()
     {
-        LastPhrase::setPhrase("Кнопка [Create cable row materials] на странице Cable Row Materials не была найдена. CssSelector элемента: " . SelectorsEnum::CABLE_ROW_MATERIALS_CREATE_BUTTON);
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::CABLE_ROW_MATERIALS_CREATE_BUTTON));
-        LastPhrase::setPhrase("Кнопка [Create cable row materials] на странице Cable Row Materials не была нажата. CssSelector элемента: " . SelectorsEnum::CABLE_ROW_MATERIALS_CREATE_BUTTON);
+        $button = FindElements::findElement(SelectorsEnum::CABLE_ROW_MATERIALS_CREATE_BUTTON);
         $button->click();
     }
 
@@ -47,10 +46,8 @@ class CableRowMaterialsPageObject implements PageObject
      */
     static function checkCAInTable($name)
     {
-        LastPhrase::setPhrase("Cable Row Materials с именем " . $name . " не был найден");
-        SimpleWait::waitShow(SelectorsEnum::CABLE_ROW_MATERIALS_CREATE_BUTTON);
         $xpathTd = str_replace('VALUE',$name,SelectorsEnum::CABLE_ROW_MATERIALS_TR);
-        $td = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathTd));
+        $td = FindElements::findElements($xpathTd);
         if(count($td)==0){
             throw new \Exception('In table not found CA with name: '.$name);
         }
@@ -61,10 +58,8 @@ class CableRowMaterialsPageObject implements PageObject
      */
     public static function clickOnEditButtonByName($name)
     {
-        LastPhrase::setPhrase("Кнопка [EDIT] в строке Cable Row Materials с именем " . $name . " не была найдена");
         $xpath = str_replace('VALUE', $name, SelectorsEnum::CABLE_ROW_MATERIALS_EDIT_BUTTON);
-        $editButton = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpath));
-        LastPhrase::setPhrase("Кнопка [EDIT] в строке Cable Row Materials с именем " . $name . " не была нажата");
+        $editButton = FindElements::findElements($xpath);
         $editButton[count($editButton)-1]->click();
     }
 
@@ -79,8 +74,8 @@ class CableRowMaterialsPageObject implements PageObject
             if(count($xpathDelButton)==0){
                 break;
             }
-            $deleteButtons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathDelButton));
-            $acceptDeleteButtons = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathAcceptDeleteButtons));
+            $deleteButtons = FindElements::findElements($xpathDelButton);
+            $acceptDeleteButtons = FindElements::findElements($xpathAcceptDeleteButtons);
             SimpleWait::waitingOfClick($deleteButtons[0]);
             SimpleWait::waitingOfClick($acceptDeleteButtons[0]);
         }

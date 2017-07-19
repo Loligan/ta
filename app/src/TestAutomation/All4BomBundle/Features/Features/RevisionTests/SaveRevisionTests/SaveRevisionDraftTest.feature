@@ -68,9 +68,9 @@ Feature: Сохранение объектов на Draft
     Examples:
       | Type   | Weight   | nameRevision |
       | Curve  | Thinnest | TestSave     |
-      | Curve  | Thin     | TestSave     |
-      | Curve  | Normal   | TestSave     |
-      | Curve  | Thick    | TestSave     |
+#      | Curve  | Thin     | TestSave     |
+#      | Curve  | Normal   | TestSave     |
+#      | Curve  | Thick    | TestSave     |
 
   @Revision @Draft @Save @Line @P=07-0 @ID=19-04 @BrokenLine @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание и сохранение объекта типа Line разных типов и разной толщины

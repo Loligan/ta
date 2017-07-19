@@ -4,6 +4,7 @@ namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 class TenderAnswerPageObject implements PageObject
 {
@@ -16,7 +17,7 @@ class TenderAnswerPageObject implements PageObject
 
     public static function clickOnTenderInformation()
     {
-        $button = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_TENDER_INFORMATION));
+        $button = FindElements::findElements(SelectorsEnum::TENDER_ANSWER_TENDER_INFORMATION);
         $button[0]->click();
     }
 
@@ -28,7 +29,7 @@ class TenderAnswerPageObject implements PageObject
     public static function checkValueByName($name, $value)
     {
         $xpath = str_replace("VALUE", $name, SelectorsEnum::TENDER_ANSWER_VALUE_BY_NAME);
-        $label = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpath));
+        $label = FindElements::findElement($xpath);
         $valueInPage = $label->getText();
         if ($valueInPage != $value) {
             throw new \Exception("Value in line " . $name . " not be equals. " . $value . " != " . $valueInPage . " in page");
@@ -40,7 +41,7 @@ class TenderAnswerPageObject implements PageObject
      */
     public static function setTextInTargetPriceInput($value)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_TARGET_PRICE_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_TARGET_PRICE_INPUT);
         $input->clear();
         $input->sendKeys($value);
     }
@@ -51,7 +52,7 @@ class TenderAnswerPageObject implements PageObject
      */
     public static function setTextInMinimumOrderQTYInput($value)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_MINIMUM_ORDER_QTY_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_MINIMUM_ORDER_QTY_INPUT);
         $input->clear();
         $input->sendKeys($value);
     }
@@ -61,7 +62,7 @@ class TenderAnswerPageObject implements PageObject
      */
     public static function setTextInMinimumPackageQTYInput($value)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_MINIMUM_PACKAGE_QTY_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_MINIMUM_PACKAGE_QTY_INPUT);
         $input->clear();
         $input->sendKeys($value);
     }
@@ -71,7 +72,7 @@ class TenderAnswerPageObject implements PageObject
      */
     public static function setTextInLeadTimeInput($value)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_LEAD_TIME_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_LEAD_TIME_INPUT);
         $input->clear();
         $input->sendKeys($value);
     }
@@ -81,7 +82,7 @@ class TenderAnswerPageObject implements PageObject
      */
     public static function setTextInShipmentMethodInput($value)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_SHIPMENT_METHOD_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_SHIPMENT_METHOD_INPUT);
         $input->clear();
         $input->sendKeys($value);
     }
@@ -91,7 +92,7 @@ class TenderAnswerPageObject implements PageObject
      */
     public static function setTextInPaymentTermsInput($value)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_PAYMENT_TERMS_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_PAYMENT_TERMS_INPUT);
         $input->clear();
         $input->sendKeys($value);
     }
@@ -101,7 +102,7 @@ class TenderAnswerPageObject implements PageObject
      */
     public static function setTextInShipmentToInput($value)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_SHIPMENT_TO_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_SHIPMENT_TO_INPUT);
         $input->clear();
         $input->sendKeys($value);
     }
@@ -111,7 +112,7 @@ class TenderAnswerPageObject implements PageObject
      */
     public static function setTextInAdditionalInformationInput($value)
     {
-        $input = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_ADDITIONAL_INFORMATION_INPUT));
+        $input = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_ADDITIONAL_INFORMATION_INPUT);
         $input->clear();
         $input->sendKeys($value);
     }
@@ -119,7 +120,7 @@ class TenderAnswerPageObject implements PageObject
 
     public static function clickOnAnswerButton()
     {
-        $button = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath(SelectorsEnum::TENDER_ANSWER_ANSER_BUTTON));
+        $button = FindElements::findElement(SelectorsEnum::TENDER_ANSWER_ANSER_BUTTON);
         $button->click();
     }
 

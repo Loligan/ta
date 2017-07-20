@@ -2,6 +2,7 @@
 
 namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
+use Behat\Mink\Exception\Exception;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
@@ -46,10 +47,10 @@ class CableRowMaterialsPageObject implements PageObject
      */
     static function checkCAInTable($name)
     {
-        $xpathTd = str_replace('VALUE',$name,SelectorsEnum::CABLE_ROW_MATERIALS_TR);
+        $xpathTd = str_replace('VALUE', $name, SelectorsEnum::CABLE_ROW_MATERIALS_TR);
         $td = FindElements::findElements($xpathTd);
-        if(count($td)==0){
-            throw new \Exception('In table not found CA with name: '.$name);
+        if (count($td) == 0) {
+            throw new \Exception('In table not found CA with name: ' . $name);
         }
     }
 
@@ -60,7 +61,7 @@ class CableRowMaterialsPageObject implements PageObject
     {
         $xpath = str_replace('VALUE', $name, SelectorsEnum::CABLE_ROW_MATERIALS_EDIT_BUTTON);
         $editButton = FindElements::findElements($xpath);
-        $editButton[count($editButton)-1]->click();
+        $editButton[count($editButton) - 1]->click();
     }
 
     /**
@@ -68,16 +69,16 @@ class CableRowMaterialsPageObject implements PageObject
      */
     public static function deleteAllCRMByName($nameCableAssemblies)
     {
-        while (true){
-            $xpathDelButton = str_replace("VALUE",$nameCableAssemblies,SelectorsEnum::CABLE_ROW_MATERIALS_DELETE_BUTTOM);
-            $xpathAcceptDeleteButtons = str_replace("VALUE",$nameCableAssemblies,SelectorsEnum::CABLE_ROW_MATERIALS_ACCEPT_DELETE_REVISION_BUTTON);
-            if(count($xpathDelButton)==0){
+        while (true) {
+            $xpathDelButton = str_replace("VALUE", $nameCableAssemblies, SelectorsEnum::CABLE_ROW_MATERIALS_DELETE_BUTTOM);
+            $xpathAcceptDeleteButtons = str_replace("VALUE", $nameCableAssemblies, SelectorsEnum::CABLE_ROW_MATERIALS_ACCEPT_DELETE_REVISION_BUTTON);
+            $deleteButtons = FindElements::findElements($xpathDelButton);
+            SimpleWait::waitingOfClick($deleteButtons[0]);
+            $acceptDeleteButtons = FindElements::findElements($xpathAcceptDeleteButtons);
+            SimpleWait::waitingOfClick($acceptDeleteButtons[0]);
+            if (count($xpathDelButton) == 0) {
                 break;
             }
-            $deleteButtons = FindElements::findElements($xpathDelButton);
-            $acceptDeleteButtons = FindElements::findElements($xpathAcceptDeleteButtons);
-            SimpleWait::waitingOfClick($deleteButtons[0]);
-            SimpleWait::waitingOfClick($acceptDeleteButtons[0]);
         }
     }
 

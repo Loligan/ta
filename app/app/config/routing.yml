@@ -1,3 +1,7 @@
+test_automation_all4_bom_test_result:
+    resource: "@TestAutomationAll4BomBundle/Controller/TestResultController.php"
+    type:     annotation
+
 test_automation_all4_bom:
     resource: "@TestAutomationAll4BomBundle/Resources/config/routing.yml"
     prefix:   /

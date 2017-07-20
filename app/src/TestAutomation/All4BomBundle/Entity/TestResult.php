@@ -29,6 +29,13 @@ class TestResult
     private $scenarioId;
 
     /**
+     * @var TestRange
+     * @ORM\ManyToOne(targetEntity="TestAutomation\All4BomBundle\Entity\TestRange")
+     * @ORM\JoinColumn(name="testRangeId", referencedColumnName="id",onDelete="CASCADE")
+     */
+    private $testRange;
+
+    /**
      * @var string
      *
      * @ORM\Column(name="name_scenario", type="string", length=255,nullable=true)
@@ -124,6 +131,22 @@ class TestResult
      * @ORM\Column(name="statusResult", type="string", length=255)
      */
     private $statusResult;
+
+    /**
+     * @return TestRange
+     */
+    public function getTestRange()
+    {
+        return $this->testRange;
+    }
+
+    /**
+     * @param TestRange $testRange
+     */
+    public function setTestRange($testRange)
+    {
+        $this->testRange = $testRange;
+    }
 
 
 

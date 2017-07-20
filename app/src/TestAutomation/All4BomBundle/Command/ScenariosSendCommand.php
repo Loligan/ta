@@ -12,8 +12,9 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use TestAutomation\All4BomBundle\Entity\Tag;
+use TestAutomation\All4BomBundle\Entity\TestRange;
 
-class SendAllTestsInRabbitCommand extends ContainerAwareCommand
+class ScenariosSendCommand extends ContainerAwareCommand
 {
 
     protected function configure()
@@ -27,8 +28,27 @@ class SendAllTestsInRabbitCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $allIds = $this->getAllIds();
+
+        $settings = $this->getEntityManager()->getRepository('TestAutomationAll4BomBundle:Setting')->findBy(["name"=>"TEST_RANGE_NUMBER"]);
+        $idReange = $settings[0]->getValue();
+        $idReange++;
+        $settings[0]->setValue($idReange);
+        $this->getEntityManager()->getManager()->merge($settings[0]);
+        $this->getEntityManager()->getManager()->flush();
+
+        $testRange = new TestRange();
+        $testRange->setCountTests(count($allIds));
+        $testRange->setCountFailTests(0);
+        $testRange->setDate(new \DateTime("now"));
+        $testRange = $this->getEntityManager()->getManager()->merge($testRange);
+        $this->getEntityManager()->getManager()->flush();
         foreach ($allIds as $id){
-            $this->send($id);
+            $arr = [
+                "id"=>$id,
+                "range"=>$testRange->getId()
+            ];
+            $message = json_encode($arr);
+            $this->send($message);
         }
 
     }
@@ -41,6 +61,7 @@ class SendAllTestsInRabbitCommand extends ContainerAwareCommand
     }
 
     public function getAllIds(){
+
         $tags= $this->getEntityManager()
             ->getRepository("TestAutomationAll4BomBundle:Tag")
             ->createQueryBuilder('o')

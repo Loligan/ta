@@ -1,0 +1,44 @@
+{% block body %}
+    <h1>Testresults list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Namescenario</th>
+                <th>Failstep</th>
+                <th>Log</th>
+                <th>Shelloutput</th>
+                <th>Timestart</th>
+                <th>Timefinish</th>
+                <th>Statusresult</th>
+                <th>Lastscreenshot</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for testResult in testResults %}
+            <tr>
+                <td><a href="{{ path('testresult_show', { 'id': testResult.id }) }}">{{ testResult.id }}</a></td>
+                <td>{{ testResult.nameScenario }}</td>
+                <td>{{ testResult.failStep }}</td>
+                <td>{{ testResult.log }}</td>
+                <td>{{ testResult.shellOutput }}</td>
+                <td>{% if testResult.timeStart %}{{ testResult.timeStart|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{% if testResult.timeFinish %}{{ testResult.timeFinish|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{{ testResult.statusResult }}</td>
+                <td>{{ testResult.lastScreenshot }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('testresult_show', { 'id': testResult.id }) }}">show</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    
+{% endblock %}

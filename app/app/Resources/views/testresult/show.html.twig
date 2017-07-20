@@ -1,0 +1,52 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Testresult</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ testResult.id }}</td>
+            </tr>
+            <tr>
+                <th>Namescenario</th>
+                <td>{{ testResult.nameScenario }}</td>
+            </tr>
+            <tr>
+                <th>Failstep</th>
+                <td>{{ testResult.failStep }}</td>
+            </tr>
+            <tr>
+                <th>Log</th>
+                <td>{{ testResult.log }}</td>
+            </tr>
+            <tr>
+                <th>Shelloutput</th>
+                <td>{{ testResult.shellOutput }}</td>
+            </tr>
+            <tr>
+                <th>Timestart</th>
+                <td>{% if testResult.timeStart %}{{ testResult.timeStart|date('Y-m-d H:i:s') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Timefinish</th>
+                <td>{% if testResult.timeFinish %}{{ testResult.timeFinish|date('Y-m-d H:i:s') }}{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Statusresult</th>
+                <td>{{ testResult.statusResult }}</td>
+            </tr>
+            <tr>
+                <th>Lastscreenshot</th>
+                <td>{{ testResult.lastScreenshot }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('testresult_index') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}

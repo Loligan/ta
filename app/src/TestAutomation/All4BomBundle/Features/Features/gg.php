@@ -1,30 +1,30 @@
 <?php
 $paths = [
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableAssemblieTests/CreateCableAssembliesForPDFTests.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableAssemblieTests/CreateCableAssemblieTests.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableAssemblieTests/EditCableAssembliesTests.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableRowMaterialsTests/Create/CreateCableRowMaterialsBOM.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableRowMaterialsTests/Create/CreateCreateCableRowMaterialsDraftTests.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableRowMaterialsTests/Edit/EditCRMGeneralInfoTest.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableRowMaterialsTests/Save/SaveCRMGeneralInfoTest.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/HomePageTests/HomePageTests.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/InputTests/SQL injection/SQLInjectionInputTests.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/InputTests/Symbols/SymbolsInputTests.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/InputTests/XSS/XSSInputTests.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/CreateRevisionTests/CreateRevisionBOMTest.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/CreateRevisionTests/CreateRevisionDraftTest.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/CreateRevisionTests/CreateRevisionFromPDF.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/CreateRevisionTests/СreateRevisionBOMTermsOfTheCableAndConnector.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/DraftSaveJsonMixObjects.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/DraftSaveJsonSingleAndCopyObjects.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionBOMTermsOfTheCableAndConnector.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionBOMTest.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionDraftTest.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionLabelsTest.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionPinoutDetailsTest.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/TendersTests/CheckBomInfoInCreateTendersPageTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableAssemblieTests/CreateCableAssembliesForPDFTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableAssemblieTests/CreateCableAssemblieTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableAssemblieTests/EditCableAssembliesTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableRowMaterialsTests/Create/CreateCableRowMaterialsBOM.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableRowMaterialsTests/Create/CreateCreateCableRowMaterialsDraftTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableRowMaterialsTests/Edit/EditCRMGeneralInfoTest.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableRowMaterialsTests/Save/SaveCRMGeneralInfoTest.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/HomePageTests/HomePageTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/InputTests/SQL injection/SQLInjectionInputTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/InputTests/Symbols/SymbolsInputTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/InputTests/XSS/XSSInputTests.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/CreateRevisionTests/CreateRevisionBOMTest.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/CreateRevisionTests/CreateRevisionDraftTest.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/CreateRevisionTests/CreateRevisionFromPDF.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/CreateRevisionTests/СreateRevisionBOMTermsOfTheCableAndConnector.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/DraftSaveJsonMixObjects.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/DraftSaveJsonSingleAndCopyObjects.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionBOMTermsOfTheCableAndConnector.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionBOMTest.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionDraftTest.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionLabelsTest.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/RevisionTests/SaveRevisionTests/SaveRevisionPinoutDetailsTest.feature",
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/TendersTests/CheckBomInfoInCreateTendersPageTests.feature",
     "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/TendersTests/CreateTenders.feature",
-//    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/TendersTests/CreateTendersFormPDFRevision.feature"
+    "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/TendersTests/CreateTendersFormPDFRevision.feature"
 ];
 
 foreach ($paths as $keyPath => $path) {
@@ -34,8 +34,7 @@ foreach ($paths as $keyPath => $path) {
     $scenarioSimple = "";
     $arrayScenario = [];
     while (true) {
-
-        preg_match('/(@.*Scenario[\s\S\n]{1,})@/Us', $data, $results);
+        preg_match('/(@.*Scenario[\s\S\n]{1,})(\n\n|$)/Us', $data, $results);
         if(count($results)==0){
             break;
         }
@@ -60,6 +59,7 @@ foreach ($paths as $keyPath => $path) {
 
 
 foreach ($arrayScenario as $result) {
+
     preg_match('/Examples:(.*)$/Us', $result, $table);
     $table = $table[1];
     $table = str_replace('@', '', $table);
@@ -98,8 +98,7 @@ foreach ($arrayScenario as $result) {
     $newIdNumber = "ID=" . (string)$keyPath . "-" . (string)$numberScenario++ . " ";
     if(count($idTags)==0){
         preg_match("/@(.*)@.*/U", $tags, $idTags);
-        var_dump($idTags);
-        $tags = str_replace($idTags[1], $newIdNumber, $tags);
+        $tags = str_replace($idTags[1], $newIdNumber." @".$idTags[1]." ", $tags);
     }else{
     $tags = str_replace($idTags[0], $newIdNumber, $tags);
     }
@@ -127,5 +126,5 @@ foreach ($arrayScenario as $result) {
 
 $data.=$scenarioSimple;
 file_put_contents(__DIR__ . "/ff.feature", $data);
-//    break;
+break;
 }

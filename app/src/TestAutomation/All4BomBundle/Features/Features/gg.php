@@ -1,4 +1,5 @@
 <?php
+$total = 0;
 $paths = [
     "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableAssemblieTests/CreateCableAssembliesForPDFTests.feature",
     "/home/meldon/PhpstormProjects/ta/app/src/TestAutomation/All4BomBundle/Features/Features/CableAssemblieTests/CreateCableAssemblieTests.feature",
@@ -28,13 +29,14 @@ $paths = [
 ];
 
 foreach ($paths as $keyPath => $path) {
+    print $path.PHP_EOL.PHP_EOL;
     $numberScenario = 0;
 
     $data = file_get_contents($path);
     $scenarioSimple = "";
     $arrayScenario = [];
     while (true) {
-        preg_match('/(@.*Scenario[\s\S\n]{1,})(\n\n|$)/Us', $data, $results);
+        preg_match('/(@.*Scenario.*)(@|$)/sU', $data, $results);
         if(count($results)==0){
             break;
         }
@@ -55,7 +57,6 @@ foreach ($paths as $keyPath => $path) {
 
 
     }
-
 
 
 foreach ($arrayScenario as $result) {
@@ -116,7 +117,7 @@ foreach ($arrayScenario as $result) {
             }
         }
 
-            $data .=
+            $data .= PHP_EOL .
                 $tags . PHP_EOL .
                 'Scenario: ' . $nameScenario . PHP_EOL .
                 $bufSteps . PHP_EOL . PHP_EOL;
@@ -126,5 +127,6 @@ foreach ($arrayScenario as $result) {
 
 $data.=$scenarioSimple;
 file_put_contents(__DIR__ . "/ff.feature", $data);
-break;
+$total+=$numberScenario;
 }
+print $total;

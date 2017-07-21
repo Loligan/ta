@@ -11,7 +11,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-#    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -30,7 +29,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -49,7 +47,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -68,7 +65,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -87,7 +83,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -106,7 +101,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -125,7 +119,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -144,7 +137,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -163,7 +155,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -182,7 +173,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -201,7 +191,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -220,7 +209,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -239,7 +227,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -258,7 +245,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -277,7 +263,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -296,7 +281,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -315,7 +299,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -334,7 +317,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -353,7 +335,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -372,7 +353,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -391,7 +371,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -410,7 +389,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -429,7 +407,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -448,7 +425,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -467,7 +443,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -486,7 +461,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -505,7 +479,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -524,7 +497,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -543,7 +515,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -562,7 +533,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -581,7 +551,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -600,7 +569,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -619,7 +587,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -638,7 +605,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -657,7 +623,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -676,7 +641,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -695,7 +659,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -714,7 +677,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -733,7 +695,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -752,7 +713,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -771,7 +731,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -790,7 +749,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -809,7 +767,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -828,7 +785,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -847,7 +803,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -866,7 +821,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -885,7 +839,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -904,7 +857,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -923,7 +875,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -942,7 +893,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -961,7 +911,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -980,7 +929,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -999,7 +947,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1018,7 +965,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1201,7 +1147,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1220,7 +1165,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1239,7 +1183,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1258,7 +1201,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1277,7 +1219,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1296,7 +1237,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1315,7 +1255,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:
@@ -1334,7 +1273,6 @@ Feature: Input Tests
     And Ввести следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CREATE]
     And Перейти на страницу Cable Assemblies
-  #    Then В таблице будет запись с именем "<ID><Revision details>"
     And Нажать кнопку [EDIT] рядом с записью с именем <Revision details>
     And На странице CA Edit Будут следующие данные: "<Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     Examples:

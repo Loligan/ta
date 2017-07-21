@@ -9,10 +9,8 @@ Feature: gg
     And Кликнуть на [CABLE ASSEMBLIES] в шапке
     And Нажать кнопку [EDIT] рядом с cable assmblies с именем 'tst'
     And Нажать кнопку [CREATE REVISION]
-
     When Создать объект Line типа <Type> и толщиной <Weight> в Draft
     And Сохранить ревизию с именем <nameRevision>
-  #  Then Открыть последнюю ревизию с именем <nameRevision>
     Then Открыть get-draft page ревизии с именем <nameRevision>
     And Проверить что в json присутствуют объекты "plain-line"
     Examples:
@@ -167,8 +165,6 @@ Feature: gg
 
 
 
-#    FFF COPY
-
   @Revision @Draft @Save @Revision @CustomDimention @Copy @Smoke @P=15-0 @ID=16-09 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта Custom Dimention
     Given Открыть главную страницу
@@ -220,7 +216,7 @@ Feature: gg
     Examples:
       | QTY |
       | 5   |
-# FAILS END
+
   @Revision @Draft @Save @Revision @Cable @PlainCable @Smoke @Copy @P=15-1 @ID=16-11 @PRIORITY=5 @ASSIGNED=1
   Scenario: Проверка JSON после сохранения копии объекта Plain Cable
     Given Открыть главную страницу
@@ -520,7 +516,6 @@ Feature: gg
     And Проверить что в json присутствуют объекты "broken-cable, broken-cable"
     Examples:
       | Weight |
-#      | Thinnest |
       | Thin   |
       | Normal |
       | Thick  |
@@ -563,7 +558,6 @@ Feature: gg
 
     Examples:
       | Weight |
-#      | Thinnest |
       | Thin   |
       | Normal |
       | Thick  |
@@ -807,7 +801,6 @@ Feature: gg
     And Проверить что в json присутствуют объекты "broken-line,broken-line"
     Examples:
       | Weight   |
-#      | Thinnest |
       | Thin     |
       | Normal   |
       | Thick    |
@@ -840,7 +833,6 @@ Feature: gg
     And Проверить что в json присутствуют объекты "broken-line,broken-line,broken-line,broken-line,broken-line,broken-line"
     Examples:
       | Weight   |
-#      | Thinnest |
       | Thin     |
       | Normal   |
       | Thick    |
@@ -866,7 +858,6 @@ Feature: gg
     And Выбрать 1 строку в таблице
     And Перейти на вкладку Draft
     And Ждать "2" секунды
-#    And Кликнуть на полотне по координатам X = "200" Y= "605"
     And Нажать на иконку [Copy] на панели иструментов
     And Установить настройку Quantity на значение 1
     And Нажать на кнопку [Copy]
@@ -898,7 +889,6 @@ Feature: gg
     And Выбрать 1 строку в таблице
     And Перейти на вкладку Draft
     And Ждать "2" секунды
-#    And Кликнуть на полотне по координатам X = "105" Y= "505"
     And Нажать на иконку [Copy] на панели иструментов
     And Установить настройку Quantity на значение 1
     And Нажать на кнопку [Copy]
@@ -980,9 +970,9 @@ Feature: gg
     Examples:
       | Family  | Category  | Number |
       | RF      | Connector | 2      |
-#      | IDC     | IDC pitch | 1      |
-#      | Headers | Connector | 2      |
-#      | RJ      | Connector | 2      |
+      | IDC     | IDC pitch | 1      |
+      | Headers | Connector | 2      |
+      | RJ      | Connector | 2      |
 
   @Revision @Draft @Save @Revision @UserImage @Copy @P=15-3 @ID=16-33 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка JSON после сохранения копии объекта User images

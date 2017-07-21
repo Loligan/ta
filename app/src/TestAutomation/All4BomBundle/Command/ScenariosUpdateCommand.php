@@ -12,7 +12,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use TestAutomation\All4BomBundle\Repository\ScenarioRepository;
 use TestAutomation\All4BomBundle\Repository\TagRepository;
 
-class UpdateScenariosFromFileCommand extends ContainerAwareCommand
+class ScenariosUpdateCommand extends ContainerAwareCommand
 {
     /**@var TagRepository $tagRepository*/
     private $tagRepository;

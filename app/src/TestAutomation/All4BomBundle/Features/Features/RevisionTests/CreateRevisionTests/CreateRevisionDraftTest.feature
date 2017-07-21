@@ -1055,24 +1055,6 @@ Feature: Cоздание объектов в Draft без сохранения
     And Ждать "3" секунды
     Then Проверить что последний добавленный элемент является User Image
 
-#
-#  @Draft @Create @UserImage @P=03-5 @ID=12-53 @PRIORITY=5 @ASSIGNED=1
-#  Scenario Outline: Создание объекта User images
-#    Given Открыть главную страницу
-#    And Кликнуть на кнопку [LOGIN]
-#    And Ввести стандартный логин и пароль
-#    And Нажать кнопку [LOGIN]
-#    And Кликнуть на [CABLE ASSEMBLIES] в шапке
-#    And Нажать кнопку [EDIT] рядом с cable assmblies с именем 'tst'
-#    And Нажать кнопку [CREATE REVISION]
-#    When Нажать на иконку [User image]
-#    And Кликнуть по ячейке №<Number> в таблице объектов User image
-#    And Ждать "3" секунды
-#    Then Проверить что последний добавленный элемент является User Image
-#    Examples:
-#      | Number |
-#      | 2      |
-#      | 3      |
 
   @Draft @Create @Accessories @Smoke @P=03-5 @ID=12-54 @PRIORITY=5 @ASSIGNED=1
   Scenario: Создание объекта Accessories
@@ -1104,7 +1086,6 @@ Feature: Cоздание объектов в Draft без сохранения
     And В BOM присутствует "1" объект Custom Part
     And Ждать "4" секунды
 
-#    FFF COPY
 
   @Draft @Create @CustomDimention @Copy @Smoke @P=03-5 @ID=12-56 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание копии объекта Custom Dimention

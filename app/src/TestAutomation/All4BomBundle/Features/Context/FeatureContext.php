@@ -13,6 +13,7 @@ use Behat\Mink\Session;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\WebDriverBy;
+use Monolog\Handler\PHPConsoleHandlerTest;
 use Symfony\Component\Validator\Constraints\DateTime;
 use TestAutomation\All4BomBundle\Entity\ScenarioItem;
 use TestAutomation\All4BomBundle\Entity\TestResult;
@@ -682,21 +683,21 @@ class FeatureContext implements Context
      */
     public function iClickOnFirstButton($ButtonName)
     {
-        $hood = false;
-        $crimp = false;
-
-        if ($ButtonName == "D-sub hood" && $hood == false) {
-            $hood = true;
-            $this->iClickOnFirstButton("Connector");
-            $this->iSetFirstLineInTable();
-        }
-        if ($ButtonName == "Crimp terminal" && $crimp == false) {
-            $crimp = true;
-            $this->iClickOnFirstButton("Connector");
-            $this->iSetFirstLineInTable();
-        }
+        sleep(3);
+        self::getWebDriver()->takeScreenshot('qwerty.png');
+//        $hood = false;
+//        $crimp = false;
+//        if ($ButtonName == "D-sub hood" && $hood == false) {
+//            $hood = true;
+//            $this->iClickOnFirstButton("Connector");
+//            $this->iSetFirstLineInTable();
+//        }
+//        if ($ButtonName == "Crimp terminal" && $crimp == false) {
+//            $crimp = true;
+//            $this->iClickOnFirstButton("Connector");
+//            $this->iSetFirstLineInTable();
+//        }
         BOMCreateRevisionPageObject::clickOnButtonByName($ButtonName);
-
     }
 
     /**

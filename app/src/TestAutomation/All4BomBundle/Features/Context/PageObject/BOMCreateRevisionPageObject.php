@@ -82,11 +82,9 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function clickOnFirstLineInTable()
     {
-        $number = 2;
-        $xpath = str_replace("VALUE", $number, SelectorsEnum::BOM_LINE_PART_NUMBER);
-        $select = FindElements::findElements($xpath,true);
+        $select = FindElements::findElements(SelectorsEnum::BOM_LINE_POPUP_TABLE,true);
         $select->click();
-        SimpleWait::waitHide($xpath);
+        SimpleWait::waitHide(SelectorsEnum::BOM_LINE_POPUP_TABLE);
     }
 
     /**
@@ -346,10 +344,8 @@ class BOMCreateRevisionPageObject implements PageObject
     {
         $xpath = str_replace("VALUE", $buttonName, SelectorsEnum::BOM_BUTTON_BY_NAME);
         $buttons = FindElements::findElements($xpath);
-        if ($numberObject == null) {
-            SimpleWait::  waitingOfClick($buttons[0]);
-        }
-        SimpleWait::  waitingOfClick($buttons[$numberObject - 1]);
+        $buttons[$numberObject-1]->click();
+
     }
 
     /**
@@ -635,7 +631,7 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function clickOnLineTableByName($arg1)
     {
-        $select = FindElements::findElements(SelectorsEnum::BOM_LINE_PART_NUMBER);
+        $select = FindElements::findElements(SelectorsEnum::BOM_LINE_POPUP_TABLE);
         $select[$arg1-1]->click();
     }
 

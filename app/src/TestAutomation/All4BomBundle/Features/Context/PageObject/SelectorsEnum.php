@@ -19,7 +19,8 @@ class SelectorsEnum
     const BOM_FAMILY_OPTION = './/div[./*[@ta-bom-modal-table-select-family]]/select/option[@label="VALUE"]';
     const BOM_CATEGORY_SELECT = './/div[./*[@ta-bom-modal-table-select-category]]/select';
     const BOM_CATEGORY_OPTION = './/div[./*[@ta-bom-modal-table-select-category]]/select/option[text()="VALUE"]';
-    const BOM_LINE_PART_NUMBER = '//*[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name="Part Number"]';
+    const BOM_LINE_PART_NUMBER = '//*[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name="VALUE"]';
+    const BOM_LINE_POPUP_TABLE = '//tr/td[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name][1]';
     const BOM_SELECT_CUSTOM_VALUE = '//input[@ta-bom-modal-table-input-filiter-name="VALUE"]';
     const BOM_HEAD_TABLE_COLUMNS = '//table[@ta-bom-modal-table]//th';
     const BOM_TABLE_ITEM_VALUE = '//table[1][@ta-bom-modal-table]//td[@ta-bom-modal-table-cell-field-name]';
@@ -34,7 +35,7 @@ class SelectorsEnum
     const BOM_RIGHT_SHRINK_SPAN = 'Right ';
     const  BOM_CONNECTED_WITH_SELECT = '//select[@ta-bom-connected-with]';
     const BOM_OPTION_CONNECTED_WITH = '//select[@ta-bom-connected-with]/option[VALUE]';
-    const BOM_BUTTON_BY_NAME = '//button[@ta-bom-button]/span[text()="VALUE"]';
+    const BOM_BUTTON_BY_NAME = '//button[@ta-bom-button][@ta-button-type="VALUE"]';
     const BOM_CATEGORY_TEXT_INPUTS = '//textarea[@ta-bom-cus-p-category-input]';
     const BOM_PART_NUMBER_TEXT_INPUTS ='//textarea[@ta-bom-cus-p-custom-part-number-input]';
     const BOM_MANUFACTURE_NAME_TEXT_INPUTS = '//textarea[@ta-bom-cus-p-manufacture-name-input]';

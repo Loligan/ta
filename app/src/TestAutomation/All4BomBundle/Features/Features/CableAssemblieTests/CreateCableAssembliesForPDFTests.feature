@@ -899,9 +899,8 @@ Feature: Создание Cable Assemblies For PDF
     And Открыть ссылку на Cable Assemblies
     Then Запись не создается, вы остаетесь на странице создания Cable Assemblies
     Examples:
-      | Revision details | Company name | Part number | Cable description | Drawing number | Design by    | Approved by  | Checked by | Revision  | Attached Files |
-  db
-      | Create TA test   |              | XY001100    | Desct             | XZ110011       | James Lucker | Eric Cartman | Stan Marsh | Numerical |                |
+      | Revision details | Company name | Part number | Cable description | Drawing number | Design by | Approved by | Checked by | Revision | Attached Files |
+  | Create TA test   |              | XY001100    | Desct             | XZ110011       | James Lucker | Eric Cartman | Stan Marsh | Numerical |                |
 
   @CableAssemblies @BadData @Create @P=16-5 @ID=01-00-56 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание Cable Assemblies for PDF c не валидными данными

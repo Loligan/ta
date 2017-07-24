@@ -669,7 +669,8 @@ class FeatureContext implements Context
      */
     public function iSeeInTheTableOfValuesForTheFilterAndTheValueMustBe($FilterName, $Conditions, $value)
     {
-        sleep(3);
+        print "SHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIT";
+        sleep(4);
         $this->bufFirstBOMTableValueForCheck = $value;
         $this->bufSecondBOMTableValueForCheck = BOMCreateRevisionPageObject::getValueInFirstLineInTableByNameColumn($FilterName);
         if (!CheckConnectorAndCableInBOM::conditions($Conditions, $this->bufFirstBOMTableValueForCheck, $this->bufSecondBOMTableValueForCheck)) {
@@ -688,8 +689,7 @@ class FeatureContext implements Context
             $hood = true;
             $this->iClickOnFirstButton("Connector");
             $this->iSetFirstLineInTable();
-        }
-        if ($ButtonName == "Crimp terminal") {
+        }else if ($ButtonName == "Crimp terminal") {
             $crimp = true;
             $this->iClickOnFirstButton("Connector");
             $this->iSetFirstLineInTable();
@@ -697,6 +697,7 @@ class FeatureContext implements Context
         sleep(3);
         self::getWebDriver()->takeScreenshot('qwerty.png');
         BOMCreateRevisionPageObject::clickOnButtonByName($ButtonName);
+
     }
 
     /**

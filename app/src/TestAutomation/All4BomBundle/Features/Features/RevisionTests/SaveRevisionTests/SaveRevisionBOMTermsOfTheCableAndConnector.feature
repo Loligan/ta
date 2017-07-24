@@ -1154,7 +1154,7 @@ Feature: Cохранение ревизии с привязками cable и con
       | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex | Nominal OD      | Cable OD            | 5.87             | <          | Connector |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-48 @PRIORITY=5 @ASSIGNED=1
-  Scenario Outline: Проверка всех условий связи коннекторов и кабелей
+  Scenario: Проверка всех условий связи коннекторов и кабелей
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]
     And Ввести стандартный логин и пароль
@@ -1162,20 +1162,17 @@ Feature: Cохранение ревизии с привязками cable и con
     And Кликнуть на [CABLE ASSEMBLIES] в шапке
     And Нажать кнопку [EDIT] рядом с cable assmblies с именем 'tst'
     And Нажать кнопку [CREATE REVISION]
-    When Создать объект Cable типа <TypeCable> и толщиной <WeightCable> в Draft
-    And Создать объект типа Connector семейства <FamilyConnector>, категории <CategoryConnector> и выбрать кабель №<NumberCellConnector>
-    And Выбрать семейство кабелей <FamilyCable>
-    And Выбрать категорию кабеля <CategoryCable>
-    And Установить в фильтер <FilterCableName> значение <ValueCableFilter>
+    When Создать объект Cable типа Plain и толщиной Normal в Draft
+    And Создать объект типа Connector семейства D-Type Crimp, категории Connector и выбрать кабель №1
+    And Выбрать семейство кабелей Multicondactor / Multipair Cable / Wire
+    And Выбрать категорию кабеля Multiconductor
+    And Установить в фильтер AWG значение 26
     And Ждать "2" секунды
     And Выбрать 1 строку в таблице
     And Ждать "2" секунды
     And Выбрать первое значение в Connected With
-    And Нажать на первую кнопку [<ButtonName>] в BOM
-    Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
-    Examples:
-      | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName     |
-      | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | AWG             | AWG                 | 26               | >min       | Crimp terminal |
+    And Нажать на первую кнопку [Crimp terminal] в BOM
+    Then В таблице, значения по стобцу AWG соответствуют условию: >min, 26
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-49 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей

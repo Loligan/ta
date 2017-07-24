@@ -356,7 +356,9 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function clickOnButtonByName($buttonName, $numberObject = 1)
     {
         $xpath = str_replace("VALUE", $buttonName, SelectorsEnum::BOM_BUTTON_BY_NAME);
+        var_dump($xpath);
         $buttons = FindElements::findElements($xpath);
+        var_dump(count($buttons));
         $buttons[$numberObject-1]->click();
 
     }

@@ -227,6 +227,7 @@ Feature: Check info in Tenders
     And Нажать кнопку [CREATE REVISION]
     When Создать объект Cable типа <TypeCable> и толщиной <WeightCable> в Draft
     And Выбрать семейство кабелей <FamilyCable>
+    And Выбрать категорию кабеля <CategoryCable>
     And Выбрать 1 строку в таблице
     And Ждать "1" секунды
     And Перейти на вкладку BOM

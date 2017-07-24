@@ -2,6 +2,7 @@
 
 namespace TestAutomation\All4BomBundle\Features\Context\PageObject;
 
+use Behat\Mink\Exception\Exception;
 use Facebook\WebDriver\Interactions\WebDriverActions;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\BugReport\LastPhraseReport\LastPhrase;
@@ -82,6 +83,18 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function clickOnFirstLineInTable()
     {
+        $check = 0;
+        while (true){
+            $el = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LOADING_LABEL_TABLE));
+            if(count($el)==0){
+                break;
+            }
+            sleep(1);
+            if($check>20){
+                break;
+            }
+            $check++;
+        }
         $select = FindElements::findElements(SelectorsEnum::BOM_LINE_POPUP_TABLE,true);
         $select->click();
         SimpleWait::waitHide(SelectorsEnum::BOM_LINE_POPUP_TABLE);
@@ -526,17 +539,25 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function getValueInFirstLineInTableByNameColumn($ValueFilter)
     {
-        $colums = FindElements::findElements(SelectorsEnum::BOM_HEAD_TABLE_COLUMNS);
-        $numberColumn = 1;
-        foreach ($colums as $column) {
-            if ($column->getText() !== $ValueFilter) {
-                $numberColumn++;
-            } else {
-                break;
+        $xpath = str_replace("VALUE",$ValueFilter,SelectorsEnum::BOM_LINE_PART_NUMBER);
+        $check = 0;
+        $text = null;
+
+        while (true) {
+            try {
+                $element = FindElements::findElements($xpath, true);
+                $text = $element->getText();
+            } catch (\Exception $e) {
+                if ($check > 25) {
+                    throw $e;
+                }
+                sleep(1);
+                $check++;
+                continue;
             }
         }
-        $element = FindElements::findElements(SelectorsEnum::BOM_TABLE_ITEM_VALUE,true);
-        $text = $element->getText();
+        var_dump($text);
+
         return $text;
     }
 
@@ -631,8 +652,24 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function clickOnLineTableByName($arg1)
     {
+        $check = 0;
+        while (true){
+            FeatureContext::getWebDriver()->takeScreenshot("gen2.png");
+            $el = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LOADING_LABEL_TABLE));
+            if(count($el)==0){
+                break;
+            }
+            sleep(1);
+            if($check>20){
+                break;
+            }
+            $check++;
+        }
+
+
         $select = FindElements::findElements(SelectorsEnum::BOM_LINE_POPUP_TABLE);
-        $select[$arg1-1]->click();
+        var_dump($select[0]->isDisplayed());
+        SimpleWait::waitingOfClick($select[$arg1-1]);
     }
 
     public static function checkDescriptionValueByNameCableObject($numberConnector, $nameParam, $value)

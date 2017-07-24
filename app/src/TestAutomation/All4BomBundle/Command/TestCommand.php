@@ -19,14 +19,15 @@ class TestCommand extends ContainerAwareCommand
     protected function configure()
     {
         $this
-            ->setName('send')
+            ->setName('api')
             ->setDescription('test');
     }
 
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-       $res = $this->createForPdf(null,'tst','tst','tst');
+//       $res = $this->createUser("TestAPI",'test@gg.com',"12345");
+       $res = $this->createForPdf('oOY8_q_Ql-fLJl4z7vH3pdgtB-GSKgg_hUpjKhiJzhw','tst','tst','tst');
        print $res;
     }
 
@@ -62,7 +63,7 @@ class TestCommand extends ContainerAwareCommand
                 "company_name" => $companyName,
                 "part_number" => $partNumber
             ],
-            "requestId" => "sdfsdfsd234wdf23sdf3r2"
+            "request_id" => "sdfsdfsd234wdf23sdf3r2"
         );
 
         $url = "http://all4bom.smartdesign.by:8378/test/access/";
@@ -75,7 +76,10 @@ class TestCommand extends ContainerAwareCommand
         ];
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
-//        curl_setopt( $ch, CURLOPT_HTTvPHEADER, array('Content-Type:application/json'));
+
+        curl_setopt($ch, CURLOPT_HEADER, 1);
+        curl_setopt($ch, CURLINFO_HEADER_OUT, true);
+//        curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json'));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $result = curl_exec($ch);
         curl_close($ch);

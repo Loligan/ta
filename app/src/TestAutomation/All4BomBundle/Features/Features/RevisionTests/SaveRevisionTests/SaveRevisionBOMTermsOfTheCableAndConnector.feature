@@ -1007,7 +1007,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD            | 4.45             | <          | D-sub hood |
+      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD            | 4.45             | <          | Connector |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-42 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
@@ -1031,7 +1031,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD            | 5.18             | <          | D-sub hood |
+      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD            | 5.18             | <          | Connector |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-43 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
@@ -1055,7 +1055,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair     | Nominal OD      | Cable OD            | 10.34            | <          | D-sub hood |
+      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair     | Nominal OD      | Cable OD            | 10.34            | <          | Connector |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-44 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
@@ -1079,7 +1079,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair     | Nominal OD      | Cable OD            | 12.07            | <          | D-sub hood |
+      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair     | Nominal OD      | Cable OD            | 12.07            | <          | Connector |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-45 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
@@ -1103,7 +1103,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 5.28             | <          | D-sub hood |
+      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 5.28             | <          | Connector |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-46 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
@@ -1127,7 +1127,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable       | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 4.62             | <          | D-sub hood |
+      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor flex | Nominal OD      | Cable OD            | 4.62             | <          | Connector |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-47 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
@@ -1151,7 +1151,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex | Nominal OD      | Cable OD            | 5.87             | <          | D-sub hood |
+      | Plain     | Normal      | D-Type Solder   | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Miltipair flex | Nominal OD      | Cable OD            | 5.87             | <          | Connector |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-4 @ID=17-48 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей

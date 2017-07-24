@@ -684,19 +684,18 @@ class FeatureContext implements Context
     public function iClickOnFirstButton($ButtonName)
     {
         sleep(3);
+        if ($ButtonName == "D-sub hood") {
+            $hood = true;
+            $this->iClickOnFirstButton("Connector");
+            $this->iSetFirstLineInTable();
+        }
+        if ($ButtonName == "Crimp terminal") {
+            $crimp = true;
+            $this->iClickOnFirstButton("Connector");
+            $this->iSetFirstLineInTable();
+        }
+        sleep(3);
         self::getWebDriver()->takeScreenshot('qwerty.png');
-//        $hood = false;
-//        $crimp = false;
-//        if ($ButtonName == "D-sub hood" && $hood == false) {
-//            $hood = true;
-//            $this->iClickOnFirstButton("Connector");
-//            $this->iSetFirstLineInTable();
-//        }
-//        if ($ButtonName == "Crimp terminal" && $crimp == false) {
-//            $crimp = true;
-//            $this->iClickOnFirstButton("Connector");
-//            $this->iSetFirstLineInTable();
-//        }
         BOMCreateRevisionPageObject::clickOnButtonByName($ButtonName);
     }
 
@@ -1518,7 +1517,7 @@ class FeatureContext implements Context
      */
     public function cickOnAccessoriesCellOnDraft($arg1)
     {
-        DraftCreateRevisionsPageObject::clickOnAccessoriesCell($arg1);
+        DraftCreateRevisionsPageObject::clickOnAccessoFriesCell($arg1);
     }
 
     /**
@@ -1831,8 +1830,6 @@ class FeatureContext implements Context
      */
     public function clickOnFirstLineInTableCRM()
     {
-        sleep(5);
-        self::getWebDriver()->takeScreenshot("11aa.png");
         CableRowMaterialsBOMPageObject::clickOnFirstLineInTable();
     }
 

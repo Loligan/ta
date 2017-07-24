@@ -3,6 +3,7 @@
 namespace TestAutomation\All4BomBundle\Features\Context\Utils;
 
 
+use Behat\Mink\Exception\Exception;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\SimpleWait;
@@ -15,6 +16,7 @@ class FindElements
      * @param string $xpath
      * @param bool $getFirst
      * @return \Facebook\WebDriver\Remote\RemoteWebElement|\Facebook\WebDriver\Remote\RemoteWebElement[]
+     * @throws \Exception
      */
     public static function findElements($xpath, $getFirst = false)
     {

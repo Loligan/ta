@@ -349,9 +349,22 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function clickOnConnectorCell($cellNumber)
     {
-        $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CELL);
-        $cell = $cells[$cellNumber - 1];
-        SimpleWait::waitingOfClick($cell);
+        $check = 0;
+        while (true) {
+            try {
+                $check++;
+                $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_CONNECTOR_CELL);
+                $cell = $cells[$cellNumber - 1];
+                SimpleWait::waitingOfClick($cell);
+                break;
+            } catch (\Exception $e) {
+                if ($check > 35) {
+                    throw $e;
+                }
+                sleep(1);
+                continue;
+            }
+        }
     }
 
     /**
@@ -406,12 +419,26 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     /**
      * @param int $idImage
+     * @throws \Exception
      */
     static function clickOnUserImageCell($idImage)
     {
-        $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_CELL);
-        $cell = $cells[$idImage - 1];
-        $cell->click();
+        $check = 0;
+        while (true){
+        try {
+            $check++;
+            $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_IMAGE_CELL);
+            $cell = $cells[$idImage - 1];
+            $cell->click();
+            break;
+        } catch (\Exception $e) {
+            sleep(1);
+            if($check>25){
+                throw $e;
+            }
+            else continue;
+        }
+        }
     }
 
     /**
@@ -436,9 +463,24 @@ class DraftCreateRevisionsPageObject implements PageObject
      */
     static function clickOnAccessoriesCell($numberCell)
     {
-        $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_CELL);
-        $cell = $cells[$numberCell - 1];
-        SimpleWait::waitingOfClick($cell);
+        $check = 0;
+        while (true){
+            try {
+                $check++;
+                $cells = FindElements::findElements(SelectorsEnum::DRAFT_CREATE_REVISIONS_ACCESSORIES_CELL);
+                $cell = $cells[$numberCell - 1];
+                SimpleWait::waitingOfClick($cell);
+                break;
+            } catch (\Exception $e) {
+                sleep(1);
+                if($check>25){
+                    throw $e;
+                }
+                else continue;
+            }
+        }
+
+
     }
 
     /**

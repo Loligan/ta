@@ -32,6 +32,7 @@ class SelectorsEnum
     const BOM_DELETE_BUTTON = '//a[@ta-bom-custom-delete-button and @ta-button-type="TYPE"]';
     const BOM_CLEAR_BUTTON = '//a[@ta-bom-custom-clear-button and @ta-button-type="TYPE"]';
     const BOM_LEFT_SHRINK_SPAN = 'Left ';
+    const BOM_LOADING_LABEL_TABLE = './/*[text()="Loading..."]';
     const BOM_RIGHT_SHRINK_SPAN = 'Right ';
     const  BOM_CONNECTED_WITH_SELECT = '//select[@ta-bom-connected-with]';
     const BOM_OPTION_CONNECTED_WITH = '//select[@ta-bom-connected-with]/option[VALUE]';

@@ -539,7 +539,6 @@ Feature: Сохранение объектов на Draft
     And Выбрать 1 строку в таблице
     And Перейти на вкладку Draft
     And Ждать "2" секунды
-    And Кликнуть на полотне по координатам X = "102" Y= "210"
     And Нажать на иконку [Copy] на панели иструментов
     And Установить настройку Quantity на значение 5
     And Нажать на кнопку [Copy]
@@ -990,7 +989,6 @@ Feature: Сохранение объектов на Draft
     Examples:
       | Number |
       | 1      |
-      | 2      |
 
   @Revision @Draft @Save @Revision @UserImage @Copy @P=07-3 @ID=19-34 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание и сохранение копии объекта User images
@@ -1014,7 +1012,6 @@ Feature: Сохранение объектов на Draft
     Examples:
       | Number |
       | 1      |
-      | 2      |
 
   @Revision @Draft @Save @Revision @Accessories @Smoke @Copy @P=07-3 @ID=19-35 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Создание и сохранение копии объекта Accessories
@@ -1038,4 +1035,3 @@ Feature: Сохранение объектов на Draft
     Examples:
       | Number |
       | 1      |
-      | 2      |

@@ -669,10 +669,11 @@ class FeatureContext implements Context
      */
     public function iSeeInTheTableOfValuesForTheFilterAndTheValueMustBe($FilterName, $Conditions, $value)
     {
-        print "SHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIT";
-        sleep(4);
         $this->bufFirstBOMTableValueForCheck = $value;
         $this->bufSecondBOMTableValueForCheck = BOMCreateRevisionPageObject::getValueInFirstLineInTableByNameColumn($FilterName);
+        if($this->bufFirstBOMTableValueForCheck == null || $this->bufSecondBOMTableValueForCheck == null){
+            throw new \Exception("One or two value for check is null. First value: ".$this->bufFirstBOMTableValueForCheck.", Second value: ".$this->bufSecondBOMTableValueForCheck.PHP_EOL);
+        }
         if (!CheckConnectorAndCableInBOM::conditions($Conditions, $this->bufFirstBOMTableValueForCheck, $this->bufSecondBOMTableValueForCheck)) {
             throw  new \Error("Values not equals");
         }
@@ -684,7 +685,7 @@ class FeatureContext implements Context
      */
     public function iClickOnFirstButton($ButtonName)
     {
-        sleep(3);
+//        sleep(3);
         if ($ButtonName == "D-sub hood") {
             $hood = true;
             $this->iClickOnFirstButton("Connector");
@@ -695,7 +696,6 @@ class FeatureContext implements Context
             $this->iSetFirstLineInTable();
         }
         sleep(3);
-        self::getWebDriver()->takeScreenshot('qwerty.png');
         BOMCreateRevisionPageObject::clickOnButtonByName($ButtonName);
 
     }

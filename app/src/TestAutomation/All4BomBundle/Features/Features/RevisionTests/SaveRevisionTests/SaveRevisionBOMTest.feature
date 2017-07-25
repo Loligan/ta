@@ -824,7 +824,7 @@ Feature: Создание объектов в Draft и BOM. Проверка д�
     Examples:
       | Type  | Weight | familyCable | numberLine | shrinkLineNumber | nameRevision |
       | Plain | Normal | Lan Cable   | 1          | 2                | Test save    |
-      | Plain | Normal | RF Cable    | 2          | 1                | Test save    |
+#      | Plain | Normal | RF Cable    | 2          | 1                | Test save    |
 
 
   @Save @Revision @Bom @Cable @Shrink @LeftShrink @PlainCable @P=06-4 @ID=18-45 @PRIORITY=5 @ASSIGNED=1

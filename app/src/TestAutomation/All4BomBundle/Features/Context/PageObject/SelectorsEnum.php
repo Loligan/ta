@@ -7,6 +7,7 @@ class SelectorsEnum
 {
     /** SELECTORS FROM BOMCreateRevisionPageObject COMPLETE*/
     const BOM_REVISION_DESCRIPTION_INPUT = './/input[@id="project_version_name"]';
+    const BOM_POPUP_TABLE_INPUTS = '//*[@ta-bom-modal-table-input-filiter]';
     const BOM_CABLE_BUTTON = './/button[@ta-button-type="Cable"]';
     const BOM_CONNECTOR_BUTTON = './/button[@ta-button-type="Connector"]';
     const BOM_CONNECTOR_BUTTONS = './/button[@ta-button-type="Connector"]';
@@ -20,6 +21,7 @@ class SelectorsEnum
     const BOM_CATEGORY_SELECT = './/div[./*[@ta-bom-modal-table-select-category]]/select';
     const BOM_CATEGORY_OPTION = './/div[./*[@ta-bom-modal-table-select-category]]/select/option[text()="VALUE"]';
     const BOM_LINE_PART_NUMBER = '//*[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name="VALUE"]';
+    const BOM_LINES_PART_NUMBER = '//*[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name]';
     const BOM_LINE_POPUP_TABLE = '//tr/td[@ta-bom-modal-table-cell][@ta-bom-modal-table-cell-field-name][1]';
     const BOM_SELECT_CUSTOM_VALUE = '//input[@ta-bom-modal-table-input-filiter-name="VALUE"]';
     const BOM_HEAD_TABLE_COLUMNS = '//table[@ta-bom-modal-table]//th';
@@ -301,4 +303,5 @@ class SelectorsEnum
     const TENDERS_DELETE_SELECTED_ITEMS_BUTTON = '//a[@ta-tender-delete-selected-items]';
     const TENDERS_ACCEPT_DELETE_BUTTON = '//button[@ta-tender-delete-selected-accept]';
     const TENDERS_NEW_ANSWERS_BUTTONS = '//span[@ ta-tender-new-span]';
+
 }

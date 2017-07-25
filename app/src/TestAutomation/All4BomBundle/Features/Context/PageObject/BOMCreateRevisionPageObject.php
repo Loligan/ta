@@ -74,28 +74,39 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function setLinePartNumber($number)
     {
-        $number++;
-        SimpleWait::waitShow(SelectorsEnum::BOM_LINE_PART_NUMBER);
-        $select = FindElements::findElements(SelectorsEnum::BOM_LINE_PART_NUMBER);
-        $select[$number]->click();
-        SimpleWait::  waitHide(SelectorsEnum::BOM_LINE_PART_NUMBER);
+        $check = 0;
+        while (true) {
+            try {
+                $select = FindElements::findElements(SelectorsEnum::BOM_LINES_PART_NUMBER);
+                $select[$number - 1]->click();
+                break;
+            } catch (\Exception $e) {
+                $check++;
+                if ($check > 25) {
+                    break;
+                }
+                sleep(1);
+                continue;
+            }
+        }
     }
 
     public static function clickOnFirstLineInTable()
     {
         $check = 0;
-        while (true){
+        while (true) {
             $el = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LOADING_LABEL_TABLE));
-            if(count($el)==0){
+            if (count($el) == 0) {
                 break;
             }
             sleep(1);
-            if($check>20){
+            if ($check > 20) {
                 break;
             }
             $check++;
         }
-        $select = FindElements::findElements(SelectorsEnum::BOM_LINE_POPUP_TABLE,true);
+        sleep(3);
+        $select = FindElements::findElements(SelectorsEnum::BOM_LINE_POPUP_TABLE, true);
         $select->click();
         SimpleWait::waitHide(SelectorsEnum::BOM_LINE_POPUP_TABLE);
     }
@@ -208,11 +219,24 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function clickOnLeftShrinkButton($numberCable)
     {
-        $buttons  = FindElements::findElements(SelectorsEnum::BOM_LEFT_SHRINK_BUTTON);
-        if ($numberCable == null) {
-            SimpleWait::  waitingOfClick($buttons[0]);
+        $check = 0;
+        while (true) {
+            try {
+                $buttons = FindElements::findElements(SelectorsEnum::BOM_LEFT_SHRINK_BUTTON);
+                if ($numberCable == null) {
+                    SimpleWait::  waitingOfClick($buttons[0]);
+                }
+                SimpleWait::  waitingOfClick($buttons[$numberCable - 1]);
+                break;
+            } catch (\Exception $e) {
+                if ($check > 25) {
+                    break;
+                }
+                $check++;
+                continue;
+
+            }
         }
-        SimpleWait::  waitingOfClick($buttons[$numberCable - 1]);
     }
 
     /**
@@ -256,11 +280,24 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function clickOnRightShrinkButton($numberCable)
     {
-        $buttons = FindElements::findElements(SelectorsEnum::BOM_RIGHT_SHRINK_BUTTON);
-        if ($numberCable == null) {
-            SimpleWait::  waitingOfClick($buttons[0]);
+        $check = 0;
+        while (true) {
+            try {
+                $buttons = FindElements::findElements(SelectorsEnum::BOM_RIGHT_SHRINK_BUTTON);
+                if ($numberCable == null) {
+                    SimpleWait::  waitingOfClick($buttons[0]);
+                }
+                SimpleWait::  waitingOfClick($buttons[$numberCable - 1]);
+                break;
+            } catch (\Exception $e) {
+                if ($check > 25) {
+                    break;
+                }
+                $check++;
+                continue;
+
+            }
         }
-        SimpleWait::  waitingOfClick($buttons[$numberCable - 1]);
     }
 
     /**
@@ -356,11 +393,8 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function clickOnButtonByName($buttonName, $numberObject = 1)
     {
         $xpath = str_replace("VALUE", $buttonName, SelectorsEnum::BOM_BUTTON_BY_NAME);
-        var_dump($xpath);
         $buttons = FindElements::findElements($xpath);
-        var_dump(count($buttons));
-        $buttons[$numberObject-1]->click();
-
+        $buttons[0]->click();
     }
 
     /**
@@ -370,7 +404,7 @@ class BOMCreateRevisionPageObject implements PageObject
     {
         $buttons = FindElements::findElements(SelectorsEnum::BOM_CONNECTOR_BUTTON);
         if ($numberCable == null) {
-            SimpleWait::waitingOfClick($buttons[0]);
+            SimpleWait::waitingOfClick($buttons[$numberCable - 1]);
         }
         SimpleWait::waitingOfClick($buttons[$numberCable - 1]);
     }
@@ -541,24 +575,51 @@ class BOMCreateRevisionPageObject implements PageObject
      */
     public static function getValueInFirstLineInTableByNameColumn($ValueFilter)
     {
-        $xpath = str_replace("VALUE",$ValueFilter,SelectorsEnum::BOM_LINE_PART_NUMBER);
+        $xpath = str_replace("VALUE", $ValueFilter, SelectorsEnum::BOM_LINE_PART_NUMBER);
+
+        sleep(2);
+        $check = 0;
+        while (true) {
+            try {
+                $inputs = FindElements::findElements(SelectorsEnum::BOM_POPUP_TABLE_INPUTS);
+                break;
+            } catch (\Exception $e) {
+                $check++;
+                if ($check > 25) {
+                    break;
+                }
+                sleep(1);
+                continue;
+            }
+        }
+        foreach ($inputs as $key => $input) {
+            if (!$input->isDisplayed()) {
+                continue;
+            }
+            if ($input->getAttribute("value") != "" && $input->getAttribute("value") != null) {
+                $input->clear();
+            }
+        }
+        sleep(3);
+        var_dump($xpath);
+        FeatureContext::getWebDriver()->takeScreenshot("gen3.png");
+
         $check = 0;
         $text = null;
-
         while (true) {
             try {
                 $element = FindElements::findElements($xpath, true);
                 $text = $element->getText();
+                break;
             } catch (\Exception $e) {
+                $check++;
                 if ($check > 25) {
-                    throw $e;
+                    break;
                 }
                 sleep(1);
-                $check++;
                 continue;
             }
         }
-        var_dump($text);
 
         return $text;
     }
@@ -655,14 +716,14 @@ class BOMCreateRevisionPageObject implements PageObject
     public static function clickOnLineTableByName($arg1)
     {
         $check = 0;
-        while (true){
+        while (true) {
             FeatureContext::getWebDriver()->takeScreenshot("gen2.png");
             $el = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath(SelectorsEnum::BOM_LOADING_LABEL_TABLE));
-            if(count($el)==0){
+            if (count($el) == 0) {
                 break;
             }
             sleep(1);
-            if($check>20){
+            if ($check > 20) {
                 break;
             }
             $check++;
@@ -671,7 +732,7 @@ class BOMCreateRevisionPageObject implements PageObject
 
         $select = FindElements::findElements(SelectorsEnum::BOM_LINE_POPUP_TABLE);
         var_dump($select[0]->isDisplayed());
-        SimpleWait::waitingOfClick($select[$arg1-1]);
+        SimpleWait::waitingOfClick($select[$arg1 - 1]);
     }
 
     public static function checkDescriptionValueByNameCableObject($numberConnector, $nameParam, $value)
@@ -693,7 +754,7 @@ class BOMCreateRevisionPageObject implements PageObject
 
     public static function checkCategoryInputByNumberInputs($number)
     {
-        $categoryTextInputs  = FindElements::findElements(SelectorsEnum::BOM_CATEGORY_TEXT_INPUTS);
+        $categoryTextInputs = FindElements::findElements(SelectorsEnum::BOM_CATEGORY_TEXT_INPUTS);
         $countCategoryTextInputs = count($categoryTextInputs);
         if ($countCategoryTextInputs != $number) {
             throw new \Exception("In bom not be found " . $number . " custom part. In BOM " . $countCategoryTextInputs . " custom part");
@@ -776,8 +837,6 @@ class BOMCreateRevisionPageObject implements PageObject
 
         return $partNumbersValues;
     }
-
-
 
 
 }

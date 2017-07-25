@@ -3,6 +3,7 @@ namespace TestAutomation\All4BomBundle\Features\Context\DraftObjects;
 use Facebook\WebDriver\WebDriverBy;
 use TestAutomation\All4BomBundle\Features\Context\FeatureContext;
 use TestAutomation\All4BomBundle\Features\Context\PageObject\TabCreateRevisionTabPageObject;
+use TestAutomation\All4BomBundle\Features\Context\Utils\FindElements;
 
 
 class Revision
@@ -176,23 +177,23 @@ class Revision
 //Please, don't see this function :)
     public function getAllPinoutDetails()
     {
-        $TABLES = "html/body/main/form/div[2]/div/div/table";
-        $COLUMNS = "html/body/main/form/div[2]/div/div/table[1]/tbody/tr[1]/th";
+        $TABLES = "//table[@ta-pd-table]";
+        $COLUMNS = "//table[@ta-pd-table][1]/thead//th//label";
 
-        $HEAD_FIRST_CONNECTOR = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr[1]/th[1]";
-        $HEAD_SECOND_CONNECTOR = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr[1]/th[NUMBER]";
-        $HEAD_CHECKBOX_CABLE = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr[1]/th[CABLE]/label/input";
-        $HEAD_LABEL_CABLE = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr[1]/th[CABLE]/span";
+        $HEAD_FIRST_CONNECTOR = "//th[@ta-pd-left-connector-head]";
+        $HEAD_SECOND_CONNECTOR = ".//table[@ta-pd-table][TABLE]/thead/tr/th";
+        $HEAD_CHECKBOX_CABLE = "//table[@ta-pd-table][TABLE]/thead//th[./span][CABLE]//input";
+        $HEAD_LABEL_CABLE = "//table[@ta-pd-table][TABLE]/thead//th[./label][CABLE]//span";
 
-        $TABLE_LINES = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr";
+        $TABLE_LINES = "//table[@ta-pd-table][TABLE]/tbody/tr";
 
-        $SELECT_FIRST_CONNECTOR = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr[LINE]/td[1]/div/select";
-        $SELECT_SECOND_CONNECTOR = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr[LINE]/td[COUNT]/div/select";
-        $CHECK_BOX_LINE = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr[LINE]/td[CABLE]/div/div/label/input[1]";
-        $TEXT_INPUT_LINE = "html/body/main/form/div[2]/div/div/table[TABLE]/tbody/tr[LINE]/td[CABLE]/div/div/label/input[2]";
+        $SELECT_FIRST_CONNECTOR = "//table[@ta-pd-table][TABLE]/tbody/tr[LINE]//td[1]//select";
+        $SELECT_SECOND_CONNECTOR = "//table[@ta-pd-table][TABLE]/tbody/tr[LINE]//td[COUNT]//select";
+        $CHECK_BOX_LINE = "//table[@ta-pd-table][TABLE]/tbody/tr[LINE]/td[CABLE]//label/input[1]";
+        $TEXT_INPUT_LINE = "//table[@ta-pd-table][TABLE]/tbody/tr[LINE]/td[CABLE]//label/input[2]";
 
 //        without columns with action buttons
-        $countColums = count(FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($COLUMNS))) - 1;
+        $countColums = count(FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($COLUMNS))) ;
         $countTables = count(FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($TABLES)));
         for ($table = 1; $table <= $countTables; $table++) {
             $tableObject = new PinoutDetailsTable();
@@ -205,11 +206,15 @@ class Revision
             $xpathLabelSecondConnector = str_replace("NUMBER", $countColums, $xpathLabelSecondConnector);
 
             $labelFirstConnector = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpathLabelFirstConnector))->getText();
-            $labelSecondConnector = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($xpathLabelSecondConnector))->getText();
 
+            $elements = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($xpathLabelSecondConnector));
+            $labelSecondConnector = $elements[count($elements)-2]->getText();
             $tableHeadObject->setFirstConnector($labelFirstConnector);
             $tableHeadObject->setSecondConnector($labelSecondConnector);
-            for ($cableHead = 2; $cableHead <= $countColums - 1; $cableHead++) {
+
+
+            for ($cableHead = 1; $cableHead <= $countColums; $cableHead++) {
+                FeatureContext::getWebDriver()->takeScreenshot('gen3.png');
                 $headLabelCableXpath = str_replace("TABLE", $table, $HEAD_LABEL_CABLE);
                 $headLabelCableXpath = str_replace("CABLE", $cableHead, $headLabelCableXpath);
                 $headLabelText = FeatureContext::getWebDriver()->findElement(WebDriverBy::xpath($headLabelCableXpath))->getText();
@@ -231,7 +236,7 @@ class Revision
             $tableLinesXpath = str_replace("TABLE", $table, $TABLE_LINES);
             $tableLines = FeatureContext::getWebDriver()->findElements(WebDriverBy::xpath($tableLinesXpath));
             $countTableLines = count($tableLines);
-            for ($lineNumber = 2; $lineNumber <= $countTableLines; $lineNumber++) {
+            for ($lineNumber = 1; $lineNumber <= $countTableLines; $lineNumber++) {
                 $tableLineObject = new PinoutDetailsTableLine();
 
                 $xpathSelectFirstConnector = str_replace("TABLE", $table, $SELECT_FIRST_CONNECTOR);
@@ -267,7 +272,6 @@ class Revision
             }
             $this->pinoutDetailsObject->addTable($tableObject);
         }
-
     }
 
     public function getAllItems()

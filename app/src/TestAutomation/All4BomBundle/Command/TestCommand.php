@@ -26,7 +26,6 @@ class TestCommand extends ContainerAwareCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-//       $res = $this->createUser("TestAPI",'test@gg.com',"12345");
        $res = $this->createForPdf('oOY8_q_Ql-fLJl4z7vH3pdgtB-GSKgg_hUpjKhiJzhw','tst','tst','tst');
        print $res;
     }

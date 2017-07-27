@@ -400,6 +400,7 @@ class FeatureContext implements Context
     public function iDraftCustomPartObjectOnDraft()
     {
         DraftCreateRevisionsPageObject::draftCustomPart();
+        self::getWebDriver()->takeScreenshot("gen3.png");
     }
 
     /**
@@ -810,8 +811,7 @@ class FeatureContext implements Context
      */
     public function goToTheCableAssembliesPage()
     {
-//        HeaderPageObject::clickOnCableAssembliesTab();
-//        HeaderPageObject::clickOnLeaveWithoutSavingButton();
+        self::$webDriver->get(AppValues::URL . "user/project/");
     }
 
     /**
@@ -837,6 +837,7 @@ class FeatureContext implements Context
     public function pressEditButtonByNameCableAssemblies($arg1)
     {
         sleep(5);
+        self::getWebDriver()->takeScreenshot("gen3.png");
         CableAssembliesPageObject::pressLastEditButton();
     }
 
@@ -1518,7 +1519,7 @@ class FeatureContext implements Context
      */
     public function cickOnAccessoriesCellOnDraft($arg1)
     {
-        DraftCreateRevisionsPageObject::clickOnAccessoFriesCell($arg1);
+        DraftCreateRevisionsPageObject::clickOnAccessoriesCell($arg1);
     }
 
     /**
@@ -2309,7 +2310,6 @@ class FeatureContext implements Context
             $this->checkerJSON->addObject($object, null);
         }
         $json = self::$webDriver->findElement(WebDriverBy::xpath("/html/body"))->getText();
-        var_dump($json);
         if (!$this->checkerJSON->Check($json)) {
             throw new \Exception("No save all objects");
         }

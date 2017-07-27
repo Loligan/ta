@@ -634,7 +634,6 @@ Feature: Test mixed object on draft
     And Кликнуть на полотне по координатам X = "100" Y= "100"
     And Кликнуть на полотне по координатам X = "400" Y= "500"
     And Кликнуть на полотне по координатам X = "100" Y= "800"
-
     And Перейти на вкладку Draft
     When Создать объект Custom part в Draft
     And Сохранить ревизию с именем tst
@@ -712,7 +711,7 @@ Feature: Test mixed object on draft
     Then Открыть get-draft page ревизии с именем tst
     And Проверить что в json присутствуют объекты "text,user-image,custom-part"
 
-  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-35
+  @Revision @Draft @MixedDraft @Create @Save @P=16-3 @ID=16-35666
   Scenario: Проверка совместимости объектов разного типа и колличество на Draft
     Given Открыть главную страницу
     And Кликнуть на кнопку [LOGIN]

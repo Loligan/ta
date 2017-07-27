@@ -84,10 +84,11 @@ class  Checker
 
         print "RESULT CHECK: ";
         var_dump($passDataForCheck);
+//        var_dump($data);
 
         foreach ($passDataForCheck as $result){
             if(!$result){
-                throw  new Exception("No save all objects");
+                throw  new \Exception("No save all objects");
             }
         }
             return true;

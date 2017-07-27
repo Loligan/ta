@@ -229,6 +229,7 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function drawTextObject($font = "Arial", $size = "18", $color = "0000")
     {
+        self::clickOnDraftPoint(50, 50);
         self::clickOnIconText();
 
         if ($font !== "Arial") {
@@ -649,6 +650,7 @@ class DraftCreateRevisionsPageObject implements PageObject
 
     static function clickOnTextButton()
     {
+        FeatureContext::getWebDriver()->takeScreenshot("gen3.png");
         $button = FindElements::findElement(SelectorsEnum::DRAFT_CREATE_REVISIONS_TEXT_BUTTON);
         $button->click();
     }

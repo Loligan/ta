@@ -68,8 +68,22 @@ class CableRowMaterialsBOMPageObject implements PageObject
     public static function clickOnFirstLineInTable()
     {
         $xpath = SelectorsEnum::CABLE_ROW_METERIALS_BOM_LINE_PART_NUMBER;
-        $select = FindElements::findElements($xpath,true);
-        $select->click();
+        $check = 0;
+        while (true) {
+            try {
+                $select = FindElements::findElements($xpath, true);
+                $select->click();
+                break;
+            } catch (\Exception $e) {
+                print $check;
+                if ($check > 25) {
+                    throw $e;
+                }
+                sleep(1);
+                $check++;
+                continue;
+            }
+        }
     }
 
     /**

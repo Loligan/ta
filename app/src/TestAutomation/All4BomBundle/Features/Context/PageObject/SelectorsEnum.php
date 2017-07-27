@@ -78,7 +78,7 @@ class SelectorsEnum
     const CABLE_ROW_METERIALS_BOM_CATEGORY_SELECT = '//select[@ta-crm-category-select]';
     const CABLE_ROW_METERIALS_BOM_FAMILY_OPTION = '//select[@ta-crm-family-select]//option[text()="VALUE"]';
     const CABLE_ROW_METERIALS_BOM_CATEGORY_OPTION = '//select[@ta-crm-category-select]//option[text()="VALUE"]';
-    const CABLE_ROW_METERIALS_BOM_LINE_PART_NUMBER = '//tr[@ta-crm-popup-table-line]';
+    const CABLE_ROW_METERIALS_BOM_LINE_PART_NUMBER = '//tr[@ta-crm-popup-table-line]//td[1]';
     const CABLE_ROW_METERIALS_BOM_PART_NUMBER = '//td[@ta-crm-product-name]';
 
     /**CableRowMaterialsPageObject COMPLETE*/

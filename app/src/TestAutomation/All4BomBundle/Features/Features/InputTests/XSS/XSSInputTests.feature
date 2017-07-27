@@ -356,6 +356,7 @@ Feature: Input Tests
     And Нажать кнопку [CREATE CABLE ASSEMBLY]
     And Ввести следующие данные: "Test","Test","Test","Test","Test","Test","Test","Test","Test",""
     And Нажать кнопку [CREATE]
+    And Перейти на страницу Cable Assemblies
     And Нажать кнопку [EDIT] рядом с записью с именем Test
     When Ввести следующие данные: "<ID><Revision details>","<Company name>","<Part number>","<Cable description>","<Drawing number>","<Design by>","<Approved by>","<Checked by>","<Revision>","<Attached Files>"
     And Нажать кнопку [CHANGE]

@@ -28,6 +28,7 @@ class ScenarioSendSmokeCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $allIds = $this->getAllIds();
+        var_dump($allIds);
         $settings = $this->getEntityManager()->getRepository('TestAutomationAll4BomBundle:Setting')->findBy(["name"=>"TEST_RANGE_NUMBER"]);
         $idReange = $settings[0]->getValue();
         $idReange++;
@@ -59,19 +60,31 @@ class ScenarioSendSmokeCommand extends ContainerAwareCommand
     }
 
     public function getAllIds(){
-
-        $tags= $this->getEntityManager()
+        $ids = [];
+        /**@var Tag[] $tagsTrash*/
+        $tagsTrash= $this->getEntityManager()
             ->getRepository("TestAutomationAll4BomBundle:Tag")
             ->createQueryBuilder('o')
             ->where("o.name LIKE 'Smoke'")
             ->getQuery()
             ->getResult();
-        $ids = [];
-        /**@var Tag $tag*/
-        foreach ($tags as $tag){
-            array_push($ids,$tag->getName());
+
+        $tags = [];
+        foreach ($tagsTrash as $tag){
+            /**@var Tag[] $result*/
+            $result = $this->getEntityManager()
+                ->getRepository("TestAutomationAll4BomBundle:Tag")
+                ->createQueryBuilder('o')
+                ->where("o.name LIKE 'ID=%' and o.scenarioId=".(string)$tag->getScenarioId()->getId())
+                ->getQuery()
+                ->getResult();
+            foreach ($result as $res){
+                array_push($tags,$res->getName());
+            }
+
         }
-        return $ids;
+
+        return $tags;
     }
 
     public function send($id)

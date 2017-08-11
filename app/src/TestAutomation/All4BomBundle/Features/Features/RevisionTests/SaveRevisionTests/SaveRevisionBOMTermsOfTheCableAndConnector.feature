@@ -1412,7 +1412,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Then В таблице, значения по стобцу <FilterConnectorName> соответствуют условию: <Conditions>, <ValueCableFilter>
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
-      | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD            | 10.29            | <          | Connector |
+      | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD            | 10.29            | <          | D-sub hood |
 
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-5 @ID=17-59 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
@@ -1437,7 +1437,7 @@ Feature: Cохранение ревизии с привязками cable и con
     Examples:
       | TypeCable | WeightCable | FamilyConnector | CategoryConnector | NumberCellConnector | FamilyCable                             | CategoryCable  | FilterCableName | FilterConnectorName | ValueCableFilter | Conditions | ButtonName |
       | Plain     | Normal      | D-Type Crimp    | Connector         | 1                   | Multicondactor / Multipair Cable / Wire | Multiconductor | Nominal OD      | Cable OD            | 11.02            | <          | D-sub hood |
-
+лшдд
   @Save @Revision @BOM @CableAndConnectorFilter @Cable @P=14-6 @ID=17-60 @PRIORITY=5 @ASSIGNED=1
   Scenario Outline: Проверка всех условий связи коннекторов и кабелей
     Given Открыть главную страницу
